@@ -25,8 +25,8 @@ This project provides a Python script to automate the translation of game files 
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository-url>
-    cd <repository-folder>
+    git clone https://github.com/danielvscs/AstroxImperiumTranslator.git
+    cd AstroxImperiumTranslator
     ```
 
 2.  **Install dependencies:**

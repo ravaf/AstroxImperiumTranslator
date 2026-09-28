@@ -1,0 +1,110 @@
+//; ASTROX IMPERIUM SHIP EDITOR
+//; Jace Masula 2017
+//; -------------------------------SHIP MAIN VARS ----------------------------------
+//; ---------------------------- Variable name, value ------------------------------
+<STATS>
+SHIP_base_level;4
+SHIP_skill_level;2
+SHIP_filename;npc_ship_data_(support_frigate_2)
+SHIP_faction_id;0
+SHIP_name;SF-2 Restorer
+SHIP_class;Frigate
+SHIP_base_shield;1242
+SHIP_base_armor;1057
+SHIP_base_energy;2165
+SHIP_base_cargo;3462
+SHIP_base_speed;0
+SHIP_base_turn;0.38
+SHIP_base_thrust;195
+SHIP_base_mass;124
+SHIP_collider_x;1.5
+SHIP_collider_y;3
+SHIP_collider_z;13
+SHIP_active_slots;6
+SHIP_passive_slots;6
+SHIP_base_lifesupport;850
+SHIP_base_engine_burn;0.26
+SHIP_base_recharge;0.48
+SHIP_base_shield_recharge;2.25
+SHIP_base_scan_speed;7
+SHIP_base_scan_max_targets;8
+SHIP_base_scan_pulserange;5400
+SHIP_base_scan_pulsespeed;10
+SHIP_type;Support
+SHIP_base_price;3133000
+SHIP_description;The support ship is used to provide assistance during mining and combat operations. Improved life support systems, a strong energy core,  and improved damage resistance.
+SHIP_impact_resistance;0.21
+SHIP_energy_resistance;0.25
+SHIP_explosive_resistance;0.15
+SHIP_material_color_a;1.0;1.0;1.0;0.25
+SHIP_material_color_b;1;1;1;1
+SHIP_material_texture_a;aurora_main.png
+SHIP_material_texture_b;aurora_detail.png
+SHIP_material_texture_c;aurora_glow.png
+SHIP_engine_color;1;1;1;1
+SHIP_manufacturer;Aurora Corp.
+SHIP_manufacturer_icon;icon_aurora.png
+SHIP_shield;0
+SHIP_armor;0
+SHIP_energy;0
+SHIP_ls_food;0
+SHIP_ls_water;0
+SHIP_ls_thermal;0
+SHIP_ls_waste;0
+SHIP_ls_points;0
+SHIP_base_drones;0
+SHIP_specials_raw;Cargo#0.25,Energy Recharge#0.40,Scan Range#0.45,Afterburner#0.30,Laser Strength#0.25
+//merc stuff
+SHIP_owner;none
+SHIP_xp;0
+SHIP_next_level_xp;1000
+SHIP_level;1
+SHIP_talent;Support
+SHIP_loyalty;10
+SHIP_payroll;200
+//; --------------------------------- SHIP PARTS -----------------------------------
+//; --------------- ITEM,type,catID,pfID,xp,yp,zp,xr,yr,zr-----------------------------
+<ITEM>
+ITEM;hull_small_7b;0; 2 ;-0.07;-0.72;-4.06;0.00;0.00;180.00
+ITEM;cargo_7;0; 57 ;0.00;0.61;1.01;0.00;90.00;0.00
+ITEM;engine_8; 4 ; 38 ;-0.10;0.70;-5.25;0.00;0.00;90.00
+ITEM;hull_medium_1; 4 ; 5 ;0.00;0.90;-3.90;0.00;0.00;90.00
+ITEM;bulk_6; 4 ; 65 ;0.00;1.23;3.03;0.00;180.00;180.00
+ITEM;hull_main_2; 4 ; 10 ;-0.03;1.25;0.61;0.00;180.00;0.00
+ITEM;cargo_6; 4 ; 56 ;0.00;0.13;3.20;0.00;270.00;180.00
+ITEM;bulk_8; 4 ; 67 ;0.00;1.19;3.95;0.00;180.00;0.00
+ITEM;command_8; 4 ; 28 ;0.03;-0.40;4.41;0.00;0.00;0.00
+//; ----------------------------- SHIP CAMERA SLOTS --------------------------------
+//; -------------- PILOTCAM,name,SLOTid,model_id,xp,yp,zp,xr,yr,zr--------------------
+<PILOTCAM>
+PILOTCAM;pilot_cam; 5 ; 98 ;0.00;0.46;7.41;0.00;0.00;0.00
+//; ----------------------------- SHIP MODULE SLOTS --------------------------------
+//; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr-------------------------------
+<MODSLOT>
+MODSLOT;module_slot;1; 99 ;-0.86875;0.59100;4.63265;0.00000;0.00000;90.00000
+MODSLOT;module_slot;2; 99 ;0.89476;0.66300;4.68000;0.00000;0.00000;270.00000
+MODSLOT;module_slot;3; 99 ;-0.79;0.34;-0.02;0.00;0.00;90.00
+MODSLOT;module_slot;4; 99 ;0.82;0.32;-0.04;0.00;0.00;270.00
+MODSLOT;module_slot;5; 99 ;0.05;1.64;6.06;0.00;0.00;0.00
+MODSLOT;module_slot;6; 99 ;0.00;2.49;2.06;0.00;0.00;0.00
+//; ----------------------------- SHIP MODULES --------------------------------------
+//; ----- MODULE,slot,module_id
+<MODULES>
+MODULE;1;1073
+MODULE;2;1128
+MODULE;3;1060
+MODULE;4;1020
+MODULE;5;1064
+MODULE;6;1462
+
+//; ----------------------------- SHIP CARGO -----------------------------------------
+//; ----- CARGO, qty, cargo_id
+<CARGO>
+CARGO;196;2650
+CARGO;176;60
+CARGO;132;62
+CARGO;116;2651
+CARGO;832;40
+CARGO;1092;2113
+CARGO;2;601
+

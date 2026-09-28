@@ -1,0 +1,4 @@
+//; ASTROX IMPERIUM : SCRIPTING EDITOR : JACE MASULA 2019
+// SCRIPT;	ID;	LABEL;	COMMAND;	CHAIN;	VALUE 1;	VALUE 2;	VALUE 3;	VALUE 4;	VALUE 5;	VALUE 6;	VALUE 7;	VALUE 8	
+// -------------------------------------------------------------------------------------------------------------------------------------
+SCRIPT;		10;		START;		TEXT;		0;		Thank you for connecting to the emergency service hotline. Please select the nature of your emergency from the list of most common reasons for connecting to 911.;		411.txt>0>Nevermind;		null;		null;		null;		null;		null;		null;		255.00;		149.00

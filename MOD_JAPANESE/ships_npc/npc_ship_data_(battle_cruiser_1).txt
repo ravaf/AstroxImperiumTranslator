@@ -1,0 +1,113 @@
+//; ASTROX IMPERIUM SHIP EDITOR
+//; Jace Masula 2017
+//; -------------------------------SHIP MAIN VARS ----------------------------------
+//; ---------------------------- Variable name, value ------------------------------
+<STATS>
+SHIP_base_level;5
+SHIP_skill_level;1
+SHIP_filename;npc_ship_data_(battle_cruiser_1)
+SHIP_faction_id;0
+SHIP_name;BC-1 Alpharis Predator
+SHIP_class;Cruiser
+SHIP_base_shield;3000
+SHIP_base_armor;3100
+SHIP_base_energy;2848
+SHIP_base_cargo;2992
+SHIP_base_speed;0
+SHIP_base_turn;0.35
+SHIP_base_thrust;243
+SHIP_base_mass;184
+SHIP_collider_x;1.5
+SHIP_collider_y;3
+SHIP_collider_z;10
+SHIP_active_slots;7
+SHIP_passive_slots;5
+SHIP_base_lifesupport;491
+SHIP_base_engine_burn;0.40
+SHIP_base_recharge;0.39
+SHIP_base_shield_recharge;5.25
+SHIP_base_scan_speed;10
+SHIP_base_scan_max_targets;7
+SHIP_base_scan_pulserange;5000
+SHIP_base_scan_pulsespeed;10
+SHIP_type;Battle
+SHIP_base_price;3900000
+SHIP_description;Battle ships are designed for head on combat. With augmented shields and reinforced armor plating, the battle ship can survive extreme damage.
+SHIP_impact_resistance;0.15
+SHIP_energy_resistance;0.15
+SHIP_explosive_resistance;0.15
+SHIP_material_color_a;1.0;1.0;1.0;0.25
+SHIP_material_color_b;1;1;1;1
+SHIP_material_texture_a;gem_main.png
+SHIP_material_texture_b;gem_detail.png
+SHIP_material_texture_c;gem_glow.png
+SHIP_engine_color;1;1;1;1
+SHIP_manufacturer;G.E.M.
+SHIP_manufacturer_icon;icon_gem.png
+SHIP_shield;0
+SHIP_armor;0
+SHIP_energy;0
+SHIP_ls_food;0
+SHIP_ls_water;0
+SHIP_ls_thermal;0
+SHIP_ls_waste;0
+SHIP_ls_points;0
+SHIP_base_drones;0
+SHIP_specials_raw;Gun Speed#0.45,Gun Energy#0.50,Gun Range#0.40,Gun Strength#0.75,Impact Resistance#0.55,Energy Resistance#0.40,Explosive Resistance#0.25
+//merc stuff
+SHIP_owner;none
+SHIP_xp;0
+SHIP_next_level_xp;1000
+SHIP_level;1
+SHIP_talent;Combat
+SHIP_loyalty;10
+SHIP_payroll;300
+//; --------------------------------- SHIP PARTS -----------------------------------
+//; --------------- ITEM,type,catID,pfID,xp,yp,zp,xr,yr,zr-----------------------------
+<ITEM>
+ITEM;engine_9; 4 ; 39 ;0.01000;0.97000;-2.50869;0.00000;0.00000;0.00000
+ITEM;engine_9; 4 ; 39 ;-0.04;-0.60;-2.50;0.00;0.00;180.00
+ITEM;wing_2; 4 ; 84;-0.01000;0.78863;-0.14953;0.00000;0.00000;270.00000
+ITEM;bulk_6; 4 ; 65 ;0.00000;-0.47688;-1.58000;0.00000;180.00000;0.00000
+ITEM;wing_2; 4 ; 84 ;0.56000;-0.58072;-1.88000;0.00000;0.00000;180.00000
+ITEM;wing_2; 4 ; 84 ;-0.56000;-0.56960;-1.86000;0.00000;0.00000;0.00001
+ITEM;command_8; 4 ; 28 ;0.00057;-0.23513;4.52000;0.00000;0.00000;0.00000
+ITEM;hull_main_3; 4 ; 13 ;0;1.116;0.99;0;180;0
+ITEM;bulk_5; 4 ; 64 ;0.00;0.19;4.08;0.00;0.00;0.00
+//; ----------------------------- SHIP CAMERA SLOTS --------------------------------
+//; -------------- PILOTCAM,name,SLOTid,model_id,xp,yp,zp,xr,yr,zr--------------------
+<PILOTCAM>
+PILOTCAM;pilot_cam; 5 ; 98 ;-0.00961;0.02000;7.51461;0.00000;0.00000;0.00000
+//; ----------------------------- SHIP MODULE SLOTS --------------------------------
+//; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr-------------------------------
+<MODSLOT>
+MODSLOT;module_slot;1; 99 ;0.00000;-1.75984;2.82500;0.00000;0.00000;180.00000
+MODSLOT;module_slot;2; 99 ;0.00000;1.38724;2.92375;0.00000;0.00000;0.00000
+MODSLOT;module_slot;3; 99 ;1.67128;-0.36953;1.28872;0.00000;0.00000;270.00000
+MODSLOT;module_slot;4; 99 ;-1.65808;-0.36727;1.23000;0.00000;0.00000;90.00000
+MODSLOT;module_slot;5; 99 ;0.00000;1.87385;1.00104;0.00000;0.00000;0.00000
+MODSLOT;module_slot;6; 99 ;-1.41028;-0.17491;4.54119;0.00000;0.00000;90.00000
+MODSLOT;module_slot;7; 99 ;1.41762;-0.16408;4.55419;0.00000;0.00000;270.00000
+//; ----------------------------- SHIP MODULES --------------------------------------
+//; ----- MODULE,slot,module_id
+<MODULES>
+MODULE;1;1079
+MODULE;2;1019
+MODULE;3;1020
+MODULE;4;1124
+MODULE;5;1065
+MODULE;6;1052
+
+//; ----------------------------- SHIP CARGO -----------------------------------------
+//; ----- CARGO, qty, cargo_id
+<CARGO>
+CARGO;190;2652
+CARGO;185;63
+CARGO;185;2118
+CARGO;2290;2113
+CARGO;235;2652
+CARGO;730;2127
+CARGO;1790;2113
+CARGO;1;305
+CARGO;3;332
+

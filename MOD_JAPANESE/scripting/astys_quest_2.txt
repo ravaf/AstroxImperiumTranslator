@@ -1,0 +1,8 @@
+//; ASTROX IMPERIUM : SCRIPTING EDITOR : JACE MASULA 2019
+// SCRIPT;	ID;	LABEL;	COMMAND;	CHAIN;	VALUE 1;	VALUE 2;	VALUE 3;	VALUE 4;	VALUE 5;	VALUE 6;	VALUE 7;	VALUE 8	
+// -------------------------------------------------------------------------------------------------------------------------------------
+SCRIPT;		10;		START;		UI_CHANGEIMAGE;		20;		male_1.png;		accessory_1.png;		null;		null;		null;		null;		null;		null;		111.08;		-56.34
+SCRIPT;		20;		name;		UI_NAME;		30;		Asty;		null;		null;		null;		null;		null;		null;		null;		114.06;		-137.71
+SCRIPT;		30;		set_faction;		UI_CHANGEFACTION_ID;		50;		4;		Trade;		null;		null;		null;		null;		null;		null;		112.20;		-217.53
+SCRIPT;		50;		34537;		TEXT;		0;		We are going to meet up with my partner Kilo. He has been mining out in a dangerous sector not far from here. He has been asking for my assistance and I just haven't had the time to get over his way. [n][n]The problem is he has a few raiders camped outside of his station. Kilo isn't much of a fighter, and prefers to remain indoors when raiders are around.[n][n]We will need to clear out the sector of any hostiles before Kilo can join us. It shouldn't be too difficult if we properly equip ourselves for the task.;		astys_quest_2.txt>60>Sounds about right.;		null;		null;		null;		null;		null;		null;		724.76;		-60.17
+SCRIPT;		60;		77895;		TEXT;		0;		To be continued in the next build.;		astys_quest_2.txt>0>well shit.;		null;		null;		null;		null;		null;		null;		725.62;		-163.45

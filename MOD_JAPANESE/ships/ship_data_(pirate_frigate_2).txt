@@ -1,0 +1,100 @@
+//; ASTROX IMPERIUM SHIP EDITOR
+//; Jace Masula 2017
+//; -------------------------------SHIP MAIN VARS ----------------------------------
+//; ---------------------------- Variable name, value ------------------------------
+<STATS>
+SHIP_base_level;4
+SHIP_skill_level;1
+SHIP_filename;ship_data_(pirate_frigate_2)
+SHIP_faction_id;0
+SHIP_name;PF-2 Pirate Frigate T2
+SHIP_class;Frigate
+SHIP_base_shield;1800
+SHIP_base_armor;900
+SHIP_base_energy;3500
+SHIP_base_cargo;2800
+SHIP_base_speed;0
+SHIP_base_turn;0.14
+SHIP_base_thrust;220
+SHIP_base_mass;145
+SHIP_collider_x;1.7
+SHIP_collider_y;1.5
+SHIP_collider_z;10
+SHIP_active_slots;5
+SHIP_passive_slots;3
+SHIP_base_lifesupport;450
+SHIP_base_engine_burn;0.52
+SHIP_base_recharge;0.65
+SHIP_base_shield_recharge;3.25
+SHIP_base_scan_speed;8
+SHIP_base_scan_max_targets;12
+SHIP_base_scan_pulserange;6500
+SHIP_base_scan_pulsespeed;9
+SHIP_type;Assault
+SHIP_base_price;1770000
+SHIP_description;The assault ship is designed to be a fast moving, combat strike craft. Improved thrust systems, and augmented resistance. Suffers from a heavy engine burn on the energy core.
+SHIP_impact_resistance;0.23
+SHIP_energy_resistance;0.31
+SHIP_explosive_resistance;0.2
+SHIP_material_color_a;1;1;1;1
+SHIP_material_color_b;1;1;1;1
+SHIP_material_texture_a;default_main.png
+SHIP_material_texture_b;default_detail.png
+SHIP_material_texture_c;default_glow.png
+SHIP_engine_color;1;1;1;1
+SHIP_manufacturer;Sailcraft
+SHIP_manufacturer_icon;icon_sailcraft.png
+SHIP_shield;0
+SHIP_armor;0
+SHIP_energy;0
+SHIP_ls_food;0
+SHIP_ls_water;0
+SHIP_ls_thermal;0
+SHIP_ls_waste;0
+SHIP_ls_points;0
+SHIP_base_drones;2
+SHIP_specials_raw;Thrust#0.20,Afterburner#0.30,Gun Strength#0.50,Missile Strength#0.50,Salvager Strength#0.25,Laser Strength#0.50
+//merc stuff
+SHIP_owner;none
+SHIP_xp;0
+SHIP_next_level_xp;1000
+SHIP_level;1
+SHIP_talent;Pirate
+SHIP_loyalty;10
+SHIP_payroll;200
+//; --------------------------------- SHIP PARTS -----------------------------------
+//; --------------- ITEM,type,catID,pfID,xp,yp,zp,xr,yr,zr-----------------------------
+<ITEM>
+ITEM;hull_small_7; 4 ; 1 ;0.00;0.00;0.64;0.00;0.00;0.00
+ITEM;Sail_2; 4 ; 45 ;-1.15;-2.34;-2.12;0.00;131.60;180.00
+ITEM;Sail_2; 4 ; 45 ;-1.15;1.27;-2.12;0.00;131.60;0.00
+ITEM;Sail_2; 4 ; 45 ;1.27;-2.34;-2.12;0.00;230.94;180.00
+ITEM;Sail_2; 4 ; 45 ;1.27;1.27;-2.12;0.00;230.94;0.00
+ITEM;Mast_3; 4 ; 43 ;0.00;-3.17;-3.18;0.00;0.00;0.00
+ITEM;bulk_7; 4 ; 66 ;-0.07;-0.28;-2.41;0.00;0.00;0.00
+ITEM;Hull_boat_3; 4 ; 18 ;0.00;-1.49;4.88;0.00;0.00;180.00
+ITEM;Hull_small_5; 4 ; 8 ;0.00;0.52;0.74;0.00;180.00;0.00
+ITEM;wing_12; 4 ; 77 ;1.40;-1.04;0.51;0.00;0.00;340.00
+ITEM;wing_12; 4 ;77;-1.59;-1.04;0.35;0.00;0.00;196.00
+ITEM;engine_3; 4 ;37;0.00;-0.53;-4.98;0.00;0.00;0.00
+ITEM;engine_3; 4 ; 33 ;-3.01612;-1.36720;-0.52000;0.00000;0.00000;0.00000
+ITEM;engine_3; 4 ; 33 ;2.74766;-1.42018;-0.25743;0.00000;0.00000;0.00000
+ITEM;command_0; 4 ; 20 ;0.00;0.27;2.18;0.00;0.00;0.00
+//; ----------------------------- SHIP CAMERA SLOTS --------------------------------
+//; -------------- PILOTCAM,name,SLOTid,model_id,xp,yp,zp,xr,yr,zr--------------------
+<PILOTCAM>
+PILOTCAM;pilot_cam; 5 ; 98 ;0.00000;-0.79922;6.39918;0.00000;0.00000;0.00000
+//; ----------------------------- SHIP MODULE SLOTS --------------------------------
+//; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr-------------------------------
+<MODSLOT>
+MODSLOT;module_slot;1; 99 ;0.00000;-0.45606;5.11598;0.00000;0.00000;0.00000
+MODSLOT;module_slot;2; 99 ;0.00000;0.88000;-0.97666;0.00000;0.00000;0.00000
+MODSLOT;module_slot;3; 99 ;-0.01000;-2.50089;-1.62100;0.00000;0.00000;180.00000
+MODSLOT;module_slot;4; 99 ;1.34692;-0.82000;-2.45175;0.00000;0.00000;270.00000
+MODSLOT;module_slot;5; 99 ;-1.34497;-0.80000;-2.42206;0.00000;0.00000;90.00000
+//; ----------------------------- SHIP MODULES --------------------------------------
+//; ----- MODULE,slot,module_id
+<MODULE>
+//; ----------------------------- SHIP CARGO -----------------------------------------
+//; ----- CARGO, qty, cargo_id
+<CARGO>

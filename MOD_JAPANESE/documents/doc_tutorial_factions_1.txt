@@ -1,0 +1,57 @@
+scan_title;Factions Overview
+scan_image;document_training.png
+scan_sector;Level: Basic
+
+<size='25'><color=cyan>The Alpharis (Alpha)</color></size>
+Scientists, cyber-technologists, and psychics all belong to the collective known as The Alpha. Using a uniquely sentient A.I. to calculate any possible outcome, they hope to govern all people with a system of perfect control.
+
+Civil – The Civil sub-faction has representatives in areas of programming, entertainment, subspace communication, diplomacy and other more clandestine activities. Members include a wide range of celebrities, agents, Alpha- sanctioned program directors, and artists.
+Groups: Horizon, Spacebook, Monarch Society
+
+Science– The Tech sub-faction focuses on applied science and R&D to facilitate colonization of the Astrox system. Many members utilize cybernetic modifications to better interface with the ancient sentient program that regulates their activities.
+Groups: Psybermind, Praxis Energy, Nova Labs
+
+<size='25'><color=cyan>Trade Union</color></size>
+The trade barons concern themselves with economics first, and everything else a distant second. Profit and enterprise are the driving forces of civilization and the common bond that classifies this faction.
+
+Financial – The Financial sub-faction regulates markets, establishes banking institutions, and sets interest rates. Members are an elite group of bankers and those with enough wealth to buy a seat at one of the meetings.
+Groups: Lammassu Financial, Omnitrust
+
+Commerce – The Commerce sub-faction is a loose conglomarate of entrepreneurs and big business chains moving personnel and goods around the system. Members count their worth in cargo space and units sold.
+Groups: Value-Star, Transporteers, Biomart
+
+<size='25'><color=cyan>The Outlaws</color></size>
+There is nothing so human as independence, and the Outlaws are defined as a group by their unwillingness to be part of a group. Living on the fringes of other communities, they survive on their own merit for most everything, and “borrow” the rest.
+
+Pirates – No sub-faction could be more diverse than the pirate syndicates. Gangs of hardened frontiersmen banding together to live by their own rules. Taking whatever they can and smuggling bliss funds their appetite for more advanced ships.
+Groups: Lacuna Bandits, Stinkfinger, Void Raiders
+
+Sovereign – The Sovereign are isolationists and independents who simply want to survive without interference. Living with bare essentials in the most remote areas, they thrive through ingenuity and salvaging. Due to their nomadic existence, most are considered derelicts at worst and space gypsies at best. The Sovereign remains the sole source of bliss production, since usually they’re the only ones willing to risk its manufacture on their ships.
+Groups: Blissheads, Dusters, Scrapdogs
+
+<size='25'><color=cyan>The Temple of the Void</color></size>
+The Temple of the Void subscribes a spiritual destiny to the event horizon at the center of the Astrox universe. Believing the void beyond the stars to be a great divine barrier that must be surpassed for humanities ascension into the heavens.
+
+Orthodox – The Temple Orthodox and it’s clergy devote themselves with study and prayer centered on worshiping the Void. They believe that by embracing the nothing, they will free themselves from the Astrox universe and attain enlightenment.
+Groups: Arcane Accountants, Inquisitors, Zeroists, Witness Network
+
+Missionaries – The Missionary sub-faction consists of spiritual advisors servicing the people of Astrox. Members are more concerned with easing the suffering of the inhabitants and providing care for recovering bliss addicts than unraveling the secrets of the void.
+Groups: Grey Pilgrims, Nophets, Eventists
+
+<size='25'><color=cyan>The Labor Faction</color></size>
+The Labor faction is one of the largest in Astrox. Made up of artisans and trades workers, both skilled and unskilled, they provide the necessary material for development and expansion. Mining, production, and service all fall under the Labor faction.
+
+Contractor – the Contractors Union is responsible for the planning, implementation and building of all new products or structures. From the lowly cook to the esteemed warp engineer, manufacturing and production would not exist without careful planning from the Contractors Union.
+Groups – Fabricon, Foodmaid, Coma Crafts
+
+Extractors – The Extractors mine the various asteroids and refine the derivative ores to produce goods and materials used for construction. Members work long shifts in dangerous conditions and often live their entire lifetime on a remote dig site.
+Groups: Minex, Korring, Qubik
+
+<size='25'><color=cyan>The Law</color></size>
+The Law regulates all other factions through the universal laws drafted by the first settlers. Responsible for modifying and enforcing the laws, it is made up of people who like structure and a clear chain of command. Private security contractors commissioned by law agencies also fall into this faction.
+
+Enforcement – As the name implies, this militarized faction maintains cutting edge combat ready ships to provide security and police the Astrox universe. Often criticized for the aggressiveness of it’s pilots, it is still the first to respond when an outpost is overrun with pirates.
+Groups: Arbiters, Astrox Security Patrol (ASP), Stardogs
+
+Judicial – The Judicial sub-faction is the foundation of the Law faction itself. Ratifying all laws to oversee everything from building and trade contracts, Sovereign relocation programs, and public domain disputes. The Judicial body is notably complicated and often resolves cases long after all participants have died.
+Groups: Triumvirate, Barristers

@@ -1,0 +1,92 @@
+//; ASTROX IMPERIUM SHIP EDITOR
+//; Jace Masula 2017
+//; -------------------------------SHIP MAIN VARS ----------------------------------
+//; ---------------------------- Variable name, value ------------------------------
+<STATS>
+SHIP_base_level;1
+SHIP_skill_level;1
+SHIP_filename;ship_data_(kj_escort_1)
+SHIP_faction_id;0
+SHIP_name;KJE-1 Dragonfly
+SHIP_class;Escort
+SHIP_base_shield;1100
+SHIP_base_armor;150
+SHIP_base_energy;300
+SHIP_base_cargo;250
+SHIP_base_speed;0
+SHIP_base_turn;0.8
+SHIP_base_thrust;150
+SHIP_base_mass;75
+SHIP_collider_x;1.5
+SHIP_collider_y; 1.5
+SHIP_collider_z;4
+SHIP_active_slots;3
+SHIP_passive_slots;2
+SHIP_base_lifesupport;1200
+SHIP_base_engine_burn; 0.25
+SHIP_base_recharge;0.75
+SHIP_base_shield_recharge;1.25
+SHIP_base_scan_speed;10
+SHIP_base_scan_max_targets;5
+SHIP_base_scan_pulserange;8500
+SHIP_base_scan_pulsespeed;10
+SHIP_type;Fabricator
+SHIP_base_price;498000
+SHIP_impact_resistance;0.0
+SHIP_energy_resistance;0.15
+SHIP_explosive_resistance;0.0
+SHIP_material_color_a;1;1;1;1
+SHIP_material_color_b;1;1;1;1
+SHIP_material_texture_a;default_main.png
+SHIP_material_texture_b;default_detail.png
+SHIP_material_texture_c;default_glow.png
+SHIP_engine_color;1;1;1;1
+SHIP_description;Fabricator ships are some of the most unique spacecraft found in the Astrox  universe. These ships are geared to perform one task, as they are highly specialized.
+SHIP_manufacturer;KJ Fabrications Corp
+SHIP_manufacturer_icon;kjfabricationscorp.png
+SHIP_shield;0
+SHIP_armor;0
+SHIP_energy;0
+SHIP_ls_food;0
+SHIP_ls_water;0
+SHIP_ls_thermal;0
+SHIP_ls_waste;0
+SHIP_ls_points;0
+SHIP_base_drones;0
+SHIP_specials_raw;Beam Energy#0.75
+//merc stuff
+SHIP_owner;none
+SHIP_xp;0
+SHIP_next_level_xp;1000
+SHIP_level;1
+SHIP_talent;Combat
+SHIP_loyalty;10
+SHIP_payroll;50
+//; --------------------------------- SHIP PARTS -----------------------------------
+//; --------------- ITEM,type,catID,pfID,xp,yp,zp,xr,yr,zr--------------------------
+<ITEM>
+ITEM;mast_3;0; 43 ;0.11904;-0.61622;-1.05796;0.11320;90.38000;89.56388
+ITEM;sail_1;0; 44 ;2.20000;0.59000;-4.09162;0.00000;0.00000;290.00000
+ITEM;sail_1;0; 44 ;-2.09000;0.59000;-3.94804;0.00000;0.00000;70.00000
+ITEM;wing_11;0; 79 ;-0.32;0.00;-0.05;0.00;180.00;180.00
+ITEM;Hull_small_9;0; 4 ;0.00;0.00;-1.30;0.00;0.00;0.00
+ITEM;Hull_tiny_1; 4 ; 14 ;0.00;0.00;1.74;0.00;0.00;0.00
+ITEM;engine_5; 4 ;33;-0.47942;-0.10000;-2.25000;0.00000;0.00000;0.00000
+ITEM;engine_5; 4 ;33;0.46937;-0.10000;-2.25000;0.00000;0.00000;0.00000
+ITEM;command_0; 4 ; 20 ;0.00;0.60;-1.47;0.00;0.00;0.00
+//; ----------------------------- SHIP CAMERA SLOTS --------------------------------
+//; -------------- PILOTCAM,name,SLOTid,model_id,xp,yp,zp,xr,yr,zr--------------------
+<PILOTCAM>
+PILOTCAM;pilot_cam; 5 ; 98 ;-0.02;0.03;2.06;0.00;0.00;0.00
+//; ----------------------------- SHIP MODULE SLOTS --------------------------------
+//; -------------- MODSLOT,name,SLOTid,model_id, ammo_id,xp,yp,zp,xr,yr,zr----------
+<MODSLOT>
+MODSLOT;module_slot;1; 99 ;0.67;0.00;1.37;0.00;0.00;270.00
+MODSLOT;module_slot;2; 99 ;-0.60;-0.01;1.31;0.00;0.00;90.00
+MODSLOT;module_slot;3; 99 ;-0.02000;0.59844;-0.83640;0.00000;0.00000;0.00000
+//; ----------------------------- SHIP MODULES --------------------------------------
+//; ----- MODULE,slot,module_id
+<MODULE>
+//; ----------------------------- SHIP CARGO -----------------------------------------
+//; ----- CARGO, qty, cargo_id
+<CARGO>

@@ -1,0 +1,54 @@
+scan_title;Basic Merc / Fleet Tutorial
+scan_image;document_training.png
+scan_sector;Level: Basic
+
+<size='25'><color=cyan>Fleet Introduction</color></size>
+This document will cover all the basic information about creating, maintaining, and altering your mercenary fleet. Learning to use Fleet Mercenaries can be a bit confusing at first, but once you learn the basics of how they work, you will be able to grow and control your fleet with little effort. You can only control one fleet, and cannot have multiple fleets at once. Your mercenary fleet will always stick with you, and cannot be left behind in a remote sector when active. They will warp with you, and dock with you. 
+
+Fleet mercenaries can be found at almost any station that has a lounge. The lounge is where you will find most freelance pilots hanging out. Once you find a suitable candidate, you can then hire the mercenary to work for you. They will fly alongside your ship, and based on the gear assist you with mining and combat. Each merc has a specialty like mining, combat, transport, pirate and recon. Each specialty has a specific role that is used when the merc is ‘Auto-Tasking’ for you. 
+
+Before any Mercs can be added to your fleet, you will need to train the proper skills. The main and most important skill will be ‘Fleet Command’. This skill will provide you with the necessary training to operate the COMMAND interface. For each level of ‘Fleet Command’ trained, an additional Mercenary will be eligible to join you. The maximum number of mercenaries you can add to your fleet is 10. Once the ‘Fleet Command’ skill is trained to level 10, no further training will be provided as the max level has been reached.
+
+Mercs can be Hired, Deactivated, and Fired whenever you see fit. There is no penalty for getting rid of an unwanted, or unhelpful mercenary. However, there is a penalty for a Merc dying while under your command. This is to be avoided at all costs. Once a mercenary has been hired, they can be deactivated at any station via the PILOT / FLEET panel. Once a merc has been deactivated, they will wait at the station, in a dormant state until you return to re-activate them back into the active fleet.
+
+<size='25'><color='cyan'>Training the FLEET COMMAND skill</color></size>
+This part is easy. You will need to find a university that has the ‘FLEET COMMAND’ skill. In most games, you will find that the starting station has the most common skills. Once you find the ‘FLEET COMMAND’ skill, train it to level 1, and you will be able to hire a merc. Each additional level of the skill trained, will provide 1 additional slot for hiring a merc. Level 5 will allow you to control 5 mercs in your fleet. Level 10, the max, will allow you to control 10 mercs.
+
+<size='25'><color='cyan'>Hiring your first Merc</color></size>
+This part can be a bit tricky, until you understand a few of the basic game mechanics. Picking a merc that will help you profit depends on how you like to play. If you are into mining, make sure the Merc you hire is equipped with mining lasers and a decent cargo bay. Each Merc type will determine what variety of modules the ship they own will have. Mining Mercs will have more mining specific modules, whereas combat Mercs will come equipped with weapons and defensive modules. It is recommended that your first Merc be either a mining Merc, or a combat Merc. Once you become familiar with the Fleet Command system, try exploring other Merc types.
+
+<size='25'><color='cyan'>Fleet Formations</color></size>
+Once you have at least 1 Merc in your fleet, you have the option to set the formation of the fleet. The formation will arrange the Merc ships into a formation with your command ship. You will then have the ability cycle thru the various formations using the FORMATION button on the FLEET COMMAND panel. You can also adjust how tight the formation will be spaced apart. Clicking the FORMATION DISTANCE button on the FLEET COMMAND panel will cycle this distance. The FORMATION LOCK button will allow you to magnetically lock the ships into a formation that behaves as a single ship. This can be good in some combat situations, and in general while flying about the Astrox universe.
+
+<size='25'><color='cyan'>Merc Cargo Management</color></size>
+Each Merc will have their own cargo bay to manage. Once their cargo bay is full, you will be responsible to remove some items to make room. You may need to restock any cargo items they are using, like ammunition. Some items in the Merc cargo bay may be inaccessible to you. This is due to poor loyalty. If they cannot trust you, they may choose to restrict access to their cargo bay altogether. You cannot access a Merc's cargo if their ship is too far away. You must wait until their ship is in range before you will be able to access their cargo bay.
+
+<size='25'><color='cyan'>Selecting and Deselecting Mercs</color></size>
+By clicking on the name area of the Merc button from the list, the merc portrait background will turn green, indicating it has been added to the selected list. You can deselect a Merc the same way, by clicking the name on the Merc list button on the FLEET COMMAND panel. Clicking on the Merc in tactical view will select the Merc. You can also hold down the LEFT CTRL button, and LEFT CLICK DRAG a bandbox. This will allow you to easily select multiple Mercs for combat orders. The SELECT ALL Mercs button on the FLEET COMMAND panel will add all active Mercs to the selected list.
+
+<size='25'><color='cyan'>Commanding your Mercs</color></size>
+By clicking the FACE of the Merc on the Merc list on the FLEET COMMAND panel, a small COMMAND panel will open and provide you with the individual Merc commands. These commands will only affect this Merc, and will have no effect on the other active Mercs in the fleet. This COMMAND panel can be opened and closed for each Merc in the list. You can also command Mercs as a group by using the ENGAGE TARGET button on the FLEET COMMAND panel. This button will send all selected Mercs to your ship's current target. This can be great for combat, and focused mining of rare resources.
+
+<size='25'><color='cyan'>Merc Autotask (Star Button)</color></size>
+The STAR button on the COMMAND panel can activate the Mercs ability to AutoTask. This is like an intelligent autopilot for the Merc. Mining mercs will automatically mine rocks. Combat Mercs will automatically patrol for pirates and hostiles. When activated, the STAR icon will turn blue, and the Merc will break formation to carry out their task. Certain structures may alter the Merc's AutoTask behavior to further automate their workload.
+
+<size='25'><color='cyan'>Merc Morale and Loyalty</color></size>
+Each merc type will prefer a certain type of work over another. While one merc enjoys mining, another might prefer combat. Forcing a combat merc to mine ore will have a negative effect on their Morale, and in turn, their Loyalty to you. If you keep your Mercs happy, their Loyalty will increase over time, and eventually they may befriend you. This happens when their Loyalty reaches 100%. This will remove them from the Merc payroll, and they will continue to fly with you as a friend, free of charge. If their loyalty drops too low, the Merc may decide to quit your fleet, and go their separate way.
+
+<size='25'><color='cyan'>Merc Levels</color></size>
+Mercs do earn experience points for performing their actions alongside your ship. As their experience increases, so will their level. As they level up, they will spend their skill points upgrading their equipment and thus improving their stats.
+
+<size='25'><color='cyan'>Lounge Entertainment for your Mercs</color></size>
+Some stations will have a LOUNGE that provides entertainment to the members of your fleet. For a small fee, you can instantly boost the morale, and loyalty for each of the members that are currently active in your fleet. This can be a good way to boost the morale of those unhappy Mercs who need some rest and relaxation.
+
+<size='25'><color='cyan'>Deactivate and Reactivate Mercs</color></size>
+When docked inside of any station, you can open the PILOT PANEL, and select the FLEET tab. This will provide you a list of all Mercs currently in your fleet. Active and Inactive Mercs will all be listed here. You can Deactivate a Merc from this panel, and any currently deactivated merc at this station can be Reactivated. You cannot Activate a Merc that is currently docked at another station. When a Merc is Deactivated, they will remain at the station and on the payroll until you come for them. This is a great way to prevent those weak mining Mercs from getting killed during combat missions.
+
+<size='25'><color='cyan'>Retiring a Merc from the Fleet</color></size>
+When docked inside of any station, any Deactivated Merc at that station can be retired from the fleet. This will safely remove the Merc from the fleet without penalty to their faction rating. Once a Merc has been retired, the Merc slot will open up and you will be able to hire a new Merc as a replacement.
+
+<size='25'><color='cyan'>A Merc’s life and death</color></size>
+It is your responsibility to keep your fleet members alive and equipped. They will require ammunition from time to time, along with frequent docking to automatically repair damaged ship systems. The DOCK SELECTED button will send all selected Mercs to the nearest station for repairs. If a Merc sustains too much damage, they will be destroyed, and lost forever. You are required to cover the cost of the funeral, and some minor workplace accident compensation. This will affect your pilots faction rating negatively.
+
+
+

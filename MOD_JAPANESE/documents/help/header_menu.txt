@@ -1,0 +1,8 @@
+<image src="images/header_1.png" align="center" width="1200" height="150">
+<image src="images/hbar_1.png" align="stretch" width="500" height="10">
+
+<horizontal align="fixed">
+<button image="images/btn_small_1.png" width="140" height="40" align="left" label="<b>HOME</b>" size="20" color="#00FFFF" onclick="load;index">
+<button image="images/btn_small_1.png" width="200" height="40" align="left" label="<b>COMMUNITY</b>" size="20" color="#00FFFF" onclick="load;info_community">
+<button image="images/btn_small_1.png" width="200" height="40" align="left" label="<b>ARCHIVE</b>" size="20" color="#00FFFF" onclick="load;info_archive">
+</horizontal>

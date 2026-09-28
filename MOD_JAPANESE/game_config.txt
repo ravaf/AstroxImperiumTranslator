@@ -1,0 +1,21 @@
+// CONFIG DATA FILE FOR ASTROX IMPERIUM
+OPTION_ui_scale;1
+OPTION_music_vol;0.5
+OPTION_sfx_vol;0.8
+OPTION_ui_vol;0.8
+OPTION_vsync;True
+OPTION_depth;True
+OPTION_blur;False
+OPTION_bloom;True
+OPTION_exposure;False
+OPTION_fullscreen;True
+OPTION_screen_resolution;0x0;3440x1440-50Hz
+OPTION_screen_quality;5
+OPTION_soft_particles;True
+OPTION_anti_aliasing;True
+OPTION_texture_quality;True
+OPTION_platform;1
+OPTION_randomized_bg;False
+OPTION_ui_color_1;0.2,0.2,0.2,0.99
+OPTION_ui_color_2;0.2,0.2,0.2,0.99
+OPTION_ui_color_3;0.2,0.2,0.2,0.99

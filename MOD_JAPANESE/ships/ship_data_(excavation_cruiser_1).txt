@@ -1,0 +1,100 @@
+//; ASTROX IMPERIUM SHIP EDITOR
+//; Jace Masula 2017
+//; -------------------------------SHIP MAIN VARS ----------------------------------
+//; ---------------------------- Variable name, value ------------------------------
+<STATS>
+SHIP_base_level;5
+SHIP_skill_level;1
+SHIP_filename;ship_data_(excavation_cruiser_1)
+SHIP_faction_id;0
+SHIP_name;EC-1 Mining Cruiser
+SHIP_class;Cruiser
+SHIP_base_shield;1300
+SHIP_base_armor;1400
+SHIP_base_energy;2595
+SHIP_base_cargo;2722
+SHIP_base_speed;0
+SHIP_base_turn;0.36
+SHIP_base_thrust;237
+SHIP_base_mass;174
+SHIP_collider_x;1.5
+SHIP_collider_y;2.5
+SHIP_collider_z;10
+SHIP_active_slots;7
+SHIP_passive_slots;4
+SHIP_base_lifesupport;475
+SHIP_base_engine_burn;0.38
+SHIP_base_recharge;0.40
+SHIP_base_shield_recharge;3.25
+SHIP_base_scan_speed;5
+SHIP_base_scan_max_targets;7
+SHIP_base_scan_pulserange;10000
+SHIP_base_scan_pulsespeed;10
+SHIP_type;Excavation
+SHIP_base_price;3513000
+SHIP_description;Excavation ships are designed to harvest raw ore and salvage. They have large energy cores to power the mining beams, and augmented cargo bays to store the resources they collect.
+SHIP_impact_resistance;0.3
+SHIP_energy_resistance;0.0
+SHIP_explosive_resistance;0.0
+SHIP_material_color_a;1.0;1.0;1.0;0.25
+SHIP_material_color_b;1;1;1;1
+SHIP_material_texture_a;default_main.png
+SHIP_material_texture_b;default_detail.png
+SHIP_material_texture_c;default_glow.png
+SHIP_engine_color;1;1;1;1
+SHIP_manufacturer;Borecraft Industries
+SHIP_manufacturer_icon;icon_borecraft.png
+SHIP_shield;0
+SHIP_armor;0
+SHIP_energy;0
+SHIP_ls_food;0
+SHIP_ls_water;0
+SHIP_ls_thermal;0
+SHIP_ls_waste;0
+SHIP_ls_points;0
+SHIP_base_drones;5
+SHIP_specials_raw;Drone Strength#0.20,Drone Energy#0.20,Drone Range#0.30,Miner Strength#0.50,Miner Range#0.70,Miner Speed#0.30
+//merc stuff
+SHIP_owner;none
+SHIP_xp;0
+SHIP_next_level_xp;1000
+SHIP_level;1
+SHIP_talent;Mining
+SHIP_loyalty;10
+SHIP_payroll;650
+//; --------------------------------- SHIP PARTS -----------------------------------
+//; --------------- ITEM,type,catID,pfID,xp,yp,zp,xr,yr,zr-----------------------------
+<ITEM>
+ITEM;Hull_medium_3; 4 ; 7 ;0.00;0.42;-0.89;0.00;0.00;0.00
+ITEM;Hull_small_8; 4 ; 3 ;0.00;0.06;3.51;0.00;0.00;0.00
+ITEM;Hull_small_9; 4 ; 4 ;0.94617;0.10000;-4.61000;0.00000;180.00000;180.00000
+ITEM;Hull_small_9; 4 ; 4 ;-1.27;0.02;-4.61;0.00;180.00;0.00
+ITEM;hull_main_3; 4 ; 13 ;-1.49;0.07;-3.06;0.00;0.00;90.00
+ITEM;wing_8; 4 ; 76;2.41;0.00;-5.25;0.00;0.00;160.00
+ITEM;wing_8; 4 ; 76 ;-2.62;0.00;-5.25;0.00;0.00;20.00
+ITEM;engine_7; 4 ;37;1.22;-0.04;-6.23;0.00;0.00;90.00
+ITEM;engine_7; 4 ;37;-1.33;-0.10;-6.47;0.00;0.00;90.00
+ITEM;engine_3; 4 ; 33 ;0.54079;0.97992;-6.57832;0.00000;0.00000;0.00000
+ITEM;engine_3; 4 ; 33 ;-0.94809;0.98644;-6.54028;0.00000;0.00000;0.00000
+ITEM;bulk_3; 4 ; 62 ;0.00;0.00;-1.70;0.00;0.00;180.00
+ITEM;command_0; 4 ; 20 ;0.00;0.06;4.65;0.00;0.00;0.00
+//; ----------------------------- SHIP CAMERA SLOTS --------------------------------
+//; -------------- PILOTCAM,name,SLOTid,model_id,xp,yp,zp,xr,yr,zr--------------------
+<PILOTCAM>
+PILOTCAM;pilot_cam; 5 ; 98 ;0.00;-0.30;5.71;0.00;0.00;0.00
+//; ----------------------------- SHIP MODULE SLOTS --------------------------------
+//; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr-------------------------------
+<MODSLOT>
+MODSLOT;module_slot;1; 99 ;-2.17798;0.07259;-2.91989;0.00000;0.00000;90.00000
+MODSLOT;module_slot;2; 99 ;0.00000;0.82935;4.67252;0.00000;0.00000;0.00000
+MODSLOT;module_slot;3; 99 ;-0.02;-0.44;4.68;0.00;0.00;180.00
+MODSLOT;module_slot;4; 99 ;-0.00975;0.93154;-1.30048;0.00000;0.00000;0.00000
+MODSLOT;module_slot;5; 99 ;1.77147;0.05555;-2.98899;0.00000;0.00000;270.00000
+MODSLOT;module_slot;6; 99 ;0.98071;-0.17938;0.95677;0.00000;0.00000;270.00000
+MODSLOT;module_slot;7; 99 ;-0.95480;-0.15592;0.94560;0.00000;0.00000;90.00000
+//; ----------------------------- SHIP MODULES --------------------------------------
+//; ----- MODULE,slot,module_id
+<MODULE>
+//; ----------------------------- SHIP CARGO -----------------------------------------
+//; ----- CARGO, qty, cargo_id
+<CARGO>

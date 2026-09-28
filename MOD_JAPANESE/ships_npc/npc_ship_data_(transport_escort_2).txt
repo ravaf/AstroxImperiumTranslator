@@ -1,0 +1,96 @@
+//; ASTROX IMPERIUM SHIP EDITOR
+//; Jace Masula 2017
+//; -------------------------------SHIP MAIN VARS ----------------------------------
+//; ---------------------------- Variable name, value ------------------------------
+<STATS>
+SHIP_base_level;2
+SHIP_skill_level;1
+SHIP_filename;npc_ship_data_(transport_escort_2)
+SHIP_faction_id;0
+SHIP_name;TE-2 Helios
+SHIP_class;Escort
+SHIP_base_shield;170
+SHIP_base_armor;165
+SHIP_base_energy;205
+SHIP_base_cargo;350
+SHIP_base_speed;0
+SHIP_base_thrust;105
+SHIP_base_mass;45
+SHIP_base_turn;0.81
+SHIP_collider_x;1
+SHIP_collider_y;1
+SHIP_collider_z;5
+SHIP_active_slots;4
+SHIP_passive_slots;4
+SHIP_base_lifesupport;220
+SHIP_base_engine_burn;0.13
+SHIP_base_recharge;0.71
+SHIP_base_shield_recharge;1.05
+SHIP_base_scan_speed;5.0
+SHIP_base_scan_max_targets;4
+SHIP_base_scan_pulserange;5000
+SHIP_base_scan_pulsespeed;10
+SHIP_type;Transport
+SHIP_base_price;1036000
+SHIP_description;Transport ships are used mainly to move goods around the Astrox universe. The cargo bay has been augmented to allow for additional cargo to be carried without the need for external modules.
+SHIP_impact_resistance;0.0
+SHIP_energy_resistance;0.15
+SHIP_explosive_resistance;0.15
+SHIP_material_color_a;1;1;1;1
+SHIP_material_color_b;1;1;1;1
+SHIP_material_texture_a;default_main.png
+SHIP_material_texture_b;default_detail.png
+SHIP_material_texture_c;default_glow.png
+SHIP_engine_color;1;1;1;1
+SHIP_manufacturer;Corelis Inc.
+SHIP_manufacturer_icon;icon_corelis.png
+SHIP_shield;0
+SHIP_armor;0
+SHIP_energy;0
+SHIP_ls_food;0
+SHIP_ls_water;0
+SHIP_ls_thermal;0
+SHIP_ls_waste;0
+SHIP_ls_points;0
+SHIP_base_drones;0
+SHIP_specials_raw;Cargo#0.40,Thrust#0.35,Cloak Strength#0.90,Turn Speed#0.15,Gun Strength#0.20
+//merc stuff
+SHIP_owner;none
+SHIP_xp;0
+SHIP_next_level_xp;1000
+SHIP_level;1
+SHIP_talent;Mining
+SHIP_loyalty;10
+SHIP_payroll;100
+//; --------------------------------- SHIP PARTS -----------------------------------
+//; --------------- ITEM,type,catID,pfID,xp,yp,zp,xr,yr,zr--------------------------
+<ITEM>
+ITEM;Hull_tiny_1;0; 14 ;-0.19;0.00;2.86;0.00;0.00;0.00
+ITEM;hull_small_8;0; 3 ;-0.20;-0.44;-1.84;0.00;180.00;180.00
+ITEM;Hull_medium_1; 4 ; 5 ;0.00;0.00;-0.44;0.00;0.00;0.00
+ITEM;engine_4; 4 ;34;-1.10;0.08;-1.29;0.00;0.00;0.00
+ITEM;engine_4; 4 ;34;-0.20;-0.46;-3.01;0.00;0.00;0.00
+ITEM;engine_4; 4 ;34;0.69;0.08;-1.29;0.00;0.00;0.00
+ITEM;command_4; 1 ;24;-0.34;0.03;2.56;0.00;0.00;85.71
+//; ----------------------------- SHIP CAMERA SLOTS --------------------------------
+//; -------------- PILOTCAM,name,SLOTid,model_id,xp,yp,zp,xr,yr,zr--------------------
+<PILOTCAM>
+PILOTCAM;pilot_cam; 5 ; 98 ;-0.15;0.10;3.86;0.00;0.00;0.00
+//; ----------------------------- SHIP MODULE SLOTS --------------------------------
+//; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr---------------------------
+<MODSLOT>
+MODSLOT;module_slot;1; 99 ;0.00000;0.56013;-1.09170;0.00000;0.00000;0.00000
+MODSLOT;module_slot;2; 99 ;-0.16000;0.31857;1.99177;0.00000;0.00000;0.00000
+MODSLOT;module_slot;3; 99 ;0.99;0.25;-0.48;0.00;0.00;270.00
+MODSLOT;module_slot;4; 99 ;-1.27;0.23;-0.49;0.00;0.00;90.00
+//; ----------------------------- SHIP MODULES --------------------------------------
+//; ----- MODULE,slot,module_id
+<MODULES>
+MODULE;1;1207
+MODULE;3;1207
+
+//; ----------------------------- SHIP CARGO -----------------------------------------
+//; ----- CARGO, qty, cargo_id
+<CARGO>
+CARGO;2;703
+

@@ -1,0 +1,23 @@
+//; ASTROX IMPERIUM : STATION ENTERTAINMENT DATABASE : JACE MASULA 2019
+
+// SKILLS --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// 0				1		2							3					4 				5							6							7						
+// ENTERTAINMENT	ID		TITLE						BONUS				COST			TYPE						IMAGE						DESC
+// 														morale,loyalty		
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ENTERTAINMENT;		10;		Bottle of Whiskey;			0.025,0.0;			850;			Whiskey;					entertain_bar.png;			Purchase a bottle of whiskey for each of your fleet members. 2.5% Morale bonus.
+ENTERTAINMENT;		11;		Evening of Drinks;			0.05,0.0;			1500;			Alcoholic Drinks;			entertain_bar.png;			Pick up the tab for an evening of drinks for your crew, they earned it. 5% Morale Boost.
+ENTERTAINMENT;		12;		Private Party;				0.10,0.0;			2700;			Party;						entertain_bar.png;			Throw a private party at the local station pub for your entire fleet. 10% Morale Boost.
+
+ENTERTAINMENT;		20;		Karaoke Night;				0.15,0.05;			15000;			Musical Entertainment;		entertain_show.png;			Your fleet is treated to a night of karaoke at the local music tavern. 15% Morale , 5% Loyalty bonus.
+ENTERTAINMENT;		21;		Live Music Concert;			0.20,0.07;			25000;			Musical Entertainment;		entertain_show.png;			Your crew is treated to an 'all expenses paid' night at a music venue of their choosing. 20% Morale , 7% Loyalty bonus.
+ENTERTAINMENT;		22;		Private Concert;			0.25,0.09;			50000;			Musical Entertainment;		entertain_show.png;			Provide a private concert for your entire crew, drinks and food included. 25% Morale , 9% Loyalty bonus.
+ENTERTAINMENT;		23;		Astrox Opera House;			0.26,0.07;			51000;			Musical Entertainment;		entertain_opera.png;		Provide a private opera concert for your entire crew at the famous 'Astrox Opera House', drinks and food included. 26% Morale , 7% Loyalty bonus.
+
+ENTERTAINMENT;		30;		Spa Treatment;				0.15,0.0;			18500;			Rest and Relaxation;		entertain_spa.png;			Send your crew to the spa, let them rest and relax for awhile. 15% Morale Boost.
+ENTERTAINMENT;		31;		Pod Racing event;			0.25,0.0;			40000;			Sport Racing Event;			entertain_race.png;			All expense paid trip to the weekly 'Astrox Pod Racing' (APR) event. 25% Morale Boost.
+ENTERTAINMENT;		32;		Deathmatch League;			0.15,0.08;			68500;			Sport Fighting Event;		entertain_fight.png;		Tickets to the Deathmatch League, where your entire fleet will enjoy a evening of bloodsport. 15% Morale , 8% Loyalty bonus.
+
+ENTERTAINMENT;		40;		StarLuck Casino;			0.05,0.05;			24000;			Gambling;					entertain_casino.png;		A weekend package to the local casino for your entire crew, complete with pocket money. 5% Morale Boost, 5% Loyalty Boost
+ENTERTAINMENT;		41;		BioSynth Wildlife Park;		0.05,0.05;			26000;			Rest and Relaxation;		entertain_park.png;			A weekend package to the local wildlife BioSynth park for your entire crew, included petting zoo. 5% Morale Boost, 5% Loyalty Boost

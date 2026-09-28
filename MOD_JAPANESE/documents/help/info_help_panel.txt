@@ -1,0 +1,29 @@
+<image src="images/header_1.png" align="center" width="1200" height="150">
+
+<image src="images/hbar_1.png" align="stretch" width="500" height="10">
+
+<horizontal align="fixed">
+<button image="images/btn_small_1.png" width="140" height="40" align="left" label="<b>INDEX</b>" size="20" color="#00FFFF" onclick="btn_1">
+<button image="images/btn_small_1.png" width="200" height="40" align="left" label="<b>COMMUNITY</b>" size="20" color="#00FFFF" onclick="btn_1">
+<button image="images/btn_small_1.png" width="200" height="40" align="left" label="<b>ARCHIVE</b>" size="20" color="#00FFFF" onclick="btn_1">
+</horizontal>
+
+<horizontal align="stretch">
+
+<text size="20" align="left" color="#FFFFFF" width="500" height="256">
+This Help panel will serve as an evergrowing database of information about Astrox Imperium. Information is separated into a number of categories to allow for quick navigation.
+It will take some time to build out all of the info pages that we need for this help panel. .
+</text>
+<image src="images/astrox_logo_1.png" align="center" width="200" height="200">
+
+</horizontal>
+
+<horizontal align="stretch">
+
+<image src="images/astrox_logo_1.png" align="center" width="100" height="100">
+<text size="20" align="left" color="#FFFFFF" width="500" height="256">
+If you would like to help construct a help page or two, I could really use the assistance. The formatting for these pages are very simple, and look like basic html. <br>Click here to learn more.
+</text>
+<image src="images/astrox_logo_1.png" align="center" width="100" height="256">
+
+</horizontal>

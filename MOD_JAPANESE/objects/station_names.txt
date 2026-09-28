@@ -1,0 +1,70 @@
+// STATION NAMES (Astrox Imperium) 2019 for SANDBOX GENERATOR
+
+STATION;			1;		Biomart;				biomart.png
+STATION;			2;		Biomate;				biomate.png
+STATION;			3;		Blissheads;				blissheads.png
+STATION;			4;		Cecil;					cecil.png
+STATION;			5;		Coravault;				coravault.png
+STATION;			6;		Crystalis;				crystalis.png
+STATION;			7;		Daemon Ammunition;		daemon_ammunition.png
+STATION;			8;		Desban;					desban.png
+STATION;			9;		Dunes Resort;			dunes_resort.png
+STATION;			10;		Dustardz;				dustardz.png
+STATION;			11;		Fabricator Association;	fabricator_assoc.png
+STATION;			12;		Fellacore Research;		fellacore_research.png
+STATION;			13;		Ferce;					ferce.png
+STATION;			14;		Foodmaid;				foodmaid.png
+STATION;			15;		GEK Mining;				gek_mining.png
+STATION;			16;		Gemini Mining;			gemini_mining.png
+STATION;			17;		Genistar;				genistar.png
+STATION;			18;		Gunstellar;				gunstellar.png
+STATION;			19;		Horizons;				horizons.png
+STATION;			20;		Imperium Bank;			imperium_bank.png
+STATION;			21;		Imperium Republica;		imperium_republica.png
+STATION;			22;		Inovex;					inovex.png
+STATION;			23;		Janca Refinery;			janca_refinery.png
+STATION;			24;		Keyworx;				keyworx.png
+STATION;			25;		KIN;					kin.png
+STATION;			26;		Kinetics;				kinetics.png
+STATION;			27;		KITH;					kith.png
+STATION;			28;		KJ Fab;					kjfab.png
+STATION;			29;		Knights Imperium;		knights_imperium.png
+STATION;			30;		Lacuna Bandits;			lacuna.png
+STATION;			31;		Lammassu Financial;		lammassu.png
+STATION;			32;		Legistron;				legistron.png
+STATION;			33;		Mass Market;			massmarket.png
+STATION;			34;		Mazu Starship;			mazu_starship.png
+STATION;			35;		Miracle;				miracle.png
+STATION;			36;		Monarch Society;		monarch.png
+STATION;			37;		Nostra;					nostra.png
+STATION;			38;		Nova Labs;				nova_labs.png
+STATION;			39;		OAK;					oak.png
+STATION;			40;		Omnitrust Banking;		omnitrust.png
+STATION;			41;		Oro Omniplex;			oro_omniplex.png
+STATION;			42;		Parisan;				parisan.png
+STATION;			43;		Praxis Energy;			praxis.png
+STATION;			44;		Proctors;				proctors.png
+STATION;			45;		Psybermind;				psybermind.png
+STATION;			46;		Quah Research;			quah.png
+STATION;			47;		Rendo Labs;				rendo_labs.png
+STATION;			48;		Restjag Outlet;			restjag.png
+STATION;			49;		Scrapdogs;				scrapdogs.png
+STATION;			50;		Simkitten;				simkitten.png
+STATION;			51;		Spacebook;				spacebook.png
+STATION;			52;		Star Shepards;			star_shepards.png
+STATION;			53;		Starbase Corporation;	starbase.png
+STATION;			54;		StarGypsy;				stargypsy.png
+STATION;			55;		Stinkfinger;			stinkfinger.png
+STATION;			56;		Tellas;					tellas.png
+STATION;			57;		Terra Drone Robotics;	terradrone.png
+STATION;			58;		Temple of the Void;		totv.png
+STATION;			59;		Transporteers;			transporteers.png
+STATION;			60;		Value Star;				valuestar.png
+STATION;			61;		Vita Assembly;			vita.png
+STATION;			62;		VO Industries;			vo_industries.png
+STATION;			63;		Void Raiders;			voidraiders.png
+STATION;			64;		Xellion Corp;			xellon.png
+
+
+
+

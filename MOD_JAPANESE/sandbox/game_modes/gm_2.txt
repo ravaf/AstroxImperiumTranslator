@@ -1,0 +1,19 @@
+GAMEMODE;id;2
+GAMEMODE;title;Peaceful Universe
+GAMEMODE;image;gm_2.png
+
+PRESET;0;_GM_peaceful.txt;Default
+
+<SUMMARY>
+<size='30'><color='cyan'>Take it easy.</color></size>
+
+This game mode will remove all raider spawns from the event generator. It will NOT affect mission spawns, and raider spawns from hideouts. This will allow you to explore and mine without the worry of raiders interrupting your grind.
+
+<DESCRIPTION>
+<size='30'><color='cyan'>Rules</color></size>
+1) Raiders will NOT spawn automatically.
+2) Raiders WILL spawn for raider missions.
+3) Raiders WILL spawn when attacking a pirate hideout.
+
+<size='30'><color='cyan'>Objective</color></size>
+There is no objective to the Peaceful Freeplay game mode. You are not required to do anything special. The game does not end, and you are not directed to perform any tasks or objectives to progress. The peaceful universe will provide you a playground without any major threats.

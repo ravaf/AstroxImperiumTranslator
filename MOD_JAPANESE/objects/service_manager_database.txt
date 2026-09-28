@@ -1,0 +1,18 @@
+//; ASTROX IMPERIUM : SERVICE MANAGER DATABASE : JACE MASULA 2021
+
+// LOOT -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// 0			1		2							3								4				5				6				7 				8				9				10						
+// MANAGERS		ID		IMAGE						NAME							TYPE			LEVEL REQ		FEE				PAYRATE			SPECIAL 1		SPECIAL 2		DESCRIPTION
+// KEYS(0-10)																											
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+MANAGER;		0;		service_lounge.png;			Media Manager;					Lounge;			15;				50000;			15000;			none;			none;			The Media Manager will be responsible for maintaining the operations of the station lounge. A qualified Media Manager is required at this station before the Lounge service can be activated.
+MANAGER;		1;		service_market.png;			Market Administrator;			Market;			20;				100000;			20000;			none;			none;			The Market Administrator will keep track of the market inventory, and collection of fees and taxes for the station owner. Installing a qualified pilot to this position will activate the market at this station.
+MANAGER;		2;		service_garage.png;			Garage Mechanic;				Garage;			20;				150000;			20000;			none;			none;			The Garage Mechanic will handle all the ship alterations and repairs for docking pilots at this station. Any qualified Mechanic will unlock the Garage service at this station.
+MANAGER;		3;		service_university.png;		Academic Instructor;			University;		25;				200000;			25000;			none;			none;			The Academic Instructor will be charged with collecting skill books, and making them available for training at the station University. The Academic Instructor is required to unlock the station University.
+MANAGER;		4;		service_storage.png;		Storage Security;				Storage;		15;				250000;			15000;			none;			none;			The Storage Security position is required before the station Storage warehouse can be made available to docked pilots. The Storage Security officer will ensure that cargo placed at this station remains secure.
+MANAGER;		5;		service_hangar.png;			Shipyard Controller;			Hangar;			15;				300000;			15000;			none;			none;			The Shipyard Controller will be responsible for directing all station traffic, and operating the docking bays for the Shipyard Dock. The Shipyard Controller is required to unlock the Shipyard at this station.
+MANAGER;		6;		service_refinery.png;		Refinery Foreman;				Refinery;		20;				350000;			20000;			none;			none;			The Refinery Foreman will manage the public use of the station Refinery. A qualified Refinery Foreman is required to unlock the station Refinery service to pilots docked here.
+MANAGER;		7;		service_fabricator.png;		Fabrication Engineer;			Fabricator;		20;				400000;			20000;			none;			none;			The Fabrication Engineer will manage the public use of the station Fabricator. A qualified Fabrication Engineer is required to unlock the station Fabricator service to docked pilots.
+MANAGER;		8;		service_contracts.png;		Mission Officer;				Contracts;		25;				450000;			25000;			none;			none;			The Mission Officer position will required a qualified pilot to manage and distribute mission contracts at this station. This will unlock Mission services at this station.

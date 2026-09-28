@@ -1,0 +1,68 @@
+// STRUCTURE DATA (Astrox Imperium) 
+// STRUCTURE;variable;value
+
+STRUCTURE;name;Corporate Dock
+STRUCTURE;type;Dock
+STRUCTURE;desc;Enter a description for this structure
+STRUCTURE;class;Dock
+STRUCTURE;owner;Unknown
+STRUCTURE;faction;Alpha
+STRUCTURE;faction_id;1
+STRUCTURE;material;station_material_Alpha.png
+STRUCTURE;color;1 , .46, .19, 1
+STRUCTURE;level;1
+STRUCTURE;model_prefab_id;5
+STRUCTURE;icon_filename;<FILENAME>.png
+STRUCTURE;filename;<FILENAME>.txt
+STRUCTURE;max_hp;15000
+STRUCTURE;hp;15000
+STRUCTURE;effect;none
+STRUCTURE;effect_range;1.0
+STRUCTURE;effect_value;0.0
+STRUCTURE;usefee;0.0
+STRUCTURE;default_script_file;
+STRUCTURE;default_script_id;
+STRUCTURE;sector_effect;
+STRUCTURE;gen_power;false
+STRUCTURE;gen_power_rate;0
+STRUCTURE;power_points;1000
+STRUCTURE;power_points_max;1000
+STRUCTURE;power_drain;2.5
+STRUCTURE;is_raider;false
+STRUCTURE;is_law;false
+STRUCTURE;is_dockable;true
+STRUCTURE;btn_undock;true
+STRUCTURE;cargo_max;500
+STRUCTURE;upgrade_timer;0
+STRUCTURE;upgrade_file;null
+
+INTERIOR;0;1,1;1;1,0,0,0
+INTERIOR;0;1,2;1;0,0,0,0
+INTERIOR;0;1,3;1;0,0,0,0
+INTERIOR;5;1,4;0;0,0,0,0
+INTERIOR;8;0,4;0;0,0,0,0
+INTERIOR;8;2,4;2;0,0,0,0
+INTERIOR;5;1,5;0;0,0,0,0
+INTERIOR;7;0,5;0;0,0,0,0
+INTERIOR;7;2,5;2;0,0,0,0
+INTERIOR;1;1,6;1;0,0,0,0
+INTERIOR;3;1,7;0;1,0,0,0
+
+//; ----------------------------- STRUCTURE INTERIOR PARTS-------------------------------
+//; ----------------------- PART,name,xp,yp,zp,xr,yr,zr,a1,b2,c3
+<PARTS>
+</PARTS>
+
+//; ----------------------------- STRUCTURE MODULE SLOTS --------------------------------
+//; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr--------------------------------
+<MODSLOT>
+
+
+//; ----------------------------- STRUCTURE MODULES --------------------------------------
+//; ----- MODULE,slot,module_id
+<MODULE>
+
+//; ----------------------------- STRUCTURE CARGO -----------------------------------------
+//; ----- CARGO, qty, cargo_id
+<CARGO>
+

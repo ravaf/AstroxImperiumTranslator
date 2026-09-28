@@ -1,0 +1,8 @@
+//; ASTROX IMPERIUM : SCRIPTING EDITOR : JACE MASULA 2019
+// SCRIPT;	ID;	LABEL;	COMMAND;	CHAIN;	VALUE 1;	VALUE 2;	VALUE 3;	VALUE 4;	VALUE 5;	VALUE 6;	VALUE 7;	VALUE 8	
+// -------------------------------------------------------------------------------------------------------------------------------------
+SCRIPT;		20;		none;		NPC_CHAT;		0;		Hey no problem. I understand.;		300;		npc_missions.txt>0>Good luck with your stuff.;		000;		null;		null;		null;		null;		365.43;		-195.17
+SCRIPT;		10;		START;		OPTION;		0;		I really dont have time to make small chat with you. I am already behind schedule and unless I get some help out here, I won't make it home for dinner.[n][n]You wouldn't be interested in earning a few extra credits would you?;		npc_missions.txt>15>What do you have in mind?;		npc_missions.txt>20>No thanks, I am quite busy myself.;		;		null;		null;		null;		null;		171.45;		-116.66
+SCRIPT;		15;		job;		OPTION;		0;		I promised a friend I would help clear out some ore from an area we plan on building a structure. There are only a few pieces left to remove. If you could help me clear out one of the rocks, I will gladly compensate you.[n][n]You up for the task?;		npc_missions.txt>30>Sure, let's do it;		npc_missions.txt>20>Not really.;		;		null;		null;		null;		null;		364.34;		-115.48
+SCRIPT;		30;		95472;		GET_MISSION;		40;		60;		0;		npc_missions.txt;		0;		null;		null;		null;		null;		566.78;		-114.29
+SCRIPT;		40;		52509;		NPC_CHAT;		0;		Excellent. I have transfered all the mission information to your ship. You will be compensated once the mission is complete. Thanks again for the help.;		600;		npc_missions.txt>0>Thanks, I won't let you down.;		null;		null;		null;		null;		null;		783.49;		-113.10

@@ -1,0 +1,141 @@
+<include="header_menu">
+
+<horizontal align="stretch">
+	<image src="images/help_image_1.png" align="center" width="155" height="155">
+	
+	<text size="20" align="left" color="#FFFFFF">
+		This Help panel will serve as an evergrowing database of information about Astrox Imperium. Information is separated into a number of categories to allow for quick navigation. It will take some time to build out all of the info pages that we need for this help panel. If you would like to contribute. contact me on discord.
+	</text>
+
+	
+</horizontal>
+
+<text size="20" align="left" color="#FFFFFF">
+	Below will explain the basics of how the help files are parsed, and what <tags> can be used to style the information displayed. The format is much like HTML and very basic. This makes it easy to understand and quick to use.
+</text>
+
+<image src="images/hbar_1.png" align="stretch" width="500" height="10">
+
+// TEXT BLOCK-----------------------
+<horizontal align="fixed">
+	<text size="20" align="left" color="#FFFFFF" width="400" height="300">
+		<b>TEXT</b>
+		To display some simple text, you can use this command. If the text is inside a horizontal row, the horizontal tag will control if the text stretches with the window, or is fixed.
+		Size: How big the text is.
+		Align: left, center or right.
+		Color: The hex color for the text displayed.
+		*Width: Will control the width of the text box if not inside a horizontal tag.
+		*Height: Will control the height of the text box if not inside a horizontal tag.
+	</text>
+	
+	<text size="20" align="left" color="#FFFFFF" width="250" height="300">
+		**<text size="20" align="left" color="#FFFFFF">To display some simple text, you can use this command.
+	</text>
+</horizontal>
+
+// IMAGE BLOCK --------------------
+<horizontal align="fixed">
+	<text size="20" align="left" color="#FFFFFF" width="400" height="140">
+		<b>IMAGE</b>
+		To display an image.
+		Align: left, center, right or stretch.
+		Width: Will control the width of the image.
+		Height: Will control the height of the image.
+	</text>
+	
+	<text size="20" align="left" color="#FFFFFF" width="250" height="140">
+		**<image src="images/astrox_logo_1.png" align="right" width="100" height="100">
+	</text>
+</horizontal>
+
+// BUTTON BLOCK --------------------
+<horizontal align="fixed">
+	<text size="20" align="left" color="#FFFFFF" width="400" height="200">
+		<b>BUTTON</b>
+		To display an button with a link.
+		Align: left, center, right.
+		Width: Will control the width of the image.
+		Height: Will control the height of the image.
+		Label: The text on the button.
+		Size: size of the text on the button.
+		Color: The hex color for the text displayed.
+		Onclick: What to do when clicking a button.
+	</text>
+	
+	<text size="20" align="left" color="#FFFFFF" width="250" height="200">
+		**<button image="images/btn_small_1.png" width="250" height="100" align="left" label="Button Left" size="30" color="#00FFFF" onclick="mode">
+	</text>
+</horizontal>
+
+// HORIZONTAL BLOCK--------------------
+<horizontal align="fixed">
+	<text size="20" align="left" color="#FFFFFF" width="400" height="200">
+		<b>HORIZONTAL ROW</b>
+		make a horizontal row. This row can be fixed or stretched. When fixed, the row will not shift when the window is resized. When stretch is applied, the row will shift the text contents based on the window size.
+		Align: left, center, right.
+	</text>
+	
+	<text size="20" align="left" color="#FFFFFF" width="250" height="200">
+		**<horizontal align="fixed">
+		**    ..this stuff will stay in a fixed position regardless of window size..
+		**</horizontal>
+		
+		**<horizontal align="stretch">
+		**    ..this stuff will strech with window size..
+		**</horizontal>
+	</text>
+</horizontal>
+
+// COMMENT BLOCK--------------------
+<horizontal align="fixed">
+	<text size="20" align="left" color="#FFFFFF" width="400" height="200">
+		<b>COMMENTS</b>
+		You can use comments using double slash. Anything after the double slash will be ignored.
+	</text>
+	
+	<text size="20" align="left" color="#FFFFFF" width="250" height="200">
+		** // this is a comment
+	</text>
+</horizontal>
+
+
+<horizontal align="stretch">
+	<text size="20" align="left" color="#FFFFFF" width="500" height="100">
+		You can store the images created for the help pages inside the <b><i>/MOD/documents/help/images/</i></b> directory. This will make it easy to share these files as they are created.
+	</text>
+	<image src="images/help_image_2.png" align="center" width="155" height="155">
+</horizontal>
+
+<horizontal align="stretch">
+	<text size="20" align="left" color="#FFFFFF" width="500" height="200">
+		You can grab images from the items folder, or any astrox folder to use inside a help page.
+		just use a relative path like this.
+		**<image src="../../items/assault_x8_launcher_doc.png" align="center" width="256" height="256">
+	</text>
+	<image src="../../items/assault_x8_launcher_doc.png" align="center" width="155" height="155">
+</horizontal>
+
+<image src="images/hbar_1.png" align="stretch" width="500" height="10">
+<text size="20" align="left" color="#FFFFFF" width="500" height="150">
+	<b>BUTTON EXAMPLES</b>
+	Below are a few examples of how buttons can be displayed. Keep in mind you can change the images of each button, or have them use the same background image. Buttons can also have blank text if you choose to place and icon and or text on the image itself.
+</text>
+
+<image src="images/hbar_1.png" align="stretch" width="500" height="10">
+<button image="images/btn_small_1.png" width="250" height="20" align="left" label="<b>Button Left</b>" size="20" color="#00FFFF" onclick="mode">
+<button image="images/btn_small_1.png" width="250" height="20" align="center" label="<b>Button Center</b>" size="20" color="#00FFFF" onclick="mode">
+<button image="images/btn_small_1.png" width="250" height="20" align="right" label="<b>Button Right</b>" size="20" color="#00FFFF" onclick="mode">
+
+<image src="images/hbar_1.png" align="stretch" width="500" height="10">
+<horizontal align="fixed">
+<button image="images/btn_small_1.png" width="150" height="80" align="left" label="<b>Button 1</b>" size="30" color="#00FFFF" onclick="load;info_help_panel">
+<button image="images/btn_small_1.png" width="150" height="80" align="left" label="<i>Button 2</i>" size="30" color="#00FF33" onclick="mode">
+<button image="images/btn_small_1.png" width="150" height="80" align="left" label="Button 3" size="30" color="#FFFFFF" onclick="mode">
+</horizontal>
+
+<image src="images/hbar_1.png" align="stretch" width="500" height="10">
+<horizontal align="stretch">
+<button image="images/btn_small_1.png" width="200" height="30" align="left" label="<b>Button 1</b>" size="15" color="#00FFFF" onclick="load;info_help_panel">
+<button image="images/btn_small_1.png" width="200" height="30" align="left" label="<i>Button 2</i>" size="15" color="#00FF33" onclick="mode">
+<button image="images/btn_small_1.png" width="200" height="30" align="left" label="Button 3" size="15" color="#FFFFFF" onclick="mode">
+</horizontal>

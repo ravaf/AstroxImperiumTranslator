@@ -1,0 +1,105 @@
+//; ASTROX IMPERIUM SHIP EDITOR
+//; Jace Masula 2017
+//; -------------------------------SHIP MAIN VARS ----------------------------------
+//; ---------------------------- Variable name, value ------------------------------
+<STATS>
+SHIP_base_level;9
+SHIP_skill_level;1
+SHIP_filename;ship_data_(megaship_1)
+SHIP_faction_id;0
+SHIP_name;SC-1 Megastar
+SHIP_class;Cruiser
+SHIP_base_shield;1992
+SHIP_base_armor;2021
+SHIP_base_energy;1963
+SHIP_base_cargo;2051
+SHIP_base_speed;0
+SHIP_base_turn;0.4
+SHIP_base_thrust;220
+SHIP_base_mass;147
+SHIP_collider_x;1.7
+SHIP_collider_y;1.5
+SHIP_collider_z;7
+SHIP_active_slots;7
+SHIP_passive_slots;5
+SHIP_base_lifesupport;428
+SHIP_base_engine_burn;0.34
+SHIP_base_recharge;0.43
+SHIP_base_shield_recharge;2.25
+SHIP_base_scan_speed;5.00
+SHIP_base_scan_max_targets;7
+SHIP_base_scan_pulserange;5000
+SHIP_base_scan_pulsespeed;10
+SHIP_type;Support
+SHIP_base_price;3705000
+SHIP_description;The support ship is used to provide assistance during mining and combat operations. Improved life support systems, a strong energy core,  and improved damage resistance.
+SHIP_impact_resistance;0.15
+SHIP_energy_resistance;0.2
+SHIP_explosive_resistance;0.15
+SHIP_material_color_a;1.0;1.0;1.0;0.25
+SHIP_material_color_b;1;1;1;1
+SHIP_material_texture_a;aurora_main.png
+SHIP_material_texture_b;aurora_detail.png
+SHIP_material_texture_c;aurora_glow.png
+SHIP_engine_color;1;1;1;1
+SHIP_manufacturer;Aurora Corp.
+SHIP_manufacturer_icon;icon_aurora.png
+SHIP_shield;0
+SHIP_armor;0
+SHIP_energy;0
+SHIP_ls_food;0
+SHIP_ls_water;0
+SHIP_ls_thermal;0
+SHIP_ls_waste;0
+SHIP_ls_points;0
+SHIP_base_drones;4
+SHIP_specials_raw;Miner Strength#0.25,Miner Speed#0.30,Miner Energy#0.30,Miner Range#0.25,Scan Range#0.40,Cargo#0.50
+//merc stuff
+SHIP_owner;none
+SHIP_xp;0
+SHIP_next_level_xp;1000
+SHIP_level;1
+SHIP_talent;Support
+SHIP_loyalty;10
+SHIP_payroll;250
+//; --------------------------------- SHIP PARTS -----------------------------------
+//; --------------- ITEM,type,catID,pfID,xp,yp,zp,xr,yr,zr--------------------------
+<ITEM>
+ITEM;hull_boat_5;0; 15 ;0.00000;0.76994;-0.60811;0.00000;180.00000;0.00000
+ITEM;wing_9;0; 74 ;0.00000;1.38497;-1.21162;0.00000;0.00000;90.00000
+ITEM;wing_9;0; 74 ;-2.16155;-0.66000;-4.03000;3.00000;0.00000;180.00000
+ITEM;wing_9;0; 74 ;2.16166;-0.60000;-4.05000;0.00000;0.00000;0.00000
+ITEM;wing_9;0; 74 ;-0.02000;-2.35931;-1.86899;0.00000;0.00000;270.00000
+ITEM;engine_0;0; 30 ;-1.33;-0.62;-3.13;0.00;0.00;0.00
+ITEM;engine_0;0; 30 ;1.30;-0.62;-3.13;0.00;0.00;0.00
+ITEM;engine_0;0; 30 ;0.00000;-1.10772;-3.58379;0.00000;0.00000;0.00000
+ITEM;engine_0;0; 30 ;0.00000;0.83607;-2.40432;0.00000;0.00000;0.00000
+ITEM;mast_1;0; 41 ;-1.09393;-1.76810;0.58161;90.00000;0.00000;0.00000
+ITEM;mast_1;0; 41 ;1.11827;-1.72694;-1.13129;90.00000;0.00000;0.00000
+ITEM;hull_main_3;0; 13 ;0.01000;0.14776;0.50143;0.00000;0.00000;0.00000
+ITEM;hull_main_3;0; 13 ;0.00;1.22;2.59;0.00;180.00;0.00
+ITEM;Hull_tiny_1; 4 ; 14 ;-0.65;0.00;6.83;0.00;0.00;90.00
+ITEM;Hull_tiny_1; 4 ; 14 ;0.22639;0.05062;6.76267;0.00000;0.00000;90.00000
+ITEM;Hull_tiny_1; 4 ; 14 ;0.59;0.00;6.83;0.00;0.00;90.00
+ITEM;Hull_tiny_1; 4 ; 14 ;-0.29511;0.06303;6.77131;0.00000;0.00000;90.00000
+ITEM;command_0; 4 ; 20 ;-0.02;0.32;6.87;0.00;0.00;0.00
+//; ----------------------------- SHIP CAMERA SLOTS --------------------------------
+//; -------------- PILOTCAM,name,SLOTid,model_id,xp,yp,zp,xr,yr,zr--------------------
+<PILOTCAM>
+PILOTCAM;pilot_cam; 5 ; 98 ;-0.03;0.18;8.10;0.00;0.00;0.00
+//; ----------------------------- SHIP MODULE SLOTS --------------------------------
+//; -------------- MODSLOT,name,SLOTid,model_id, ammo_id,xp,yp,zp,xr,yr,zr----------
+<MODSLOT>
+MODSLOT;module_slot;1; 99 ;0.00000;1.98962;2.57479;0.00000;0.00000;0.00000
+MODSLOT;module_slot;2; 99 ;0.00000;0.65983;6.65418;0.00000;0.00000;0.00000
+MODSLOT;module_slot;3; 99 ;0.06000;1.67374;4.31551;0.00000;0.00000;0.00000
+MODSLOT;module_slot;4; 99 ;-0.80865;1.35293;2.69267;0.00000;0.00000;90.00000
+MODSLOT;module_slot;5; 99 ;-1.43026;-0.05407;6.20748;0.00000;0.00000;90.00000
+MODSLOT;module_slot;6; 99 ;0.78647;1.33823;2.70105;0.00000;0.00000;270.00000
+MODSLOT;module_slot;7; 99 ;1.41850;-0.01124;6.27463;0.00000;0.00000;270.00000
+//; ----------------------------- SHIP MODULES --------------------------------------
+//; ----- MODULE,slot,module_id
+<MODULE>
+//; ----------------------------- SHIP CARGO -----------------------------------------
+//; ----- CARGO, qty, cargo_id
+<CARGO>

@@ -1,0 +1,91 @@
+// SECTOR;Variable;Value
+SECTOR;id;23
+SECTOR;name;Carioullis
+SECTOR;level;4.7
+SECTOR;faction;Alpha
+SECTOR;filename;sector_23.txt
+SECTOR;is_explored;False
+SECTOR;energy;20
+SECTOR;population;20
+SECTOR;habitation;30
+SECTOR;farming;20
+SECTOR;economy;20
+SECTOR;production;20
+SECTOR;defense;20
+SECTOR;environment;20
+SECTOR;wormhole_type;
+SECTOR;event_type;null
+
+// SECTORXYZ;Variable;x;y;z
+SECTORXYZ;location;490;181;1805
+
+// FOG;Variable;Value
+FOG;foggy;True
+FOG;distance;0
+FOG;alpha;0.52
+FOG;color_1;0.62;0.41;0.16;1.00
+FOG;color_2;0.00;0.00;0.00;1.00
+
+// NEBULA;Variable;Cloud id;Red;Green;Blue;Alpha;Size;Rotation
+NEBULA;cloud_1;1;0.77;0.71;0.43;0.00;50000;5
+NEBULA;cloud_2;2;0.00;0.60;0.00;0.00;50000;3
+NEBULA;cloud_3;3;0.13;0.37;1.00;0.00;50000;2
+NEBULA;cloud_4;4;0.32;1.00;0.27;0.00;50000;5
+NEBULA;cloud_5;15;0.94;0.44;0.00;0.32;50000;5
+NEBULA;cloud_6;6;0.48;0.42;0.51;0.66;50000;3
+NEBULA;cloud_7;7;0.00;0.21;0.18;0.00;50000;5
+NEBULA;cloud_8;8;0.43;0.69;0.91;0.00;50000;0
+NEBULA;cloud_9;9;0.94;0.55;0.30;0.00;50000;4
+NEBULA;cloud_10;10;1.00;0.86;1.00;0.00;50000;2
+NEBULA;cloud_11;11;0.13;0.43;0.76;0.00;50000;3
+NEBULA;cloud_12;12;1.00;1.00;0.98;0.03;50000;5
+
+// LIGHT;Variable;Red;Green;Blue;Alpha
+LIGHT;light_t;0.84;0.68;0.26;0.67
+LIGHT;light_b;0.57;0.46;0.27;0.00
+LIGHT;light_s;0.71;0.64;0.56;0.49
+
+// STAR;Variable;Star id;X position;Y position;Z position;Scale;LightRange
+STAR;object;0;0;0;10000;1;10000
+
+// LIFESUPPORT;type;value
+LIFESUPPORT;food;0.8234975
+LIFESUPPORT;water;0.8851087
+LIFESUPPORT;thermal;0.9268559
+LIFESUPPORT;waste;0.85
+
+// STARLIGHT;Variable;Red;Green;Blue;Alpha
+STARLIGHT;color_1;1.00;0.78;0.22;0.20
+STARLIGHT;color_2;0.89;0.53;0.22;0.57
+STARLIGHT;color_3;1.00;0.83;1.00;0.53
+STARLIGHT;color_4;0.98;0.86;0.20;0.83
+STARLIGHT;color_5;0.31;0.28;0.20;0.20
+
+// STATION;Sector filename;X position;Y position;Z position
+STATION;sector_23_station_0.txt;-2852;-162;287
+
+// STRUCTURE;Structure filename;X position;Y position;Z position
+STRUCTURE;structure_habitat_1.txt;-1200;650;-932
+
+// CLUSTER;Resource ID ;Num Resources ;Min Size ;Max Size ;Spread Distance ;Center X;Center Y;Center z
+CLUSTER;5;40;50;200;2500;5667;2;0
+
+// RESOURCE;Resource id;X position;Y position;Z position;Max value;Current value
+RESOURCE;5;3230;-166;-440;200;200
+
+// WARPGATE;Warpgate id ;Sector filename ; Exit Warpgate id;X position ;Y position ;Z position;Toll ;Faction ;Rotation
+WARPGATE;1;sector_22.txt;2;1889;82;-345;0;Alpha;-0.7
+WARPGATE;2;sector_27.txt;1;-1279;-63;3516;0;Alpha;1
+WARPGATE;3;sector_24.txt;2;-2570;974;-2726;0;Alpha;0.3
+
+// PROPS;Prefab Id;Xpos;Ypos;Zpos;Xrot;Yrot;Zrot;param 8;param 9;param 10;param 11;param 12
+PROP;17;0;0;0;0;0;0;0.45,0.42,0.30,0.8;0.35;;;
+PROP;41;0;0;0;337;337;0;//rock cloud;;;;
+PROP;17;5149;0;0;0;0;0;0.45,0.42,0.30,0.8;0.15;;;
+
+// NPC_SHIP;ship_filename;xpos;ypos;zpos;faction_id;level
+NPC_SHIP;npc_ship_data_(excavation_escort_1);-11;-1115;63;8;1
+NPC_SHIP;npc_ship_data_(pirate_carrier_1);-708;-346;611;11;1
+NPC_SHIP;npc_ship_data_(battle_escort_1);-734;-660;-471;2;1
+
+// CRATE ; name ; owner ; class ; capacity ; lifetime ; maxlifetime; credits ; xpos ; ypos ; zpos ; opened ; script_file ; script_id ; mission_key ; id#qty,id#qty

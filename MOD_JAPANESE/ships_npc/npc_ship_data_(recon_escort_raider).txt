@@ -1,0 +1,87 @@
+//; ASTROX IMPERIUM SHIP EDITOR
+//; Jace Masula 2017
+//; -------------------------------SHIP MAIN VARS ----------------------------------
+//; ---------------------------- Variable name, value ------------------------------
+<STATS>
+SHIP_base_level;2
+SHIP_skill_level;1
+SHIP_filename;npc_ship_data_(recon_escort_raider)
+SHIP_faction_id;0
+SHIP_name;RE-1 Light Raider
+SHIP_class;Escort
+SHIP_base_shield;200
+SHIP_base_armor;200
+SHIP_base_energy;200
+SHIP_base_cargo;200
+SHIP_base_speed;0
+SHIP_base_thrust;125
+SHIP_base_mass;75
+SHIP_base_turn;0.75
+SHIP_collider_x;1.5
+SHIP_collider_y;1
+SHIP_collider_z;5
+SHIP_active_slots;2
+SHIP_passive_slots;2
+SHIP_base_lifesupport;200
+SHIP_base_engine_burn; 0.40
+SHIP_base_recharge;0.85
+SHIP_base_scan_speed;5.0
+SHIP_base_scan_max_targets;4
+SHIP_base_scan_pulserange;5000
+SHIP_base_scan_pulsespeed;10
+SHIP_type;Recon
+SHIP_base_price;5209
+SHIP_description;A basic low level Recon ship.
+SHIP_impact_resistance;0.5
+SHIP_energy_resistance;0.1
+SHIP_explosive_resistance;0.1
+SHIP_engine_color; 1.0 ; 0.46 ; 0.19 ; 1.0
+SHIP_manufacturer;Alpharis Inc.
+SHIP_manufacturer_icon;icon_alpharis.png
+SHIP_shield;0
+SHIP_armor;0
+SHIP_energy;0
+SHIP_ls_food;0
+SHIP_ls_water;0
+SHIP_ls_thermal;0
+SHIP_ls_waste;0
+SHIP_base_drones;0
+//merc stuff
+SHIP_owner;none
+SHIP_xp;0
+SHIP_next_level_xp;1000
+SHIP_level;1
+SHIP_talent;Raider
+SHIP_loyalty;10
+SHIP_payroll;100
+SHIP_pilot_face_1;
+SHIP_pilot_face_2;
+//; --------------------------------- SHIP PARTS -----------------------------------
+//; --------------- ITEM,type,catID,pfID,xp,yp,zp,xr,yr,zr--------------------------
+<ITEM>
+ITEM;wing_9;0; 74 ;-0.68;0.30;-1.02;0.00;0.00;180.00
+ITEM;wing_9;0; 74 ;0.78;0.30;-1.02;0.00;0.00;0.00
+ITEM;Hull_small_8; 4 ; 3 ;0.0;0.0;0.0;0.00;0.00;0.00
+ITEM;engine_4; 4 ;34;-0.97;-0.20;-2.13;0.00;0.00;0.00
+ITEM;engine_4; 4 ;34;0.97;-0.15;-2.11;0.00;0.00;0.00
+ITEM;command_4; 1 ;24;0.00;0.03;1.87;0.00;0.00;90.00
+//; ----------------------------- SHIP CAMERA SLOTS --------------------------------
+//; -------------- PILOTCAM,name,SLOTid,model_id,xp,yp,zp,xr,yr,zr--------------------
+<PILOTCAM>
+PILOTCAM;pilot_cam; 5 ; 98 ;0.00;0.11;3.24;0.00;0.00;0.00
+//; ----------------------------- SHIP MODULE SLOTS --------------------------------
+//; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr---------------------------
+<MODSLOT>
+MODSLOT;module_slot;1; 99 ;-0.52;0.15;1.00;0.00;0.00;90.00
+MODSLOT;module_slot;2; 99 ;0.59;0.14;0.98;0.00;0.00;270.00
+//; ----------------------------- SHIP MODULES --------------------------------------
+//; ----- MODULE,slot,module_id
+<MODULE>
+MODULE; 1 ; 1102
+MODULE; 2 ; 1067
+//; ----------------------------- SHIP CARGO -----------------------------------------
+//; ----- CARGO, qty, cargo_id
+<CARGO>
+CARGO; 100 ; 60
+CARGO; 2 ; 701
+CARGO; 2 ; 703

@@ -1,0 +1,95 @@
+// SECTOR;Variable;Value
+SECTOR;id;44
+SECTOR;name;Xenilo Valley
+SECTOR;level;1.0
+SECTOR;faction;Law
+SECTOR;filename;sector_44.txt
+SECTOR;is_explored;False
+SECTOR;energy;20
+SECTOR;population;20
+SECTOR;habitation;20
+SECTOR;farming;20
+SECTOR;economy;20
+SECTOR;production;20
+SECTOR;defense;20
+SECTOR;environment;20
+SECTOR;event_type;null
+
+// SECTORXYZ;Variable;Value
+SECTORXYZ;location;-581.7029;212.1181;1538.187
+
+// FOG;Variable;Value
+FOG;foggy;True
+FOG;distance;0.00239845
+FOG;alpha;0.3960085
+FOG;color_1;0.26;0.19;0.07;0.35
+FOG;color_2;0.23;0.00;0.00;0.35
+
+// NEBULA;Variable;Cloud id;Red;Green;Blue;Alpha;Size;Rotation
+NEBULA;cloud_1;2;0.29;0.25;0.32;0.26;50000;1
+NEBULA;cloud_2;2;1.00;0.60;0.63;0.13;50000;3
+NEBULA;cloud_3;2;0.80;0.56;0.24;0.17;50000;4
+NEBULA;cloud_4;4;1.00;0.70;0.27;0.55;50000;5
+NEBULA;cloud_5;5;0.62;1.00;0.67;0.00;50000;5
+NEBULA;cloud_6;6;0.00;0.00;0.00;0.00;50000;5
+NEBULA;cloud_7;7;0.00;0.21;0.18;0.00;50000;5
+NEBULA;cloud_8;8;0.43;0.69;0.91;0.00;50000;0
+NEBULA;cloud_9;9;0.94;0.55;0.30;0.00;50000;4
+NEBULA;cloud_10;10;1.00;0.86;1.00;0.00;50000;2
+NEBULA;cloud_11;11;0.13;0.43;0.76;0.00;50000;3
+NEBULA;cloud_12;12;1.00;1.00;0.98;0.00;50000;5
+
+// LIGHT;Variable;Red;Green;Blue;Alpha
+LIGHT;light_t;0.54;0.54;0.54;0.13
+LIGHT;light_b;0.53;0.52;0.51;0.11
+LIGHT;light_s;0.25;0.49;0.60;0.29
+
+// STAR;Variable;Star id;X position;Y position;Z position;
+STAR;object;1;0;0;10000;1.0;10000
+
+// LIFESUPPORT;type;value
+LIFESUPPORT;food;1.846097
+LIFESUPPORT;water;1.95
+LIFESUPPORT;thermal;1.786646
+LIFESUPPORT;waste;1.791468
+
+// STARLIGHT;Variable;Red;Green;Blue;Alpha
+STARLIGHT;color_1;0.16;0.15;0.32;1.00
+STARLIGHT;color_2;1.00;0.16;0.00;0.02
+STARLIGHT;color_3;0.80;0.39;0.22;1.00
+STARLIGHT;color_4;1.00;0.48;0.00;1.00
+STARLIGHT;color_5;1.00;0.41;0.00;1.00
+
+// STATION;Sector filename;X poisition;Y position;Z position
+STATION;sector_44_station_0.txt;-508.7;-1584.6;-2829.7
+
+// STRUCTURE;Sector filename;X poisition;Y position;Z position
+STRUCTURE;structure_habitat_1.txt;-905.10;-950.10;-2670.10
+
+// CLUSTER;Resource ID ;Num Resources ;Min Size ;Max Size ;Spread Distance ;Center X;Center Y;Center z
+CLUSTER;5;15;100;1000;3000;0;0;0;
+CLUSTER;20;15;100;1000;3000;0;0;0;
+
+// RESOURCE;Resource id;X position;Y position;Z position;Max value;Current value
+RESOURCE;1;1219.9;341.0;-99.5;200;38
+
+// WARPGATE;Warpgate id ;Sector filename ; Exit Warpgate id;X position ;Y position ;Z position;Toll ;Faction ;Rotation;
+WARPGATE;1;sector_43.txt;1;581.7;292.0;2483.8;0;law;0.0
+WARPGATE;2;sector_49.txt;1;1859.0;9.8;-1025.7;0;law;0.0
+WARPGATE;3;sector_45.txt;2;-1779.4;11.0;-2675.6;0;law;0.0
+
+// PROPS;Prefab Id;Xpos;Ypos;Zpos;Xrot;Yrot;Zrot;Value 1
+//PROP;0;0;0;0;0;0;0;lightning 1
+PROP;17;1000;4000;1000;0;0;0;0.15,0.32,0.30,0.22;//fog
+
+// NPC_SHIP;ship_filename;xpos;ypos;zpos;faction_id;level
+NPC_SHIP;npc_ship_data_(battle_utility_1);-204.05;-178.72;918.73;1;7
+NPC_SHIP;npc_ship_data_(transport_escort_1);472.46;-1086.42;-138.41;10;8
+NPC_SHIP;npc_ship_data_(recon_shuttle_1);619.82;318.85;848.62;10;2
+NPC_SHIP;npc_ship_data_(battle_utility_1);-207.71;1048.50;916.85;10;10
+NPC_SHIP;npc_ship_data_(excavation_frigate_1);544.79;1350.39;-138.65;2;4
+NPC_SHIP;npc_ship_data_(excavation_frigate_1);-194.67;-921.49;-155.50;4;3
+NPC_SHIP;npc_ship_data_(excavation_carrier_1);-600.24;717.00;606.10;4;8
+
+
+// CRATE ; name ; owner ; class ; capacity ; lifetime ; maxlifetime; credits ; xpos ; ypos ; zpos ; opened ; script_file ; script_id ; mission_key ; id#qty,id#qty

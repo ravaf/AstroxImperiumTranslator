@@ -1,0 +1,73 @@
+// STATION DATA (Astrox Imperium) 
+// STATION;variable;value
+STATION;id;0
+STATION;name;<STATION_NAME>
+STATION;type;<STATION_TYPE>
+STATION;owner;<STATION_OWNER>
+STATION;faction;<STATION_FACTION>
+STATION;material;station_material_Alpha.png
+STATION;color;1 , .46, .19, 1
+STATION;level;<STATION_LEVEL>
+STATION;icon;<STATION_ICON>
+STATION;filename;<STATION_FILENAME>
+STATION;max_hp;25000
+STATION;dockfee;0
+STATION;lease;30
+STATION;seed;4-7-0-0-5-2-9-1-2-6-3-1-1-5-4-1-2-1-4-4-0-4-0
+STATION;interior_seed;0-0-15-8
+STATION;refinery_active_time;0
+STATION;fabricator_active_time;0
+STATION;last_dock_time;0
+STATION;is_capitol;False
+
+// SERVICES;servicename;bool
+SERVICES;lounge;False
+SERVICES;market;False
+SERVICES;refinery;False
+SERVICES;garage;False
+SERVICES;university;False
+SERVICES;hangar;False
+SERVICES;storage;False
+SERVICES;fabricator;False
+SERVICES;contracts;False
+SERVICES;admin;True
+
+// ENTERTAINMENT;title;bonus morale, bonus loyalty;price;type;image;description
+<ENTERTAINMENT>
+<ENTERTAINMENT_ITEMS>
+</ENTERTAINMENT>
+
+// MERC;level;Price_modifier;Ship_filename
+<MERC>
+MERC;1;1.63;npc_ship_data_(recon_shuttle_1).txt
+MERC;3;1.63;npc_ship_data_(recon_escort_1).txt
+MERC;9;1.93;npc_ship_data_(recon_utility_1).txt
+MERC;12;1.23;npc_ship_data_(recon_utility_2).txt
+MERC;15;1.47;npc_ship_data_(recon_frigate_1).txt
+</MERC>
+
+// MARKET;Item_id;Qty;Price_modifier
+<MARKET>
+<MARKET_ITEMS>
+</MARKET>
+
+// SKILLS;Skill_id;Price_modifier
+<SKILLS>
+<SKILLS_ITEMS>
+</SKILLS>
+
+// MISSION , dbid , timer, id, data, title, factionid
+<MISSIONS>
+</MISSIONS>
+
+// SHIP HANGAR;count;Price_modifier;Ship_filename
+<HANGAR>
+<HANGAR_ITEMS>
+</HANGAR>
+
+// OFFICES;office_name;npc_name;faction_id;faction_req;level;img;scripting_file;scripting_id;
+<OFFICE>
+</OFFICE>
+
+// STORAGE;item_id;Qty;0
+<STORAGE>

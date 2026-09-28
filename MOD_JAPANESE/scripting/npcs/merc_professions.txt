@@ -1,0 +1,20 @@
+//; ASTROX IMPERIUM : MERC SPECIALTY DATABASE : JACE MASULA 2019
+
+// SKILLS --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// 0	1				2					3 				4				5														6				7					8			9 			10			
+//		SPECIALTY		SPECIALTY			SPECIALTY		SPECIALTY		MORALE 													SPECIALTY		SPECIALTY			EXTRA		EXTRA		EXTRA		
+//		ID				NAME				TYPE			CLASS			BONUS / PENALTY											FACTION			IMAGE				A			B			C			
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// 																			minerock , killpilot , killraider , newsector, marketbso , salvage , MDelivery , MCollect , MTransport , MScan , MHarvest , MEscort , MRecover , MKill , MKillRecover , MKillRaiders , MDialog
+PROF;	0;				;Miner				;Excavation		;none			; 0.0 , 0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0				1				blank.png			null		null		null	
+PROF;	1;				;Bounty Hunter		;Law			;none			; 0.0 , 0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0				1				blank.png			null		null		null	
+PROF;	2;				;Assassin			;Excavation		;none			; 0.0 , 0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0				1				blank.png			null		null		null	
+PROF;	3;				;Explorer			;Excavation		;none			; 0.0 , 0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0				1				blank.png			null		null		null	
+PROF;	4;				;Adventurer			;Excavation		;none			; 0.0 , 0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0				1				blank.png			null		null		null	
+PROF;	5;				;Trader				;Excavation		;none			; 0.0 , 0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0				1				blank.png			null		null		null
+PROF;	6;				;Transporter		;Excavation		;none			; 0.0 , 0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0				1				blank.png			null		null		null	
+PROF;	7;				;Salvager			;Excavation		;none			; 0.0 , 0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0				1				blank.png			null		null		null	
+PROF;	8;				;Freelancer			;Excavation		;none			; 0.0 , 0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0				1				blank.png			null		null		null	
+PROF;	9;				;Surveyor			;Excavation		;none			; 0.0 , 0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0				1				blank.png			null		null		null	
+PROF;	10;				;Scout				;Excavation		;none			; 0.0 , 0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0				1				blank.png			null		null		null	

@@ -1,0 +1,137 @@
+// STRUCTURE DATA (Astrox Imperium) 
+// STRUCTURE;variable;value
+
+STRUCTURE;id;1
+STRUCTURE;name;Generic Construction Platform
+STRUCTURE;type;Platform
+STRUCTURE;desc;The construction platform is used as a base foundation for all structures in the Astrox universe. Once the Construction Platform has been assembled, materials can be delivered to the platform for upgrades and construction.
+STRUCTURE;class;Generic
+STRUCTURE;owner;Player
+STRUCTURE;faction;Trade
+STRUCTURE;faction_id;4
+STRUCTURE;material;station_material_Labor.png
+STRUCTURE;color;1 , .46, .19, 1
+STRUCTURE;interior_mat_color;1 , .46, .19, 1
+STRUCTURE;interior_emm_color;1 , 0, 0, 1
+STRUCTURE;interior_win_color;1 , 0, 1, 0.5
+STRUCTURE;level;1
+STRUCTURE;model_prefab_id;13
+STRUCTURE;icon_filename;structure_platform_1.png
+STRUCTURE;filename;structure_platform_1.txt
+STRUCTURE;max_hp;5000
+STRUCTURE;hp;5000
+STRUCTURE;effect;none
+STRUCTURE;effect_range;1.0
+STRUCTURE;effect_value;0.0
+STRUCTURE;usefee;0.0
+STRUCTURE;default_script_file;none
+STRUCTURE;default_script_id;0
+STRUCTURE;sector_effect;production#1
+STRUCTURE;sector_name;<SECTORNAME>
+
+STRUCTURE;gen_power;false
+STRUCTURE;gen_power_rate;0
+STRUCTURE;power_points;1000
+STRUCTURE;power_points_max;1000
+STRUCTURE;power_drain;1.5
+STRUCTURE;is_raider;false
+STRUCTURE;is_law;false
+STRUCTURE;is_dockable;true
+STRUCTURE;btn_undock;true
+
+STRUCTURE;cargo_max;1000
+STRUCTURE;upgrade_timer;0
+STRUCTURE;upgrade_file;null
+
+INTERIOR;12;1,1;0;1,1,1,1
+
+//; ----------------------------- STRUCTURE INTERIOR PARTS-------------------------------
+//; ----------------------- PART,prefab_id;name,xp,yp,zp,xr,yr,zr,a1,b2
+<PARTS>
+PART;6;Corner;18.00;-0.25;18.00;0.00;0.00;0.00;null;null;null;null;null;null;null;null
+PART;6;Corner;18.00;-0.25;18.00;0.00;90.00;0.00;null;null;null;null;null;null;null;null
+PART;6;Corner;18.00;-0.25;18.00;0.00;180.00;0.00;null;null;null;null;null;null;null;null
+PART;6;Corner;18.00;-0.25;18.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;64;Pillar;10.00;-0.25;20.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;64;Pillar;10.00;-0.25;16.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;64;Pillar;16.00;-0.25;26.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;64;Pillar;20.00;-0.25;26.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;64;Pillar;26.00;-0.25;20.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;64;Pillar;26.00;-0.25;16.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;64;Pillar;20.00;-0.25;10.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;64;Pillar;16.00;-0.25;10.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;66;Pillar;16.00;-0.25;20.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;66;Pillar;16.00;-0.25;16.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;66;Pillar;20.00;-0.25;16.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;66;Pillar;20.00;-0.25;20.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;103;Wall;20.00;3.75;13.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;103;Wall;16.00;3.75;13.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;103;Wall;16.00;3.75;23.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;103;Wall;20.00;3.75;23.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;103;Wall;13.00;3.75;16.00;0.00;0.00;0.00;null;null;null;null;null;null;null;null
+PART;103;Wall;13.00;3.75;20.00;0.00;0.00;0.00;null;null;null;null;null;null;null;null
+PART;103;Wall;23.00;3.75;20.00;0.00;0.00;0.00;null;null;null;null;null;null;null;null
+PART;103;Wall;23.00;3.75;16.00;0.00;0.00;0.00;null;null;null;null;null;null;null;null
+PART;109;Wall;26.00;2.75;18.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;109;Wall;18.00;2.75;26.00;0.00;180.00;0.00;null;null;null;null;null;null;null;null
+PART;109;Wall;18.00;2.75;10.00;0.00;0.00;0.00;null;null;null;null;null;null;null;null
+PART;192;Prop;20.00;3.75;14.00;0.00;0.00;0.00;null;null;null;null;null;null;null;null
+PART;192;Prop;22.00;3.75;20.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;192;Prop;16.00;3.75;22.00;0.00;180.00;0.00;null;null;null;null;null;null;null;null
+PART;192;Prop;14.00;3.75;16.00;0.00;90.00;0.00;null;null;null;null;null;null;null;null
+PART;190;Prop;18.00;3.75;14.00;0.00;0.00;0.00;null;null;null;null;null;null;null;null
+PART;190;Prop;22.00;3.75;18.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;190;Prop;18.00;3.75;22.00;0.00;180.00;0.00;null;null;null;null;null;null;null;null
+PART;190;Prop;14.00;3.75;18.00;0.00;90.00;0.00;null;null;null;null;null;null;null;null
+PART;12;Corner;16.00;3.75;20.00;0.00;0.00;0.00;null;null;null;null;null;null;null;null
+PART;12;Corner;16.00;3.75;16.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;12;Corner;20.00;3.75;16.00;0.00;180.00;0.00;null;null;null;null;null;null;null;null
+PART;12;Corner;20.00;3.75;20.00;0.00;90.00;0.00;null;null;null;null;null;null;null;null
+PART;17;Doors;24.00;-0.25;21.00;0.00;225.00;0.00;Unlocked;null;null;null;null;null;null;null
+PART;17;Doors;21.00;-0.25;24.00;0.00;225.00;0.00;Unlocked;null;null;null;null;null;null;null
+PART;17;Doors;15.00;-0.25;24.00;0.00;315.00;0.00;Unlocked;null;null;null;null;null;null;null
+PART;17;Doors;12.00;-0.25;21.00;0.00;315.00;0.00;Unlocked;null;null;null;null;null;null;null
+PART;17;Doors;12.00;-0.25;15.00;0.00;45.00;0.00;Unlocked;null;null;null;null;null;null;null
+PART;17;Doors;15.00;-0.25;12.00;0.00;45.00;0.00;Unlocked;null;null;null;null;null;null;null
+PART;17;Doors;21.00;-0.25;12.00;0.00;135.00;0.00;Unlocked;null;null;null;null;null;null;null
+PART;17;Doors;24.00;-0.25;15.00;0.00;135.00;0.00;Unlocked;null;null;null;null;null;null;null
+PART;19;Doors;26.00;-0.25;18.00;0.00;270.00;0.00;Unlocked;null;null;null;null;null;null;null
+PART;19;Doors;18.00;-0.25;26.00;0.00;0.00;0.00;Unlocked;null;null;null;null;null;null;null
+PART;19;Doors;8.00;-0.25;20.00;0.00;0.00;0.00;Unlocked;null;null;null;null;null;null;null
+PART;20;Doors;10.00;-0.25;18.00;0.00;90.00;0.00;Unlocked;null;null;null;null;null;null;null
+PART;44;Ground;8.00;-0.25;18.00;0.00;90.00;0.00;null;null;null;null;null;null;null;null
+PART;57;Ground;14.00;3.75;18.00;0.00;180.00;0.00;null;null;null;null;null;null;null;null
+PART;57;Ground;18.00;3.75;18.00;0.00;180.00;0.00;null;null;null;null;null;null;null;null
+PART;57;Ground;22.00;3.75;18.00;0.00;180.00;0.00;null;null;null;null;null;null;null;null
+PART;57;Ground;18.00;3.75;14.00;0.00;180.00;0.00;null;null;null;null;null;null;null;null
+PART;57;Ground;18.00;3.75;22.00;0.00;180.00;0.00;null;null;null;null;null;null;null;null
+PART;57;Ground;10.00;3.75;18.00;0.00;180.00;0.00;null;null;null;null;null;null;null;null
+PART;123;Wall;26.00;3.75;18.00;90.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;123;Wall;18.00;3.75;26.00;90.00;180.00;0.00;null;null;null;null;null;null;null;null
+PART;123;Wall;6.00;3.75;18.00;90.00;90.00;0.00;null;null;null;null;null;null;null;null
+PART;123;Wall;18.00;3.75;10.00;90.00;0.00;0.00;null;null;null;null;null;null;null;null
+PART;188;Prop;18.00;-0.25;11.00;0.00;0.00;0.00;null;null;null;null;null;null;null;null
+PART;1;Clamp;8.00;-0.25;18.00;0.00;315.00;0.00;START;null;null;null;null;null;null;null
+PART;205;Light;0.00;0.00;0.00;0.00;0.00;0.00;0.7,0.9, 0.6;1.0;10.0;2;4.0;5.0;1.0;null
+PART;205;Light;12.00;3.50;18.00;0.00;135.00;0.00;0.7,0.9, 0.6;1.0;10.0;2;4.0;5.0;1.0;null
+PART;204;Light;23.00;3.50;18.00;0.00;135.00;0.00;1.0, 1.0, 1.0;1.0;10.0;4.0;4.0;5.0;1.0;null
+PART;19;Doors;8.00;-0.25;16.00;0.00;0.00;0.00;Unlocked;null;null;null;null;null;null;null
+PART;19;Doors;6.00;-0.25;18.25;0.00;270.00;0.00;Unlocked;null;null;null;null;null;null;null
+PART;67;Pillar;13.00;-0.25;13.00;0.00;315.00;0.00;null;null;null;null;null;null;null;null
+PART;67;Pillar;23.00;-0.25;13.00;0.00;315.00;0.00;null;null;null;null;null;null;null;null
+PART;67;Pillar;23.00;-0.25;23.00;0.00;315.00;0.00;null;null;null;null;null;null;null;null
+PART;67;Pillar;13.00;-0.25;23.00;0.00;315.00;0.00;null;null;null;null;null;null;null;null
+</PARTS>
+
+//; ----------------------------- STRUCTURE MODULE SLOTS --------------------------------
+//; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr--------------------------------
+<MODSLOT>
+
+
+//; ----------------------------- STRUCTURE MODULES --------------------------------------
+//; ----- MODULE,slot,module_id
+<MODULE>
+
+//; ----------------------------- STRUCTURE CARGO -----------------------------------------
+//; ----- CARGO, qty, cargo_id
+<CARGO>

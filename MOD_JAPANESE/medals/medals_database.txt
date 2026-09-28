@@ -1,0 +1,61 @@
+//; ASTROX IMPERIUM : MEDALS DATABASE : JACE MASULA 2017 - 2018
+//; keys ( 0-499 )
+
+// ACHIEVEMENT MEDALS -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// 0	1		2										3 				4				5			6					7			8			9 			10		11									12
+//		MEDAL	MEDAL									MEDAL			MEDAL			SUB			MEDAL				CREDIT		SKILL		MEDAL		MEDAL	MEDAL REQUIREMENT					ITEM
+//		ID		TITLE									TYPE			CLASS			CLASS		IMAGE				REWARD		REWARD		extra		LEVEL	(statID:op:value)					DESCRIPTION
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+MEDAL;	7;		First Raider Destroyed;					Combat;			Mission;		null;		medal_12.png;		1500;		12;			0;			1;		60#>#1;								Awarded for destroying your first raider in combat. 
+MEDAL;	8;		First Mission Completed;				Excavation;		Mission;		null;		medal_17.png;		1500;		12;			0;			1;		26#>#1;								Awarded for the successful completion of your very first Mission. 
+MEDAL;	9;		First 100 Adamyte Ore Mined;			Excavation;		Resource;		null;		medal_3.png;		1500;		12;			0;			1;		11#>#100;							Awarded for the successful excavation of 100 units of Adamyte. 
+
+MEDAL;	10;		Projectile Operations Officer;			Combat;			Gun;			null;		medal_1a.png;		15000;		25;			0;			1;		1#>#2000;							Awarded for the successful operation of a Projectile Active Weapon module for 2,000 cycles.
+MEDAL;	11;		Laser Operations Officer;				Combat;			Laser;			null;		medal_1b.png;		15000;		25;			0;			1;		2#>#2000;							Awarded for the successful operation of a Laser Active Weapon module for 2,000 cycles.
+MEDAL;	12;		Beam Operations Officer;				Combat;			Beam;			null;		medal_1c.png;		15000;		25;			0;			1;		3#>#2000;							Awarded for the successful operation of a Ion Beam Active Weapon module for 2,000 cycles.
+MEDAL;	13;		Launcher Operations Officer;			Combat;			Missile;		null;		medal_1d.png;		15000;		25;			0;			1;		4#>#2000;							Awarded for the successful operation of a Missile Launcher Active Weapons module for 2,000 cycles.
+MEDAL;	14;		Torpedo Operations Officer;				Combat;			Torpedo;		null;		medal_1.png;		15000;		25;			0;			1;		5#>#2000;							Awarded for the successful operation of a Torpedo Active Weapons module for 2,000 cycles.
+MEDAL;	15;		Excavation Operations Officer;			Excavation;		Salvage;		null;		medal_2a.png;		15000;		25;			0;			1;		10#>#2000;							Awarded for the successful operation of a Mining beam module for 2,000 cycles.
+MEDAL;	16;		Salvage Operations Officer;				Excavation;		Salvage;		null;		medal_2b.png;		15000;		25;			0;			1;		6#>#2000;							Awarded for the successful operation of a Salvage Active module for 2,000 cycles.
+
+MEDAL;	20;		Adamyte Excavation Engineer;			Excavation;		Resource;		null;		medal_3a.png;		50000;		20;			0;			1;		11#>#20000;							Awarded for the successful excavation of 20,000 units of Adamyte.
+MEDAL;	21;		Gradeon Excavation Engineer;			Excavation;		Resource;		null;		medal_3b.png;		50000;		20;			0;			1;		12#>#20000;							Awarded for the successful excavation of 20,000 units of Gradeon.
+MEDAL;	22;		Quazor Excavation Engineer;				Excavation;		Resource;		null;		medal_3c.png;		50000;		20;			0;			1;		13#>#20000;							Awarded for the successful excavation of 20,000 units of Quazor.
+MEDAL;	23;		Lokken Excavation Engineer;				Excavation;		Resource;		null;		medal_3d.png;		50000;		20;			0;			1;		14#>#20000;							Awarded for the successful excavation of 20,000 units of Lokken.
+MEDAL;	24;		Torim Excavation Engineer;				Excavation;		Resource;		null;		medal_3e.png;		50000;		20;			0;			1;		15#>#20000;							Awarded for the successful excavation of 20,000 units of Torim.
+MEDAL;	25;		Plasite Excavation Engineer;			Excavation;		Resource;		null;		medal_3f.png;		50000;		20;			0;			1;		16#>#20000;							Awarded for the successful excavation of 20,000 units of Plasite.
+MEDAL;	26;		Dynex Excavation Engineer;				Excavation;		Resource;		null;		medal_3g.png;		50000;		20;			0;			1;		17#>#20000;							Awarded for the successful excavation of 20,000 units of Dynex.
+MEDAL;	27;		Belasite Excavation Engineer;			Excavation;		Resource;		null;		medal_3h.png;		50000;		20;			0;			1;		18#>#20000;							Awarded for the successful excavation of 20,000 units of Belasite.
+MEDAL;	28;		Xenox Excavation Engineer;				Excavation;		Resource;		null;		medal_3i.png;		50000;		20;			0;			1;		19#>#20000;							Awarded for the successful excavation of 20,000 units of Xenox.
+MEDAL;	29;		Zai Excavation Engineer;				Excavation;		Resource;		null;		medal_3j.png;		50000;		20;			0;			1;		20#>#20000;							Awarded for the successful excavation of 20,000 units of Zai.
+MEDAL;	30;		Electron Orb Excavation Engineer;		Excavation;		Resource;		null;		medal_3k.png;		50000;		20;			0;			1;		21#>#20000;							Awarded for the successful excavation of 20,000 units of Electron Orb.
+MEDAL;	31;		Junk Recovery Technician;				Excavation;		Salvage;		null;		medal_4a.png;		50000;		20;			0;			1;		22#>#20000;							Awarded for the successful recovery of 20,000 units of Junk.
+MEDAL;	32;		Scrap Recovery Technician;				Excavation;		Salvage;		null;		medal_4b.png;		50000;		20;			0;			1;		23#>#20000;							Awarded for the successful recovery of 20,000 units of Scrap.
+MEDAL;	33;		Fragment Recovery Technician;			Excavation;		Salvage;		null;		medal_4c.png;		50000;		20;			0;			1;		24#>#20000;							Awarded for the successful recovery of 20,000 units of Salvage.
+MEDAL;	34;		Derelict Recovery Technician;			Excavation;		Salvage;		null;		medal_4d.png;		50000;		20;			0;			1;		25#>#20000;							Awarded for the successful recovery of 20,000 units of Derelicts.
+
+MEDAL;	35;		Exploration Assistant;					Navigation;		Explorer;		null;		medal_5a.png;		25000;		20;			0;			1;		38#>#25;							Awarded for the successful exploration of 25 uncharted Sectors.
+MEDAL;	36;		Exploration Officer;					Navigation;		Explorer;		null;		medal_5b.png;		200000;		40;			0;			2;		38#>#50;							Awarded for the successful exploration of 50 uncharted Sectors.
+MEDAL;	37;		Exploration Cartographer;				Navigation;		Explorer;		null;		medal_5c.png;		1000000;	100;		0;			3;		38#>#100;							Awarded for the successful exploration of 100 uncharted Sectors.
+MEDAL;	38;		Warpgate Officer;						Navigation;		Warpgate;		null;		medal_5d.png;		25000;		25;			0;			1;		39#>#500;							Awarded for jumping through 500 warpgate successfully.
+
+MEDAL;	40;		Academic Scholar;						Academic;		Skills;			null;		medal_6a.png;		30000;		20;			0;			1;		50#>#50;							Awarded for training 50 levels of various skills.
+MEDAL;	41;		Academic Cybermind;						Academic;		Skills;			null;		medal_6b.png;		60000;		30;			0;			2;		50#>#200;							Awarded for training 200 levels of various skills.
+
+MEDAL;	50;		Demolition Assistant;					Combat;			Structures;		null;		medal_7a.png;		150000;		50;			0;			2;		58#>#25;							Awarded for destroying 25 public Structures.
+MEDAL;	51;		Demolition Officer;						Combat;			Structures;		null;		medal_7b.png;		300000;		50;			0;			2;		58#>#100;							Awarded for destroying 100 public Structures.
+MEDAL;	52;		Demolition Expert;						Combat;			Structures;		null;		medal_7c.png;		600000;		50;			0;			2;		58#>#250;							Awarded for destroying 250 public Structures.
+MEDAL;	53;		Pilot Jacker;							Combat;			vs Npcs;		null;		medal_8a.png;		100000;		50;			0;			2;		59#>#100;							Awarded for destroying 100 harmless NPCs.
+MEDAL;	54;		Pilot Hunter;							Combat;			vs Npcs;		null;		medal_8b.png;		500000;		50;			0;			2;		59#>#500;							Awarded for destroying 500 harmless NPCs.
+MEDAL;	55;		Pilot Assassin;							Combat;			vs Npcs;		null;		medal_8c.png;		1000000;	50;			0;			2;		59#>#1000;							Awarded for destroying 1000 harmless NPCs.
+MEDAL;	56;		Raider Jacker;							Combat;			vs Raiders;		null;		medal_9a.png;		100000;		50;			0;			2;		60#>#100;							Awarded for destroying 100 aggressive Raiders.
+MEDAL;	57;		Raider Hunter;							Combat;			vs Raiders;		null;		medal_9b.png;		500000;		50;			0;			2;		60#>#500;							Awarded for destroying 500 aggressive Raiders.
+MEDAL;	58;		Raider Assassin;						Combat;			vs Raiders;		null;		medal_9c.png;		1000000;	50;			0;			2;		60#>#1000;							Awarded for destroying 1000 aggressive Raiders.
+
+MEDAL;	60;		Projectile Damage Officer;				Combat;			Gun;			null;		medal_10a.png;		25000;		25;			0;			1;		61#>#20000;							Awarded for the successful mitigation of Projectile Active Weapon damage for 20,000 points.
+MEDAL;	61;		Laser Damage Officer;					Combat;			Laser;			null;		medal_10b.png;		25000;		25;			0;			1;		62#>#20000;							Awarded for the successful mitigation of Laser Active Weapon damage for 20,000 points.
+MEDAL;	62;		Beam Damage Officer;					Combat;			Beam;			null;		medal_10c.png;		25000;		25;			0;			1;		63#>#20000;							Awarded for the successful mitigation of Ion Beam Active Weapon damage for 20,000 points.
+MEDAL;	63;		Launcher Damage Officer;				Combat;			Missile;		null;		medal_10d.png;		25000;		25;			0;			1;		64#>#20000;							Awarded for the successful mitigation of Missile Launcher Active Weapons damage for 20,000 points.
+MEDAL;	64;		Torpedo Damage Officer;					Combat;			Torpedo;		null;		medal_10e.png;		25000;		25;			0;			1;		65#>#20000;							Awarded for the successful mitigation of Torpedo Active Weapons damage for 20,000 points.

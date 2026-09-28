@@ -1,0 +1,120 @@
+//; ASTROX IMPERIUM SHIP EDITOR
+//; Jace Masula 2017
+//; -------------------------------SHIP MAIN VARS ----------------------------------
+//; ---------------------------- Variable name, value ------------------------------
+<STATS>
+SHIP_base_level;6
+SHIP_skill_level;1
+SHIP_filename;npc_ship_data_(transport_carrier_1)
+SHIP_faction_id;0
+SHIP_name;TCA-1 Mule
+SHIP_class;Carrier
+SHIP_base_shield;3179
+SHIP_base_armor;3233
+SHIP_base_energy;3126
+SHIP_base_cargo;3288
+SHIP_base_speed;0
+SHIP_base_turn;0.34
+SHIP_base_thrust;249
+SHIP_base_mass;194
+SHIP_collider_x;2
+SHIP_collider_y;4
+SHIP_collider_z;14
+SHIP_active_slots;8
+SHIP_passive_slots;8
+SHIP_base_lifesupport;508
+SHIP_base_engine_burn;0.41
+SHIP_base_recharge;0.39
+SHIP_base_shield_recharge;3.5
+SHIP_base_scan_speed;5.00
+SHIP_base_scan_max_targets;9
+SHIP_base_scan_pulserange;5000
+SHIP_base_scan_pulsespeed;10
+SHIP_type;Transport
+SHIP_base_price;6805000
+SHIP_description;Transport ships are used mainly to move goods around the Astrox universe. The cargo bay has been augmented to allow for additional cargo to be carried without the need for external modules.
+SHIP_impact_resistance;0.0
+SHIP_energy_resistance;0.15
+SHIP_explosive_resistance;0.15
+SHIP_material_color_a;1;1;1;1
+SHIP_material_color_b;1;1;1;1
+SHIP_material_texture_a;default_main.png
+SHIP_material_texture_b;default_detail.png
+SHIP_material_texture_c;default_glow.png
+SHIP_engine_color;1;1;1;1
+SHIP_manufacturer;Corelis Inc.
+SHIP_manufacturer_icon;icon_corelis.png
+SHIP_shield;0
+SHIP_armor;0
+SHIP_energy;0
+SHIP_ls_food;0
+SHIP_ls_water;0
+SHIP_ls_thermal;0
+SHIP_ls_waste;0
+SHIP_ls_points;0
+SHIP_base_drones;10
+SHIP_specials_raw;Drone Strength#0.30,Drone Energy#0.50,Drone Range#0.60,Drone Armor#0.05,Drone Speed#0.04,Drone Cargo#1.00
+// merc
+SHIP_owner;none
+SHIP_xp;0
+SHIP_next_level_xp;1000
+SHIP_level;1
+SHIP_talent;Transport
+SHIP_loyalty;10
+SHIP_payroll;300
+//; --------------------------------- SHIP PARTS -----------------------------------
+//; --------------- ITEM,type,catID,pfID,xp,yp,zp,xr,yr,zr-----------------------------
+<ITEM>
+ITEM;wing_2;0; 84 ;-0.22;0.00;0.22;0.00;0.00;0.00
+ITEM;engine_8;0; 38 ;0.00000;0.18538;-10.76115;0.00000;0.00000;90.00000
+ITEM;engine_8;0; 38 ;1.05;-0.90;-7.44;0.00;0.00;90.00
+ITEM;engine_8;0; 38 ;-1.00;-0.90;-7.44;0.00;0.00;90.00
+ITEM;wing_11;0; 79 ;2.79;0.99;-3.39;0.00;180.00;37.14
+ITEM;wing_11;0; 79 ;2.79;0.99;1.15;0.00;180.00;37.14
+ITEM;wing_11;0; 79 ;2.79;0.99;-5.31;0.00;180.00;37.14
+ITEM;wing_11;0; 79 ;2.79;0.99;-0.83;0.00;180.00;37.14
+ITEM;bulk_6; 4 ; 65 ;0.00;0.23;3.46;0.00;0.00;0.00
+ITEM;bulk_11; 4 ; 70 ;0.00;-1.06;-5.22;0.00;90.00;90.00
+ITEM;cargo_1; 4 ; 51 ;0.33;1.55;-2.69;0.00;90.00;0.00
+ITEM;cargo_1; 4 ; 51 ;0.34;1.55;1.80;0.00;90.00;0.00
+ITEM;cargo_1; 4 ; 51 ;0.38;1.55;-0.17;0.00;90.00;0.00
+ITEM;cargo_1; 4 ; 51 ;0.34;1.55;-4.63;0.00;90.00;0.00
+ITEM;bulk_9; 4 ; 68 ;-0.01;0.54;8.62;0.00;0.00;180.00
+ITEM;bulk_9; 4 ; 68 ;0.00;0.57;6.42;0.00;0.00;180.00
+ITEM;hull_main_2; 4 ; 10 ;-0.07;1.51;1.85;0.00;180.00;0.00
+ITEM;hull_main_2; 4 ; 10 ;0.00;1.48;-4.89;0.00;0.00;0.00
+ITEM;command_7; 4 ; 27 ;0.00;0.11;7.73;0.00;0.00;0.00
+ITEM;hull_main_1; 4 ; 12 ;0.00;1.62;-0.53;0.00;0.00;0.00
+ITEM;hull_main_1; 4 ; 12 ;0.00;1.54;-6.49;0.00;0.00;0.00
+//; ----------------------------- SHIP CAMERA SLOTS --------------------------------
+//; -------------- PILOTCAM,name,SLOTid,model_id,xp,yp,zp,xr,yr,zr--------------------
+<PILOTCAM>
+PILOTCAM;pilot_cam; 5 ; 98 ;0.00000;0.42621;10.36604;0.00000;0.00000;0.00000
+//; ----------------------------- SHIP MODULE SLOTS --------------------------------
+//; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr-------------------------------
+<MODSLOT>
+MODSLOT;module_slot;1; 99 ;-0.87536;0.39800;2.69200;0.00000;0.00000;90.00000
+MODSLOT;module_slot;2; 99 ;0.00000;1.63883;8.01215;0.00000;0.00000;0.00000
+MODSLOT;module_slot;3; 99 ;1.41;1.96;-0.13;0.00;0.00;0.00
+MODSLOT;module_slot;4; 99 ;1.42;1.93;1.83;0.00;0.00;0.00
+MODSLOT;module_slot;5; 99 ;-0.04;2.29;3.69;0.00;0.00;0.00
+MODSLOT;module_slot;6; 99 ;-0.04;2.29;-0.08;0.00;0.00;0.00
+MODSLOT;module_slot;7; 99 ;1.42;1.95;-2.64;0.00;0.00;0.00
+MODSLOT;module_slot;8; 99 ;-0.04;2.34;-6.61;0.00;0.00;0.00
+//; ----------------------------- SHIP MODULES --------------------------------------
+//; ----- MODULE,slot,module_id
+<MODULES>
+MODULE;1;1403
+MODULE;2;1211
+MODULE;3;1461
+MODULE;4;1403
+MODULE;5;1202
+MODULE;6;1209
+MODULE;7;1212
+MODULE;8;1207
+
+//; ----------------------------- SHIP CARGO -----------------------------------------
+//; ----- CARGO, qty, cargo_id
+<CARGO>
+CARGO;1;729
+

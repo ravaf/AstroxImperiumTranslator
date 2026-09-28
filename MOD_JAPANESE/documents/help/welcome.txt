@@ -1,0 +1,4 @@
+<text size='10' color='white'>
+Welcome to the new Astrox Imperium Help Panel. 
+This panel will soon be filled with a directory of information that is accessible from the small help icon that will appear everywhere throughout the game.
+</text>

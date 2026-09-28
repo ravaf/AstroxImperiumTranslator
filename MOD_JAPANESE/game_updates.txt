@@ -1,0 +1,22 @@
+Build 0.0158a
+The Astrox Imperium project has been updated to 6000.3.3f1
+
+- Major changes to the cloaking systems have been implemented. No longer will nearby objects adjust the rate at which the cloak timer drains.
+- Adjusted ship base energy recharge rates when not cloaked.
+- All active and passive cloak module stats have been adjusted to work better with the new system.
+- Fixed UI Mouse over bug on 'Move to Ship' button on refinery.
+- Fixed UI Mouse over bug on 'Move to Cargo Storage' button on refinery.
+- Fixed firing of mining modules at some salvage objects.
+- Fixed bad UI mouse over tooltip text on Pilot panel (Edit Face Details).
+- Fixed bug where swapping ships at the station via the Ship Dock would cause a wipe of the scanned targeting computer.
+- Fixed Mercs salvage beams from firing at ore targets when Autotask is set to mine ore and the merc has both salvagers and harvesters installed on the ship.
+- Fixed ship box collider error with some modeling components when initializing a new sector.
+- Fixed same box collider error when generating wormhole sectors real time.
+- Adjusted error checking code for generated missions. Optimized to reduce the number of bad generated mission loops with improper objective conditions.
+- Major adjustments to the way MERCS mine / salvage and deliver ore to the player ship and or silo. Mercs will now drop off the ore via a crate in front of the player ship and return to their autotask. (Mining or Salaging in this case). If there is a Silo available, the Merc will deposit the ore to the Silo instead of dropping a crate. The mercs only drop the resources they carry, no ammo or other cargo types will be delivered to the player ship.
+- Adjusted the clamp limits for vertical camera movement while in FPS mode when docked with a structure.
+- Adjusted the AI for non MERCS mining and salvaging.
+- Adjusted the AI for non MERCS ore and salvage deliveries as well as station docking.
+- Adjusted the Pilot screen Face Edit box. I added the ability to swap thru all loaded background on the pilot portrait. All background images are stored on the scripting/npc/faces folder and are named using the bgimg_0 convention. You can add additional images if you wish. Just number them properly and they will auto load into the game upon launch.
+- Adjusted the Tactical HUD for all crates. Tactical HUD now displays the proper lifetime timer for the crate like the targeting hud does. Crates will are now colored light grey and stand out agaisnt the green of live targets.
+- Adjusted flight path movement randomness when warping through long wormholes.

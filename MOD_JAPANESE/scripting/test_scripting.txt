@@ -1,0 +1,21 @@
+//; ASTROX IMPERIUM : SCRIPTING EDITOR : JACE MASULA 2019
+// SCRIPT;	ID;	LABEL;	COMMAND;	CHAIN;	VALUE 1;	VALUE 2;	VALUE 3;	VALUE 4;	VALUE 5;	VALUE 6;	VALUE 7;	VALUE 8	
+// -------------------------------------------------------------------------------------------------------------------------------------
+SCRIPT;		1;		START;		TEXT;		0;		Thanks for watching videos on my channel.;		test_scripting.txt>2>Werd;		null;		null;		null;		null;		null;		null;		122.00;		-116.00
+SCRIPT;		2;		testing image;		UI_SHOWIMAGE;		0;		[yellow][s3]Every ship[/s][/][n] comes equiped with a camera drone. This camera follows your ship at all times, and give the pilot a 3d [n][n][n][s3]view of their[/s] surroundings. Hold down the RIGHT CLICK button on your mouse , while moving it around.[n][n][yellow]Welcome[/] to the newest format preview fromt het scripting edit.[n][n]Hopefully this all works well.;		test_scripting.txt>3>Werd;		200#200#0;		256#256;		station.png;		null;		null;		null;		285.00;		-120.00
+SCRIPT;		3;		testing image;		UI_HIDEIMAGE;		4;		null;		null;		null;		null;		null;		null;		null;		null;		390.00;		-60.00
+SCRIPT;		10;		START;		TEXT;		0;		I am going to perform a timer check. Are you ready?;		test_scripting.txt>200>OK Button Text;		null;		null;		null;		null;		null;		null;		120.08;		-235.00
+SCRIPT;		15;		96657;		SET_TIMER;		20;		test_timer_1;		null;		null;		null;		null;		null;		null;		null;		726.64;		-169.00
+SCRIPT;		20;		Check the Timer?;		OPTION;		0;		I can check to see if the timer has completed. Would you like me to do that?;		test_scripting.txt>25>Nah, just take me back.;		test_scripting.txt>30>Okay, let's check it.;		null;		null;		null;		null;		null;		881.00;		-60.00
+SCRIPT;		25;		NO;		TEXT;		0;		Well, okay then, see ya later.;		test_scripting.txt>0>Bye.;		null;		null;		null;		null;		null;		null;		1031.00;		-153.00
+SCRIPT;		30;		YES;		TEXT;		0;		Okay, I will check the timer to see if enough time has pasted.;		test_scripting.txt>35>Go check it already!;		null;		null;		null;		null;		null;		null;		880.00;		-166.00
+SCRIPT;		35;		cool;		CHECK_TIMER;		0;		test_timer_1;		-;		10;		test_scripting.txt>40;		test_scripting.txt>50;		null;		null;		null;		879.00;		-272.00
+SCRIPT;		4;		18653;		CHECK_VALUE;		0;		var_name;		=;		momoguru;		test_scripting.txt>100>IF TRUE;		test_scripting.txt>110>IF FALSE;		null;		null;		null;		518.00;		-62.00
+SCRIPT;		40;		true;		TEXT;		0;		its true;		test_scripting.txt>35>Check Again;		null;		null;		null;		null;		null;		null;		744.75;		-340.00
+SCRIPT;		50;		false;		TEXT;		0;		its false;		test_scripting.txt>35>Check again;		null;		null;		null;		null;		null;		null;		1032.00;		-345.00
+SCRIPT;		100;		28146;		TEXT;		0;		yay;		test_scripting.txt>0>OK Button Text;		null;		null;		null;		null;		null;		null;		651.00;		-67.00
+SCRIPT;		110;		56528;		TEXT;		0;		awe shit;		test_scripting.txt>120>OK Button Text;		null;		null;		null;		null;		null;		null;		518.00;		-156.00
+SCRIPT;		120;		41414;		ADJ_CREDITS;		0;		gimme 5;		-5;		test_scripting.txt>0>OK Button Text;		null;		null;		null;		null;		null;		518.73;		-246.54
+SCRIPT;		200;		asd;		UI_MOVEBOX;		210;		-200#-200;		null;		null;		null;		null;		null;		null;		null;		287.64;		-239.64
+SCRIPT;		210;		asd;		UI_CHANGEIMAGE;		220;		star.png;		blank.png;		null;		null;		null;		null;		null;		null;		289.01;		-321.04
+SCRIPT;		220;		asd;		TEXT;		0;		All done..;		test_scripting.txt>0>ok;		null;		null;		null;		null;		null;		null;		290.87;		-403.44

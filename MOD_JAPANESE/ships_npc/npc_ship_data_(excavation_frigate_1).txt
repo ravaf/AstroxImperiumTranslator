@@ -1,0 +1,102 @@
+//; ASTROX IMPERIUM SHIP EDITOR
+//; Jace Masula 2017
+//; -------------------------------SHIP MAIN VARS ----------------------------------
+//; ---------------------------- Variable name, value ------------------------------
+<STATS>
+SHIP_base_level;4
+SHIP_skill_level;1
+SHIP_filename;npc_ship_data_(excavation_frigate_1)
+SHIP_faction_id;0
+SHIP_name;EF-1 Mining Frigate
+SHIP_class;Frigate
+SHIP_base_shield;1200
+SHIP_base_armor;250
+SHIP_base_energy;2100
+SHIP_base_cargo;1545
+SHIP_base_speed;0
+SHIP_base_turn;0.43
+SHIP_base_thrust;205
+SHIP_base_mass;125
+SHIP_collider_x;1.2
+SHIP_collider_y;1.5
+SHIP_collider_z;8
+SHIP_active_slots;5
+SHIP_passive_slots;7
+SHIP_base_lifesupport;386
+SHIP_base_engine_burn; 0.30
+SHIP_base_recharge;0.45
+SHIP_base_shield_recharge;2.25
+SHIP_base_scan_speed;5.00
+SHIP_base_scan_max_targets;4
+SHIP_base_scan_pulserange;5000
+SHIP_base_scan_pulsespeed;10
+SHIP_type;Excavation
+SHIP_base_price;2796000
+SHIP_description;Excavation ships are designed to harvest raw ore and salvage. They have large energy cores to power the mining beams, and augmented cargo bays to store the resources they collect.
+SHIP_impact_resistance;0.3
+SHIP_energy_resistance;0.0
+SHIP_explosive_resistance;0.0
+SHIP_material_color_a;1.0;1.0;1.0;0.25
+SHIP_material_color_b;1;1;1;1
+SHIP_material_texture_a;default_main.png
+SHIP_material_texture_b;default_detail.png
+SHIP_material_texture_c;default_glow.png
+SHIP_engine_color;1;1;1;1
+SHIP_manufacturer;Borecraft Industries
+SHIP_manufacturer_icon;icon_borecraft.png
+SHIP_shield;0
+SHIP_armor;0
+SHIP_energy;0
+SHIP_ls_food;0
+SHIP_ls_water;0
+SHIP_ls_thermal;0
+SHIP_ls_waste;0
+SHIP_ls_points;0
+SHIP_base_drones;4
+SHIP_specials_raw;Drone Strength#0.40,Drone Energy#0.20,Miner Strength#0.45,Miner Range#0.35,Miner Speed#0.30
+//merc stuff
+SHIP_owner;none
+SHIP_xp;0
+SHIP_next_level_xp;1000
+SHIP_level;1
+SHIP_talent;Mining
+SHIP_loyalty;10
+SHIP_payroll;200
+//; --------------------------------- SHIP PARTS -----------------------------------
+//; --------------- ITEM,type,catID,pfID,xp,yp,zp,xr,yr,zr-----------------------------
+<ITEM>
+ITEM;Hull_small_5; 4 ; 8 ;0.00;0.08;1.28;0.00;180.00;180.00
+ITEM;Hull_medium_2; 4 ; 6 ;0.00;0.00;-2.83;0.00;0.00;0.00
+ITEM;Hull_medium_2; 4 ; 6 ;0.00;0.00;2.12;0.00;0.00;0.00
+ITEM;wing_8; 4 ; 76 ;-0.92;0.00;-0.16;0.00;0.00;20.00
+ITEM;wing_8; 4 ; 76 ;0.75;0.00;-0.16;0.00;0.00;166.00
+ITEM;engine_6; 4 ;36;-0.07;0.14;-3.99;0.00;0.00;0.00
+ITEM;engine_3; 4 ; 33 ;-1.52;-0.21;-0.09;0.00;0.00;0.00
+ITEM;engine_3; 4 ; 33 ;1.48;-0.21;-0.09;0.00;0.00;0.00
+ITEM;command_0; 4 ; 20 ;0.00;0.27;4.23;0.00;0.00;180.00
+//; ----------------------------- SHIP CAMERA SLOTS --------------------------------
+//; -------------- PILOTCAM,name,SLOTid,model_id,xp,yp,zp,xr,yr,zr--------------------
+<PILOTCAM>
+PILOTCAM;pilot_cam; 5 ; 98 ;-0.01;0.03;4.45;0.00;0.00;0.00
+//; ----------------------------- SHIP MODULE SLOTS --------------------------------
+//; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr-------------------------------
+<MODSLOT>
+MODSLOT;module_slot;1; 99 ;0.00000;0.71259;-1.02120;0.00000;0.00000;0.00000
+MODSLOT;module_slot;2; 99 ;0.00;-0.34;3.29;0.00;0.00;180.00
+MODSLOT;module_slot;3; 99 ;0.01;0.71;3.02;0.00;0.00;0.00
+MODSLOT;module_slot;4; 99 ;0.70;0.07;2.19;0.00;0.00;270.00
+MODSLOT;module_slot;5; 99 ;-0.68;0.07;2.26;0.00;0.00;90.00
+//; ----------------------------- SHIP MODULES --------------------------------------
+//; ----- MODULE,slot,module_id
+<MODULES>
+MODULE;1;1201
+MODULE;2;1207
+MODULE;3;1221
+MODULE;4;1403
+MODULE;5;1210
+
+//; ----------------------------- SHIP CARGO -----------------------------------------
+//; ----- CARGO, qty, cargo_id
+<CARGO>
+CARGO;1;351
+

@@ -1,0 +1,4 @@
+//; ASTROX IMPERIUM : SCRIPTING EDITOR : JACE MASULA 2019
+// SCRIPT;	ID;	LABEL;	COMMAND;	CHAIN;	VALUE 1;	VALUE 2;	VALUE 3;	VALUE 4;	VALUE 5;	VALUE 6;	VALUE 7;	VALUE 8	
+// -------------------------------------------------------------------------------------------------------------------------------------
+SCRIPT;		10;		START;		TEXT;		0;		Things seem to be going just fine here. My new position is turning out to be better than I expected. It took me a little while to get the hang of things, but now I am confident that I can handle things here on my own. I never got a chance to thank you for paying the training fee, I promise I will pay you back before too long.;		npc_good.txt>110>Thanks for the tip!;		null;		null;		null;		null;		null;		null;		174.21;		-145.00

@@ -1,0 +1,17 @@
+//; ASTROX IMPERIUM : SCRIPTING EDITOR : JACE MASULA 2019
+// SCRIPT;	ID;	LABEL;	COMMAND;	CHAIN;	VALUE 1;	VALUE 2;	VALUE 3;	VALUE 4;	VALUE 5;	VALUE 6;	VALUE 7;	VALUE 8	
+// -------------------------------------------------------------------------------------------------------------------------------------
+SCRIPT;		5;		START;		CHECK_VALUE;		0;		MISSION.transfer_pilot;		=;		1;		missions_transfer_pilot.txt>10>IF TRUE;		missions_transfer_pilot.txt>300>IF FALSE;		null;		null;		null;		416.00;		-80.00
+SCRIPT;		10;		35427;		TEXT;		0;		Oh... it's you again already?;		missions_transfer_pilot.txt>510>Take care.;		null;		null;		null;		null;		null;		null;		418.00;		-630.00
+SCRIPT;		300;		67182;		TEXT;		0;		What can I help you with?;		missions_transfer_pilot.txt>1005>I have something for you.;		null;		null;		null;		null;		null;		null;		1000.71;		-80.17
+SCRIPT;		310;		34366;		CHAT_MISSION_COMPLETE;		510;		null;		null;		null;		null;		null;		null;		null;		null;		1008.63;		-936.17
+SCRIPT;		1005;		28871;		GOTO_RANDOM;		0;		Goto Random;		missions_transfer_pilot.txt>1010;		missions_transfer_pilot.txt>1100;		missions_transfer_pilot.txt>1200;		null;		null;		null;		null;		1001.00;		-222.00
+SCRIPT;		1010;		68210;		TEXT;		0;		Okay, send it on over. I am on my break, I have a few moments to take a look.;		missions_transfer_pilot.txt>1032>Here ya go.;		null;		null;		null;		null;		null;		null;		655.09;		-374.49
+SCRIPT;		500;		51346;		SET_VALUE;		310;		MISSION.transfer_pilot;		1;		null;		null;		null;		null;		null;		null;		1007.78;		-791.72
+SCRIPT;		1032;		51976;		NPC_CHAT;		500;		Text message;		20;		null;		null;		null;		null;		null;		null;		653.30;		-629.73
+SCRIPT;		1117;		64278;		NPC_CHAT;		500;		Text message;		20;		null;		null;		null;		null;		null;		null;		1005.20;		-631.99
+SCRIPT;		1100;		27319;		TEXT;		0;		This better not be another one of those scams. I swear I will open up these blaster on you if you are playing some kind of game here.;		missions_transfer_pilot.txt>1117>Not a game at all, Here ya go. Enjoy that.;		null;		null;		null;		null;		null;		null;		1006.27;		-376.66
+SCRIPT;		1210;		96685;		NPC_ATTACK;		0;		Iv'e been itching for something to shoot at all day long. Now get out of here before I turn that ship of your into space dust.;		True;		missions_transfer_pilot.txt>1255>I will be on my way.;		null;		null;		null;		null;		null;		1373.98;		-507.83
+SCRIPT;		1255;		48205;		NPC_CHAT;		500;		Text message;		15;		null;		null;		null;		null;		null;		null;		1375.86;		-645.24
+SCRIPT;		510;		35179;		EXIT;		0;		null;		null;		null;		null;		null;		null;		null;		null;		1011.34;		-1084.75
+SCRIPT;		1200;		42413;		TEXT;		0;		I have had enough of you sales people bothering me. I told you last time what would happen if you came back around here.;		missions_transfer_pilot.txt>1210>We have never met, Here is your package.;		null;		null;		null;		null;		null;		null;		1370.29;		-366.39

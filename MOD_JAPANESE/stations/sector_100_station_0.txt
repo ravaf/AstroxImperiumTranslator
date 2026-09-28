@@ -1,0 +1,155 @@
+// STATION DATA (Astrox Imperium) 
+// STATION;variable;value
+STATION;id;0
+STATION;name;Fellacore Research Center
+STATION;type;Mass Research Lab
+STATION;owner;Jacelor King
+STATION;faction;Temple
+STATION;material;station_material_Temple.png
+STATION;color;.60 , .20 , .80 , 1
+STATION;level;1
+STATION;icon;fellacore_research.png
+STATION;filename;sector_100_station_0.txt
+STATION;max_hp;25000
+STATION;dockfee;100
+STATION;lease;4
+STATION;seed;2-3-0-7-1-0-4-0-1-7-1-4-0
+STATION;interior_seed;4-0-15-5
+// SERVICES;servicename;bool
+SERVICES;lounge;True
+SERVICES;market;True
+SERVICES;refinery;True
+SERVICES;garage;False
+SERVICES;university;True
+SERVICES;hangar;True
+SERVICES;storage;True
+SERVICES;fabricator;True
+SERVICES;contracts;False
+SERVICES;admin;False
+
+// ENTERTAINMENT;title;bonus morale, bonus loyalty;price;type;image;description
+ENTERTAINMENT;Deathmatch League;0.15,0.08;68500;Sport Fighting Event;entertain_fight.png;Tickets to the Deathmatch League, where your entire fleet will enjoy a evening of bloodsport. 15% Morale , 8% Loyalty bonus.
+// MERC;level;Price_modifier;Ship_filename
+<MERC>
+MERC;5;2;npc_ship_data_(battle_escort_1).txt
+MERC;4;1.42;npc_ship_data_(transport_cruiser_1).txt
+</MERC>
+// MARKET;Item_id;Qty;Price_modifier
+<MARKET>
+ITEM;1110;5;1.21
+ITEM;1160;8;0.58
+ITEM;1150;9;0.50
+ITEM;1050;9;0.52
+ITEM;1054;7;0.61
+ITEM;1100;8;0.51
+ITEM;1001;8;1.08
+ITEM;1003;2;1.04
+ITEM;1460;1;1.12
+ITEM;1052;4;0.65
+ITEM;1170;2;0.62
+ITEM;1400;5;0.83
+ITEM;1200;7;0.80
+ITEM;1120;9;0.52
+ITEM;1002;2;0.53
+ITEM;1470;2;0.67
+ITEM;1540;3;0.86
+ITEM;1550;4;1.11
+ITEM;1560;2;0.66
+ITEM;1570;1;0.77
+ITEM;1610;6;1.21
+ITEM;1750;7;1.24
+ITEM;1640;9;0.56
+ITEM;1510;8;0.56
+ITEM;1650;9;0.60
+ITEM;1630;6;0.61
+ITEM;1520;8;0.90
+ITEM;1600;2;0.93
+ITEM;61;39;1.12
+ITEM;2126;46;0.89
+ITEM;53;9;1.05
+ITEM;2116;48;0.73
+ITEM;2121;9;1.22
+ITEM;2652;7;0.96
+ITEM;43;44;0.74
+ITEM;50;13;0.85
+ITEM;2130;18;1.09
+ITEM;2129;39;1.05
+ITEM;70;5;1.11
+ITEM;75;17;0.97
+ITEM;41;25;0.74
+ITEM;675;17;0.63
+ITEM;727;4;1.13
+ITEM;735;16;1.03
+ITEM;680;1;1.18
+ITEM;671;2;0.84
+ITEM;702;18;1.13
+ITEM;701;5;0.86
+ITEM;745;19;0.76
+ITEM;710;19;0.99
+ITEM;755;18;0.56
+ITEM;758;19;0.87
+ITEM;746;3;1.20
+ITEM;620;1;1.05
+ITEM;660;1;0.54
+ITEM;600;3;1.14
+ITEM;640;1;0.73
+ITEM;406;1;0.76
+ITEM;302;5;0.97
+ITEM;405;3;0.67
+ITEM;403;1;0.68
+ITEM;301;7;0.92
+ITEM;408;3;1.16
+ITEM;404;6;1.09
+ITEM;407;4;0.75
+ITEM;300;6;0.80
+ITEM;1;77;0.60
+ITEM;20;96;1.05
+ITEM;101;144;1.02
+ITEM;100;120;0.91
+ITEM;103;52;0.91
+ITEM;168;77;1.20
+ITEM;155;53;0.62
+ITEM;164;10;1.06
+ITEM;153;38;0.62
+ITEM;151;41;0.50
+ITEM;156;91;1.09
+ITEM;150;2;1.03
+ITEM;157;93;0.82
+ITEM;152;96;0.59
+ITEM;158;44;0.88
+ITEM;2309;2;0.83
+ITEM;2435;7;0.88
+ITEM;2324;5;1.12
+ITEM;2279;8;1.21
+ITEM;2344;9;0.89
+ITEM;2264;7;1.15
+ITEM;2150;3;0.93
+ITEM;2386;8;1.20
+ITEM;2190;9;1.11
+ITEM;2329;4;1.11
+ITEM;2220;9;0.55
+ITEM;2100;1;1.01
+ITEM;2427;2;0.64
+ITEM;2361;6;0.76
+</MARKET>
+// SKILLS;Skill_id;Price_modifier
+<SKILLS>
+SKILL;231;1
+SKILL;212;1.34
+SKILL;6;1.39
+SKILL;34;0.77
+SKILL;47;0.52
+SKILL;77;0.66
+</SKILLS>
+// MISSION , dbid , timer, id, data, title, factionid
+<MISSIONS>
+MISSION;36;360;802175;TRANSPORT#684#1067#sector_0_station_4.txt#sector_11_station_1.txt#null#null#null#null;Heavy Transport Request: 684 Premium Triple Launcher from Starbase Corporate Center in Void Starcross to Janca Refinery in Chamo;0;General Sawza Sipils from the Alpha Faction has requested a heavy transport ticket for 684 Premium Triple Launchers to be picked up at Starbase Corporate Center storage facility in Void Starcross. Drop off location is at Janca Refinery in Chamo. Alpha members will be waiting in Chamo.</MISSIONS>
+// SHIP HANGAR;count;Price_modifier;Ship_filename
+<HANGAR>
+SHIP;1;0.92;ship_data_(recon_utility_1).txt
+SHIP;2;0.92;ship_data_(transport_utility_3).txt
+SHIP;3;0.99;ship_data_(excavation_escort_1).txt
+SHIP;5;0.98;ship_data_(battle_escort_1).txt
+</HANGAR>
+// STORAGE;item_id;Qty;0
+<STORAGE>

@@ -1,0 +1,164 @@
+// STATION DATA (Astrox Imperium) 
+// STATION;variable;value
+STATION;id;0
+STATION;name;Star Shepards Hub
+STATION;type;Engineering Facility
+STATION;owner;Bemdee Tudoe
+STATION;faction;Temple
+STATION;material;station_material_Temple.png
+STATION;color;.60 , .20 , .80 , 1
+STATION;level;1
+STATION;icon;star_shepards.png
+STATION;filename;sector_95_station_0.txt
+STATION;max_hp;25000
+STATION;dockfee;100
+STATION;lease;1
+STATION;seed;2-1-1-4-8-0-3-1-5-3-3-8-0
+STATION;interior_seed;4-3-45-9
+// SERVICES;servicename;bool
+SERVICES;lounge;True
+SERVICES;market;True
+SERVICES;refinery;False
+SERVICES;garage;True
+SERVICES;university;True
+SERVICES;hangar;False
+SERVICES;storage;True
+SERVICES;fabricator;False
+SERVICES;contracts;True
+SERVICES;admin;False
+
+// ENTERTAINMENT;title;bonus morale, bonus loyalty;price;type;image;description
+ENTERTAINMENT;Astrox Opera House;0.26,0.07;51000;Musical Entertainment;entertain_opera.png;Provide a private opera concert for your entire crew at the famous 'Astrox Opera House', drinks and food included. 26% Morale , 7% Loyalty bonus.
+ENTERTAINMENT;BioSynth Wildlife Park;0.05,0.05;26000;Rest and Relaxation;entertain_park.png;A weekend package to the local wildlife BioSynth park for your entire crew, included petting zoo. 5% Morale Boost, 5% Loyalty Boost
+ENTERTAINMENT;Evening of Drinks;0.05,0.0;1500;Alcholic Drinks;entertain_bar.png;Pick up the tab for an evening of drinks for your crew, they earned it. 5% Morale Boost.
+// MERC;level;Price_modifier;Ship_filename
+<MERC>
+MERC;3;1.00;npc_ship_data_(support_frigate_1).txt
+MERC;7;1.30;npc_ship_data_(battle_shuttle_1).txt
+</MERC>
+// MARKET;Item_id;Qty;Price_modifier
+<MARKET>
+ITEM;1002;5;1.20
+ITEM;1100;2;0.78
+ITEM;1054;5;0.83
+ITEM;1001;3;0.94
+ITEM;1120;1;0.91
+ITEM;1050;9;0.96
+ITEM;1400;9;1.01
+ITEM;1052;1;0.95
+ITEM;1460;2;0.66
+ITEM;1003;9;0.67
+ITEM;1160;8;0.69
+ITEM;1110;1;1.08
+ITEM;1170;6;0.93
+ITEM;1510;6;0.95
+ITEM;1650;8;1.23
+ITEM;1750;5;1.13
+ITEM;1530;9;0.97
+ITEM;1560;6;1.22
+ITEM;1600;8;1.01
+ITEM;1615;9;0.77
+ITEM;1580;8;0.69
+ITEM;1570;4;0.76
+ITEM;1540;5;0.58
+ITEM;1550;1;0.56
+ITEM;1620;8;0.83
+ITEM;1500;2;0.76
+ITEM;1610;5;0.91
+ITEM;1520;1;0.84
+ITEM;1590;4;1.03
+ITEM;2115;21;0.98
+ITEM;2128;3;0.50
+ITEM;2127;19;1.08
+ITEM;2117;43;0.74
+ITEM;52;10;1.14
+ITEM;2129;18;0.74
+ITEM;41;41;1.07
+ITEM;2119;37;1.18
+ITEM;2120;8;0.88
+ITEM;2652;26;0.69
+ITEM;2111;38;1.14
+ITEM;61;30;1.14
+ITEM;75;27;0.54
+ITEM;77;17;0.87
+ITEM;63;13;1.16
+ITEM;2125;3;0.65
+ITEM;60;34;0.52
+ITEM;42;45;1.19
+ITEM;62;36;0.56
+ITEM;759;14;0.98
+ITEM;743;15;1.00
+ITEM;727;1;0.74
+ITEM;693;18;0.92
+ITEM;749;15;1.23
+ITEM;733;8;1.24
+ITEM;747;8;0.70
+ITEM;675;4;1.04
+ITEM;758;13;0.72
+ITEM;671;13;0.76
+ITEM;712;1;0.72
+ITEM;600;4;0.56
+ITEM;660;3;1.05
+ITEM;620;2;0.64
+ITEM;640;2;0.84
+ITEM;403;8;0.92
+ITEM;300;7;1.08
+ITEM;302;6;0.92
+ITEM;408;9;1.11
+ITEM;405;9;1.02
+ITEM;301;7;0.66
+ITEM;406;5;1.25
+ITEM;404;4;0.93
+ITEM;407;6;0.88
+ITEM;20;45;1.13
+ITEM;1;44;0.92
+ITEM;103;68;0.89
+ITEM;100;32;0.68
+ITEM;101;120;0.87
+ITEM;156;52;0.68
+ITEM;152;99;0.91
+ITEM;155;99;0.51
+ITEM;157;75;0.88
+ITEM;164;33;0.96
+ITEM;153;97;1.05
+ITEM;151;40;0.73
+ITEM;150;20;1.13
+ITEM;168;57;1.22
+ITEM;158;83;0.96
+ITEM;2339;5;0.71
+ITEM;2329;6;0.79
+ITEM;2180;7;0.93
+ITEM;2289;6;0.86
+ITEM;2538;9;0.54
+ITEM;2344;8;1.05
+ITEM;2160;4;0.52
+ITEM;2426;6;0.74
+ITEM;2264;5;1.00
+ITEM;2435;3;0.74
+ITEM;2253;5;0.59
+ITEM;2240;6;0.81
+</MARKET>
+// SKILLS;Skill_id;Price_modifier
+<SKILLS>
+SKILL;55;1.19
+SKILL;7;1.04
+SKILL;56;0.90
+SKILL;7;1.36
+SKILL;58;1.13
+SKILL;233;0.71
+SKILL;230;1.63
+SKILL;45;0.76
+</SKILLS>
+// MISSION , dbid , timer, id, data, title, factionid
+<MISSIONS>
+</MISSIONS>
+// SHIP HANGAR;count;Price_modifier;Ship_filename
+<HANGAR>
+SHIP;1;1.07;ship_data_(support_escort_1).txt
+SHIP;2;0.98;ship_data_(pirate_carrier_1).txt
+SHIP;3;1.08;ship_data_(excavation_cruiser_1).txt
+SHIP;4;1.08;ship_data_(transport_frigate_1).txt
+SHIP;5;0.98;ship_data_(support_carrier_1).txt
+</HANGAR>
+// STORAGE;item_id;Qty;0
+<STORAGE>

@@ -1,0 +1,4 @@
+Default Vanilla
+by: momoguru (Jace Masula) 2025
+
+This mod version is the basic MOD folder that comes pre-configured for the game. The contents of this MOD folder are updated with the game and serves as the developer's vision for how the game was meant to be enjoyed.

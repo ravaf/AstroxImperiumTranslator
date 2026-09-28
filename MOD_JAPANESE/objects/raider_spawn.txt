@@ -1,0 +1,29 @@
+//; ASTROX IMPERIUM : RAIDER SPAWN DATABASE : JACE MASULA 2019
+
+// LOOT --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// 0			1		2		
+// TYPE			ID		SHIPS	
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+RAIDERS;		0;		npc_ship_data_(pirate_escort_1)
+RAIDERS;		1;		npc_ship_data_(pirate_escort_1),npc_ship_data_(pirate_escort_1)
+RAIDERS;		2;		npc_ship_data_(pirate_escort_1),npc_ship_data_(pirate_escort_1),npc_ship_data_(pirate_utility_1)
+RAIDERS;		3;		npc_ship_data_(pirate_escort_1),npc_ship_data_(pirate_escort_2),npc_ship_data_(pirate_frigate_1)
+RAIDERS;		4;		npc_ship_data_(pirate_escort_1),npc_ship_data_(pirate_utility_1),npc_ship_data_(pirate_frigate_1)
+RAIDERS;		5;		npc_ship_data_(pirate_escort_1),npc_ship_data_(pirate_frigate_1),npc_ship_data_(pirate_frigate_2)
+RAIDERS;		6;		npc_ship_data_(pirate_escort_1),npc_ship_data_(pirate_frigate_2),npc_ship_data_(pirate_frigate_2)
+RAIDERS;		7;		npc_ship_data_(pirate_escort_1),npc_ship_data_(pirate_frigate_2),npc_ship_data_(pirate_cruiser_1)
+RAIDERS;		8;		npc_ship_data_(pirate_escort_1),npc_ship_data_(pirate_frigate_2),npc_ship_data_(pirate_cruiser_1)
+RAIDERS;		9;		npc_ship_data_(pirate_frigate_2),npc_ship_data_(pirate_cruiser_1),npc_ship_data_(transport_carrier_1)
+RAIDERS;		10;		npc_ship_data_(pirate_frigate_2),npc_ship_data_(pirate_cruiser_1),npc_ship_data_(pirate_cruiser_1),npc_ship_data_(transport_carrier_1)
+RAIDERS;		11;		npc_ship_data_(pirate_frigate_2),npc_ship_data_(pirate_cruiser_1),npc_ship_data_(pirate_cruiser_1),npc_ship_data_(recon_battlecruiser_1)
+RAIDERS;		12;		npc_ship_data_(pirate_frigate_3),npc_ship_data_(pirate_cruiser_1),npc_ship_data_(pirate_cruiser_1),npc_ship_data_(recon_battlecruiser_1)
+RAIDERS;		13;		npc_ship_data_(pirate_frigate_3),npc_ship_data_(pirate_cruiser_1),npc_ship_data_(recon_battlecruiser_1),npc_ship_data_(recon_battlecruiser_1)
+RAIDERS;		14;		npc_ship_data_(pirate_frigate_3),npc_ship_data_(recon_battlecruiser_1),npc_ship_data_(recon_battlecruiser_1),npc_ship_data_(pirate_cruiser_1),npc_ship_data_(support_carrier_1_ecm)
+RAIDERS;		15;		npc_ship_data_(pirate_frigate_3),npc_ship_data_(recon_battlecruiser_1),npc_ship_data_(recon_destroyer_1),npc_ship_data_(support_carrier_1_ecm),npc_ship_data_(recon_dreadnought_1)
+RAIDERS;		16;		npc_ship_data_(recon_dreadnought_1),npc_ship_data_(recon_battlecruiser_1),npc_ship_data_(recon_destroyer_1),npc_ship_data_(support_carrier_1_ecm)
+RAIDERS;		17;		npc_ship_data_(recon_dreadnought_1),npc_ship_data_(recon_battlecruiser_1),npc_ship_data_(recon_destroyer_1),npc_ship_data_(support_carrier_1_ecm),npc_ship_data_(pirate_escort_1),npc_ship_data_(pirate_cruiser_1)
+RAIDERS;		18;		npc_ship_data_(recon_dreadnought_1),npc_ship_data_(recon_battlecruiser_1),npc_ship_data_(recon_destroyer_1),npc_ship_data_(support_carrier_1_ecm),npc_ship_data_(pirate_cruiser_1),npc_ship_data_(transport_carrier_1)
+RAIDERS;		19;		npc_ship_data_(recon_dreadnought_1),npc_ship_data_(recon_battlecruiser_1),npc_ship_data_(recon_destroyer_1),npc_ship_data_(support_carrier_1_ecm),npc_ship_data_(pirate_frigate_3),npc_ship_data_(pirate_cruiser_1),npc_ship_data_(support_carrier_1_ecm)
+RAIDERS;		20;		npc_ship_data_(recon_dreadnought_1),npc_ship_data_(recon_battlecruiser_1),npc_ship_data_(recon_destroyer_1),npc_ship_data_(support_carrier_1_ecm),npc_ship_data_(pirate_frigate_3),npc_ship_data_(recon_battlecruiser_1),npc_ship_data_(pirate_cruiser_1),npc_ship_data_(support_carrier_1_ecm)
+RAIDERS;		21;		npc_ship_data_(recon_dreadnought_1),npc_ship_data_(recon_battlecruiser_1),npc_ship_data_(recon_destroyer_1),npc_ship_data_(support_carrier_1_ecm),npc_ship_data_(support_carrier_1_ecm),npc_ship_data_(recon_battlecruiser_1),npc_ship_data_(support_carrier_1_ecm),npc_ship_data_(support_carrier_1_ecm)

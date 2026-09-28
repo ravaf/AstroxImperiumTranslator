@@ -1,0 +1,9 @@
+//; ASTROX IMPERIUM : SCRIPTING EDITOR : JACE MASULA 2019
+// SCRIPT;	ID;	LABEL;	COMMAND;	CHAIN;	VALUE 1;	VALUE 2;	VALUE 3;	VALUE 4;	VALUE 5;	VALUE 6;	VALUE 7;	VALUE 8	
+// -------------------------------------------------------------------------------------------------------------------------------------
+SCRIPT;		1;		START;		UI_CHANGEIMAGE;		10;		male_1.png;		accessory_1.png;		null;		null;		null;		null;		null;		null;		123.72;		-120.67
+SCRIPT;		10;		name;		UI_NAME;		20;		Galactic Pizza;		null;		null;		null;		null;		null;		null;		null;		122.87;		-244.62
+SCRIPT;		20;		set_faction;		UI_CHANGEFACTION_ID;		30;		4;		Trade;		null;		null;		null;		null;		null;		null;		125.00;		-360.84
+SCRIPT;		30;		quest;		GET_MISSION;		40;		300;		random;		null;		0;		null;		null;		null;		null;		483.91;		-359.37
+SCRIPT;		40;		dipyo;		EXIT;		0;		null;		null;		null;		null;		null;		null;		null;		null;		703.70;		-584.80
+SCRIPT;		50;		complete;		TEXT;		0;		Ah yeah bitch;		411.txt>0>Thanx;		null;		null;		null;		null;		null;		null;		710.00;		-721.28

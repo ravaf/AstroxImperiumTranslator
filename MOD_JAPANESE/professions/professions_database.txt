@@ -1,0 +1,37 @@
+//; ASTROX IMPERIUM : PROFESSION DATABASE : JACE MASULA 2019
+
+// LOOT ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// 0				1		2			3						4					5					6				7 												8							9						10						11			
+// PROFESSION		ID		FACTION		IMAGE					NAME				TYPE				LEVEL REQ		SKILLS											BUFFS						SPECIAL 1				SPECIAL 2				DESCRIPTION
+// KEYS(0-99)																											skill-level,									buff-value,
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PROFESSION;			0;		1;			profession_10.png;		Prospector;			Excavation;			0;				215-1,41-3,11-1,42-1,55-1,56-1,45-1;			mining-0.11,salvaging-0.12;		none;				none;					Prospectors make the best of any find, whether rich ore or derelict ship. Prospectors gain a minor bonus to both mining and salvaging yields.
+PROFESSION;			1;		1;			profession_11.png;		Miner;				Excavation;			0;				215-1,41-4,11-1,42-2,43-1,58-2,46-1;			mining-0.23;					none;				none;					Mining is both difficult and lucrative, and miners know just how far they can push their equipment. Miners gain an additional bonus to mining yields.
+PROFESSION;			2;		1;			profession_12.png;		Salvager;			Excavation;			0;				215-1,41-2,11-1,71-2,58-1,76-1,111-1;			salvaging-0.25;					none;				none;					Salvagers live on the edge of dangerous zones, turning other's misfortune into profit. Salvagers gain an additional bonus to salvaging yields.
+
+PROFESSION;			20;		1;			profession_20.png;		Trader;				Transport;			0;				215-1,41-1,11-1,60-2,61-1,58-2,52-1,101-1;		market-0.20;					none;				none;					Masters of the market, traders have just the right contacts to turn any deal into easy profit.
+PROFESSION;			21;		1;			profession_21.png;		Transporter;		Transport;			0;				215-1,41-1,11-1,81-1,58-2,52-2,65-1,217-1;		cargo-0.25;						none;				none;					Ensuring that supply meets demand, Transporters have a knack for making the most of their space.
+PROFESSION;			22;		1;			profession_22.png;		Distributor;		Transport;			0;				215-1,41-1,11-1,81-2,65-2,217-1,62-2,54-1;		market-0.10,cargo-0.12;			none;				none;					Distributors want to buy low and sell high, and are always looking for new markets. Distributors gain a minor bonus to market prices and to cargo space.
+
+PROFESSION;			30;		1;			profession_30.png;		Refiner;			Production;			0;				215-1,41-1,11-1,220-2,223-1,221-2,58-1,231-1;	refine-0.25;					none;				none;					Refiners are experts at smelting ore and waste as little as possible. Refiners gain an additional bonus to refining costs. 
+PROFESSION;			31;		1;			profession_31.png;		Manufacturer;		Production;			0;				215-1,41-1,11-1,227-1,228-1,231-2,232-1,222-1;	fabricate-0.25;					none;				none;					Manufacturers turn raw materials into usable goods, fueling the markets across Astrox. Manufacturers gain an additional bonus to fabrication costs. 
+PROFESSION;			32;		1;			profession_32.png;		Engineer;			Production;			0;				215-1,41-1,11-1,228-2,223-2,222-1,232-1,221-1;	refine-0.12,fabricate-0.10;		none;				none;					Innovators and experimenters, Engineers design new items and develop new manufacturing techniques. Engineers gain a bonus to both refining and fabrication.
+
+PROFESSION;			40;		1;			profession_40.png;		Sentinel;			Combat;				0;				215-1,41-1,11-1,1-2,31-2,210-1,216-1;			shield-0.18;					none;				none;					Providing protection for high value clientele, Sentinels specialize in defensive countermeasures. Sentinels gain an additional bonus to shield recharge rate. 
+PROFESSION;			41;		1;			profession_41.png;		Enforcer;			Combat;				0;				215-1,41-1,21-2,11-3,91-1,134-1;				attack-0.15;					none;				none;					Enforcers keep the peace, usually with lots of missiles fired at whatever was causing problems. Enforcers gain an additional bonus to attack damage.
+PROFESSION;			42;		1;			profession_42.png;		Hunter;				Combat;				0;				215-1,41-1,1-1,11-2,21-1,31-1,240-1;			shield-0.10,attack-0.10;		none;				none;					Hunter's live by their own code, working both inside and outside the law. Hunters gain a minor bonus to both shield recharge rate and attack damage. 
+
+PROFESSION;			50;		1;			profession_10.png;		Academic;			Social;				-1;				0-0;											0-0;						none;					none;					none
+PROFESSION;			51;		1;			profession_10.png;		Scientist;			Social;				-1;				0-0;											0-0;						none;					none;					none
+PROFESSION;			52;		1;			profession_10.png;		Entertainer;		Social;				-1;				0-0;											0-0;						none;					none;					none
+
+PROFESSION;			60;		1;			profession_10.png;		Archivist;			Data;				-1;				0-0;											0-0;						none;					none;					none
+PROFESSION;			61;		1;			profession_10.png;		Explorer;			Data;				-1;				0-0;											0-0;						none;					none;					none
+PROFESSION;			62;		1;			profession_10.png;		Researcher;			Data;				-1;				0-0;											0-0;						none;					none;					none
+
+PROFESSION;			70;		1;			profession_10.png;		Tracker;			Crime;				-1;				0-0;											0-0;						none;					none;					none
+PROFESSION;			71;		1;			profession_10.png;		Smuggler;			Crime;				-1;				0-0;											0-0;						none;					none;					none
+PROFESSION;			72;		1;			profession_10.png;		Assassin;			Crime;				-1;				0-0;											0-0;						none;					none;					none
+

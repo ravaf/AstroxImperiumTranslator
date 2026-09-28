@@ -1,0 +1,109 @@
+// SECTOR;Variable;Value
+SECTOR;id;106
+SECTOR;name;Crown of Imperium
+SECTOR;level;0.0
+SECTOR;faction;Temple
+SECTOR;filename;sector_106.txt
+SECTOR;is_explored;False
+SECTOR;energy;20
+SECTOR;population;20
+SECTOR;habitation;20
+SECTOR;farming;20
+SECTOR;economy;20
+SECTOR;production;20
+SECTOR;defense;20
+SECTOR;environment;20
+SECTOR;event_type;null
+
+// SECTORXYZ;Variable;Value
+SECTORXYZ;location;-132.36;344.2949;-2696.935
+
+// FOG;Variable;Value
+FOG;foggy;True
+FOG;distance;0.00239845
+FOG;alpha;0.6649266
+FOG;color_1;0.66;0.47;0.41;0.35
+FOG;color_2;0.39;0.40;0.36;0.35
+
+// NEBULA;Variable;Cloud id;Red;Green;Blue;Alpha;Size;Rotation
+NEBULA;cloud_1;1;0.77;0.07;0.00;0.36;50000;5
+NEBULA;cloud_2;2;0.94;0.60;0.00;0.88;50000;3
+NEBULA;cloud_3;3;0.13;0.37;1.00;1.00;50000;2
+NEBULA;cloud_4;4;0.32;1.00;0.27;0.00;50000;5
+NEBULA;cloud_5;5;0.62;1.00;0.67;0.57;50000;5
+NEBULA;cloud_6;6;0.00;0.00;0.00;0.00;50000;5
+NEBULA;cloud_7;7;0.00;0.21;0.18;1.00;50000;5
+NEBULA;cloud_8;8;0.43;0.69;0.91;0.00;50000;0
+NEBULA;cloud_9;9;0.94;0.55;0.30;0.00;50000;4
+NEBULA;cloud_10;10;1.00;0.86;1.00;0.00;50000;2
+NEBULA;cloud_11;11;0.13;0.43;0.76;0.00;50000;3
+NEBULA;cloud_12;12;0.00;0.11;0.00;1.00;50000;3
+
+// LIGHT;Variable;Red;Green;Blue;Alpha
+LIGHT;light_t;0.30;0.43;0.57;0.07
+LIGHT;light_b;0.15;0.54;0.67;0.30
+LIGHT;light_s;0.51;0.63;0.50;0.25
+
+// STAR;Variable;Star id;X position;Y position;Z position;
+STAR;object;1;0;0;60000;1.0;10000
+
+// LIFESUPPORT;type;value
+LIFESUPPORT;food;2.25
+LIFESUPPORT;water;2.191844
+LIFESUPPORT;thermal;2.45
+LIFESUPPORT;waste;2.15
+
+// STARLIGHT;Variable;Red;Green;Blue;Alpha
+STARLIGHT;color_1;0.50;0.11;0.02;0.10
+STARLIGHT;color_2;0.50;0.18;0.02;0.15
+STARLIGHT;color_3;0.50;0.10;0.02;0.45
+STARLIGHT;color_4;0.70;0.18;0.00;0.75
+STARLIGHT;color_5;0.40;0.28;0.10;0.70
+
+// STATION;Sector filename;X poisition;Y position;Z position
+STATION;sector_106_station_0.txt;-1502.4;-144.6;-1011.5
+
+// STRUCTURE;Sector filename;X poisition;Y position;Z position
+STRUCTURE;structure_habitat_1.txt;637.097;98.56665;-3583.199
+
+// CLUSTER;Resource ID ;Num Resources ;Min Size ;Max Size ;Spread Distance ;Center X;Center Y;Center z
+CLUSTER;9;25;100;400;2500;2549.1;-34.6;1619.4;
+
+
+// RESOURCE;Resource id;X position;Y position;Z position;Max value;Current value
+RESOURCE;9;507.1;-4871.3;1177.6;1000.0;1000.0
+RESOURCE;9;-3946.5;6791.8;-1388.5;1000.0;1000.0
+RESOURCE;9;-6761.8;5881.0;3104.4;1000.0;1000.0
+RESOURCE;9;2711.7;6052.7;1587.5;1000.0;1000.0
+RESOURCE;9;6779.2;4581.9;-1163.6;1000.0;1000.0
+RESOURCE;11;581.3;6098.5;5612.3;1000.0;1000.0
+RESOURCE;11;1523.2;-448.8;880.8;1000.0;1000.0
+RESOURCE;11;1259.0;-2725.2;4854.6;1000.0;1000.0
+RESOURCE;11;2849.5;6832.9;65.7;1000.0;1000.0
+RESOURCE;11;3669.4;-3173.4;-1268.3;1000.0;1000.0
+
+// WARPGATE;Warpgate id ;Sector filename ; Exit Warpgate id;X position ;Y position ;Z position;Toll ;Faction ;Rotation;
+WARPGATE;1;sector_107.txt;2;493.9;679.6;-2842.4;0;Temple;-0.7
+WARPGATE;2;sector_105.txt;1;-2519.1;-37.3;2829.3;0;Temple;0.2
+
+// PROPS;Prefab Id;Xpos;Ypos;Zpos;Xrot;Yrot;Zrot;Value 1
+PROP;20;0;0;0;90;-45;-45;//rock 3d
+PROP;20;0;0;15000;90;-90;90;//rock 3d
+PROP;20;0;0;30000;-90;90;-90;//rock 3d
+PROP;20;0;0;45000;90;0;0;//rock 3d
+PROP;17;0;0;0;0;0;0;0.25,0.22,0.20,0.12;//fog
+PROP;40;0;0;0;-23;-23;0;//rock cloud
+PROP;43;0;0;0;-23;-23;0;//rock cloud
+PROP;27;0;0;61000;0;90;-90;0.25,0.96,0.90,0.52;//ring prop
+
+// NPC_SHIP;ship_filename;xpos;ypos;zpos;faction_id;level
+NPC_SHIP;npc_ship_data_(recon_utility_1);-650.82;-1343.29;-122.89;11;4
+NPC_SHIP;npc_ship_data_(recon_utility_1);-163.60;1010.23;627.15;16;10
+NPC_SHIP;npc_ship_data_(support_escort_1);507.17;-1124.74;-506.09;8;3
+NPC_SHIP;npc_ship_data_(recon_escort_1);-529.18;969.63;334.82;10;7
+NPC_SHIP;npc_ship_data_(support_carrier_1);-198.42;717.60;455.20;14;10
+NPC_SHIP;npc_ship_data_(pirate_utility_1);-570.38;-317.44;891.17;7;9
+NPC_SHIP;npc_ship_data_(pirate_shuttle_1);-153.41;495.98;-1310.30;16;10
+NPC_SHIP;npc_ship_data_(support_carrier_1);552.41;517.13;908.70;4;2
+NPC_SHIP;npc_ship_data_(excavation_shuttle_1);-260.05;-773.76;300.89;14;9
+

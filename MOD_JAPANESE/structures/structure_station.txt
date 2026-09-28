@@ -1,0 +1,73 @@
+// STRUCTURE DATA (Astrox Imperium) 
+// STRUCTURE;variable;value
+
+STRUCTURE;id;15
+STRUCTURE;name;Station Construction
+STRUCTURE;type;Station
+STRUCTURE;desc;The Station Construction Platform will transform the Energy Generator structure into a new station for the sector. Once a station has been constructed, it will no longer function as a structure, and can be used like a normal station with access to all the various station services available. The newly created station cannot be downgraded, and any existing power supply lines from the Energy Generator will be removed, and adjacent structure will no longer be powered when the station has been completed.
+STRUCTURE;class;Structure
+STRUCTURE;owner;Momoguru
+STRUCTURE;faction;Alpha
+STRUCTURE;faction_id;1
+STRUCTURE;material;station_material_Labor.png
+STRUCTURE;color;1 , .46, .19, 1
+STRUCTURE;interior_mat_color;1 , .46, .19, 1
+STRUCTURE;interior_emm_color;1 , 0, 0, 1
+STRUCTURE;interior_win_color;1 , 0, 1, 0.5
+STRUCTURE;level;1
+STRUCTURE;model_prefab_id;17
+STRUCTURE;icon_filename;structure_station.png
+STRUCTURE;filename;structure_station.txt
+STRUCTURE;max_hp;15000
+STRUCTURE;hp;15000
+STRUCTURE;effect;none
+STRUCTURE;effect_range;0
+STRUCTURE;effect_value;0
+STRUCTURE;usefee;0.0
+STRUCTURE;default_script_file;structure_power.txt
+STRUCTURE;default_script_id;10
+STRUCTURE;sector_effect;energy#5
+STRUCTURE;sector_name;<SECTORNAME>
+
+STRUCTURE;gen_power;true
+STRUCTURE;gen_power_rate;25
+STRUCTURE;power_points;1000
+STRUCTURE;power_points_max;1000
+STRUCTURE;power_drain;0
+STRUCTURE;is_raider;false
+STRUCTURE;is_law;false
+STRUCTURE;is_dockable;true
+STRUCTURE;btn_undock;true
+
+STRUCTURE;cargo_max;1200
+STRUCTURE;upgrade_timer;0
+STRUCTURE;upgrade_file;
+
+INTERIOR;1;1,0;1;1,0,0,0
+INTERIOR;4;1,1;0;0,0,0,0
+INTERIOR;18;1,1;1;0,0,0,0;Public Energy Generator;1;structure_energy_gen_1.png;structure_energy_gen_1.png;structure_power.txt;10
+INTERIOR;1;0,1;0;0,0,0,0
+INTERIOR;1;2,1;0;0,0,0,0
+INTERIOR;11;-1,1;0;0,0,0,0
+INTERIOR;16;-1,1;0;0,0,0,0
+INTERIOR;11;3,1;2;0,0,0,0
+INTERIOR;16;3,1;2;0,0,0,0
+
+//; ----------------------------- STRUCTURE INTERIOR PARTS-------------------------------
+//; ----------------------- PART,prefab_id;name,xp,yp,zp,xr,yr,zr,a1,b2
+<PARTS>
+</PARTS>
+
+//; ----------------------------- STRUCTURE MODULE SLOTS --------------------------------
+//; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr--------------------------------
+<MODSLOT>
+
+
+//; ----------------------------- STRUCTURE MODULES --------------------------------------
+//; ----- MODULE,slot,module_id
+<MODULE>
+
+
+//; ----------------------------- STRUCTURE CARGO -----------------------------------------
+//; ----- CARGO, qty, cargo_id
+<CARGO>

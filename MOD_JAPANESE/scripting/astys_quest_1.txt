@@ -1,0 +1,47 @@
+//; ASTROX IMPERIUM : SCRIPTING EDITOR : JACE MASULA 2019
+// SCRIPT;	ID;	LABEL;	COMMAND;	CHAIN;	VALUE 1;	VALUE 2;	VALUE 3;	VALUE 4;	VALUE 5;	VALUE 6;	VALUE 7;	VALUE 8	
+// -------------------------------------------------------------------------------------------------------------------------------------
+SCRIPT;		1;		START;		UI_CHANGEIMAGE;		2;		male_1.png;		accessory_1.png;		null;		null;		null;		null;		null;		null;		111.08;		-56.34
+SCRIPT;		2;		name;		UI_NAME;		3;		Asty;		null;		null;		null;		null;		null;		null;		null;		114.06;		-137.71
+SCRIPT;		3;		set_faction;		UI_CHANGEFACTION_ID;		5;		4;		Trade;		null;		null;		null;		null;		null;		null;		112.20;		-217.53
+SCRIPT;		30;		34537;		TEXT;		0;		I am going to need you to wait a second. Maybe it is best you come back later.;		astys_quest_1.txt>35>Okay, settle down.;		null;		null;		null;		null;		null;		null;		724.76;		-60.17
+SCRIPT;		35;		80409;		OPTION;		0;		My apologies. I didn't mean to sound rude. It's  just  my cat isn't feeling well today so I decided to bring her with me so I can look after her.;		astys_quest_1.txt>42>I can understand that.;		astys_quest_1.txt>44>Why would you bring your sick cat?;		;		null;		null;		null;		null;		882.84;		-62.99
+SCRIPT;		42;		good;		TEXT;		0;		Ms. Connie has had some tummy troubles these past few days. I have had to switch her food because of her recent weight gain, and left her new cat food in a crate over in Hunu. It's like she eats twice as much now. I would just head back and grab it, but warping really upsets her gas issues since the switch. ;		astys_quest_1.txt>50>Well I hope she feels better.;		null;		null;		null;		null;		null;		null;		1050.72;		-60.45
+SCRIPT;		44;		bad;		TEXT;		0;		I am all she has. She is all I have. We look after each other, don't we Ms. Connie. Just keep your distance please.;		astys_quest_1.txt>0>Sure, take care.;		null;		null;		null;		null;		null;		null;		883.03;		-164.76
+SCRIPT;		50;		37256;		OPTION;		0;		I should just brave the odor and run back and let her eat again. This cat is getting so fat.;		astys_quest_1.txt>62>Should I grab it for you?;		astys_quest_1.txt>64>Go get her food you monster.;		astys_quest_1.txt>66>I don't care about your cat problems.;		null;		null;		null;		null;		1194.25;		-143.66
+SCRIPT;		62;		49336;		TEXT;		0;		Really? You hear that Ms Connie, This kind person is going to fetch you some of that good stuff. One can of KittyGrub will be plenty.;		astys_quest_1.txt>100>Not a problem, I will be right back.;		null;		null;		null;		null;		null;		null;		1384.77;		-61.15
+SCRIPT;		66;		44533;		TEXT;		0;		You dog people are always so aggressive. Don't worry Ms. Connie, bad man go bye bye soon.;		astys_quest_1.txt>0>Okay guy.;		null;		null;		null;		null;		null;		null;		1391.78;		-235.14
+SCRIPT;		100;		83713;		GET_MISSION;		101;		305;		0;		0;		0;		null;		null;		null;		null;		1556.48;		-58.65
+SCRIPT;		200;		mission complete;		UI_CHANGEIMAGE;		201;		male_1.png;		accessory_1.png;		null;		null;		null;		null;		null;		null;		745.24;		-458.96
+SCRIPT;		201;		36529;		UI_NAME;		202;		Asty;		null;		null;		null;		null;		null;		null;		null;		739.77;		-546.53
+SCRIPT;		202;		80786;		UI_CHANGEFACTION_ID;		208;		4;		Trade;		null;		null;		null;		null;		null;		null;		744.52;		-629.52
+SCRIPT;		205;		49936;		TEXT;		0;		Looks like you managed to finish that up fairly quick. Ms. Connie is going to be so happy to have some real food.;		astys_quest_1.txt>210>I am glad I could help.;		null;		null;		null;		null;		null;		null;		1102.47;		-626.44
+SCRIPT;		210;		want a job?;		OPTION;		0;		If you are interested, I could use some help finishing up a few contracts. Nothing too serious or dangerous. Just a few supply runs. What do you say? Credits don't last long out here, you are going to need a steady source of income if you expect to keep your ship running.;		astys_quest_1.txt>220>I think I will, let's do this.;		astys_quest_1.txt>230>Maybe later, I want to explore a bit more.;		;		null;		null;		null;		null;		1104.05;		-452.87
+SCRIPT;		220;		get job;		TEXT;		0;		Excellent! This is going to be great. First things first. We need to get your ship fitted for supply runs. I have an unused cargo expansion module in my cargo bay, head over to the garage and install it.;		astys_quest_1.txt>250>I can do that.;		null;		null;		null;		null;		null;		null;		1285.65;		-408.44
+SCRIPT;		230;		No Thanks;		TEXT;		0;		Okay, well if you change your mind, come back and see me. I can always use the help.;		astys_quest_1.txt>0>Will do.;		null;		null;		null;		null;		null;		null;		1285.41;		-522.80
+SCRIPT;		250;		Get Cargo Mod;		GET_ITEM;		0;		Here it is, go ahead and install that at the garage. Let me know when you are ready.;		1531;		1;		astys_quest_1.txt>260>All set, I'm ready.;		null;		null;		null;		null;		1466.40;		-410.30
+SCRIPT;		260;		rdy for quest;		TEXT;		0;		I will transfer all of the information to your mission panel when you are ready. Just follow the steps in a timely manner, and you should be finished before you know it! ;		astys_quest_1.txt>270>Okay.;		null;		null;		null;		null;		null;		null;		1644.48;		-410.54
+SCRIPT;		270;		start quest;		GET_MISSION;		271;		306;		0;		astys_quest_1.txt;		0;		null;		null;		null;		null;		1560.50;		-511.90
+SCRIPT;		300;		90335;		UI_CHANGEIMAGE;		301;		male_1.png;		accessory_1.png;		null;		null;		null;		null;		null;		null;		356.83;		-879.82
+SCRIPT;		301;		80133;		UI_NAME;		302;		Asty;		null;		null;		null;		null;		null;		null;		null;		350.05;		-967.15
+SCRIPT;		302;		87712;		UI_CHANGEFACTION_ID;		303;		4;		Trade;		null;		null;		null;		null;		null;		null;		335.62;		-1059.70
+SCRIPT;		305;		21092;		TEXT;		0;		Excellent work my friend. I was really hoping everything went smooth for you. I have so much work to do, and you seem like a hard worker. I would be a fool not to ask if you needed some steady work.;		astys_quest_1.txt>310>I'm not sure, what exactly do you have in mind?;		null;		null;		null;		null;		null;		null;		553.79;		-976.38
+SCRIPT;		102;		thanks;		TEXT;		0;		Hurry back if you can.;		astys_quest_1.txt>0>Will do.;		null;		null;		null;		null;		null;		null;		1890.23;		-54.78
+SCRIPT;		272;		thanksagain;		TEXT;		0;		I will catch up with you once you have finished all the tasks.;		astys_quest_1.txt>0>Got it.;		null;		null;		null;		null;		null;		null;		1899.94;		-511.58
+SCRIPT;		310;		66250;		TEXT;		0;		Mostly odd jobs here and there. Nothing too dangerous or costly, but I really need someone out here I can trust. After what you did for Ms. Connie, I can't help but think you might be the one I've been looking for.;		astys_quest_1.txt>315>What do you have in mind?;		null;		null;		null;		null;		null;		null;		542.54;		-871.15
+SCRIPT;		315;		21708;		OPTION;		0;		I could use someone like you on my team. What do you say, want to team up?;		astys_quest_1.txt>320>Sure, why not.;		astys_quest_1.txt>335>Maybe later, I want to explore a bit.;		;		null;		null;		null;		null;		733.58;		-763.30
+SCRIPT;		340;		19735;		TEXT;		0;		Okay then, I appreciate the help no less. You take care out there. Stop back this way sometime if you change your mind.;		astys_quest_1.txt>0>Okay, see ya.;		null;		null;		null;		null;		null;		null;		1213.41;		-1008.10
+SCRIPT;		330;		46819;		TEXT;		0;		Well, I hope you are ready to work. We have lots to do.;		astys_quest_2.txt>10>Sounds like not fun.;		null;		null;		null;		null;		null;		null;		1212.16;		-908.25
+SCRIPT;		22;		51291;		CHECK_VALUE;		0;		asty_quest;		=;		1;		astys_quest_1.txt>25>IF TRUE;		astys_quest_1.txt>23>IF FALSE;		null;		null;		null;		355.71;		-223.16
+SCRIPT;		25;		35599;		TEXT;		0;		Asty is currently not available at this time.;		astys_quest_1.txt>0>Okay.;		null;		null;		null;		null;		null;		null;		156.24;		-438.62
+SCRIPT;		101;		67661;		SET_VALUE;		102;		asty_quest;		1;		null;		null;		null;		null;		null;		null;		1724.67;		-57.50
+SCRIPT;		320;		95119;		SET_VALUE;		330;		asty_quest;		5;		null;		null;		null;		null;		null;		null;		1026.00;		-911.08
+SCRIPT;		335;		93057;		SET_VALUE;		340;		asty_quest;		4;		null;		null;		null;		null;		null;		null;		1028.78;		-1008.82
+SCRIPT;		23;		62229;		CHECK_VALUE;		0;		asty_quest;		=;		2;		astys_quest_1.txt>210>IF TRUE;		astys_quest_1.txt>24>IF FALSE;		null;		null;		null;		357.15;		-329.36
+SCRIPT;		208;		67848;		SET_VALUE;		205;		asty_quest;		2;		null;		null;		null;		null;		null;		null;		914.46;		-628.09
+SCRIPT;		24;		68791;		CHECK_VALUE;		0;		asty_quest;		=;		3;		astys_quest_1.txt>25>IF TRUE;		astys_quest_1.txt>26>IF FALSE;		null;		null;		null;		358.34;		-438.32
+SCRIPT;		303;		98399;		SET_VALUE;		305;		asty_quest;		4;		null;		null;		null;		null;		null;		null;		536.00;		-1063.00
+SCRIPT;		5;		60721;		CHECK_VALUE;		0;		asty_quest;		=;		0;		astys_quest_1.txt>30>IF TRUE;		astys_quest_1.txt>22>IF FALSE;		null;		null;		null;		359.00;		-57.00
+SCRIPT;		271;		80389;		SET_VALUE;		272;		asty_quest;		3;		null;		null;		null;		null;		null;		null;		1733.00;		-508.00
+SCRIPT;		26;		22278;		CHECK_VALUE;		0;		asty_quest;		=;		4;		astys_quest_1.txt>315>IF TRUE;		astys_quest_1.txt>25>IF FALSE;		null;		null;		null;		360.12;		-549.57
+SCRIPT;		64;		62733;		TEXT;		0;		Yeah, I will had over there in a few minutes.;		astys_quest_1.txt>0>Bye.;		null;		null;		null;		null;		null;		null;		1386.18;		-148.19

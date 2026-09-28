@@ -1,0 +1,174 @@
+// STATION DATA (Astrox Imperium) 
+// STATION;variable;value
+STATION;id;0
+STATION;name;Transporteers Hub
+STATION;type;Reclaimed Goods Facility
+STATION;owner;Binoak Dalewa
+STATION;faction;Trade
+STATION;material;station_material_Trade.png
+STATION;color;.70 , 1, .23 , 1
+STATION;level;1
+STATION;icon;transporteers.png
+STATION;filename;sector_61_station_0.txt
+STATION;max_hp;25000
+STATION;dockfee;100
+STATION;lease;1
+STATION;seed;4-4-0-1-8-1-7-0-4-4-1-4-0-7-9-0-7-0-7-6-1-3-0
+STATION;interior_seed;5-1-30-3
+// SERVICES;servicename;bool
+SERVICES;lounge;True
+SERVICES;market;True
+SERVICES;refinery;True
+SERVICES;garage;True
+SERVICES;university;True
+SERVICES;hangar;True
+SERVICES;storage;True
+SERVICES;fabricator;True
+SERVICES;contracts;False
+SERVICES;admin;False
+
+// ENTERTAINMENT;title;bonus morale, bonus loyalty;price;type;image;description
+ENTERTAINMENT;Evening of Drinks;0.05,0.0;1500;Alcholic Drinks;entertain_bar.png;Pick up the tab for an evening of drinks for your crew, they earned it. 5% Morale Boost.
+ENTERTAINMENT;Pod Racing event;0.25,0.0;40000;Sport Racing Event;entertain_race.png;All expense paid trip to the weekly 'Astrox Pod Racing' (APR) event. 25% Morale Boost.
+ENTERTAINMENT;Astrox Opera House;0.26,0.07;51000;Musical Entertainment;entertain_opera.png;Provide a private opera concert for your entire crew at the famous 'Astrox Opera House', drinks and food included. 26% Morale , 7% Loyalty bonus.
+ENTERTAINMENT;Bottle of Whiskey;0.025,0.0;850;Whiskey;entertain_bar.png;Purchase a bottle of whiskey for each of your fleet members. 2.5% Morale bonus.
+ENTERTAINMENT;Karaoke Night;0.15,0.05;15000;Musical Entertainment;entertain_show.png;Your fleet is treated to a night of karaoke at the local music tavern. 15% Morale , 5% Loyalty bonus.
+// MERC;level;Price_modifier;Ship_filename
+<MERC>
+MERC;1;0.92;npc_ship_data_(recon_frigate_1).txt
+MERC;2;1.40;npc_ship_data_(battle_shuttle_1).txt
+MERC;1;1.63;npc_ship_data_(transport_shuttle_1).txt
+</MERC>
+// MARKET;Item_id;Qty;Price_modifier
+<MARKET>
+ITEM;1400;7;1.02
+ITEM;1001;7;1.23
+ITEM;1054;4;0.56
+ITEM;1100;1;0.90
+ITEM;1110;6;1.24
+ITEM;1200;8;0.51
+ITEM;1150;5;0.89
+ITEM;1460;7;1.03
+ITEM;1003;5;0.99
+ITEM;1470;9;1.05
+ITEM;1050;1;0.74
+ITEM;1052;3;1.01
+ITEM;1170;5;0.54
+ITEM;1120;5;1.21
+ITEM;1160;9;0.63
+ITEM;1002;1;1.22
+ITEM;1620;9;0.56
+ITEM;1600;3;1.15
+ITEM;1630;6;0.97
+ITEM;1615;8;0.77
+ITEM;1580;5;1.21
+ITEM;1500;7;1.03
+ITEM;1750;9;0.80
+ITEM;1590;8;0.61
+ITEM;1650;2;0.70
+ITEM;1510;3;0.86
+ITEM;1530;8;1.08
+ITEM;1520;6;1.19
+ITEM;1560;1;1.23
+ITEM;1640;8;0.61
+ITEM;1610;5;1.17
+ITEM;1540;1;0.76
+ITEM;1570;3;0.69
+ITEM;1550;3;0.50
+ITEM;2116;41;1.19
+ITEM;2125;31;1.00
+ITEM;2120;36;1.15
+ITEM;2111;4;0.93
+ITEM;42;36;0.55
+ITEM;2131;23;0.69
+ITEM;2117;37;0.80
+ITEM;2121;24;1.21
+ITEM;60;26;1.13
+ITEM;2115;35;0.76
+ITEM;53;11;1.02
+ITEM;2127;28;1.23
+ITEM;2122;15;0.97
+ITEM;51;23;0.94
+ITEM;2124;21;0.54
+ITEM;2130;48;1.05
+ITEM;2112;43;0.98
+ITEM;678;5;0.72
+ITEM;755;1;0.97
+ITEM;749;1;1.18
+ITEM;746;17;0.61
+ITEM;743;10;0.87
+ITEM;758;17;0.51
+ITEM;747;13;0.51
+ITEM;672;10;1.14
+ITEM;700;3;0.74
+ITEM;759;2;0.65
+ITEM;677;8;1.00
+ITEM;671;14;1.18
+ITEM;754;7;0.86
+ITEM;760;9;0.83
+ITEM;691;18;0.62
+ITEM;676;3;1.09
+ITEM;744;17;1.14
+ITEM;640;3;1.15
+ITEM;620;2;0.78
+ITEM;600;3;0.78
+ITEM;660;4;1.07
+ITEM;408;3;0.95
+ITEM;403;8;1.05
+ITEM;405;9;1.06
+ITEM;404;5;0.71
+ITEM;407;2;0.74
+ITEM;300;7;1.03
+ITEM;301;4;0.76
+ITEM;302;4;0.66
+ITEM;406;3;0.52
+ITEM;1;63;0.78
+ITEM;20;51;0.88
+ITEM;101;128;1.12
+ITEM;100;24;0.80
+ITEM;103;50;1.01
+ITEM;152;95;0.69
+ITEM;158;95;1.05
+ITEM;156;99;0.52
+ITEM;150;72;0.62
+ITEM;153;77;1.07
+ITEM;168;23;0.79
+ITEM;151;74;1.08
+ITEM;164;79;1.19
+ITEM;155;38;0.82
+ITEM;157;11;0.80
+ITEM;2334;6;0.59
+ITEM;2427;5;0.82
+ITEM;2435;6;1.15
+ITEM;2324;2;1.07
+ITEM;2396;1;0.82
+ITEM;2544;6;1.08
+ITEM;2150;7;0.78
+ITEM;2550;3;1.19
+ITEM;2430;1;0.90
+ITEM;2284;3;1.24
+ITEM;2170;9;1.05
+</MARKET>
+// SKILLS;Skill_id;Price_modifier
+<SKILLS>
+SKILL;225;1.93
+SKILL;47;1.21
+SKILL;3;1.95
+SKILL;42;1.50
+SKILL;25;0.73
+SKILL;54;1.61
+SKILL;37;1.33
+SKILL;213;1.45
+SKILL;25;1.41
+</SKILLS>
+// MISSION , dbid , timer, id, data, title, factionid
+<MISSIONS>
+</MISSIONS>
+// SHIP HANGAR;count;Price_modifier;Ship_filename
+<HANGAR>
+SHIP;1;0.94;ship_data_(pirate_utility_1).txt
+SHIP;2;0.98;ship_data_(transport_utility_1).txt
+SHIP;3;1.04;ship_data_(support_utility_1).txt
+</HANGAR>
+// STORAGE;item_id;Qty;0
+<STORAGE>

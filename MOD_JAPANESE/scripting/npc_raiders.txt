@@ -1,0 +1,12 @@
+//; ASTROX IMPERIUM : SCRIPTING EDITOR : JACE MASULA 2019
+// SCRIPT;	ID;	LABEL;	COMMAND;	CHAIN;	VALUE 1;	VALUE 2;	VALUE 3;	VALUE 4;	VALUE 5;	VALUE 6;	VALUE 7;	VALUE 8	
+// -------------------------------------------------------------------------------------------------------------------------------------
+SCRIPT;		10;		START;		NPC_CHAT;		0;		Time to die! Say goodbye to your ship. I used to fly one of those hunks of junk, I know all the weak spots!;		300;		npc_raiders.txt>0>OK;		null;		null;		null;		null;		null;		223.62;		-138.60
+SCRIPT;		20;		START;		NPC_CHAT;		0;		I don't think you have the skills to beat me. I guess we are going to find out aren't we...;		300;		npc_raiders.txt>0>OK;		null;		null;		null;		null;		null;		223.11;		-221.57
+SCRIPT;		30;		START;		NPC_CHAT;		0;		I hope you came prepared to meet your maker. I know I did.;		300;		npc_raiders.txt>0>OK;		null;		null;		null;		null;		null;		223.31;		-305.67
+SCRIPT;		40;		START;		NPC_CHAT;		0;		Get lost!;		300;		npc_raiders.txt>0>OK;		000;		null;		null;		null;		null;		223.12;		-394.28
+SCRIPT;		50;		START;		NPC_CHAT;		0;		This raider shit isn't really panning out for me. This might just be my last run to the respawner.;		300;		npc_raiders.txt>0>What the hell is a respawner?;		null;		null;		null;		null;		null;		223.83;		-479.84
+SCRIPT;		60;		START;		NPC_CHAT;		0;		I'm just out here looking for my old corpse, but any corpse will do I suppose.;		300;		npc_raiders.txt>0>What is wrong with you raiders?;		null;		null;		null;		null;		null;		406.02;		-140.49
+SCRIPT;		70;		START;		NPC_CHAT;		0;		Uhh... argh.;		300;		npc_raiders.txt>0>We got a live one.;		null;		null;		null;		null;		null;		403.64;		-223.84
+SCRIPT;		80;		START;		NPC_CHAT;		0;		Forgive my short temper. This bliss addiction of mine has finally overtaken me.;		300;		npc_raiders.txt>0>Forgive me first.;		null;		null;		null;		null;		null;		402.45;		-308.38
+SCRIPT;		90;		START;		NPC_CHAT;		0;		I will swim through the tiny particles of your burning metal coffin. ;		300;		npc_raiders.txt>0>We've got a poet I see.;		null;		null;		null;		null;		null;		403.64;		-395.30

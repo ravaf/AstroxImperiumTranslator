@@ -1,0 +1,103 @@
+// SECTOR;Variable;Value
+SECTOR;id;94
+SECTOR;name;Sea of Sorrows
+SECTOR;level;0.8
+SECTOR;faction;Pirate
+SECTOR;filename;sector_94.txt
+SECTOR;is_explored;False
+SECTOR;energy;20
+SECTOR;population;20
+SECTOR;habitation;30
+SECTOR;farming;20
+SECTOR;economy;20
+SECTOR;production;20
+SECTOR;defense;20
+SECTOR;environment;20
+SECTOR;wormhole_type;
+SECTOR;event_type;null
+
+// SECTORXYZ;Variable;x;y;z
+SECTORXYZ;location;3428;-95;314
+
+// FOG;Variable;Value
+FOG;foggy;True
+FOG;distance;0
+FOG;alpha;0.27
+FOG;color_1;0.32;0.24;0.16;1.00
+FOG;color_2;0.00;0.00;0.00;1.00
+
+// NEBULA;Variable;Cloud id;Red;Green;Blue;Alpha;Size;Rotation
+NEBULA;cloud_1;1;0.77;0.71;0.43;0.00;50000;5
+NEBULA;cloud_2;10;1.00;0.16;0.00;0.62;50000;3
+NEBULA;cloud_3;10;1.00;0.73;0.00;0.15;50000;2
+NEBULA;cloud_4;4;0.32;1.00;0.27;0.00;50000;5
+NEBULA;cloud_5;6;0.62;0.00;0.47;0.71;50000;5
+NEBULA;cloud_6;6;0.64;0.00;0.00;0.79;50000;5
+NEBULA;cloud_7;6;0.64;0.21;0.18;0.71;50000;2
+NEBULA;cloud_8;8;0.43;0.69;0.91;0.00;50000;0
+NEBULA;cloud_9;9;0.94;0.55;0.30;0.00;50000;4
+NEBULA;cloud_10;10;1.00;0.86;1.00;0.00;50000;2
+NEBULA;cloud_11;11;0.13;0.43;0.76;0.00;50000;3
+NEBULA;cloud_12;12;1.00;1.00;0.98;0.03;50000;5
+
+// LIGHT;Variable;Red;Green;Blue;Alpha
+LIGHT;light_t;0.42;0.42;0.42;0.40
+LIGHT;light_b;0.57;0.27;0.27;0.12
+LIGHT;light_s;0.61;0.25;0.00;0.27
+
+// STAR;Variable;Star id;X position;Y position;Z position;Scale;LightRange
+STAR;object;0;5000;90000;0;50;190000
+
+// LIFESUPPORT;type;value
+LIFESUPPORT;food;2.25
+LIFESUPPORT;water;2.95
+LIFESUPPORT;thermal;3.2677618
+LIFESUPPORT;waste;2.25
+
+// STARLIGHT;Variable;Red;Green;Blue;Alpha
+STARLIGHT;color_1;0.29;0.01;0.09;0.13
+STARLIGHT;color_2;0.70;0.28;0.22;0.62
+STARLIGHT;color_3;0.90;0.22;0.16;1.00
+STARLIGHT;color_4;0.86;0.10;0.00;0.79
+STARLIGHT;color_5;0.81;0.26;0.00;0.87
+
+// STATION;Sector filename;X position;Y position;Z position
+
+// STRUCTURE;Structure filename;X position;Y position;Z position
+STRUCTURE;structure_habitat_1.txt;-377;-171;-2906
+
+// CLUSTER;Resource ID ;Num Resources ;Min Size ;Max Size ;Spread Distance ;Center X;Center Y;Center z
+CLUSTER;10;20;50;100;2000;-2093;-933;2411
+CLUSTER;10;20;50;100;2000;2189;-311;2799
+CLUSTER;10;20;50;100;2000;-257;-562;-3358
+
+// RESOURCE;Resource id;X position;Y position;Z position;Max value;Current value
+RESOURCE;10;-2093;-933;2411;1200;1200
+RESOURCE;10;-1796;-155;-54;900;900
+RESOURCE;10;-1957;-265;-2297;750;750
+RESOURCE;10;-1557;-265;-2297;500;500
+RESOURCE;24;-694;-842;-930;200;200
+RESOURCE;24;-1044;-1012;-1035;370;370
+RESOURCE;24;-944;-822;-675;306;306
+RESOURCE;24;-638;-1408;-768;387;387
+RESOURCE;24;-858;-1360;-1307;366;366
+RESOURCE;24;-501;-990;-849;348;348
+RESOURCE;24;-1106;-1160;-984;214;214
+
+// WARPGATE;Warpgate id ;Sector filename ; Exit Warpgate id;X position ;Y position ;Z position;Toll ;Faction ;Rotation
+WARPGATE;1;sector_93.txt;2;-4153;-7;-3026;0;Trade;-2970.581
+WARPGATE;2;sector_74.txt;3;2724;-7;-2561;-1;Trade;2724.302;warpgate_94_2.txt;10
+
+// PROPS;Prefab Id;Xpos;Ypos;Zpos;Xrot;Yrot;Zrot;param 8;param 9;param 10;param 11;param 12
+PROP;40;0;0;0;0;45;0;none;//debris 2;;;
+PROP;45;0;0;0;0;0;0;rocks;;;;
+PROP;17;0;0;0;0;0;0;0.25,0.12,0.10,0.28;//fog;;;
+
+// NPC_SHIP;ship_filename;xpos;ypos;zpos;faction_id;level
+NPC_SHIP;npc_ship_data_(pirate_utility_1);-178;957;815;4;1
+NPC_SHIP;npc_ship_data_(excavation_carrier_1);718;-524;904;12;1
+NPC_SHIP;npc_ship_data_(transport_cruiser_1);-787;582;1046;15;1
+NPC_SHIP;npc_ship_data_(pirate_utility_1);-1448;-804;935;15;1
+NPC_SHIP;npc_ship_data_(excavation_frigate_1);690;17;-613;9;1
+
+// CRATE ; name ; owner ; class ; capacity ; lifetime ; maxlifetime; credits ; xpos ; ypos ; zpos ; opened ; script_file ; script_id ; mission_key ; id#qty,id#qty

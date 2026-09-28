@@ -1,0 +1,68 @@
+scan_title;Drone Basics
+scan_image;document_training.png
+scan_sector;Level: Basic
+
+<size='25'><color=cyan>Drone overview</color></size>
+There are a number of different drone types in Astrox Imperium. This allows the drones to perform a variety of tasks, that in some cases, cannot be performed by the ship alone. Learning to use these drones to maximize their abilities, and thus their profitability, will take some time.
+
+Drones require energy to move around and to carry out tasks. If the drone’s energy is depleted, it will automatically return to the parent ship from which it was launched. Once docked with the ship, the drone will use the ship’s energy to recharge itself.
+
+Drones that have been docked with their respective command bay, can then be recovered into the cargo bay of the ship. All energy and shields are repaired before the drone is transferred to the cargo bay.
+
+<size='25'><color=cyan>Energy ,Armor, and Range</color></size>
+The drones have a few stats that are important to watch, but Energy and Armor (HP) , and Range are the most important. Drones cannot be tracked by any known targeting system. This is due to their speed and size. Because of this, drones will only take damage from Area of Effect weapons. For a drone to perform any action, It is important that they have the required energy. If a drone is assigned an action that it does not have the energy for, it will automatically return to the parent ship and begin the recharging cycle.
+
+The Armor (HP) of the drone represents it’s overall health. Once the green bar is depleted, the drone will explode. If you can dock the drone before the armor points reach 0, the drone will begin repairs to itself until it has reached 100% of it’s maximum armor points.
+
+The range of the drone is the distance at which the drone can operate away from the parent ship. Once the max range has been exceeded, the drone indicator will turn orange, and the drone will move very slowly until a solid connection to the drone can be established. The drone will still perform the task assigned, however it will suffer a %90 penalty.
+
+<size='25'><color=cyan>Drone Command Bays</color></size>
+The drone command bay is important when trying to build up your drone swarm. The ability to control the drone remotely requires a drone bay for each active drone. Some ships come pre-installed with a number of drone command bays. You can upgrade your ship with passive modules that will allow you to control additional drones, and there is also a skill that will increase the number of drones you can control at once.
+
+To activate a dormant drone, just click on it from the cargo bay. Drones are considered a support item, therefore you use them in a similar way. Once you have activated a few drones, you can then dock them with the ship via the COMMAND panel.
+
+<size='25'><color=cyan>Drone Warping / Station Docking</color></size>
+Drones can warp along side your ship when using warp gates. However, they use quite a bit of energy keeping up with your warp speeds. If you dock the drones into their command bays, they will not suffer any loss of energy.
+
+<size='25'><color=cyan>Drone Abilities</color></size>
+Drones are not limited to just 1 ability. It is possible for higher level drones to have a number of abilities. Keep in mind however, the level of the drone needs to be equal or lower than your level of the Drone Operation skill.
+Here is a list of some of the abilities each drone can possess.
+
+<size='25'><color=yellow>Mining / Excavation Ability.</color></size>
+Mining ability can excavate raw ore from resources. Since the cargo bay is very small, and normally cannot carry very much. Once their internal mining laser fills up the drone cargo bay, the drone will then return to the parent ship, and drop off the cargo.
+
+
+<size='25'><color=yellow>Combat / Weapons Ability.</color></size>
+The combat ability provides the drone with an external weapons module. Each of the combat ready drones can only carry one weapon due to their limited size. The combat drone does not require any special ammunition.
+
+
+<size='25'><color=yellow>Defensive Ability.</color></size>
+The defensive ability will allow the drone to shoot down incoming projectiles nears the drone target. When a projectile, laser or missile comes within range of a drone with this ability, the drone will shoot it down and render it harmless.
+
+
+<size='25'><color=yellow>Repair Ability.</color></size>
+The repair ability will provide the drone the means in which to repair other ships and structures. The repairs do not affect shields and will only affect the armor of a ship or structure.
+
+
+<size='25'><color=yellow>Salvage Ability.</color></size>
+This ability is much like the mining ability. It provides the drone with the required parts to collect salvage from Junk,Scrap,Fragments and Derelicts. Once the salvage has been collected, the drone will return to the parent ship to deliver it’s cargo.
+
+
+<size='25'><color=yellow>Tractor Ability.</color></size>
+Tractor beams can move things around using directed magnetic energy. Tractor drones are great for moving smaller objects away from your flight path. They are also effective against incoming missiles and torpedo weapons.
+
+
+<size='25'><color=yellow>Scanner Ability.</color></size>
+This ability will provide the drone with the part needed to perform remote scans. Once the drone has scanned an item to 100%, the scanner readout window will be displayed. Only one drone is required to perform a scan. Accumulative drones will not scan a target faster.
+
+
+<size='25'><color=yellow>Bomber Ability.</color></size>
+This ability gives the drone a bomb dispensing mechanism, allowing the drone to release a specified bomb at the target. Once the drone has deployed the weapon, it will return to the parent ship, and reload. The parent ship must have the required ammo in the cargo bay for this drone to work properly.
+
+
+<size='25'><color=yellow>Leech Ability.</color></size>
+This ability allows the drone to extract energy from the target’s energy core. Once the drone has filled it’s reserve battery, it will return to the parent ship to deliver the charge. Leech drones also charge themselves with the excess energy gathered from the target.
+
+
+<size='25'><color=yellow>Burglar Ability.</color></size>
+These drones are small, and quite sneaky. This ability allows them to steal 1 unit of cargo from the cargo bay of the target ship or structure. Once an item has been stolen, the drone will return to the parent ship to deliver the loot.

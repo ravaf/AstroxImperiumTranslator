@@ -1,0 +1,108 @@
+// SECTOR;Variable;Value
+SECTOR;id;35
+SECTOR;name;Felishar
+SECTOR;level;9.7
+SECTOR;faction;Law
+SECTOR;filename;sector_35.txt
+SECTOR;is_explored;True
+SECTOR;energy;20
+SECTOR;population;20
+SECTOR;habitation;20
+SECTOR;farming;20
+SECTOR;economy;20
+SECTOR;production;20
+SECTOR;defense;20
+SECTOR;environment;20
+SECTOR;event_type;null
+
+// SECTORXYZ;Variable;Value
+SECTORXYZ;location;-110.8669;137.1814;84.28587
+
+// FOG;Variable;Value
+FOG;foggy;True
+FOG;distance;0.005135896
+FOG;alpha;0.5121778
+FOG;color_1;0.23;0.22;0.74;0.29
+FOG;color_2;0.00;0.00;0.00;0.00
+
+// NEBULA;Variable;Cloud id;Red;Green;Blue;Alpha;Size;Rotation
+NEBULA;cloud_1;1;0.07;0.40;0.70;0.97;50000;3
+NEBULA;cloud_2;2;0.00;0.23;0.31;0.00;50000;1
+NEBULA;cloud_3;3;0.13;0.37;0.16;0.00;50000;2
+NEBULA;cloud_4;4;0.32;1.00;0.27;0.00;50000;5
+NEBULA;cloud_5;5;0.19;0.49;0.83;0.00;50000;3
+NEBULA;cloud_6;6;0.63;0.00;0.00;0.00;50000;5
+NEBULA;cloud_7;7;0.00;0.21;0.18;0.00;50000;5
+NEBULA;cloud_8;8;0.43;0.89;0.57;0.90;50000;0
+NEBULA;cloud_9;9;0.94;0.55;0.61;0.00;50000;4
+NEBULA;cloud_10;10;0.01;0.31;0.59;0.53;50000;2
+NEBULA;cloud_11;11;0.13;0.43;0.76;0.00;50000;3
+NEBULA;cloud_12;13;0.77;0.56;0.62;0.00;50000;4
+
+// LIGHT;Variable;Red;Green;Blue;Alpha
+LIGHT;light_t;0.67;0.71;0.82;0.06
+LIGHT;light_b;0.32;0.28;0.23;0.06
+LIGHT;light_s;0.38;0.68;0.73;0.65
+
+// STAR;Variable;Star id;X position;Y position;Z position;
+STAR;object;1;0;0;50000;1.0;50000
+
+// LIFESUPPORT;type;value
+LIFESUPPORT;food;0.5051575
+LIFESUPPORT;water;0.25
+LIFESUPPORT;thermal;0.7886282
+LIFESUPPORT;waste;0.4483396
+
+// STARLIGHT;Variable;Red;Green;Blue;Alpha
+STARLIGHT;color_1;0.00;0.44;0.86;0.18
+STARLIGHT;color_2;0.02;0.66;1.00;0.93
+STARLIGHT;color_3;0.10;0.69;0.62;1.00
+STARLIGHT;color_4;0.10;0.18;0.30;0.95
+STARLIGHT;color_5;0.53;0.78;0.68;0.42
+
+// STATION;Sector filename;X poisition;Y position;Z position
+STATION;sector_35_station_0.txt;2637.097;98.56665;-3583.199
+
+// STRUCTURE;Sector filename;X poisition;Y position;Z position
+STRUCTURE;structure_energy_gen_1.txt;3300.40;-611.75;-326.60
+STRUCTURE;structure_habitat_1.txt;-3427.50;506.80;-2641.50
+STRUCTURE;structure_energy_gen_1.txt;-3076.30;239.08;-3057.50
+STRUCTURE;structure_recon_1.txt;-2585.70;252.00;-3033.30
+STRUCTURE;structure_medical_1.txt;3197.90;-203.60;-1036.80
+STRUCTURE;structure_gun_platform_1.txt;1001.10;806.90;1366.10
+STRUCTURE;structure_energy_gen_1.txt;1010.10;695.85;2143.70
+STRUCTURE;structure_office_1.txt;3370.10;-90.30;99.20
+STRUCTURE;structure_storage_1.txt;422.10;462.10;2333.10
+STRUCTURE;structure_farm_1.txt;-2582.80;326.70;-3460.40
+STRUCTURE;structure_recon_1.txt;3467.40;-1018.80;-239.00
+STRUCTURE;structure_medical_1.txt;1654.10;551.20;2161.10
+
+// CLUSTER;Resource ID ;Num Resources ;Min Size ;Max Size ;Spread Distance ;Center X;Center Y;Center z
+CLUSTER;1;150;100;500;10000;0;0;0;
+
+// RESOURCE;Resource id;X position;Y position;Z position;Max value;Current value
+RESOURCE;1;-4640.2;-416.1;-2646.0;1000;1000
+RESOURCE;1;-4249.5;-981.5;-4430.0;2000;2000
+RESOURCE;1;-5191.5;-1129.6;-3469.6;2400;2400
+RESOURCE;1;4242.8;-290.9;-420.6;1000;1000
+RESOURCE;1;4260.6;-1655.3;-682.0;2000;2000
+RESOURCE;1;1662.4;-367.3;4014.8;2400;2400
+
+// WARPGATE;Warpgate id ;Sector filename ; Exit Warpgate id;X position ;Y position ;Z position;Toll ;Faction ;Rotation;
+WARPGATE;1;sector_36.txt;3;-3711.8;83.0;2243.9;0;law;0.0
+WARPGATE;2;sector_40.txt;1;3471.0;-987.6;-2974.3;0;law;0.0
+WARPGATE;3;sector_38.txt;1;-3347.4;-320.3;-3727.9;0;law;0.0
+WARPGATE;4;sector_0.txt;3;2988.4;-555.6;3775.2;0;law;0.0
+
+// PROPS;Prefab Id;Xpos;Ypos;Zpos;Xrot;Yrot;Zrot;Value 1
+//PROP;0;0;0;0;0;0;0;lightning 1
+PROP;40;0;0;0;0;0;0;0,0,0.4,0.8;//rings
+PROP;40;0;0;0;40;40;0;0,0,0.4,0.8;//rings
+
+// NPC_SHIP;ship_filename;xpos;ypos;zpos;faction_id;level
+NPC_SHIP;npc_ship_data_(battle_cruiser_1);-140.10;968.97;-450.75;14;5
+NPC_SHIP;npc_ship_data_(recon_frigate_1);-765.78;-670.90;-244.40;3;10
+NPC_SHIP;npc_ship_data_(pirate_utility_1);501.12;513.34;28.72;4;2
+
+
+// CRATE ; name ; owner ; class ; capacity ; lifetime ; maxlifetime; credits ; xpos ; ypos ; zpos ; opened ; script_file ; script_id ; mission_key ; id#qty,id#qty

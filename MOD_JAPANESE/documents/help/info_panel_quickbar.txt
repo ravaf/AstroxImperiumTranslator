@@ -1,0 +1,42 @@
+<image src="images/header_1.png" align="center" width="1200" height="150">
+
+<image src="images/hbar_1.png" align="stretch" width="500" height="10">
+
+<horizontal align="fixed">
+<button image="images/btn_small_1.png" width="140" height="40" align="left" label="<b>INDEX</b>" size="20" color="#00FFFF" onclick="btn_1">
+<button image="images/btn_small_1.png" width="200" height="40" align="left" label="<b>COMMUNITY</b>" size="20" color="#00FFFF" onclick="btn_1">
+<button image="images/btn_small_1.png" width="200" height="40" align="left" label="<b>ARCHIVE</b>" size="20" color="#00FFFF" onclick="btn_1">
+</horizontal>
+
+<image src="images/hbar_1.png" align="stretch" width="500" height="10">
+
+<text size="30" align="left" color="#FFFFFF" width="500" height="40">
+The Quickbar
+</text>
+
+<horizontal align="stretch">
+<text size="20" align="left" color="#FFFFFF" width="500" height="260">
+The Quickbar provides you with the ability to open panels and toggle various functions of the game. When moving the mouse to the bottom of the screen, the Quickbar will slide up to reveal the options you have selected. By default, all of these options will be visible.
+
+You also have the ability to modify what buttons are shown, as well as the order these buttons are displayed. You can use the Options button shown on the Quickbar to make changes to these buttons.
+</text>
+</horizontal>
+
+<image src="images/quickbar_1.png" align="left" width="478" height="55">
+
+
+<image src="images/hbar_1.png" align="stretch" width="500" height="10">
+
+<text size="30" align="left" color="#FFFFFF" width="500" height="40">
+Quickbar Options
+</text>
+
+<horizontal align="stretch">
+<text size="20" align="left" color="#FFFFFF" width="500" height="360">
+The Quickbar options panel will allow you to modify what buttons are displayed. You can toggle on or off the buttons from the list. As you add buttons onto the Quickbar, the order will be displayed in the order that they were clicked. To move a currently active button to the end of the list, you will need to toggle that button off, then back on.
+
+You can also add spacers in between the buttons you have added. As above, Just add in the spacers in the order you want as you click the buttons you want displayed. If you want all the buttons displayed, or removed, those options have also been provided.
+</text>
+</horizontal>
+
+<image src="images/quickbar_2.png" align="left" width="400" height="400">

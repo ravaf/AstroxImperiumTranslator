@@ -1,0 +1,5 @@
+//; ASTROX IMPERIUM : SCRIPTING EDITOR : JACE MASULA 2019
+// SCRIPT;	ID;	LABEL;	COMMAND;	CHAIN;	VALUE 1;	VALUE 2;	VALUE 3;	VALUE 4;	VALUE 5;	VALUE 6;	VALUE 7;	VALUE 8	
+// -------------------------------------------------------------------------------------------------------------------------------------
+SCRIPT;		10;		START;		OPTION;		0;		Hey there, hope you are getting settled in. I would love to chat with you, but I need to stay focused.;		welcome_center_npc_2.txt>0>I understand, get back to work.;		welcome_center_npc_2.txt>20>Wait, I have questions.;		;		null;		null;		null;		null;		171.03;		-127.32
+SCRIPT;		20;		31927;		TEXT;		0;		I know. I wish I could give you the tour. Once you undock, you will have access to the station offices at the BioMate station. Don't worry, you will figure it all out soon enough.;		welcome_center_npc_2.txt>0>Okay... Thanks.;		null;		null;		null;		null;		null;		null;		396.86;		-125.50

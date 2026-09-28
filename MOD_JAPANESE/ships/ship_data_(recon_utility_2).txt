@@ -1,0 +1,92 @@
+//; ASTROX IMPERIUM SHIP EDITOR
+//; Jace Masula 2017
+//; -------------------------------SHIP MAIN VARS ----------------------------------
+//; ---------------------------- Variable name, value ---------------------------------
+<STATS>
+SHIP_base_level;3
+SHIP_skill_level;2
+SHIP_filename;ship_data_(recon_utility_2)
+SHIP_faction_id;0
+SHIP_name;RU-2 Conservator
+SHIP_class;Utility
+SHIP_base_shield;528
+SHIP_base_armor;634
+SHIP_base_energy;603
+SHIP_base_cargo;622
+SHIP_base_speed;0
+SHIP_base_turn;0.55
+SHIP_base_thrust;140
+SHIP_base_mass;75
+SHIP_collider_x;1.5
+SHIP_collider_y;2
+SHIP_collider_z;5
+SHIP_active_slots;4
+SHIP_passive_slots;4
+SHIP_base_lifesupport;610
+SHIP_base_engine_burn;0.23
+SHIP_base_recharge;0.58
+SHIP_base_shield_recharge;1.85
+SHIP_base_scan_speed;4
+SHIP_base_scan_max_targets;12
+SHIP_base_scan_pulserange;12000
+SHIP_base_scan_pulsespeed;13
+SHIP_type;Recon
+SHIP_base_price;1111000
+SHIP_description;The recon ship is designed to gather information about the sector. Augmented onboard scanners,  advanced targeting computers, and an oversized lifesupport bay.
+SHIP_impact_resistance;0.0
+SHIP_energy_resistance;0.3
+SHIP_explosive_resistance;0.0
+SHIP_material_color_a;1.0;1.0;1.0;0.25
+SHIP_material_color_b;1;1;1;1
+SHIP_material_texture_a;alpha_main.png
+SHIP_material_texture_b;alpha_detail.png
+SHIP_material_texture_c;alpha_glow.png
+SHIP_engine_color; 1.0 ; 0.46 ; 0.19 ; 1.0
+SHIP_manufacturer;Alpharis Inc.
+SHIP_manufacturer_icon;icon_alpharis.png
+SHIP_shield;0
+SHIP_armor;0
+SHIP_energy;0
+SHIP_ls_food;0
+SHIP_ls_water;0
+SHIP_ls_thermal;0
+SHIP_ls_waste;0
+SHIP_ls_points;0
+SHIP_base_drones;0
+SHIP_specials_raw;Scan Speed#0.25,Pulse Speed#0.20,Scan Range#0.25,Max Targets#0.20,Miner Strength#0.25,Salvager Speed#0.20
+// merc
+SHIP_owner;none
+SHIP_xp;0
+SHIP_next_level_xp;1000
+SHIP_level;1
+SHIP_talent;Recon
+SHIP_loyalty;10
+SHIP_payroll;150
+//; --------------------------------- SHIP PARTS ------------------------------------
+//; --------------- ITEM,type,catID,pfID,xp,yp,zp,xr,yr,zr------------------------------
+<ITEM>
+ITEM;hull_small_7;0; 1 ;0.00;1.39;0.00;0.00;0.00;0.00
+ITEM;cargo_2; 4 ; 52 ;0.00;1.25;1.75;0.00;0.00;0.00
+ITEM;cargo_2; 4 ; 52 ;-0.98;0.84;0.84;0.00;0.00;0.00
+ITEM;cargo_2; 4 ; 52 ;0.97;0.84;0.84;0.00;0.00;0.00
+ITEM;cargo_1; 4 ; 51 ;0.00;0.75;1.27;0.00;0.00;0.00
+ITEM;engine_1; 4 ;31;0.07;0.91;-0.99;0.00;0.00;0.00
+ITEM;engine_1; 4 ;31;0.01;1.63;-0.80;0.00;0.00;0.00
+ITEM;command_3; 4 ;25;0;0.79;3;0;0;0
+//; ----------------------------- SHIP CAMERA SLOTS --------------------------------
+//; -------------- PILOTCAM,name,SLOTid,model_id,xp,yp,zp,xr,yr,zr--------------------
+<PILOTCAM>
+PILOTCAM;pilot_cam; 5 ; 98 ;-0.04000;1.13758;4.05031;0.00000;0.00000;0.00000
+//; ----------------------------- SHIP MODULE SLOTS --------------------------------
+//; -------------- MODSLOT,name,SLOTid,model_id,xp,yp,zp,xr,yr,zr--------------------
+<MODSLOT>
+MODSLOT;module_slot;1; 99 ;-0.01987;0.34819;2.32837;0.00000;0.00000;180.00000
+MODSLOT;module_slot;2; 99 ;1.30;0.85;1.14;0.00;0.00;270.00
+MODSLOT;module_slot;3; 99 ;-1.32;0.86;1.03;0.00;0.00;90.00
+MODSLOT;module_slot;4; 99 ;-0.03;1.73;1.12;0.00;0.00;0.00
+//; ----------------------------- SHIP MODULES --------------------------------------
+//; ----- MODULE,slot,module_id
+<MODULE>
+//; ----------------------------- SHIP CARGO -----------------------------------------
+//; ----- CARGO, qty, cargo_id
+<CARGO>

@@ -1,0 +1,113 @@
+// SECTOR;Variable;Value
+SECTOR;id;11
+SECTOR;name;Chamo
+SECTOR;level;2.8
+SECTOR;faction;Labor
+SECTOR;filename;sector_11.txt
+SECTOR;is_explored;False
+SECTOR;energy;20
+SECTOR;population;20
+SECTOR;habitation;20
+SECTOR;farming;20
+SECTOR;economy;20
+SECTOR;production;20
+SECTOR;defense;20
+SECTOR;environment;20
+SECTOR;wormhole_type;
+SECTOR;event_type;null
+
+// SECTORXYZ;Variable;Value
+SECTORXYZ;location;-1359.163;-28.14;-31.37431
+
+// FOG;Variable;Value
+FOG;foggy;True
+FOG;distance;0.003077176
+FOG;alpha;0.3041937
+FOG;color_1;0.92;0.54;0.01;1.00
+FOG;color_2;0.00;0.00;0.00;1.00
+
+// NEBULA;Variable;Cloud id;Red;Green;Blue;Alpha;Size;Rotation
+NEBULA;cloud_1;1;0.87;0.85;0.53;0.00;50000;5
+NEBULA;cloud_2;2;0.82;0.48;0.12;0.20;50000;3
+NEBULA;cloud_3;3;0.00;0.00;0.00;0.00;50000;5
+NEBULA;cloud_4;4;0.33;0.72;0.75;0.00;50000;5
+NEBULA;cloud_5;5;0.00;0.00;0.00;0.00;50000;5
+NEBULA;cloud_6;6;0.00;0.22;0.63;0.00;50000;5
+NEBULA;cloud_7;7;0.00;0.00;0.00;0.00;50000;5
+NEBULA;cloud_8;8;1.00;0.87;0.72;1.00;50000;0
+NEBULA;cloud_9;9;0.00;0.00;0.00;0.00;50000;4
+NEBULA;cloud_10;10;0.27;0.56;1.00;0.10;50000;2
+NEBULA;cloud_11;11;1.00;0.00;0.00;0.22;50000;3
+NEBULA;cloud_12;12;0.79;0.74;0.00;0.00;50000;5
+
+// LIGHT;Variable;Red;Green;Blue;Alpha
+LIGHT;light_t;0.74;0.10;0.05;0.00
+LIGHT;light_b;0.23;0.72;0.88;0.04
+LIGHT;light_s;0.28;0.26;0.18;0.64
+
+// STAR;Variable;Star id;X position;Y position;Z position;
+STAR;object;1;123;30081.1;39750.5;1.0;100000
+
+// LIFESUPPORT;type;value
+LIFESUPPORT;food;0.7680134
+LIFESUPPORT;water;0.6195808
+LIFESUPPORT;thermal;0.45
+LIFESUPPORT;waste;0.7211575
+
+// STARLIGHT;Variable;Red;Green;Blue;Alpha
+STARLIGHT;color_1;0.60;0.20;0.22;0.20
+STARLIGHT;color_2;0.60;0.18;0.22;0.89
+STARLIGHT;color_3;0.70;0.10;0.22;0.94
+STARLIGHT;color_4;0.20;0.18;0.00;0.50
+STARLIGHT;color_5;0.70;0.18;0.00;0.30
+
+// STATION;Sector filename;X poisition;Y position;Z position
+
+// STRUCTURE;Sector filename;X poisition;Y position;Z position
+STRUCTURE;structure_machine_1.txt;1584.8;-90.7;881.5
+STRUCTURE;structure_machine_1.txt;820.6;-125.8;917.0
+STRUCTURE;structure_machine_1.txt;842.6;-89.7;206.8
+STRUCTURE;structure_energy_gen_1.txt;1153.3;-88.4;593.2
+STRUCTURE;structure_habitat_1.txt;1596.6;-54.0;159.5
+
+// CLUSTER;Resource ID ;Num Resources ;Min Size ;Max Size ;Spread Distance ;Center X;Center Y;Center z
+CLUSTER;1;15;50;100;1000;497.5;-229.3;-3019.4;
+CLUSTER;1;15;50;100;1000;1306.1;72.4;2179.5;
+
+// RESOURCE;Resource id;X position;Y position;Z position;Max value;Current value
+RESOURCE;1;3229.8;-166.0;-439.5;200.0;200.0;
+RESOURCE;1;2763.4;-162.6;-812.5;100.0;100.0;
+RESOURCE;1;2825.1;-548.1;-1458.5;1500.0;1500.0
+RESOURCE;1;2158.1;-278.2;-2607.8;900.0;900.0
+RESOURCE;1;2749.7;-540.2;-856.1;120.0;120.0;
+RESOURCE;1;2355.8;-344.5;-1881.5;100.0;100.0
+RESOURCE;1;2541.5;-159.7;-983.3;220.0;220.0
+RESOURCE;1;2383.5;-152.7;-1097.0;40.0;40.0
+RESOURCE;1;2765.8;121.5;-1023.1;600.0;600.0
+RESOURCE;1;1190.4;-25.6;-3155.1;800.0;800.0
+RESOURCE;1;1771.0;355.4;-1697.2;180.0;180.0
+RESOURCE;1;497.5;-229.3;-3019.4;1500.0;1500.0
+RESOURCE;1;2745.5;132.7;-554.4;200.0;200.0
+RESOURCE;1;1308.2;-365.9;-2595.0;600.0;600.0
+RESOURCE;1;1726.5;-305.0;-2039.7;100.0;100.0
+RESOURCE;1;2509.1;273.9;-733.3;100.0;100.0
+RESOURCE;8;2187.3;16.7;-1188.3;308.0;308.0
+RESOURCE;1;1306.1;72.4;2179.5;1500.0;1500.0
+RESOURCE;1;-445.5;-2079.2;3763.5;2800.0;2800.0
+RESOURCE;1;2876.8;-1386.0;3473.3;2000.0;2000.0
+RESOURCE;1;4423.8;-1426.6;333.4;1500.0;1500.0
+RESOURCE;1;3023.4;-647.6;1571.4;3200.0;3200.0
+
+// WARPGATE;Warpgate id ;Sector filename ; Exit Warpgate id;X position ;Y position ;Z position;Toll ;Faction ;Level;
+WARPGATE;1;sector_13.txt;2;-963.6;-75.0;-2361.0;0;alpha;0.0
+WARPGATE;2;sector_12.txt;1;-1985.3;-774.0;2334.4;0;alpha;0.0
+WARPGATE;3;sector_2.txt;4;2494.3;230.5;-307.9;0;alpha;0.0
+
+// PROPS;Prefab Id;Xpos;Ypos;Zpos;Xrot;Yrot;Zrot;Value 1
+PROP;16;100;1000;0;0;0;0;0.20,0.22,0.10,0.15;//fog
+PROP;40;0;0;0;-180;-123;0;//rock cloud;
+
+// NPC_SHIP;ship_filename;xpos;ypos;zpos;faction_id;level
+NPC_SHIP;npc_ship_data_(pirate_utility_1);-633.35;80.93;980.23;11;8
+NPC_SHIP;npc_ship_data_(transport_cruiser_1);-479.50;-85.30;-1259.25;7;4
+NPC_SHIP;npc_ship_data_(pirate_frigate_1);-198.38;-1040.91;174.07;8;7

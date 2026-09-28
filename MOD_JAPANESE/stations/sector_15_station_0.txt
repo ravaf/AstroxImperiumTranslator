@@ -1,0 +1,177 @@
+// STATION DATA (Astrox Imperium) 
+// STATION;variable;value
+STATION;id;0
+STATION;name;Crystalis Broadcasting
+STATION;type;Communications Hub
+STATION;owner;Xapaeda Akhas
+STATION;faction;Alpha
+STATION;material;station_material_Alpha.png
+STATION;color;1 , .46, .19, 1
+STATION;level;2
+STATION;icon;crystalis.png
+STATION;filename;sector_15_station_0.txt
+STATION;max_hp;25000
+STATION;dockfee;100
+STATION;lease;1
+STATION;seed;2-6-1-5-4-2-8-0-7-7-3-1-90
+STATION;interior_seed;4-3-15-7
+// SERVICES;servicename;bool
+SERVICES;lounge;True
+SERVICES;market;True
+SERVICES;refinery;True
+SERVICES;garage;True
+SERVICES;university;True
+SERVICES;hangar;True
+SERVICES;storage;True
+SERVICES;fabricator;True
+SERVICES;contracts;True
+SERVICES;admin;True
+
+// ENTERTAINMENT;title;bonus morale, bonus loyalty;price;type;image;description
+ENTERTAINMENT;Spa Treatment;0.15,0.0;18500;Rest and Relaxation;entertain_spa.png;Send your crew to the spa, let them rest and relax for awhile. 15% Morale Boost.
+ENTERTAINMENT;Evening of Drinks;0.05,0.0;1500;Alcholic Drinks;entertain_bar.png;Pick up the tab for an evening of drinks for your crew, they earned it. 5% Morale Boost.
+// MERC;level;Price_modifier;Ship_filename
+<MERC>
+MERC;9;1.42;npc_ship_data_(support_utility_1).txt
+MERC;3;1.05;npc_ship_data_(excavation_carrier_1).txt
+MERC;5;1.20;npc_ship_data_(excavation_escort_1).txt
+MERC;7;1.56;npc_ship_data_(recon_frigate_1).txt
+</MERC>
+// MARKET;Item_id;Qty;Price_modifier
+<MARKET>
+ITEM;1110;15;0.94
+ITEM;1401;17;1.15
+ITEM;1200;8;0.74
+ITEM;1002;13;1.00
+ITEM;1300;18;0.93
+ITEM;1121;8;1.21
+ITEM;1151;7;1.07
+ITEM;1470;10;0.94
+ITEM;1054;6;1.20
+ITEM;1059;2;0.60
+ITEM;1057;1;1.23
+ITEM;1008;4;0.78
+ITEM;1621;12;1.16
+ITEM;1550;7;1.17
+ITEM;1531;11;0.91
+ITEM;1600;19;0.67
+ITEM;1571;11;0.92
+ITEM;1640;17;1.18
+ITEM;1650;7;0.60
+ITEM;1540;11;0.62
+ITEM;1630;12;0.81
+ITEM;1611;16;0.58
+ITEM;1501;7;0.54
+ITEM;1750;16;0.92
+ITEM;1601;7;0.51
+ITEM;1530;12;1.06
+ITEM;1591;11;1.01
+ITEM;1541;5;0.99
+ITEM;2130;52;0.54
+ITEM;2127;55;0.59
+ITEM;2123;63;1.11
+ITEM;62;66;0.82
+ITEM;53;98;0.55
+ITEM;43;45;1.02
+ITEM;2124;4;0.68
+ITEM;2651;82;0.69
+ITEM;2111;16;0.75
+ITEM;2116;7;1.15
+ITEM;2112;46;0.69
+ITEM;2117;98;0.75
+ITEM;78;31;0.91
+ITEM;757;7;0.52
+ITEM;677;38;0.90
+ITEM;750;38;1.13
+ITEM;733;35;0.93
+ITEM;744;6;1.07
+ITEM;742;27;1.05
+ITEM;703;10;1.00
+ITEM;751;2;0.63
+ITEM;678;22;0.72
+ITEM;741;7;0.75
+ITEM;680;27;1.22
+ITEM;752;3;1.19
+ITEM;726;12;0.64
+ITEM;721;24;0.82
+ITEM;621;1;1.08
+ITEM;600;3;1.09
+ITEM;640;4;0.65
+ITEM;601;2;0.62
+ITEM;661;3;0.71
+ITEM;620;3;0.51
+ITEM;641;5;1.11
+ITEM;660;8;0.64
+ITEM;302;6;0.88
+ITEM;404;14;1.16
+ITEM;407;14;0.61
+ITEM;304;16;0.90
+ITEM;405;3;1.12
+ITEM;305;10;0.65
+ITEM;403;11;0.56
+ITEM;406;6;0.58
+ITEM;408;12;0.97
+ITEM;303;14;0.65
+ITEM;301;15;1.09
+ITEM;300;9;1.24
+ITEM;1;123;0.51
+ITEM;20;70;0.51
+ITEM;2;24;1.04
+ITEM;21;31;0.67
+ITEM;101;69;1.19
+ITEM;114;111;0.99
+ITEM;100;98;0.93
+ITEM;103;161;1.24
+ITEM;104;209;1.22
+ITEM;102;156;0.62
+ITEM;156;37;1.21
+ITEM;163;8;0.81
+ITEM;167;65;1.09
+ITEM;168;173;1.04
+ITEM;164;67;1.14
+ITEM;160;111;1.06
+ITEM;153;45;1.23
+ITEM;151;128;0.71
+ITEM;169;20;0.52
+ITEM;155;25;0.96
+ITEM;158;188;0.91
+ITEM;161;132;1.01
+ITEM;154;179;0.83
+ITEM;165;159;1.08
+ITEM;162;143;0.73
+ITEM;2131;14;0.52
+ITEM;2396;6;0.96
+ITEM;2171;9;1.02
+ITEM;2444;14;1.09
+ITEM;2253;1;0.88
+ITEM;2110;7;0.71
+ITEM;2340;14;1.18
+ITEM;2290;11;0.95
+ITEM;2274;19;0.69
+ITEM;2201;2;1.17
+ITEM;2314;14;0.84
+</MARKET>
+// SKILLS;Skill_id;Price_modifier
+<SKILLS>
+SKILL;52;0.99
+SKILL;230;1.89
+SKILL;47;0.50
+SKILL;51;0.95
+SKILL;17;1.25
+SKILL;224;1.78
+</SKILLS>
+// MISSION , dbid , timer, id, data, title, factionid
+<MISSIONS>
+</MISSIONS>
+// SHIP HANGAR;count;Price_modifier;Ship_filename
+<HANGAR>
+SHIP;1;1.04;ship_data_(transport_utility_1).txt
+SHIP;2;0.92;ship_data_(support_utility_1).txt
+SHIP;3;1.06;ship_data_(battle_escort_1).txt
+SHIP;4;1.06;ship_data_(recon_shuttle_1).txt
+SHIP;5;0.99;ship_data_(battle_frigate_1).txt
+SHIP;6;1.08;ship_data_(battle_carrier_1).txt
+SHIP;7;0.91;ship_data_(battle_shuttle_1).txt
+</HANGAR>
+// STORAGE;item_id;Qty;0
+<STORAGE>

@@ -1,0 +1,22 @@
+//; ASTROX IMPERIUM : STRUCTURE BUILD DATABASE : JACE MASULA 2020
+
+// BUILDS ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// 0			1		2									3									4				5					6														7
+// TYPE			ID		STRUCTURE NAME						STRUCTURE FILE NAME					REQ				STRUCTURE COST		STRUCTURE MATERIALS										TIME REQ
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BUILD			;1		;Construction Platform				;structure_platform_1				;0				;500000				;150-100,152-50,157-25									;300
+BUILD			;2		;Small Mining Silo					;structure_silo_1					;1				;1100000			;151-75,154-50,156-50									;300
+BUILD			;3		;Expanded Mining Silo				;structure_silo_2					;2				;1300000			;151-75,154-50,156-50,150-25,152-25						;600
+BUILD			;4		;Advanced Mining Silo				;structure_silo_3					;3				;1500000			;151-75,154-75,156-75,150-50,152-50,157-25				;900
+BUILD			;5		;Small Storage Unit					;structure_storage_1				;1				;1250000			;151-75,154-50,156-50									;300
+BUILD			;6		;Small Office						;structure_office_1					;1				;1250000			;151-75,154-50,156-50									;300
+BUILD			;7		;Medical Center						;structure_medical_1				;6				;1500000			;153-75,159-5,160-10,162-20,163-10						;300
+BUILD			;8		;Machine Platform					;structure_machine_1				;1				;1250000			;150-50,152-50,160-50,167-10,207-2,163-10				;300
+BUILD			;9		;Small Habitat						;structure_habitat_1				;1				;1250000			;151-55,154-40,156-30,167-10							;300
+BUILD			;10		;Small Laser Platform				;structure_gun_1					;8				;2000000			;151-50,154-50,156-50,150-50,152-50,157-50				;450
+BUILD			;11		;Small Missile Platform				;structure_gun_2					;8				;2000000			;151-50,154-50,156-50,150-50,152-50,157-50				;450
+BUILD			;12		;Small Energy Generator				;structure_energy_1					;8				;2000000			;155-10,158-10,161-10,208-10,200-10,202-5				;800
+BUILD			;13		;Large Energy Generator				;structure_energy_gen_1				;12				;2500000			;155-20,158-20,161-30,208-30,200-20,202-10				;1000
+BUILD			;14		;Warpgate Generator					;structure_warpgate_1				;12				;2750000			;155-15,158-15,161-15,208-15,200-20,202-25				;1200
+BUILD			;15		;Station Platform					;structure_station					;13				;3500000			;155-15,158-15,161-15,208-15,200-20,202-15				;1500

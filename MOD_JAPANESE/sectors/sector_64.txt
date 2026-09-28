@@ -1,0 +1,102 @@
+// SECTOR;Variable;Value
+SECTOR;id;64
+SECTOR;name;Gemini Shoal
+SECTOR;level;1.9
+SECTOR;faction;Trade
+SECTOR;filename;sector_64.txt
+SECTOR;is_explored;False
+SECTOR;energy;20
+SECTOR;population;20
+SECTOR;habitation;30
+SECTOR;farming;20
+SECTOR;economy;20
+SECTOR;production;20
+SECTOR;defense;20
+SECTOR;environment;20
+SECTOR;wormhole_type;
+SECTOR;event_type;null
+
+// SECTORXYZ;Variable;x;y;z
+SECTORXYZ;location;1925.48;-92.91019;-187.84
+
+// FOG;Variable;Value
+FOG;foggy;True
+FOG;distance;0
+FOG;alpha;0.44
+FOG;color_1;0.26;0.34;0.30;0.35
+FOG;color_2;0.27;0.26;0.26;0.01
+
+// NEBULA;Variable;Cloud id;Red;Green;Blue;Alpha;Size;Rotation
+NEBULA;cloud_1;1;0.77;0.25;0.43;0.00;50000;3
+NEBULA;cloud_2;2;0.00;0.60;0.00;0.00;50000;3
+NEBULA;cloud_3;3;0.13;0.37;1.00;0.00;50000;2
+NEBULA;cloud_4;4;0.32;1.00;0.27;0.00;50000;5
+NEBULA;cloud_5;5;0.62;1.00;0.67;0.00;50000;5
+NEBULA;cloud_6;6;0.00;0.00;0.00;0.00;50000;5
+NEBULA;cloud_7;7;1.00;0.95;0.31;1.00;50000;5
+NEBULA;cloud_8;8;0.43;0.69;0.91;1.00;50000;0
+NEBULA;cloud_9;9;0.94;0.55;0.30;0.57;50000;4
+NEBULA;cloud_10;10;1.00;0.86;1.00;0.00;50000;2
+NEBULA;cloud_11;11;0.13;0.43;0.76;0.00;50000;3
+NEBULA;cloud_12;12;1.00;1.00;0.98;0.00;50000;5
+
+// LIGHT;Variable;Red;Green;Blue;Alpha
+LIGHT;light_t;0.79;0.53;0.42;0.45
+LIGHT;light_b;0.57;0.46;0.27;0.84
+LIGHT;light_s;0.44;0.49;0.60;0.59
+
+// STAR;Variable;Star id;X position;Y position;Z position;Scale;LightRange
+STAR;object;0;0;0;50000;1;90000
+
+// LIFESUPPORT;type;value
+LIFESUPPORT;food;0.271339
+LIFESUPPORT;water;0.3441116
+LIFESUPPORT;thermal;0.4358308
+LIFESUPPORT;waste;0.4500175
+
+// STARLIGHT;Variable;Red;Green;Blue;Alpha
+STARLIGHT;color_1;0.20;1.00;0.22;0.00
+STARLIGHT;color_2;0.20;0.48;0.22;0.12
+STARLIGHT;color_3;0.92;1.00;0.65;0.73
+STARLIGHT;color_4;0.30;0.48;0.00;0.00
+STARLIGHT;color_5;0.10;0.48;0.00;0.20
+
+// STATION;Sector filename;X position;Y position;Z position
+
+// STRUCTURE;Sector filename;X poisition;Y position;Z position
+STRUCTURE;structure_habitat_1.txt;637.00;99.00;-4588.00
+
+// CLUSTER;Resource ID ;Num Resources ;Min Size ;Max Size ;Spread Distance ;Center X;Center Y;Center z
+CLUSTER;3;50;100;200;2000;-4165;1536;-5755
+CLUSTER;2;20;100;200;3000;-5809;2805;-4347
+CLUSTER;2;20;100;200;1500;4541;-1420;-6100
+
+// RESOURCE;Resource id;X position;Y position;Z position;Max value;Current value
+RESOURCE;4;-5526.0;-213.0;-5639.0;1200;1200
+RESOURCE;4;-2761.0;-106.0;-6391.0;600;600
+
+// WARPGATE;Warpgate id ;Sector filename ; Exit Warpgate id;X position ;Y position ;Z position;Toll ;Faction ;Rotation
+WARPGATE;1;sector_61.txt;2;2327;-156;3090;0;Trade;0
+WARPGATE;2;sector_65.txt;1;-4836;-278;-1840;0;Trade;0
+
+// PROPS;Prefab Id;Xpos;Ypos;Zpos;Xrot;Yrot;Zrot;param 8;param 9;param 10;param 11;param 12
+PROP;17;0;0;0;0;0;0;0.15,0.32,0.10,0.4;//fog;;;
+PROP;43;0;0;0;0;0;0;0,0,0.4,0.8;;;;
+PROP;16;-5020;0;-3876;0;0;0;0.15,0.12,0.10,0.49;0.2;//fog;;
+PROP;16;-5020;2960;-7493;0;0;0;0.15,0.17,0.10,0.49;0.4;//fog;;
+PROP;16;3801;-1715;-7493;0;0;0;0.25,0.17,0.10,0.49;0.3;//fog;;
+PROP;20;-3219;-5037;-716;359;10;336;rock_prop_1;;;;
+PROP;20;2045;5682;-716;348;354;333;rock_prop_1;;;;
+PLANET;1,3,3,3,5,3,3;-40000,-10000,50000,0,0,0,-40000,-10000,50000,0,0,0,-40000,-10000,50000,0,0,0,-40000,-10000,50000,0,0,0,-40000,-10000,50000,0,0,0,-40000,-10000,50000,0,0,0,-40000,-10000,50000,0,0,0,-40000,-10000,50000,0,0,0,40000,-10000,-50000,0,0,0,40000,-10000,-50000,0,0,0,40000,-10000,10000,0,0,0,40000,-10000,0,0,0,0,40000,-10000,0,0,0,0,40000,-10000,0,0,0,0,40000,-10000,0,0,0,0,40000,-10000,0,0,0,0,40000,-10000,0,0,0,0,40000,-10000,0,0,0,0,-40000,-10000,0,0,0,0,-40000,-10000,0,0,0,0,-40000,-10000,0,0,0,0,-40000,-10000,0,0,0,0,40000,-10000,0,0,0,0,40000,-10000,0,0,0,0,40000,-10000,0,0,0,0,40000,-10000,0,0,0,0,40000,-10000,0,0,0,0,40000,-10000,0,0,0,0,40000,-10000,0,0,0,0,40000,-10000,0,0,0,0,40000,-10000,0,0,0,0,40000,-10000,0,0,0,0,40000,-10000,0,0,0,0,100000,-50000,0,0,0,0,100000,-50000,0,0,0,0,80000,100,200,-75,25,25;2#1#0.43,0.47,0.25,0.58#0.42,0.36,0.45,0.61#0.41,0.37,0.48,0.96#0.37,0.43,0.41,0.94#0.54,0.50,0.28,0.98#0.55,0.28,0.26,0.93#0.65,0.42,0.47,0.90;0.68,0.64,0.30,0.49,0.46,0.20;0.013,1.13,9.83,1.85,4.00;
+
+// NPC_SHIP;ship_filename;xpos;ypos;zpos;faction_id;level
+NPC_SHIP;npc_ship_data_(transport_escort_1);446;-1250;612;12;1
+NPC_SHIP;npc_ship_data_(pirate_carrier_1);-150;654;-986;13;1
+NPC_SHIP;npc_ship_data_(transport_carrier_1);-1839;-506;-124;15;1
+NPC_SHIP;npc_ship_data_(excavation_carrier_1);-1725;-104;-1183;7;1
+NPC_SHIP;npc_ship_data_(support_escort_1);-1439;-852;495;2;1
+NPC_SHIP;npc_ship_data_(transport_utility_1);-3546;1602;314;14;1
+NPC_SHIP;npc_ship_data_(battle_utility_1);-357;-246;462;4;1
+NPC_SHIP;npc_ship_data_(pirate_escort_1);-617;-41;-1225;17;1
+
+// CRATE ; name ; owner ; class ; capacity ; lifetime ; maxlifetime; credits ; xpos ; ypos ; zpos ; opened ; script_file ; script_id ; mission_key ; id#qty,id#qty

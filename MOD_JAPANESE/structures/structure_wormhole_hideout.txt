@@ -1,0 +1,75 @@
+// STRUCTURE DATA (Astrox Imperium) 
+// STRUCTURE;variable;value
+
+STRUCTURE;id;0
+STRUCTURE;name;Wormhole Hideout
+STRUCTURE;type;Raider Hideout
+STRUCTURE;desc;Raider hideouts are dangerous structures to hang around. Raiders don't like us civilians, and have no problem ganging up on you.
+STRUCTURE;class;None
+STRUCTURE;owner;Unknown Boss
+STRUCTURE;faction;Outlaw
+STRUCTURE;faction_id;8
+STRUCTURE;material;station_material_Labor.png
+STRUCTURE;color;1 , .46, .19, 1
+STRUCTURE;interior_mat_color;1 , .46, .19, 1
+STRUCTURE;interior_emm_color;1 , 0, 0, 1
+STRUCTURE;interior_win_color;1 , 0, 1, 0.5
+STRUCTURE;level;1
+STRUCTURE;model_prefab_id;10
+STRUCTURE;icon_filename;structure_wormhole_hideout.png
+STRUCTURE;filename;structure_wormhole_hideout.txt
+STRUCTURE;max_hp;95000
+STRUCTURE;hp;95000
+STRUCTURE;effect;none
+STRUCTURE;effect_range;1.0
+STRUCTURE;effect_value;0.0
+STRUCTURE;usefee;0.0
+STRUCTURE;default_script_file;none
+STRUCTURE;default_script_id;0
+STRUCTURE;sector_effect;defense#-20
+STRUCTURE;sector_name;<SECTORNAME>
+
+STRUCTURE;gen_power;false
+STRUCTURE;gen_power_rate;0
+STRUCTURE;power_points;1000
+STRUCTURE;power_points_max;1000
+STRUCTURE;power_drain;2.5
+STRUCTURE;is_raider;true
+STRUCTURE;is_law;false
+STRUCTURE;btn_undock;true
+
+STRUCTURE;cargo_max;1000
+STRUCTURE;upgrade_timer;0
+STRUCTURE;upgrade_file;null
+
+INTERIOR;0;1,1;1;1,0,0,0
+INTERIOR;0;1,2;1;0,0,0,0
+INTERIOR;0;1,3;1;0,0,0,0
+INTERIOR;5;1,4;0;0,0,0,0
+INTERIOR;8;0,4;0;0,0,0,0
+INTERIOR;8;2,4;2;0,0,0,0
+INTERIOR;5;1,5;0;0,0,0,0
+INTERIOR;7;0,5;0;0,0,0,0
+INTERIOR;7;2,5;2;0,0,0,0
+INTERIOR;1;1,6;1;0,0,0,0
+INTERIOR;3;1,7;0;1,0,0,0
+
+//; ----------------------------- STRUCTURE INTERIOR PARTS-------------------------------
+//; ----------------------- PART,prefab_id;name,xp,yp,zp,xr,yr,zr,a1,b2
+<PARTS>
+</PARTS>
+
+
+//; ----------------------------- STRUCTURE MODULE SLOTS --------------------------------
+//; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr--------------------------------
+<MODSLOT>
+
+
+//; ----------------------------- STRUCTURE MODULES --------------------------------------
+//; ----- MODULE,slot,module_id
+<MODULE>
+
+
+//; ----------------------------- STRUCTURE CARGO -----------------------------------------
+//; ----- CARGO, qty, cargo_id
+<CARGO>

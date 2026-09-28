@@ -1,0 +1,116 @@
+//; ASTROX IMPERIUM SHIP EDITOR
+//; Jace Masula 2017
+//; -------------------------------SHIP MAIN VARS ----------------------------------
+//; ---------------------------- Variable name, value ------------------------------
+<STATS>
+SHIP_base_level;7
+SHIP_skill_level;1
+SHIP_filename;npc_ship_data_(test_scripting)
+SHIP_faction_id;0
+SHIP_name;BCA-1 Intercept Piranha
+SHIP_class;Carrier
+SHIP_base_shield;5000
+SHIP_base_armor;5000
+SHIP_base_energy;50000
+SHIP_base_cargo;5000
+SHIP_base_speed;0
+SHIP_base_turn;0.3
+SHIP_base_thrust;250
+SHIP_base_mass;250
+SHIP_collider_x;2
+SHIP_collider_y;5
+SHIP_collider_z;20
+SHIP_active_slots;6
+SHIP_passive_slots;6
+SHIP_base_lifesupport;5000
+SHIP_base_engine_burn; 0.25
+SHIP_base_recharge;0.75
+SHIP_base_scan_speed;5.00
+SHIP_base_scan_max_targets;9
+SHIP_base_scan_pulserange;5000
+SHIP_base_scan_pulsespeed;100
+SHIP_type;Battle
+SHIP_base_price;83100000
+SHIP_description;carrier ship desc.
+SHIP_impact_resistance;0.0
+SHIP_energy_resistance;0.0
+SHIP_explosive_resistance;0.0
+SHIP_engine_color; 0.1 ; 0.0 ; 1.0 ; 1.0
+SHIP_manufacturer;G.E.M.
+SHIP_manufacturer_icon;icon_gem.png
+SHIP_shield;0
+SHIP_armor;0
+SHIP_energy;0
+SHIP_ls_food;0
+SHIP_ls_water;0
+SHIP_ls_thermal;0
+SHIP_ls_waste;0
+SHIP_base_drones;0
+//merc stuff
+SHIP_owner;Jacelor Mazu
+SHIP_xp;0
+SHIP_next_level_xp;1000
+SHIP_level;1
+SHIP_talent;Combat
+SHIP_loyalty;10
+SHIP_payroll;300
+SHIP_pilot_face_1;male_1.png
+SHIP_pilot_face_2;accessory_1.png
+SHIP_scripting_file;
+SHIP_scripting_id;
+
+//; --------------------------------- SHIP PARTS -----------------------------------
+//; --------------- ITEM,type,catID,pfID,xp,yp,zp,xr,yr,zr-----------------------------
+<ITEM>
+ITEM;bulk_6; 4 ; 65 ;0.00;1.59;4.15;0.00;0.00;0.00
+ITEM;engine_0; 4 ;38;-0.97;2.62;-9.58;0.00;0.00;90.00
+ITEM;engine_0; 4 ;38;0.97;2.68;-9.58;0.00;0.00;90.00
+ITEM;engine_0; 4 ;38;1.04;-0.14;-9.58;0.00;0.00;90.00
+ITEM;engine_0; 4 ;38;-0.90;-0.14;-9.58;0.00;0.00;90.00
+ITEM;tiny_yellow_blinker; 4 ; 95 ;0.00;4.57;-8.44;0.00;0.00;0.00
+ITEM;tiny_blue_blinker; 4 ; 94 ;0.00;-1.59;0.76;0.00;0.00;0.00
+ITEM;tiny_red_blinker; 4 ; 91 ;0.00;7.32;-0.83;0.00;0.00;0.00
+ITEM;wing_5; 4 ; 85 ;-0.41;4.40;-1.93;0.00;0.00;270.00
+ITEM;wing_5; 4 ; 85 ;-0.38;4.40;-0.56;0.00;0.00;270.00
+ITEM;wing_5; 4 ; 85 ;0.44;0.29;-1.22;0.00;0.00;90.00
+ITEM;wing_3 L; 4 ; 83 ;4.15;-1.64;-6.02;0.00;0.00;0.00
+ITEM;wing_4 R; 4 ; 82 ;-3.81;-1.64;-6.09;0.00;0.00;0.00
+ITEM;Hull_huge_3; 4 ; 13 ;0.00;4.22;-8.86;0.00;180.00;0.00
+ITEM;wing_1 L; 4 ; 81 ;0.00;0.00;-5.33;0.00;0.00;270.00
+ITEM;wing_1 L; 4 ; 81 ;-0.21;2.74;-6.92;0.00;0.00;0.00
+ITEM;wing_1 R; 4 ; 80 ;0.28;2.68;-6.85;0.00;0.00;0.00
+ITEM;command_6; 4 ; 26 ;0.00;1.38;9.47;0.00;0.00;0.00
+ITEM;bulk_11; 4 ; 70 ;0.00;2.91;-2.84;90.00;180.00;0.00
+ITEM;bulk_11; 4 ; 70 ;0.00;2.91;0.00;90.00;0.00;0.00
+ITEM;Hull_large_2; 4 ; 10 ;0.07;0.00;5.47;0.00;0.00;0.00
+ITEM;Hull_huge_3; 4 ; 13 ;0.00;1.46;-8.85;0.00;180.00;0.00
+ITEM;Hull_huge_1; 4 ; 11 ;0.00;3.73;8.92;0.00;0.00;0.00
+ITEM;Hull_huge_2; 4 ; 12 ;0.00;2.22;0.99;0.00;0.00;0.00
+ITEM;Hull_huge_2; 4 ; 12 ;0.00;1.45;-4.16;0.00;0.00;0.00
+ITEM;bulk_5; 4 ; 64 ;0.00;0.00;0.96;0.00;180.00;0.00
+//; ----------------------------- SHIP CAMERA SLOTS --------------------------------
+//; -------------- PILOTCAM,name,SLOTid,model_id,xp,yp,zp,xr,yr,zr--------------------
+<PILOTCAM>
+PILOTCAM;pilot_cam; 5 ; 98 ;0.01;1.14;12.26;0.00;0.00;0.00
+//; ----------------------------- SHIP MODULE SLOTS --------------------------------
+//; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr-------------------------------
+<MODSLOT>
+MODSLOT;module slot; 1 ; 99 ;-1.09;-0.54;7.45;0.00;0.00;90.00
+MODSLOT;module slot; 2 ; 99 ;-0.76;3.94;5.48;0.00;0.00;30.92
+MODSLOT;module slot; 3 ; 99 ;-1.53;2.30;6.27;0.00;0.00;90.00
+MODSLOT;module slot; 4 ; 99 ;0.88;3.83;5.47;0.00;0.00;334.80
+MODSLOT;module slot; 5 ; 99 ;1.53;2.29;6.34;0.00;0.00;270.00
+MODSLOT;module slot; 6 ; 99 ;1.10;-0.55;7.44;0.00;0.00;270.00
+//; ----------------------------- SHIP MODULES --------------------------------------
+//; ----- MODULE,slot,module_id
+<MODULE>
+MODULE; 1 ; 1114
+MODULE; 2 ; 1114
+MODULE; 3 ; 1114
+MODULE; 4 ; 1114
+MODULE; 5 ; 1064
+MODULE; 6 ; 1460
+//; ----------------------------- SHIP CARGO -----------------------------------------
+//; ----- CARGO, qty, cargo_id
+<CARGO>
+CARGO; 100 ; 60

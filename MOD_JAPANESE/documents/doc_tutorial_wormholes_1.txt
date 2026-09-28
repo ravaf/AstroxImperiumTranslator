@@ -1,0 +1,35 @@
+scan_title;Wormholes
+scan_image;document_training.png
+scan_sector;Level: Basic
+
+<size='25'><color=cyan>Wormhole Introduction</color></size>
+Wormholes are a rare anomaly in the Astrox Universe. They are natural warp gates to unseen sectors not shown on the map until explored. Wormholes use natural cosmic energy to warp a ship from one end of the wormhole to the other. The energy involved can take time to store up in the wormhole. When the wormhole is used, energy is used as well. This can cause the wormhole to become unstable and eventually collapse it entirely.
+
+It is currently unknown what causes wormholes to generate, but we do know it has something to do with concentrated energy. Wormholes have a small gravitational pull, and often collect trash and debris from the sector. In some cases, the items can be extremely valuable.
+
+Wormholes can be some of the most dangerous places in the universe. Hostile environments and extremely low security can prove deadly for even the most seasoned pilots. Aside from the natural dangers, raiders like to remain hidden and thus use wormholes as a place to hide their criminal activities. Bliss production often takes place in these wormholes, and the raiders will defend their operations to the death.
+
+<size='25'><color=cyan>Finding a Wormhole</color></size>
+Finding wormholes can be tricky, since they do not spawn very often. When they do, it is hard to know where they are. You cannot see them very well with the naked eye, but using some specialized equipment will help you locate their position. The Active Scanner will report if a Sector has Wormhole energy nearby. This report will also provide the signal strength and allow you to calculate the relative distance from your ship. Using this method will allow you to hone in on the signal, and eventually reveal the wormhole once you get within 500 meters.
+
+<size='25'><color=cyan>The Wormhole Lifespan</color></size>
+The lifespan of a wormhole can vary, and it is not known what causes the wormholes to collect and store energy, but this energy is what transport the ship from one end to the other. With every use of the wormhole, it will degrade. Once the energy of the wormhole has been depleted, it will collapse, and you will not be able to use the wormhole until it recharges. It is not currently known what causes the wormholes to recharge naturally.
+
+<size='25'><color=cyan>The other side</color></size>
+The sector area that a wormhole will transport you to will remain accessible even if the wormhole itself has collapsed. Warp drive systems are still a viable way to travel to a wormhole sector, but they can be a nightmare if you find yourself without enough fuel to get back. This may require that you harvest a star for fuel, so it is highly recommended that you always carry a harvesting beam with you when warp driving to a wormhole. The wormhole sectors usually have  more jumps available at the exit gate, than the wormhole entrance.
+
+<size='25'><color=cyan>Stabilizing the Wormhole</color></size>
+There are two different ways that you can keep a wormhole open and usable. The first way is to construct an energy generator near the wormhole gate. This will provide a source of energy to the wormhole and will constantly recharge the energy it uses to warp your ship. This will keep the wormhole open, however the number of consecutive uses is still limited. You will need to wait for the wormhole to recharge.
+
+The second way to stabilize a wormhole is to construct a warpgate on top of it. Once a warpgate harness has been assembled around an entrance or exit, with a Energy Generator in range, the wormhole will transform into a warpgate, and no longer require an energy recharge for usage. If the warpgate is destroyed, the wormhole will collapse and the gate will no longer exist.
+
+<size='25'><color=cyan>Wormhole Goodies</color></size>
+Some wormholes have a stronger gravitational pull than others. These tend to collect crates from nearby battles and these crates can often contain valuable items. The crates will be scattered amongst the other garbage collected by the wormhole, so it may take some looking to find them. Unlike normal crates, wormhole crates begin deteriorating even before they are unsealed for the first time. It is speculated that the warp process causes enough damage to break the seal in transit, as crates are not designed for traveling at worm speeds. Collect the crates before they expire, and their items are lost forever.
+
+<size='25'><color=cyan>Wormholes and Raiders</color></size>
+It is not uncommon for Raiders to use the wormhole sectors as safe havens for their criminal activities. In many cases, the Raiders will set traps for unsuspecting wormhole explorers looking for easy profits from the mineral rich asteroids. These raider groups will hide cloaked in the asteroid fields and wait until you are mining before ambushing their unsuspecting victims. Always be prepared for combat when exploring wormholes, or you may find yourself caught off guard.
+
+On rare occasions, Raiders will establish a hideout or headquarters inside a wormhole sector. If this is the case, you will know right away how dangerous the sector is. Raiders will be swarming around a centralized structure that usually houses the manufacturing of illegal Bliss. They will fight to the death to defend their operations, so tread lightly in these wormhole sectors.
+
+<size='25'><color=cyan>Wormhole Paradise</color></size>
+Although very rare, wormhole sectors can be quite pleasant from time to time. Moderate environments, resource rich, and not a single Raider in sight. These wormhole sectors make for  great mining operations, or even a full scale base with dozens of structures. 

@@ -1,0 +1,12 @@
+//; ASTROX IMPERIUM : STATION ENTERTAINMENT DATABASE : JACE MASULA 2019
+//; ID KEYS (0-49)
+// SKILLS --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// 0		1		2					3									4 				5				6				7							8
+// MODE		ID		TYPE				IMAGE								% CHANCE		BONUS x			LUCK(0-9)		COLOR RBGA					DESC
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SPECIAL;	0;		Default;			item_special_default.png;			100.0;			0.0;			0;				1.0,1.0,1.0,1.0;			This is just a default item, with no special attributes.;
+SPECIAL;	1;		Rare;				item_special_rare.png;				50.0;			0.10;			2;				1.0,1.0,1.0,1.0;			This Rare item will apply a small 10% bonus to 2 random attributes.;
+SPECIAL;	2;		Epic;				item_special_epic.png;				25.5;			0.25;			4;				1.0,1.0,1.0,1.0;			This Epic item will apply a 25% bonus on up to 4 random attributes.;
+SPECIAL;	3;		Artifact;			item_special_artifact.png;			12.0;			0.50;			6;				1.0,1.0,1.0,1.0;			This Artifact item will apply a 50% bonus on up to 6 random attributes.;
+

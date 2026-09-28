@@ -1,0 +1,29 @@
+GAMEMODE;id;0
+GAMEMODE;title;Open World Freeplay
+GAMEMODE;image;gm_0.png
+
+PRESET;0;_GM_freeplay_easy.txt;Easy Difficulty
+PRESET;1;_GM_freeplay_medium.txt;Medium Challenge
+PRESET;2;_GM_freeplay_hardcore.txt;Hardcore Mode
+
+<SUMMARY>
+<size='30'>Mode: <color='cyan'>Freeplay</color></size>
+
+The Freeplay game mode will allow you total freedom. You are free to do as you please, without restriction or objective. You can progress at your own pace, doing whatever you like. There are no overworld timers, there are no limits or gameplay restrictions.
+
+<DESCRIPTION>
+<size='30'><color='cyan'>OVERVIEW</color></size>
+Freeplay has no additional rules or conditions that apply to the gameplay. Everything functions just as it would in the campaign mode, without any storyline or storyline events. Missions are available and can be found at various stations and structures.
+
+Faction restrictions will apply as normal, so the only thing preventing access to sectors or stations will be your own poor faction ratings, so be careful what you kill. Raiders will spawn in randomly, background events and news will all function as normal without restriction.
+
+Your pilot will spawn in an unexplored galaxy, requiring you to visit new sectors and stations. As you explore, the market data from each location will populate the stations providing live market data for the places you have visited.
+
+All career paths are viable in the Freeplay game mode. Mining, Privateering, Trade, Salvage, Crafting and Missions are all paths to riches.
+
+<size='30'><color='cyan'>RULES</color></size>
+The Freeplay game mode has no rules that apply to the player
+
+<size='30'><color='cyan'>OBJECTIVES</color></size>
+There is no objective to the Freeplay game mode. You are not required to do anything special. The game does not end, and you are not directed to perform any tasks or objectives to progress.
+Freeplay is a great way to enjoy all the game mechanics Astrox Imperium has to offer. Whether you are just learning the game, or a seasoned veteran, the Freeplay game mode offers something new each time you play.

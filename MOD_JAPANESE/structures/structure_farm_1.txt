@@ -1,0 +1,159 @@
+// STRUCTURE DATA (Astrox Imperium) 
+// STRUCTURE;variable;value
+
+STRUCTURE;id;0
+STRUCTURE;name;Community Farming Center
+STRUCTURE;type;Farm
+STRUCTURE;desc;Each farming center can produce enough food for an entire habitation module, and then some. For the population of a sector to thrive, it is important that they can grow enough food to sustain steady growth. Parking near a farm provides no effect.
+STRUCTURE;class;Center
+STRUCTURE;owner;Telyoupea Akpi
+STRUCTURE;faction;Missionary
+STRUCTURE;faction_id;11
+STRUCTURE;material;station_material_Labor.png
+STRUCTURE;color;0.25, 0.25, 0.25, 1
+STRUCTURE;interior_mat_color;0.25, 0.25, 0.25, 1
+STRUCTURE;interior_emm_color;0.25, 0.43, 0.43, 1
+STRUCTURE;interior_win_color;0.25, 0.25, 0.25, 1
+STRUCTURE;level;1
+STRUCTURE;model_prefab_id;3
+STRUCTURE;icon_filename;structure_farm_1.png
+STRUCTURE;filename;structure_farm_1.txt
+STRUCTURE;max_hp;15000
+STRUCTURE;hp;15000
+STRUCTURE;effect;none
+STRUCTURE;effect_range;0
+STRUCTURE;effect_value;1.0
+STRUCTURE;usefee;0.0
+STRUCTURE;default_script_file;structure_farm.txt
+STRUCTURE;default_script_id;10
+STRUCTURE;sector_effect;farming#5
+STRUCTURE;sector_name;<SECTORNAME>
+
+STRUCTURE;gen_power;false
+STRUCTURE;gen_power_rate;0
+STRUCTURE;power_points;1000
+STRUCTURE;power_points_max;1000
+STRUCTURE;power_drain;2.5
+STRUCTURE;is_raider;false
+STRUCTURE;is_law;false
+STRUCTURE;is_dockable;True
+STRUCTURE;btn_undock;true
+
+STRUCTURE;cargo_max;1100
+STRUCTURE;upgrade_timer;0
+STRUCTURE;upgrade_file;null
+
+INTERIOR;7;1,1;3;0,0,0,0
+INTERIOR;7;1,2;1;0,0,0,0
+INTERIOR;17;1,2;1;0,0,0,0;Hydroponic Farm;1;structure_farm_1.png;structure_farm_1.png;structure_farm.txt;10
+
+//; ----------------------------- STRUCTURE INTERIOR PARTS-------------------------------
+//; ----------------------- PART,prefab_id;name,xp,yp,zp,xr,yr,zr,a1,b2
+<PARTS>
+PART;8;Corner;18.00;-0.25;18.00;0.00;0.00;0.00;null;null;null;null;null;null;null;null
+PART;8;Corner;18.00;-0.25;18.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;8;Corner;18.00;-0.25;18.00;0.00;180.00;0.00;null;null;null;null;null;null;null;null
+PART;8;Corner;18.00;-0.25;18.00;0.00;90.00;0.00;null;null;null;null;null;null;null;null
+PART;91;Wall;21.00;-0.25;25.00;0.00;225.00;0.00;null;null;null;null;null;null;null;null
+PART;91;Wall;25.00;-0.25;21.00;0.00;225.00;0.00;null;null;null;null;null;null;null;null
+PART;91;Wall;25.00;-0.25;15.00;0.00;135.00;0.00;null;null;null;null;null;null;null;null
+PART;91;Wall;21.00;-0.25;11.00;0.00;135.00;0.00;null;null;null;null;null;null;null;null
+PART;91;Wall;15.00;-0.25;11.00;0.00;45.00;0.00;null;null;null;null;null;null;null;null
+PART;91;Wall;11.00;-0.25;15.00;0.00;45.00;0.00;null;null;null;null;null;null;null;null
+PART;91;Wall;11.00;-0.25;21.00;0.00;315.00;0.00;null;null;null;null;null;null;null;null
+PART;91;Wall;15.00;-0.25;25.00;0.00;315.00;0.00;null;null;null;null;null;null;null;null
+PART;45;Ground;8.00;-0.25;18.00;0.00;90.00;0.00;null;null;null;null;null;null;null;null
+PART;45;Ground;4.00;-0.25;18.00;0.00;90.00;0.00;null;null;null;null;null;null;null;null
+PART;45;Ground;4.00;-0.25;22.00;0.00;90.00;0.00;null;null;null;null;null;null;null;null
+PART;45;Ground;4.00;-0.25;26.00;0.00;90.00;0.00;null;null;null;null;null;null;null;null
+PART;45;Ground;4.00;-0.25;30.00;0.00;90.00;0.00;null;null;null;null;null;null;null;null
+PART;91;Wall;8.00;-0.25;16.00;0.00;180.00;0.00;null;null;null;null;null;null;null;null
+PART;91;Wall;8.00;-0.25;20.00;0.00;180.00;0.00;null;null;null;null;null;null;null;null
+PART;91;Wall;4.00;-0.25;16.00;0.00;180.00;0.00;null;null;null;null;null;null;null;null
+PART;91;Wall;6.00;-0.25;22.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;91;Wall;2.00;-0.25;18.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;91;Wall;2.00;-0.25;22.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;91;Wall;6.00;-0.25;26.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;91;Wall;6.00;-0.25;30.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;91;Wall;2.00;-0.25;26.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;91;Wall;2.00;-0.25;30.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;91;Wall;4.00;-0.25;32.00;0.00;0.00;0.00;null;null;null;null;null;null;null;null
+PART;175;Lockbox;13.00;-0.25;13.00;0.00;225.00;0.00;id_45678945;10;10000;1,1#2,1;Unlocked;;;Unknown
+PART;175;Lockbox;23.00;-0.25;13.00;0.00;135.00;0.00;id_79468554;10;10000;1,1#2,1;Unlocked;;;Unknown
+PART;175;Lockbox;23.00;-0.25;23.00;0.00;45.00;0.00;id_366569875;10;10000;1,1#2,1;Unlocked;;;Unknown
+PART;175;Lockbox;23.00;2.75;23.00;0.00;45.00;0.00;id_72415445;10;10000;1,1#2,1;Unlocked;;;Unknown
+PART;175;Lockbox;23.00;2.75;13.00;0.00;135.00;0.00;id_454789653;10;10000;1,1#2,1;Unlocked;;;Unknown
+PART;175;Lockbox;13.00;2.75;13.00;0.00;225.00;0.00;id_457768522;10;10000;1,1#2,1;Unlocked;;;Unknown
+PART;175;Lockbox;13.00;-0.25;23.00;0.00;315.00;0.00;id_732659864;10;10000;1,1#2,1;Unlocked;;;Unknown
+PART;175;Lockbox;13.00;2.75;23.00;0.00;315.00;0.00;id_465326568;10;10000;1,1#2,1;Unlocked;;;Unknown
+PART;0;Ground;18.00;1.75;10.00;270.02;180.00;0.00;null;null;null;null;null;null;null;null
+PART;0;Ground;18.00;5.75;10.00;270.02;180.00;0.00;null;null;null;null;null;null;null;null
+PART;0;Ground;26.00;1.75;18.00;270.00;90.00;0.00;null;null;null;null;null;null;null;null
+PART;0;Ground;26.00;5.75;18.00;270.00;90.00;0.00;null;null;null;null;null;null;null;null
+PART;0;Ground;18.00;5.75;26.00;270.00;0.00;0.00;null;null;null;null;null;null;null;null
+PART;0;Ground;18.00;1.75;26.00;270.00;0.00;0.00;null;null;null;null;null;null;null;null
+PART;20;Doors;10.00;-0.25;18.00;0.00;90.00;0.00;Unlocked;null;null;null;null;null;null;null
+PART;66;Pillar;18.00;-0.25;18.00;0.00;90.00;0.00;null;null;null;null;null;null;null;null
+PART;66;Pillar;18.00;3.75;18.00;0.00;90.00;0.00;null;null;null;null;null;null;null;null
+PART;82;Wall;10.00;3.75;18.00;0.00;90.00;0.00;null;null;null;null;null;null;null;null
+PART;125;Wall;4.00;5.75;30.00;90.00;0.00;0.00;null;null;null;null;null;null;null;null
+PART;125;Wall;4.00;5.75;28.00;90.00;0.00;0.00;null;null;null;null;null;null;null;null
+PART;125;Wall;4.00;5.75;26.00;90.00;0.00;0.00;null;null;null;null;null;null;null;null
+PART;125;Wall;4.00;5.75;24.00;90.00;0.00;0.00;null;null;null;null;null;null;null;null
+PART;125;Wall;4.00;5.75;22.00;90.00;0.00;0.00;null;null;null;null;null;null;null;null
+PART;125;Wall;4.00;5.75;20.00;90.00;0.00;0.00;null;null;null;null;null;null;null;null
+PART;125;Wall;4.00;5.75;18.00;90.00;0.00;0.00;null;null;null;null;null;null;null;null
+PART;125;Wall;4.00;5.75;16.00;90.00;0.00;0.00;null;null;null;null;null;null;null;null
+PART;125;Wall;8.00;5.75;18.00;90.00;0.00;0.00;null;null;null;null;null;null;null;null
+PART;125;Wall;8.00;5.75;16.00;90.00;0.00;0.00;null;null;null;null;null;null;null;null
+PART;125;Wall;25.00;5.75;21.00;0.00;225.00;0.00;null;null;null;null;null;null;null;null
+PART;125;Wall;21.00;5.75;25.00;0.00;225.00;0.00;null;null;null;null;null;null;null;null
+PART;125;Wall;15.00;5.75;25.00;0.00;135.00;0.00;null;null;null;null;null;null;null;null
+PART;125;Wall;11.00;5.75;21.00;0.00;135.00;0.00;null;null;null;null;null;null;null;null
+PART;125;Wall;11.00;5.75;15.00;0.00;225.00;0.00;null;null;null;null;null;null;null;null
+PART;125;Wall;15.00;5.75;11.00;0.00;225.00;0.00;null;null;null;null;null;null;null;null
+PART;125;Wall;21.00;5.75;11.00;0.00;135.00;0.00;null;null;null;null;null;null;null;null
+PART;125;Wall;25.00;5.75;15.00;0.00;135.00;0.00;null;null;null;null;null;null;null;null
+PART;95;Wall;13.00;5.75;13.00;0.00;225.00;0.00;null;null;null;null;null;null;null;null
+PART;95;Wall;13.00;5.75;23.00;0.00;225.00;0.00;null;null;null;null;null;null;null;null
+PART;95;Wall;23.00;5.75;13.00;0.00;225.00;0.00;null;null;null;null;null;null;null;null
+PART;95;Wall;23.00;5.75;23.00;0.00;225.00;0.00;null;null;null;null;null;null;null;null
+PART;6;Corner;18.00;7.75;18.00;0.00;0.00;0.00;null;null;null;null;null;null;null;null
+PART;6;Corner;18.00;7.75;18.00;0.00;90.00;0.00;null;null;null;null;null;null;null;null
+PART;6;Corner;18.00;7.75;18.00;0.00;180.00;0.00;null;null;null;null;null;null;null;null
+PART;6;Corner;18.00;7.75;18.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;1;Clamp;24.00;-0.25;18.00;0.00;0.00;0.00;START;null;null;null;null;null;null;null
+PART;26;Grid;4.25;-0.25;18.00;90.00;180.00;0.00;null;null;null;null;null;null;null;null
+PART;26;Grid;4.25;-0.25;22.00;90.00;180.00;0.00;null;null;null;null;null;null;null;null
+PART;26;Grid;4.25;-0.25;26.00;90.00;180.00;0.00;null;null;null;null;null;null;null;null
+PART;26;Grid;4.25;-0.25;30.00;90.00;180.00;0.00;null;null;null;null;null;null;null;null
+PART;26;Grid;8.00;-0.25;18.00;90.00;180.00;0.00;null;null;null;null;null;null;null;null
+PART;202;Light;13.50;5.75;22.50;0.00;225.00;0.00;0.2,0.4,0.4;0.5;20.0;4.0;4.0;5.0;1.0;null
+PART;202;Light;22.50;5.75;22.50;0.00;135.00;0.00;0.2,0.4,0.4;0.5;20.0;4.0;4.0;5.0;1.0;null
+PART;202;Light;13.50;5.75;13.50;0.00;135.00;0.00;0.2,0.4,0.4;0.5;20.0;4.0;4.0;5.0;1.0;null
+PART;202;Light;22.50;5.75;13.50;0.00;45.00;0.00;0.2,0.4,0.4;0.5;20.0;4.0;4.0;5.0;1.0;null
+PART;5;Clamp;17.75;0.00;26.00;0.00;0.00;0.00;null;null;null;null;null;null;null;null
+PART;5;Clamp;26.00;0.00;18.25;0.00;270.00;0.00;null;null;null;null;null;null;null;null
+PART;5;Clamp;18.00;0.00;10.00;0.00;180.00;0.00;null;null;null;null;null;null;null;null
+PART;159;Prop;4.00;-0.25;31.75;0.00;180.00;0.00;null;null;null;null;null;null;null;null
+</PARTS>
+
+//; ----------------------------- STRUCTURE MODULE SLOTS --------------------------------
+//; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr--------------------------------
+<MODSLOT>
+
+//; ----------------------------- STRUCTURE MODULES --------------------------------------
+//; ----- MODULE,slot,module_id
+<MODULE>
+
+
+//; ----------------------------- STRUCTURE CARGO -----------------------------------------
+//; ----- CARGO, qty, cargo_id
+<CARGO>
+CARGO; 2864 ; 52
+CARGO; 2864 ; 61
+CARGO; 10 ; 101
+CARGO; 20 ; 100
+CARGO; 10 ; 102
+CARGO; 3 ; 1028
+CARGO; 252 ; 1

@@ -1,0 +1,114 @@
+//; ASTROX IMPERIUM SHIP EDITOR
+//; Jace Masula 2017
+//; -------------------------------SHIP MAIN VARS ----------------------------------
+//; ---------------------------- Variable name, value ------------------------------
+<STATS>
+SHIP_base_level;6
+SHIP_skill_level;1
+SHIP_filename;ship_data_(pirate_carrier_1)
+SHIP_faction_id;0
+SHIP_name;PCA-1 Pirate Carrier
+SHIP_class;Carrier
+SHIP_base_shield;4208
+SHIP_base_armor;4286
+SHIP_base_energy;4132
+SHIP_base_cargo;4364
+SHIP_base_speed;0
+SHIP_base_turn;0.32
+SHIP_base_thrust;269
+SHIP_base_mass;230
+SHIP_collider_x;1.5
+SHIP_collider_y;4
+SHIP_collider_z;15
+SHIP_active_slots;8
+SHIP_passive_slots;7
+SHIP_base_lifesupport;564
+SHIP_base_engine_burn;0.65
+SHIP_base_recharge;0.36
+SHIP_base_shield_recharge;4.25
+SHIP_base_scan_speed;2.0
+SHIP_base_scan_max_targets;10
+SHIP_base_scan_pulserange;10000
+SHIP_base_scan_pulsespeed;10
+SHIP_type;Assault
+SHIP_base_price;6287000
+SHIP_description;The assault ship is designed to be a fast moving, combat strike craft. Improved thrust systems, and augmented resistance. Suffers from a heavy engine burn on the energy core.
+SHIP_impact_resistance;0.0
+SHIP_energy_resistance;0.0
+SHIP_explosive_resistance;0.3
+SHIP_material_color_a;1;1;1;1
+SHIP_material_color_b;1;1;1;1
+SHIP_material_texture_a;default_main.png
+SHIP_material_texture_b;default_detail.png
+SHIP_material_texture_c;default_glow.png
+SHIP_engine_color;1;1;1;1.0
+SHIP_manufacturer;Sailcraft
+SHIP_manufacturer_icon;icon_sailcraft.png
+SHIP_shield;0
+SHIP_armor;0
+SHIP_energy;0
+SHIP_ls_food;0
+SHIP_ls_water;0
+SHIP_ls_thermal;0
+SHIP_ls_waste;0
+SHIP_ls_points;0
+SHIP_base_drones;8
+SHIP_specials_raw;Drone Strength#0.80,Drone Energy#0.25,Drone Range#0.90,Drone Speed#0.1,Drone Cargo#0.02,ECM Strength#0.30,Beam Strength#0.60
+//merc stuff
+SHIP_owner;none
+SHIP_xp;0
+SHIP_next_level_xp;1000
+SHIP_level;1
+SHIP_talent;Pirate
+SHIP_loyalty;10
+SHIP_payroll;300
+//; --------------------------------- SHIP PARTS -----------------------------------
+//; --------------- ITEM,type,catID,pfID,xp,yp,zp,xr,yr,zr-----------------------------
+<ITEM>
+ITEM;hull_main_3; 4 ; 13 ;0.00;0.00;2.25;0.00;0.00;0.00
+ITEM;bulk_7; 4 ; 66 ;0.00;-1.58;-2.93;0.00;0.00;0.00
+ITEM;bulk_7; 4 ; 66 ;0.05000;-1.58000;-0.45000;0.00000;180.00000;0.00000
+ITEM;Mast_3; 4 ; 43 ;0.00;-2.08;-4.06;0.00;0.00;0.00
+ITEM;Mast_3; 4 ; 43 ;0.00;-2.93;0.00;0.00;0.00;0.00
+ITEM;Sail_4; 4 ;46 ;0.00;1.66;-4.05;0.00;0.00;0.00
+ITEM;Sail_4; 4 ; 47 ;0.00000;2.08000;0.15969;0.00000;0.00000;0.00000
+ITEM;Sail_1; 4 ; 44 ;-0.25;1.88;-3.72;0.00;135.96;0.00
+ITEM;Sail_1; 4 ; 44 ;0.25;1.88;-3.72;0.00;223.18;0.00
+ITEM;Sail_1; 4 ; 44 ;0.27;0.99;0.31;0.00;225.59;0.00
+ITEM;Sail_1; 4 ; 44 ;-0.25;1.00;0.30;0.00;135.96;0.00
+ITEM;bulk_1; 4 ; 60 ;0.00;1.66;10.30;0.00;0.00;0.00
+ITEM;hull_boat_1; 4 ; 11 ;0.00;-2.17;7.67;0.00;0.00;180.00
+ITEM;cargo_7; 4 ; 57 ;0.00;1.57;-8.56;0.00;91.92;270.00
+ITEM;hull_main_2; 4 ; 10 ;0.00;-1.35;-6.08;0.00;180.00;180.00
+ITEM;Hull_tiny_1; 4 ; 14 ;2.51;2.38;-8.22;0.00;90.00;0.00
+ITEM;Hull_tiny_1; 4 ; 14 ;-2.79;2.32;-8.28;0.00;270.00;180.00
+ITEM;Hull_small_7b; 4 ; 2 ;0.00;-0.13;8.02;0.00;0.00;180.00
+ITEM;command_7; 4 ; 27 ;0.00;0.47;8.83;0.00;0.00;0.00
+ITEM;engine_9; 4 ;39;-1.21;0.06;-9.86;0.00;0.00;90.00
+ITEM;engine_3; 4 ;33;3.53530;-1.51508;2.70411;0.00000;0.00000;0.00000
+ITEM;engine_3; 4 ;33;-3.35384;-1.50990;3.07526;0.00000;0.00000;0.00000
+ITEM;engine_9; 4 ;39;1.09;-0.03;-9.90;0.00;0.00;270.00
+ITEM;hull_main_3; 4 ; 13 ;-0.02000;-1.47000;-9.29000;0.00000;180.00000;180.00000
+ITEM;wing_12; 4 ; 77 ;-2.15;-1.05;3.72;0.00;0.00;205.48
+ITEM;wing_12; 4 ; 77 ;2.16;-1.02;3.48;0.00;0.00;335.25
+//; ----------------------------- SHIP CAMERA SLOTS --------------------------------
+//; -------------- PILOTCAM,name,SLOTid,model_id,xp,yp,zp,xr,yr,zr--------------------
+<PILOTCAM>
+PILOTCAM;pilot_cam; 5 ; 98 ;-0.04;1.63;11.62;0.00;0.00;0.00
+//; ----------------------------- SHIP MODULE SLOTS --------------------------------
+//; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr-------------------------------
+<MODSLOT>
+MODSLOT;module_slot;1; 99 ;-0.94896;0.59875;3.28291;0.00000;0.00000;0.00000
+MODSLOT;module_slot;2; 99 ;1.12269;0.66979;3.32414;0.00000;0.00000;0.00000
+MODSLOT;module_slot;3; 99 ;0.02000;2.04617;9.17000;0.00000;0.00000;0.00000
+MODSLOT;module_slot;4; 99 ;-0.59520;-1.67448;7.40998;0.00000;0.00000;90.00000
+MODSLOT;module_slot;5; 99 ;-1.80274;2.80966;-8.21483;0.00000;0.00000;0.00000
+MODSLOT;module_slot;6; 99 ;0.00;-0.91;9.20;0.00;0.00;180.00
+MODSLOT;module_slot;7; 99 ;0.69552;-1.69665;7.37102;0.00000;0.00000;270.00000
+MODSLOT;module_slot;8; 99 ;1.51157;2.87684;-8.18889;0.00000;0.00000;0.00000
+//; ----------------------------- SHIP MODULES --------------------------------------
+//; ----- MODULE,slot,module_id
+<MODULE>
+//; ----------------------------- SHIP CARGO -----------------------------------------
+//; ----- CARGO, qty, cargo_id
+<CARGO>

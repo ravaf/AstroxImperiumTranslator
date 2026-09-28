@@ -1,0 +1,93 @@
+//; ASTROX IMPERIUM SHIP EDITOR
+//; Jace Masula 2017
+//; -------------------------------SHIP MAIN VARS ----------------------------------
+//; ---------------------------- Variable name, value ------------------------------
+<STATS>
+SHIP_base_level;3
+SHIP_skill_level;1
+SHIP_filename;ship_data_(battle_utility_1)
+SHIP_faction_id;0
+SHIP_name;BU-1 Gunship
+SHIP_class;Utility
+SHIP_base_shield;1400
+SHIP_base_armor;953
+SHIP_base_energy;933
+SHIP_base_cargo;964
+SHIP_base_speed;0
+SHIP_base_thrust;181
+SHIP_base_mass;95
+SHIP_base_turn;0.49
+SHIP_collider_x;1
+SHIP_collider_y;1.5
+SHIP_collider_z;6
+SHIP_active_slots;5
+SHIP_passive_slots;3
+SHIP_base_lifesupport;325
+SHIP_base_engine_burn; 0.25
+SHIP_base_recharge;0.50
+SHIP_base_shield_recharge;2.25
+SHIP_base_scan_speed;5.00
+SHIP_base_scan_max_targets;5
+SHIP_base_scan_pulserange;5000
+SHIP_base_scan_pulsespeed;10
+SHIP_type;Battle
+SHIP_base_price;1524000
+SHIP_description;Battle ships are designed for head on combat. With augmented shields and reinforced armor plating, the battle ship can survive extreme damage.
+SHIP_impact_resistance;0.15
+SHIP_energy_resistance;0.15
+SHIP_explosive_resistance;0.0
+SHIP_material_color_a;1.0;1.0;1.0;0.25
+SHIP_material_color_b;1;1;1;1
+SHIP_material_texture_a;gem_main.png
+SHIP_material_texture_b;gem_detail.png
+SHIP_material_texture_c;gem_glow.png
+SHIP_engine_color;1;1;1;1
+SHIP_manufacturer;G.E.M.
+SHIP_manufacturer_icon;icon_gem.png
+SHIP_shield;0
+SHIP_armor;0
+SHIP_energy;0
+SHIP_ls_food;0
+SHIP_ls_water;0
+SHIP_ls_thermal;0
+SHIP_ls_waste;0
+SHIP_ls_points;0
+SHIP_base_drones;0
+SHIP_specials_raw;Tractor Range#0.25,Salvager Range#0.10,Gun Strength#0.20,Gun Speed#0.20,Gun Range#0.18
+//merc stuff
+SHIP_owner;none
+SHIP_xp;0
+SHIP_next_level_xp;1000
+SHIP_level;1
+SHIP_talent;Combat
+SHIP_loyalty;10
+SHIP_payroll;150
+//; --------------------------------- SHIP PARTS -----------------------------------
+//; --------------- ITEM,type,catID,pfID,xp,yp,zp,xr,yr,zr--------------------------
+<ITEM>
+ITEM;hull_main_4; 4 ; 9 ;0;0;0;0;0;0
+ITEM;command_4; 4 ; 24 ;0.00;0.00;2.14;0.00;0.00;0.00
+ITEM;bulk_3; 4 ; 62 ;0.00000;-0.14770;-0.87766;0.00000;0.00000;180.00000
+ITEM;bulk_5; 4 ; 64 ;0.05;0.69;-1.01;0.00;0.00;0.00
+ITEM;hull_small_5; 4 ;8;-0.009;0.027;0.018;0;0;0
+ITEM;engine_4; 4 ;34;0.93;0.02;-1.84;5.027277E-07;-5.549413E-06;-1.973913E-07
+ITEM;engine_4; 4 ;34;0.00;1.20;-1.82;0.00;0.00;0.00
+ITEM;engine_4; 4 ;34;-0.83;0.04;-1.89;-1.010935E-08;4.071096E-13;5.211004E-10
+//; ----------------------------- SHIP CAMERA SLOTS --------------------------------
+//; -------------- PILOTCAM,name,SLOTid,model_id,xp,yp,zp,xr,yr,zr--------------------
+<PILOTCAM>
+PILOTCAM;pilot_cam; 5 ; 98 ;-0.03;0.07;3.52;0.00;0.00;0.00
+//; ----------------------------- SHIP MODULE SLOTS --------------------------------
+//; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr---------------------------
+<MODSLOT>
+MODSLOT;module_slot;1; 99 ;-0.00514;-0.60517;2.63038;0.00000;0.00000;180.00000
+MODSLOT;module_slot;2; 99 ;0.00000;0.52859;0.55243;0.00000;0.00000;0.00000
+MODSLOT;module_slot;3; 99 ;-1.36;0.16;-0.54;0.00;0.00;90.00
+MODSLOT;module_slot;4; 99 ;1.33;0.10;-0.56;0.00;0.00;270.00
+MODSLOT;module_slot;5; 99 ;0.00000;0.37927;2.63000;0.00000;0.00000;0.00000
+//; ----------------------------- SHIP MODULES --------------------------------------
+//; ----- MODULE,slot,module_id
+<MODULE>
+//; ----------------------------- SHIP CARGO -----------------------------------------
+//; ----- CARGO, qty, cargo_id
+<CARGO>

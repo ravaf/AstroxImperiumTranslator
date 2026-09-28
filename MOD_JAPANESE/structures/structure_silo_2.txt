@@ -1,0 +1,64 @@
+// STRUCTURE DATA (Astrox Imperium) 
+// STRUCTURE;variable;value
+
+STRUCTURE;id;3
+STRUCTURE;name;Expanded Mining Silo
+STRUCTURE;type;Silo
+STRUCTURE;desc;The silo is used as an in between point for miners and transports alike. The storage provided by the silo will allow mercs to deposit the ore they mine automatically. The expanded silo has additional cargo bay space. 
+STRUCTURE;class;Storage
+STRUCTURE;owner;Jace Masula
+STRUCTURE;faction;Trade
+STRUCTURE;faction_id;4
+STRUCTURE;material;station_material_Labor.png
+STRUCTURE;color;1 , .46, .19, 1
+STRUCTURE;interior_mat_color;1 , .46, .19, 1
+STRUCTURE;interior_emm_color;1 , 0, 0, 1
+STRUCTURE;interior_win_color;1 , 0, 1, 0.5
+STRUCTURE;level;1
+STRUCTURE;model_prefab_id;14
+STRUCTURE;icon_filename;structure_silo_2.png
+STRUCTURE;filename;structure_silo_2.txt
+STRUCTURE;max_hp;22000
+STRUCTURE;hp;22000
+STRUCTURE;effect;none
+STRUCTURE;effect_range;1.0
+STRUCTURE;effect_value;0.0
+STRUCTURE;usefee;0.0
+STRUCTURE;default_script_file;none
+STRUCTURE;default_script_id;0
+STRUCTURE;sector_effect;energy#1,economy#1
+STRUCTURE;sector_name;<SECTORNAME>
+
+STRUCTURE;gen_power;false
+STRUCTURE;gen_power_rate;0
+STRUCTURE;power_points;1200
+STRUCTURE;power_points_max;1200
+STRUCTURE;power_drain;2.6
+STRUCTURE;is_raider;false
+STRUCTURE;is_law;false
+STRUCTURE;is_dockable;true
+STRUCTURE;btn_undock;true
+
+STRUCTURE;cargo_max;5000
+STRUCTURE;upgrade_timer;0
+STRUCTURE;upgrade_file;null
+
+INTERIOR;12;1,1;0;1,1,1,1
+
+//; ----------------------------- STRUCTURE INTERIOR PARTS-------------------------------
+//; ----------------------- PART,prefab_id;name,xp,yp,zp,xr,yr,zr,a1,b2
+<PARTS>
+</PARTS>
+
+//; ----------------------------- STRUCTURE MODULE SLOTS --------------------------------
+//; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr--------------------------------
+<MODSLOT>
+
+
+//; ----------------------------- STRUCTURE MODULES --------------------------------------
+//; ----- MODULE,slot,module_id
+<MODULE>
+
+//; ----------------------------- STRUCTURE CARGO -----------------------------------------
+//; ----- CARGO, qty, cargo_id
+<CARGO>

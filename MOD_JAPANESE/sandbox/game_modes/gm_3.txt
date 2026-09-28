@@ -1,0 +1,19 @@
+GAMEMODE;id;3
+GAMEMODE;title;Miner
+GAMEMODE;image;gm_3.png
+
+PRESET;0;_GM_miner.txt;Default
+
+<SUMMARY>
+<size='30'><color='cyan'>Mine them rocks.</color></size>
+
+This game mode will provide an abundance of resources, but they will not respawn once collected. Harvesting is boosted and raider spawns greatly are reduced.
+
+<DESCRIPTION>
+<size='30'><color='cyan'>Rules</color></size>
+1) Freeplay rules apply.
+2) Raiders spawns reduced.
+3) Resources and collection rates increased.
+
+<size='30'><color='cyan'>Objective</color></size>
+There is no objective to the Miner game mode. You are not required to do anything special. The game does not end, and you are not directed to perform any tasks or objectives to progress.

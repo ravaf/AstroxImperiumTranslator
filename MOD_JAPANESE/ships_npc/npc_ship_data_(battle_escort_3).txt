@@ -1,0 +1,105 @@
+//; ASTROX IMPERIUM SHIP EDITOR
+//; Jace Masula 2017
+//; -------------------------------SHIP MAIN VARS ----------------------------------
+//; ---------------------------- Variable name, value ---------------------------------
+<STATS>
+SHIP_base_level;2
+SHIP_skill_level;2
+SHIP_filename;npc_ship_data_(battle_escort_3)
+SHIP_faction_id;0
+SHIP_name;BE-3 Metatron
+SHIP_class;Escort
+SHIP_base_shield;385
+SHIP_base_armor;400
+SHIP_base_energy;378
+SHIP_base_cargo;380
+SHIP_base_speed;0
+SHIP_base_turn;0.65
+SHIP_base_thrust;150
+SHIP_base_mass;56
+SHIP_collider_x;1.5
+SHIP_collider_y;3
+SHIP_collider_z;10
+SHIP_active_slots;4
+SHIP_passive_slots;3
+SHIP_base_lifesupport;380
+SHIP_base_engine_burn;0.17
+SHIP_base_recharge;0.61
+SHIP_base_shield_recharge;1.9
+SHIP_base_scan_speed;5.00
+SHIP_base_scan_max_targets;6
+SHIP_base_scan_pulserange;5000
+SHIP_base_scan_pulsespeed;10
+SHIP_type;Battle
+SHIP_base_price;904000
+SHIP_description;A basic, low level utility ship. Great for beginner pilots interested in small mining sessions. Not great for combat but can defend against small attacks.
+SHIP_impact_resistance;0.15
+SHIP_energy_resistance;0.15
+SHIP_explosive_resistance;0.0
+SHIP_material_color_a;1;1;1;0.25
+SHIP_material_color_b;1;1;1;1
+SHIP_material_texture_a;gem_main.png
+SHIP_material_texture_b;gem_detail.png
+SHIP_material_texture_c;gem_glow.png
+SHIP_engine_color;1;1;1;1
+SHIP_manufacturer;G.E.M.
+SHIP_manufacturer_icon;icon_gem.png
+SHIP_shield;350
+SHIP_armor;350
+SHIP_energy;225
+SHIP_ls_food;0
+SHIP_ls_water;0
+SHIP_ls_thermal;0
+SHIP_ls_waste;0
+SHIP_ls_points;0
+SHIP_base_drones;0
+SHIP_specials_raw;Laser Speed#0.25,Laser Energy#0.30,Laser Range#0.75,Energy Resistance#0.75
+//merc stuff
+SHIP_owner;none
+SHIP_xp;0
+SHIP_next_level_xp;1000
+SHIP_level;1
+SHIP_talent;Combat
+SHIP_loyalty;10
+SHIP_payroll;50
+//; --------------------------------- SHIP PARTS ------------------------------------
+//; --------------- ITEM,type,catID,pfID,xp,yp,zp,xr,yr,zr------------------------------
+<ITEM>
+ITEM;Hull_tiny_1;0; 14 ;0.00;-0.34;0.68;0.00;0.00;0.00
+ITEM;Hull_tiny_1;0; 14 ;0.00;0.18;-1.32;0.00;180.00;180.00
+ITEM;wing_1; 4 ; 81 ;1.00;-0.45;0.00;0.00;30.00;350.00
+ITEM;wing_1; 4 ;81;-1.00;-0.46;0.03;0.00;330.00;189.00
+ITEM;engine_1; 4 ;31;-1.05;-0.47;-1.25;0.00;0.00;126.73
+ITEM;engine_1; 4 ;31;0.00;0.76;-1.21;0.00;0.00;0.00
+ITEM;engine_1; 4 ;31;1.12;-0.47;-1.32;0.00;0.00;48.98
+ITEM;command_3; 4 ; 23 ;0.00;-0.08;2.34;0.00;0.00;0.00
+ITEM;Hull_medium_3; 4 ; 7 ;-0.00951;0.00000;0.54000;0.00000;0.00000;0.00000
+ITEM;Hull_tiny_1; 4 ; 14 ;0.00;0.57;1.18;0.00;0.00;180.00
+//; ----------------------------- SHIP CAMERA SLOTS --------------------------------
+//; -------------- PILOTCAM,name,SLOTid,model_id,xp,yp,zp,xr,yr,zr--------------------
+<PILOTCAM>
+PILOTCAM;pilot_cam; 5 ; 98 ;0.00000;-0.27447;5.29639;0.00000;0.00000;0.00000
+//; ----------------------------- SHIP MODULE SLOTS --------------------------------
+//; -------------- MODSLOT,name,SLOTid,model_id,xp,yp,zp,xr,yr,zr--------------------
+<MODSLOT>
+MODSLOT;module_slot;1; 99 ;0.00000;-0.68698;3.13200;0.00000;0.00000;180.00000
+MODSLOT;module_slot;2; 99 ;0.05717;1.06381;0.23197;0.00000;0.00000;0.00000
+MODSLOT;module_slot;3; 99 ;0.67656;-0.10570;2.35190;0.00000;0.00000;319.59000
+MODSLOT;module_slot;4; 99 ;-0.73814;-0.15543;2.34234;0.00000;0.00000;41.06001
+//; ----------------------------- SHIP MODULES --------------------------------------
+//; ----- MODULE,slot,module_id
+<MODULES>
+MODULE;1;1025
+MODULE;2;1026
+MODULE;3;1001
+MODULE;4;1111
+
+//; ----------------------------- SHIP CARGO -----------------------------------------
+//; ----- CARGO, qty, cargo_id
+<CARGO>
+CARGO;876;2128
+CARGO;494;41
+CARGO;870;40
+CARGO;266;42
+CARGO;1;609
+

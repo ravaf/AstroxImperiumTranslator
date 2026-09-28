@@ -1,0 +1,176 @@
+// STATION DATA (Astrox Imperium) 
+// STATION;variable;value
+STATION;id;0
+STATION;name;Acrondia Corp.
+STATION;type;Fabrication Plant
+STATION;owner;Borgale Feiforo
+STATION;faction;Temple
+STATION;material;station_material_Temple.png
+STATION;color;.60 , .20 , .80 , 1
+STATION;level;1
+STATION;icon;acrondia.png
+STATION;filename;sector_106_station_0.txt
+STATION;max_hp;25000
+STATION;dockfee;100
+STATION;lease;1
+STATION;seed;2-7-1-7-2-2-7-0-1-2-3-9-90
+STATION;interior_seed;4-4-45-0
+// SERVICES;servicename;bool
+SERVICES;lounge;False
+SERVICES;market;True
+SERVICES;refinery;False
+SERVICES;garage;False
+SERVICES;university;False
+SERVICES;hangar;True
+SERVICES;storage;True
+SERVICES;fabricator;False
+SERVICES;contracts;False
+SERVICES;admin;True
+
+// ENTERTAINMENT;title;bonus morale, bonus loyalty;price;type;image;description
+ENTERTAINMENT;Private Concert;0.25,0.09;50000;Musical Entertainment;entertain_show.png;Provide a private concert for your entire crew, drinks and food included. 25% Morale , 9% Loyalty bonus.
+ENTERTAINMENT;Astrox Opera House;0.26,0.07;51000;Musical Entertainment;entertain_opera.png;Provide a private opera concert for your entire crew at the famous 'Astrox Opera House', drinks and food included. 26% Morale , 7% Loyalty bonus.
+ENTERTAINMENT;Bottle of Whiskey;0.025,0.0;850;Whiskey;entertain_bar.png;Purchase a bottle of whiskey for each of your fleet members. 2.5% Morale bonus.
+ENTERTAINMENT;BioSynth Wildlife Park;0.05,0.05;26000;Rest and Relaxation;entertain_park.png;A weekend package to the local wildlife BioSynth park for your entire crew, included petting zoo. 5% Morale Boost, 5% Loyalty Boost
+ENTERTAINMENT;StarLuck Casino;0.05,0.05;24000;Gambling;entertain_casino.png;A weekend package to the local casino for your entire crew, complete with pocket money. 5% Morale Boost, 5% Loyalty Boost
+// MERC;level;Price_modifier;Ship_filename
+<MERC>
+MERC;9;1.41;npc_ship_data_(battle_frigate_1).txt
+MERC;6;1.99;npc_ship_data_(support_frigate_1).txt
+MERC;1;1.59;npc_ship_data_(battle_carrier_1).txt
+MERC;2;0.93;npc_ship_data_(transport_frigate_1).txt
+</MERC>
+// MARKET;Item_id;Qty;Price_modifier
+<MARKET>
+ITEM;1170;8;1.11
+ITEM;1460;8;0.89
+ITEM;1050;4;1.09
+ITEM;1400;3;1.24
+ITEM;1100;4;1.12
+ITEM;1003;4;1.20
+ITEM;1150;6;1.22
+ITEM;1160;1;0.76
+ITEM;1200;6;0.76
+ITEM;1470;2;0.72
+ITEM;1110;1;0.90
+ITEM;1054;4;0.75
+ITEM;1002;9;1.12
+ITEM;1001;6;1.07
+ITEM;1052;3;0.77
+ITEM;1600;4;0.96
+ITEM;1750;7;0.78
+ITEM;1610;2;1.15
+ITEM;1570;8;0.74
+ITEM;1650;6;1.05
+ITEM;1550;2;0.78
+ITEM;1630;1;0.78
+ITEM;1560;1;0.70
+ITEM;1500;8;1.00
+ITEM;1520;3;0.79
+ITEM;1640;9;1.11
+ITEM;1580;8;1.23
+ITEM;1590;5;0.78
+ITEM;1620;3;0.51
+ITEM;1540;6;0.71
+ITEM;1530;4;0.83
+ITEM;1510;8;0.83
+ITEM;63;27;0.77
+ITEM;2127;41;0.68
+ITEM;2652;14;0.60
+ITEM;2118;34;0.79
+ITEM;2124;7;0.59
+ITEM;2119;31;1.24
+ITEM;40;29;1.06
+ITEM;78;32;1.05
+ITEM;2117;18;1.07
+ITEM;61;36;0.50
+ITEM;2123;8;0.83
+ITEM;60;35;1.20
+ITEM;52;18;1.06
+ITEM;42;10;1.16
+ITEM;2130;36;0.88
+ITEM;2120;31;0.72
+ITEM;2112;13;0.55
+ITEM;70;23;0.99
+ITEM;673;8;0.72
+ITEM;671;16;0.78
+ITEM;749;11;1.04
+ITEM;756;14;1.22
+ITEM;690;17;0.84
+ITEM;737;16;0.82
+ITEM;758;3;0.90
+ITEM;733;1;0.53
+ITEM;753;8;0.53
+ITEM;725;1;0.81
+ITEM;726;11;1.09
+ITEM;740;1;0.70
+ITEM;620;3;1.17
+ITEM;640;4;0.76
+ITEM;600;1;1.17
+ITEM;660;2;0.98
+ITEM;408;2;0.93
+ITEM;403;7;1.00
+ITEM;301;4;0.59
+ITEM;404;7;0.96
+ITEM;300;7;1.06
+ITEM;302;5;0.66
+ITEM;405;1;0.93
+ITEM;406;5;0.90
+ITEM;407;4;1.11
+ITEM;1;82;0.69
+ITEM;20;27;1.06
+ITEM;100;89;0.51
+ITEM;101;22;1.16
+ITEM;103;41;1.09
+ITEM;164;45;0.89
+ITEM;168;31;1.03
+ITEM;155;31;0.74
+ITEM;152;64;0.56
+ITEM;150;46;0.72
+ITEM;157;84;0.58
+ITEM;151;90;0.95
+ITEM;156;75;0.77
+ITEM;158;67;0.72
+ITEM;153;8;0.97
+ITEM;2361;5;0.61
+ITEM;2130;6;0.50
+ITEM;2289;3;0.87
+ITEM;2190;5;0.94
+ITEM;2100;6;0.72
+ITEM;2140;8;1.13
+ITEM;2344;5;1.21
+ITEM;2432;9;1.17
+ITEM;2430;1;0.60
+ITEM;2339;1;0.95
+ITEM;2304;7;0.78
+ITEM;2386;2;0.54
+ITEM;2269;7;0.74
+ITEM;2294;8;0.81
+ITEM;2429;6;1.21
+ITEM;2170;9;0.89
+ITEM;2150;8;1.15
+</MARKET>
+// SKILLS;Skill_id;Price_modifier
+<SKILLS>
+SKILL;13;1.66
+SKILL;74;1.89
+SKILL;234;0.60
+SKILL;72;1.81
+SKILL;31;0.59
+SKILL;60;1.02
+SKILL;61;1.66
+SKILL;59;1.16
+SKILL;212;1.52
+</SKILLS>
+// MISSION , dbid , timer, id, data, title, factionid
+<MISSIONS>
+</MISSIONS>
+// SHIP HANGAR;count;Price_modifier;Ship_filename
+<HANGAR>
+SHIP;1;0.98;ship_data_(excavation_frigate_1).txt
+SHIP;2;1.02;ship_data_(battle_shuttle_1).txt
+SHIP;3;1.06;ship_data_(recon_utility_1).txt
+SHIP;4;0.90;ship_data_(pirate_frigate_1).txt
+</HANGAR>
+// STORAGE;item_id;Qty;0
+<STORAGE>

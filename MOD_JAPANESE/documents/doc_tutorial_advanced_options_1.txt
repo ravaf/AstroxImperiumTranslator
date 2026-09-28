@@ -1,0 +1,26 @@
+scan_title;Advanced Options
+scan_image;document_training.png
+scan_sector;Level: Basic
+
+<size='25'><color=cyan>Advanced Options</color></size>
+The ideology behind the development of Astrox Imperium is to allow you, the player, to play the game the way that you want to play it. You can adjust many things about how the game plays, from camera controls, to the timers that affect various aspects of the game. When it comes to a game like this, it can be difficult to include or exclude the right things to suit each player’s preferences. To solve this problem, a vast number of the game’s code has been exposed, allowing you to adjust the game to fit your style of play.
+
+<size='25'><color=cyan>Mouse and Keyboard Controls</color></size>
+The in-game Options provide a number of options that will allow you to control the games interface. You can invert the Mouse orientation, as well as adjust the sensitivity of the mouse speed. You can also adjust a number of the default camera controls when zooming in and out of the galaxy map.
+
+<size='25'><color=cyan>Hotkeys</color></size>
+In the game options, you are able to map the hotkeys for quick access to panels and actions. These hotkeys are stored in the pilot’s option file, and will only affect the save game you currently have loaded. This will allow for multiple hotkey configurations when a single computer is shared between multiple players.
+
+<size='25'><color=cyan>Advanced Camera Controls</color></size>
+You can control how the camera behaves to user input by adjusting the (Camera Drag Speed) option in the Graphics panel. You can also toggle whether or not the camera will snap behind the ship when you manually control the ship using the keyboard. This option can be found in the Extras panel. When the camera is idle, it will begin to slowly rotate around the ship. The timer for this feature can also be adjusted on the Extras panel.
+
+There are a number of special camera modes that can be selected using the numeric keypad. A main one of importance is the CTRL - 8. This will lock the camera behind the ship. Forcing a first person view of the game by removing access to the third person camera. This option can really change the exploration immersion of the game by limiting your view of the sector to only the view of the pilot from the front of the ship.
+
+<size='25'><color=cyan>Instant Skill Training</color></size>
+If you don’t feel like having to wait for skills to train, there is an option under Extras that you can toggle to remove this feature. It can be toggled on or off at anytime during gameplay. You are not locked into one or the other.
+
+<size='25'><color=cyan>Adjusting the Life Support drain rate.</color></size>
+The life support systems in Astrox Imperium can be hit or miss for many players. For many, the life support mechanic of the game is an enjoyable feature. For others, not so much. If you are just getting into Astrox Imperium, you may find the life support mechanic too much to contend with while learning the ropes. Because of this, you have the ability to adjust the base modifier of the rate at which your life support will drain (based on various sector environments). You can completely disable the life support systems of the game by dropping the drain modifier to 0.
+
+<size='25'><color=cyan>Single Click Autopilot</color></size>
+By default, the game will pilot your ship to any object if you click on an item that has been targeted.This will redirect your ship’s autopilot systems (if active) causing you to alter your previous course. Some players may prefer to NOT have this happen. There is an option to prevent unwanted autopiloting while targeting items by enabling the (Double Click Autopilot Select) option on the Extras panel. When enabled, you will not reprogram your autopilot with a single click. You will need to double click the item to select it, thus changing course.

@@ -1,4 +1,91 @@
+# Visual Studio / C# common ignores for .NET Framework and .NET 9 projects
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.rsuser
+*.sln.docstates
+
+# Visual Studio workspace (root と任意階層の両方をカバー)
+/.vs/
+.vs/
+
+# Build results
+**/[Bb]in/
+**/[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+out/
+
+# MSBuild / VS artifacts
+*.log
+*.vspscc
+*.vssscc
+*.pdb
+*.dll
+*.exe
+
+# Publish / deploy
+*.pubxml
+*.publishproj
+PublishScripts/
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+# Test results / coverage / benchmark
+*.trx
+[Tt]est[Rr]esult*/
+*.coverage
+*.coveragexml
+BenchmarkDotNet.Artifacts/
+coverage*.xml
+coverage*.json
+coverage*.info
+
+# DotNet / SDK artifacts
+artifacts/
+project.lock.json
+project.fragment.lock.json
+*.nuget.props
+*.nuget.targets
+MSBuild_Logs/
+*.binlog
+
+# Local DB / temporary files
+*.mdf
+*.ldf
+*.dbmdl
+
+# VS Code (allow shared settings/tasks/launch)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Misc
+*.userprefs
+*.tmp
+~$*
+*~
+
+# バックアップファイル
+*.bak
+*.BAK
+
+# プロジェクト実行時ファイル
 .env
 progress.json
 dictionary.json
 text_list.json
+/MOD_JAPANESE/**/*.png
+/MOD_JAPANESE/**/*.jpg
+/MOD_JAPANESE/**/*.rtf
+/MOD_JAPANESE/**/*.mp4
+/MOD_JAPANESE/**/*.avi
+/MOD_JAPANESE/**/*.ship

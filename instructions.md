@@ -1,32 +1,45 @@
 ---csv
+Translate all player-facing text into Japanese.
 
-[Instruction here]
-s
+Rules:
+- Preserve all formatting, HTML tags, variables, IDs, placeholders, and special characters.
+- Do not translate filenames.
+- Do not translate text enclosed in parentheses such as (ITEM), (S), and (Doc).
+- Use natural Japanese suitable for a science fiction space simulation game.
+- Keep terminology consistent across all files.
+- Output only the translated content.
+- Do not add explanations or comments.
+- Never use semicolons (;).
+- Return valid JSON in the required format: {"translation":[{"id":1,"text":"翻訳文"}]}.
+- Preserve each input item's id and return one translated item for each input item.
+
+Terminology:
+Ship = 艦船
+Cargo = 貨物
+Station = ステーション
+Sector = セクター
+Faction = 勢力
+Contract = 契約
 <<<end
 
 ---html
+Translate all player-facing text into Japanese.
 
-[Instruction here]
+Rules:
+- Preserve HTML tags, attributes, variables, placeholders, IDs, and special characters.
+- Do not translate filenames.
+- Do not translate text enclosed in parentheses such as (ITEM), (S), and (Doc).
+- Use natural Japanese suitable for a science fiction space simulation game.
+- Keep terminology consistent across all files.
+- Output only the translated content.
+- Do not add explanations or comments.
+- Never use semicolons (;).
 
+Terminology:
+Ship = 艦船
+Cargo = 貨物
+Station = ステーション
+Sector = セクター
+Faction = 勢力
+Contract = 契約
 <<<end
-
-//--input examples:
--csv
-[
-{
-"id": 1, 
-"text": "lorem ipsum"
-},
-{
-"id": 2,
-"text": "lorem ipsum"
-},
-    ...
-]
-
-
--html
-...
-<size='25'><color=cyan>Advanced Options</color></size>
-The ideology behind the development of Astrox Imperium is to allow you, the player, to play the game the way that you want to play it. You can adjust many things about how the game plays, from camera controls, to the timers that affect various aspects of the game. When it comes to a game like this, it can be difficult to include or exclude the right things to suit each player’s preferences. To solve this problem, a vast number of the game’s code has been exposed, allowing you to adjust the game to fit your style of play.
-....

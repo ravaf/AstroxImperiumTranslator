@@ -8,20 +8,66 @@ from typing import List, Dict, Optional, Any
 from tqdm import tqdm
 from pathlib import Path
 import asyncio
-import aiohttp
-from aiohttp import ClientSession
 import logging
 from pick import pick
+from google import genai
+from google.genai import types
+from pydantic import BaseModel, Field
 
 load_dotenv()
 
-# Set up logging for process information in English
+# ログ設定およびグローバル変数の初期化
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
-MOD_PATH = os.path.abspath(os.getenv("MOD_PATH"))
+ORIGINAL_MOD_PATH = os.path.abspath(os.getenv("MOD_PATH")) if os.getenv("MOD_PATH") else None
+MOD_PATH = ORIGINAL_MOD_PATH
 PROGRESS_FILE = "progress.json"
 DICTIONARY_FILE = "dictionary.json"
 TEXT_LIST_FILE = "text_list.json"
+
+# JSON出力用Pydanticスキーマの定義
+class TranslationItem(BaseModel):
+    id: int
+    text: str
+
+class TranslationResponse(BaseModel):
+    translation: List[TranslationItem]
+
+class ApiClient:
+    """Gemini API用の非同期クライアントクラス"""
+
+    def __init__(self, config: Dict):
+        self.config = config
+        self.client = genai.Client(api_key=config["api_key"])
+        self.semaphore = asyncio.Semaphore(1)
+
+    async def api_call(self, model_config: Dict, text: str, instruction: str, json_output: bool = False) -> Optional[str]:
+        async with self.semaphore:
+            await asyncio.sleep(3)
+
+            # GenerateContentConfig に tools=[] および AFC無効化オプションを指定
+            gen_config = types.GenerateContentConfig(
+                system_instruction=instruction,
+                temperature=0.0,
+                tools=[],  # ツール利用を明示的に空にする
+                automatic_function_calling=types.AutomaticFunctionCallingConfig(
+                    disable=True  # 自動関数呼び出し（AFC）を無効化
+                )
+            )
+
+            if json_output:
+                gen_config.response_mime_type = "application/json"
+                gen_config.response_schema = TranslationResponse
+
+            try:
+                response = await self.client.aio.models.generate_content(
+                    model=model_config["name"],
+                    contents=text,
+                    config=gen_config
+                )
+                return response.text
+            except Exception as e:
+                logging.error(f"API呼び出し中に例外が発生しました: {e}")
+                return None
 
 class ConfigLoader:
     """Loads configuration from environment variables and files."""
@@ -29,15 +75,14 @@ class ConfigLoader:
     def __init__(self):
         self.config = {
             "api_key": os.getenv("API_KEY"),
-            "endpoint": os.getenv("ENDPOINT_AI"),
             "model": {
                 "high": {
-                    "name": os.getenv("HIGH_MODEL"),
-                    "max_input_tokens": int(os.getenv("HIGH_MODEL_MAX_TOKENS")),
+                    "name": os.getenv("HIGH_MODEL", "gemini-3.5-flash-lite"),
+                    "max_input_tokens": int(os.getenv("HIGH_MODEL_MAX_TOKENS", "2000")),
                 },
                 "middle": {
-                    "name": os.getenv("MIDDLE_MODEL"),
-                    "max_input_tokens": int(os.getenv("MIDDLE_MODEL_MAX_TOKENS")),
+                    "name": os.getenv("MIDDLE_MODEL", "gemini-3.1-flash-lite"),
+                    "max_input_tokens": int(os.getenv("MIDDLE_MODEL_MAX_TOKENS", "1500")),
                 }
             },
             "system_instruction": self._load_instructions()
@@ -48,6 +93,10 @@ class ConfigLoader:
     def _load_instructions(self) -> Dict[str, str]:
         """Loads instructions from the markdown file."""
         filepath = "instructions.md"
+        if not os.path.exists(filepath):
+            logging.warning(f"{filepath} not found. Returning empty instructions.")
+            return {}
+
         data = {}
         current_key = None
         current_value = []
@@ -108,7 +157,7 @@ class FileHandler:
         """Retrieves a list of files with a specific extension."""
         file_list = []
         target_suffix = f".{extension.lower()}"
-        if not os.path.isdir(folder_path):
+        if not folder_path or not os.path.isdir(folder_path):
             logging.error(f"Invalid directory: '{folder_path}'")
             return []
         for root, _, files in os.walk(folder_path):
@@ -117,43 +166,6 @@ class FileHandler:
                     absolute_path = os.path.join(root, filename)
                     file_list.append(absolute_path)
         return file_list
-
-class ApiClient:
-    """Client for asynchronous API calls."""
-
-    def __init__(self, config: Dict):
-        self.config = config
-        self.semaphore = asyncio.Semaphore(10)  # Maximum 10 concurrent calls
-
-    async def api_call(self, session: ClientSession, model_config: Dict, text: str, instruction: str, json_output: bool = False) -> Optional[str]:
-        """Performs an asynchronous API call."""
-        async with self.semaphore:
-            messages = [
-                {"role": "system", "content": instruction},
-                {"role": "user", "content": text}
-            ]
-            response_config = {
-                "model": model_config["name"],
-                "messages": messages,
-                "stream": False,
-                "temperature": 0.0,
-            }
-            if json_output:
-                response_config["response_format"] = RESPONSE_FORMAT
-            async with session.post(
-                self.config["endpoint"],
-                headers={
-                    "Authorization": f"Bearer {self.config['api_key']}",
-                    "Content-Type": "application/json",
-                },
-                json=response_config,
-            ) as response:
-                if response.status != 200:
-                    logging.error(f"API error: {response.status}")
-                    return None
-                data = await response.json()
-                return data["choices"][0]["message"]["content"]
-
 
 class Translator:
     """Main class for handling translations."""
@@ -164,7 +176,7 @@ class Translator:
         self.api_client = api_client
         self.all_text_list: List[str] = []
 
-    async def html_translation(self, file_path: str, session: ClientSession) -> Optional[str]:
+    async def html_translation(self, file_path: str) -> Optional[str]:
         """Translates files with HTML-like format."""
         logging.info(f"Processing file: {file_path}")
         with open(file_path, 'r', encoding='utf-8') as f:
@@ -173,20 +185,19 @@ class Translator:
             logging.warning(f"Empty file: {file_path}. Skipping translation.")
             return ""
         model_to_use = self.config["model"]["middle"]
-        instruction_text = self.config["system_instruction"].get("html")
+        instruction_text = self.config["system_instruction"].get("html", "")
         if not instruction_text:
             logging.error("Missing 'html' instruction in instructions.md")
             return None
         logging.info(f"Sending {len(content)} characters to API for translation...")
         translated_content = await self.api_client.api_call(
-            session, model_to_use, content, instruction_text, json_output=False
+            model_to_use, content, instruction_text, json_output=False
         )
         if translated_content is None:
             logging.error(f"Translation failed for {file_path}")
             return None
         logging.info(f"Translation completed for {file_path}")
         return translated_content
-
 
     def csv_translation(self, file_path: str) -> Optional[str]:
         """Extracts texts from CSV files for translation."""
@@ -197,7 +208,7 @@ class Translator:
             return None
         with open(file_path, "r", encoding="utf-8") as fp:
             csv_content = fp.read()
-        #column_rule = ";".join([str(i) for i in range(1, 30)]) + "\n" if rules[0][0].startswith("COLUMN:") else None
+
         column_rule = "// SCRIPT;" if rules[0][0].startswith("COLUMN:") else None
 
         csv_content = self._parse_csv(csv_content, column_names_start=column_rule)
@@ -212,9 +223,9 @@ class Translator:
         if os.path.exists(DICTIONARY_FILE):
             with open(DICTIONARY_FILE, "r", encoding="utf-8") as fp:
                 dictionary: Dict = json.load(fp)
-                values_to_exclude = set(text.strip() for text in dictionary.values())
+                values_to_exclude = set(text.strip() for text in dictionary.values() if isinstance(text, str))
                 self.all_text_list = [item for item in self.all_text_list if str(item).strip() not in values_to_exclude]
-                self.all_text_list = [item for item in self.all_text_list if str(item)!="nan" and not re.fullmatch(r'[-\.\d+]+', item)]
+                self.all_text_list = [item for item in self.all_text_list if str(item)!="nan" and not re.fullmatch(r'[-\.\d+]+', str(item))]
         return None
 
     def _parse_csv(self, csv_content: str, column_names_start: Optional[str]) -> str:
@@ -239,7 +250,8 @@ class Translator:
             row_target = rule[0].replace("ROW:", "")
             if row_values[0] == row_target:
                 for r in rule[1]:
-                    text_list.append(row_values[r])
+                    if r < len(row_values):
+                        text_list.append(str(row_values[r]))
         return text_list
 
     def _multi_row_rule(self, df: pd.DataFrame, rule: List) -> List[str]:
@@ -250,17 +262,24 @@ class Translator:
             rows_target = rule[0].replace("ROWS:", "").split("|")
             if (row_values[:len(rows_target)] == rows_target).all():
                 for r in rule[1]:
-                    text_list.append(row_values[r])
+                    if r < len(row_values):
+                        text_list.append(str(row_values[r]))
         return text_list
 
     def _column_csv_rule(self, df: pd.DataFrame, rule: List) -> List[str]:
         """Applies column rule to extract texts from CSV."""
-        columns_names = df.iloc[1].astype(str).tolist()
+        columns_names = df.iloc[1].fillna("").astype(str).tolist()
         columns_names = [_name.strip() for _name in columns_names]
         
-        idx_column_target = columns_names.index(rule[0].replace("COLUMN:", "").strip())
+        target_name = rule[0].replace("COLUMN:", "").strip()
+        if target_name not in columns_names:
+            return []
+        idx_column_target = columns_names.index(target_name)
         condition_parts = rule[2].replace("codiction:", "").split("|")
-        idx_column_condition = columns_names.index(condition_parts[0].strip())
+        cond_name = condition_parts[0].strip()
+        if cond_name not in columns_names:
+            return []
+        idx_column_condition = columns_names.index(cond_name)
         text_list = []
         def is_skip(row_values):
             if condition_parts[1] == "IN":
@@ -288,7 +307,9 @@ class Translator:
         for item in string_list:
             item_length = len(item)
             if item_length > max_characters:
-                raise ValueError(f"Item '{item[:30]}...' ({item_length} chars) exceeds max {max_characters} characters.")
+                logging.warning(f"Item length ({item_length}) exceeds max_characters ({max_characters}). Truncating for chunking.")
+                item = item[:max_characters]
+                item_length = len(item)
             if current_chunk_length + item_length <= max_characters:
                 current_chunk.append(item)
                 current_chunk_length += item_length
@@ -301,26 +322,29 @@ class Translator:
             chunks.append(current_chunk)
         return chunks
 
-    async def _translate_chunk(self, session: ClientSession, chunk_list: List[str]) -> Dict[str, str]:
+    async def _translate_chunk(self, chunk_list: List[str]) -> Dict[str, str]:
         """Translates a chunk of texts."""
         data_text = self._list_to_dict(chunk_list)
         text_translation = await self.api_client.api_call(
-            session,
             self.config["model"]["high"],
             json.dumps(data_text, indent=0, ensure_ascii=False),
-            self.config["system_instruction"]["csv"],
+            self.config["system_instruction"].get("csv", ""),
             json_output=True
         )
         if text_translation is None:
             return {}
-        data_translation = json.loads(text_translation)
-        translation_map = {}
-        for source_item, translated_item in zip(data_text, data_translation.get("translation", [])):
-            source_text = str(source_item.get("text", "")).strip()
-            translated_text = str(translated_item.get("text", "")).strip()
-            if source_text:
-                translation_map[source_text] = translated_text
-        return translation_map
+        try:
+            data_translation = json.loads(text_translation)
+            translation_map = {}
+            for source_item, translated_item in zip(data_text, data_translation.get("translation", [])):
+                source_text = str(source_item.get("text", "")).strip()
+                translated_text = str(translated_item.get("text", "")).strip()
+                if source_text:
+                    translation_map[source_text] = translated_text
+            return translation_map
+        except Exception as e:
+            logging.error(f"Failed to parse json response: {e}")
+            return {}
 
     def _list_to_dict(self, chunk_list: List[str]) -> List[Dict[str, Any]]:
         """Converts list to dict structure for JSON."""
@@ -341,13 +365,13 @@ class Translator:
         max_tokens = self.config["model"]["high"]["max_input_tokens"] * 3
         chunks: List[List[str]] = self._get_chunks(untranslated_keys, max_tokens)
         logging.info(f"Translating {len(untranslated_keys)} strings in {len(chunks)} chunks...")
-        async with ClientSession() as session:
-            tasks = [self._translate_chunk(session, chunk) for chunk in chunks]
-            for future in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc="Translation progress"):
-                chunk_response = await future
-                translation_data.update(chunk_response)
-                with open(json_cache_path, "w", encoding="utf-8") as fp:
-                    json.dump(translation_data, fp, ensure_ascii=False, indent=2)
+        
+        tasks = [self._translate_chunk(chunk) for chunk in chunks]
+        for future in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc="Translation progress"):
+            chunk_response = await future
+            translation_data.update(chunk_response)
+            with open(json_cache_path, "w", encoding="utf-8") as fp:
+                json.dump(translation_data, fp, ensure_ascii=False, indent=2)
 
         return translation_data
 
@@ -355,32 +379,31 @@ class Translator:
         """Processes all files."""
         files = FileHandler.get_files(MOD_PATH)
         progress_data = self.progress_manager.load()
-        async with ClientSession() as session:
-            for text_file in files:
-                relative_path = os.path.relpath(text_file, MOD_PATH).replace(os.path.sep, '/')
-                if progress_data.get(text_file) is not None:
-                    logging.info(f"Skipping already processed file: {relative_path}")
-                    continue
-                handled = False
-                print(text_file)
-                for pattern, handler in TRANSLATION_INSTRUCTIONS.items():
-                    if relative_path.startswith(pattern):
-                        if handler is False:
-                            logging.info(f"Skip rule for: {relative_path}")
-                            handled = True
-                            break
-                        if handler == "html":
-                            result = await self.html_translation(text_file, session)
-                        elif handler == "csv":
-                            result = self.csv_translation(text_file)
-                        else:
-                            continue
-                        progress_data[text_file] = result
-                        self.progress_manager.save(progress_data)
+        for text_file in files:
+            relative_path = os.path.relpath(text_file, MOD_PATH).replace(os.path.sep, '/')
+            if progress_data.get(text_file) is not None:
+                logging.info(f"Skipping already processed file: {relative_path}")
+                continue
+            handled = False
+            print(text_file)
+            for pattern, handler in TRANSLATION_INSTRUCTIONS.items():
+                if relative_path.startswith(pattern):
+                    if handler is False:
+                        logging.info(f"Skip rule for: {relative_path}")
                         handled = True
                         break
-                if not handled:
-                    logging.info(f"No handler for {relative_path}")
+                    if handler == "html":
+                        result = await self.html_translation(text_file)
+                    elif handler == "csv":
+                        result = self.csv_translation(text_file)
+                    else:
+                        continue
+                    progress_data[text_file] = result
+                    self.progress_manager.save(progress_data)
+                    handled = True
+                    break
+            if not handled:
+                logging.info(f"No handler for {relative_path}")
         self.all_text_list = [item.strip() for item in self.all_text_list if isinstance(item, str)]
         with open(TEXT_LIST_FILE, "w", encoding="utf-8") as fp:
             json.dump(self.all_text_list, fp, ensure_ascii=False, indent=0)
@@ -443,36 +466,7 @@ TRANSLATION_INSTRUCTIONS = {
     "structures/": "csv",
 }
 
-RESPONSE_FORMAT = {
-    "type": "json_schema",
-    "json_schema": {
-        "name": "translation",
-        "strict": True,
-        "schema": {
-            "type": "object",
-            "properties": {
-                "translation": {
-                    "type": "array",
-                    "items": {
-                        "type": "object",
-                        "properties": {
-                            "id": {"type": "number"},
-                            "text": {"type": "string"}
-                        },
-                        "propertyOrdering": ["id", "text"],
-                        "required": ["id", "text"]
-                    }
-                }
-            },
-            "propertyOrdering": ["translation"],
-            "required": ["translation"]
-        }
-    }
-}
-
-# Unmodified functions
 import csv
-import io
 
 def replace_csv_values(
     file_path: str,
@@ -484,7 +478,11 @@ def replace_csv_values(
     """Replaces values in a CSV file based on rules."""
     new_content = ""
     with open(file_path, "r", encoding="utf-8", newline="") as fp:
-        translated_text = set([text.strip() for text in replacement_val.values()])
+        translated_text = {
+            text.strip()
+            for text in replacement_val.values()
+            if isinstance(text, str)
+        }
         for line in fp:
             stripped_line = line.strip()
             if not stripped_line or stripped_line.startswith(("-", "/", "<")):
@@ -502,15 +500,16 @@ def replace_csv_values(
                     identifier = identifier.strip()
                     if identifier in modified_row:
                         idx = modified_row.index(identifier)
-                        modified_row[idx] = replacement_val[identifier]
-                        is_modified = True
+                        if identifier in replacement_val:
+                            modified_row[idx] = replacement_val[identifier]
+                            is_modified = True
                 if isinstance(identifier, int):
                     if 0 <= identifier < len(modified_row) and modified_row[identifier].strip() not in translated_text:
                         try:
                             modified_row[identifier] = replacement_val[modified_row[identifier].strip()]
                             is_modified = True
-                        except KeyError as e:
-                            logging.warning(f"Key error")
+                        except KeyError:
+                            logging.warning(f"Key error: {modified_row[identifier].strip()}")
             if is_modified:
                 new_content += ";".join(modified_row)+"\n"
             else:
@@ -521,71 +520,101 @@ def replace_csv_values(
 
 def replace_text():
     """Replaces text in files using progress and dictionary data."""
-    with open(PROGRESS_FILE, "r", encoding="utf-8") as fp:
-        progress_data:Dict[str, str] = json.load(fp)
-    with open("dictionary.json", "r", encoding="utf-8") as fp:
-        dictionary = json.load(fp)
-    for file_path in progress_data.keys():
+    progress_path = Path(PROGRESS_FILE)
+    dictionary_path = Path(DICTIONARY_FILE)
 
+    if not progress_path.exists():
+        logging.info("%s がないため、置換処理をスキップします。", PROGRESS_FILE)
+        return
+
+    with progress_path.open("r", encoding="utf-8") as fp:
+        progress_data: Dict[str, Optional[str]] = json.load(fp)
+
+    if not dictionary_path.exists():
+        logging.info("%s がないため、置換処理をスキップします。", DICTIONARY_FILE)
+        return
+
+    with dictionary_path.open("r", encoding="utf-8") as fp:
+        dictionary = json.load(fp)
+
+    for file_path in progress_data.keys():
         if not Path(file_path).resolve().is_relative_to(Path(MOD_PATH).resolve()):
             continue
-        
+
         print(file_path)
         if progress_data[file_path]:
             with open(file_path, "w", encoding="utf-8") as fp:
                 fp.write(progress_data[file_path])
             continue
-        else:
-            relative_path = os.path.relpath(file_path,  os.path.abspath(MOD_PATH))
-            relative_path =  relative_path.replace(os.path.sep, '/')
-            rules = None
-            for csvrule in CSV_RULES.keys():
-                if csvrule in relative_path:
-                    rules = CSV_RULES[csvrule]
-                    break
-            if not rules:
-                continue
-            for rule in rules:
-                replace_csv_values(
-                    file_path,
-                    rule[0].split(":")[1].split("|") if rule[0].startswith("ROW") else None,
-                    rule[1] if rule[0].startswith("ROW") else list(dictionary.keys()),
-                    dictionary
-                )
 
+        relative_path = os.path.relpath(file_path, os.path.abspath(MOD_PATH))
+        relative_path = relative_path.replace(os.path.sep, "/")
 
-def translate_saves()->list[str]:
+        rules = None
+        for csvrule in CSV_RULES.keys():
+            if csvrule in relative_path:
+                rules = CSV_RULES[csvrule]
+                break
+
+        if not rules:
+            continue
+
+        for rule in rules:
+            replace_csv_values(
+                file_path,
+                rule[0].split(":")[1].split("|")
+                if rule[0].startswith("ROW")
+                else None,
+                rule[1]
+                if rule[0].startswith("ROW")
+                else list(dictionary.keys()),
+                dictionary
+            )
+
+def translate_saves() -> None:
     global MOD_PATH
-    saves_path = Path(os.path.join(MOD_PATH, "saves"))
-    saves_folders = [item.name for item in saves_path.iterdir() if item.is_dir()]
-    
-    if len(saves_folders)==0:
+
+    if not MOD_PATH:
+        logging.warning("MOD_PATH が設定されていないため、セーブ翻訳をスキップします。")
         return
-    
+
+    saves_path = Path(MOD_PATH) / "saves"
+
+    if not saves_path.is_dir():
+        logging.info("セーブフォルダーがないため、セーブ翻訳をスキップします: %s", saves_path)
+        return
+
+    saves_folders = [
+        item.name for item in saves_path.iterdir()
+        if item.is_dir()
+    ]
+
+    if not saves_folders:
+        logging.info("セーブフォルダー内に対象フォルダーがありません。")
+        return
+
     print(f"Found {len(saves_folders)} saves")
-    title = 'Please choose saves for translate (press SPACE to mark, ENTER to continue): '
-    options = ['None', 'All'] + saves_folders
+    title = "Please choose saves for translate (press SPACE to mark, ENTER to continue): "
+    options = ["None", "All"] + saves_folders
     selected = pick(options, title, multiselect=True, min_selection_count=1)
 
-    if  0 in [item[1] for item in selected]:
+    if 0 in [item[1] for item in selected]:
         print("No translate saves")
         return
-    
+
     if 1 in [item[1] for item in selected]:
         print("All translate files")
-        
         for folder in saves_folders:
-            MOD_PATH = os.path.join(os.getenv("MOD_PATH"), "saves", folder)
+            MOD_PATH = str(saves_path / folder)
+            asyncio.run(main())
+        return
+
+    for folder, index in selected:
+        if index >= 2:
+            MOD_PATH = str(saves_path / folder)
             asyncio.run(main())
 
-        return
-    
-    for folder in selected:
-        MOD_PATH = os.path.join(os.getenv("MOD_PATH"), "saves", folder[0])
-        asyncio.run(main())
-
     return
-
 
 async def main():
     config_loader = ConfigLoader()
@@ -595,9 +624,7 @@ async def main():
     await translator.process_files()
     replace_text()
 
-
-
 if __name__ == "__main__":
+    MOD_PATH = ORIGINAL_MOD_PATH
     asyncio.run(main())
     translate_saves()
-

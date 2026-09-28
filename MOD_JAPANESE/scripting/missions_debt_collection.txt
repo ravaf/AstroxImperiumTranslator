@@ -1,20 +1,20 @@
 //; ASTROX IMPERIUM : SCRIPTING EDITOR : JACE MASULA 2019
 // SCRIPT;	ID;	LABEL;	COMMAND;	CHAIN;	VALUE 1;	VALUE 2;	VALUE 3;	VALUE 4;	VALUE 5;	VALUE 6;	VALUE 7;	VALUE 8	
 // -------------------------------------------------------------------------------------------------------------------------------------
-SCRIPT;5;START;CHECK_VALUE;0;MISSION.debt_wait;=;1;missions_debt_collection.txt>300>IF TRUE;missions_debt_collection.txt>1005>IF FALSE;null;null;null;1000.00;-87.00
+SCRIPT;		5;		START;		CHECK_VALUE;		0;		MISSION.debt_wait;		=;		1;		missions_debt_collection.txt>300>IF TRUE;		missions_debt_collection.txt>1005>IF FALSE;		null;		null;		null;		1000.00;		-87.00
 SCRIPT;1010;passive;OPTION;0;やあ、相棒。ここの小惑星の採掘は順調かい？このところ、私はかなりの大漁続きでね。次の採掘で黒字に戻るはずさ。;missions_debt_collection.txt>1020>こっちも悪くないさ、ちょうどその話をしようと思っていたところだ……;missions_debt_collection.txt>1030>見回りのついでさ、借金の取り立てをしている。;missions_debt_collection.txt>1040>時間を無駄にさせるな、お前が借りているクレジットを取りに来たんだ！;null;null;null;null;355.00;-354.00
 SCRIPT;1100;neutral;OPTION;0;何かご用でしょうか？;missions_debt_collection.txt>1105>お前が借りている借金の取り立てに来た。;missions_debt_collection.txt>1110>支払いが遅れている件でお知らせにきた。;missions_debt_collection.txt>1115>借金があるはずだ、支払いの時間だぞ！;null;null;null;null;999.00;-359.00
 SCRIPT;300;67182;TEXT;0;ここへ来た理由は分かっている。これ以上引き延ばしても意味はないだろう。支払いを渡すから、さっさと消えてくれ。;missions_debt_collection.txt>310>ご協力に感謝する。;null;null;null;null;null;null;1405.00;-83.00
 SCRIPT;		310;		34366;		CHAT_MISSION_COMPLETE;		586;		null;		null;		null;		null;		null;		null;		null;		null;		1649.00;		-88.00
-SCRIPT;586;26310;EXIT;0;null;null;null;null;null;null;null;null;1868.00;-87.00
-SCRIPT;1005;28871;GOTO_RANDOM;0;Goto Random;missions_debt_collection.txt>1010;missions_debt_collection.txt>1100;missions_debt_collection.txt>1200;null;null;null;null;1001.00;-222.00
+SCRIPT;		586;		26310;		EXIT;		0;		null;		null;		null;		null;		null;		null;		null;		null;		1868.00;		-87.00
+SCRIPT;		1005;		28871;		GOTO_RANDOM;		0;		Goto Random;		missions_debt_collection.txt>1010;		missions_debt_collection.txt>1100;		missions_debt_collection.txt>1200;		null;		null;		null;		null;		1001.00;		-222.00
 SCRIPT;1200;aggresssive;OPTION;0;おい相棒、おしゃべりにつき合っている暇はないんだ。だから、さっさと離れて仕事に戻らせてくれ。;missions_debt_collection.txt>1210>その態度では、トラブルを引き起こす運命だな。;missions_debt_collection.txt>1250>スラスターを冷やせ、危害を加えるつもりはない。;missions_debt_collection.txt>1255>落ち着けよ、また後で来る。;null;null;null;null;1651.00;-354.00
 SCRIPT;1020;90692;TEXT;0;君が取り立て屋だとは思っていなかったよ。お互いにとって幸いなことに、今回の採掘で目標を達成できるはずだ。この鉱石をステーションに降ろしたら、すぐに支払いを持ち帰るよ。;missions_debt_collection.txt>1022>ありがとう、そこまでついていこう。;null;null;null;null;null;null;114.00;-475.00
 SCRIPT;1030;68210;TEXT;0;私を追ってきたのかと思ったよ。まだ全額は揃っていないんだ。もうすぐステーションにドッキングして、この鉱石の一部を市場で売るつもりだ。数分待ってくれれば、支払いを済ませるだけの額が集まるはずだ。;missions_debt_collection.txt>1032>わかった、手短に頼む。;null;null;null;null;null;null;355.00;-478.00
 SCRIPT;1040;35011;OPTION;0;おいおい、そんなに威張るなよ。こっちは支払いのために毎日必死で働いてるんだ。作業中にそんな態度を取られる筋合いはないね。;missions_debt_collection.txt>1042>すまない、もう一度やり直そう...;missions_debt_collection.txt>1043>言い訳を聞きに来たんじゃない。払うんだな、さもなければ！;null;null;null;null;null;591.00;-478.00
-SCRIPT;		1022;		12283;		NPC_RETREAT;		1024;		;		;		null;		null;		null;		null;		null;		null;		114.00;		-591.00
+SCRIPT;1022;12283;NPC_RETREAT;1024;;;null;null;null;null;null;null;114.00;-591.00
 SCRIPT;1024;72389;NPC_CHAT;500;テキストメッセージ;20;null;null;null;null;null;null;113.00;-704.00
-SCRIPT;500;51346;SET_VALUE;510;MISSION.debt_wait;1;null;null;null;null;null;null;366.00;-1049.00
+SCRIPT;		500;		51346;		SET_VALUE;		510;		MISSION.debt_wait;		1;		null;		null;		null;		null;		null;		null;		366.00;		-1049.00
 SCRIPT;1032;51976;NPC_CHAT;500;テキストメッセージ;20;null;null;null;null;null;null;353.62;-610.28
 SCRIPT;1042;66145;ADJ_FACTION;0;そうか…太っ腹だな。自分の間違いを素直に認められるパイロットなんてめったにいない。まあいい、数分くれれば支払いに十分なクレジットをかき集めて、すぐに解放してやるよ。どうだ？;1;0.02;missions_debt_collection.txt>1048>それはいい。ここで待っていよう。;null;null;null;null;591.00;-590.00
 SCRIPT;1043;80750;NPC_ATTACK;0;お前、仲間を連れてきたりはしていないだろうな。あいにく、お前のような契約で動くペテン師どもに問題を起こすのが大好きなロクデナシの連中を知っていてね。いい教訓を教えてやるよ。;真実;missions_debt_collection.txt>1045>そういうことか。;null;null;null;null;null;777.00;-586.00
@@ -29,6 +29,6 @@ SCRIPT;1170;84539;OPTION;0;おい、もう気づいているか分からない�
 SCRIPT;1210;96685;NPC_ATTACK;0;それなら、武器のエネルギーをチャージしておいたほうがいい。お前のような相手に付き合っている暇はないんでね。踊りでも踊ろうじゃないか。;真実;missions_debt_collection.txt>1160>案内しよう...;null;null;null;null;null;1513.00;-512.00
 SCRIPT;1250;77936;NPC_RETREAT;0;いや、今は話したくない……;missions_debt_collection.txt>1255>おい、待て！;null;null;null;null;null;null;1650.00;-598.00
 SCRIPT;1255;48205;NPC_CHAT;1265;テキストメッセージ;20;null;null;null;null;null;null;1882.00;-600.00
-SCRIPT;510;35179;EXIT;0;null;null;null;null;null;null;null;null;365.00;-1157.00
-SCRIPT;1265;18533;EXIT;0;null;null;null;null;null;null;null;null;1881.00;-813.00
+SCRIPT;		510;		35179;		EXIT;		0;		null;		null;		null;		null;		null;		null;		null;		null;		365.00;		-1157.00
+SCRIPT;		1265;		18533;		EXIT;		0;		null;		null;		null;		null;		null;		null;		null;		null;		1881.00;		-813.00
 SCRIPT;1127;57524;TEXT;0;それなら、パーティーにもっと仲間を呼んだほうがよさそうだな。どう思う？;missions_debt_collection.txt>1045>勝手にするがいい。;null;null;null;null;null;null;1060.00;-704.00

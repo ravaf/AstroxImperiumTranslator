@@ -3,32 +3,33 @@
 // -------------------------------------------------------------------------------------------------------------------------------------
 SCRIPT;10;START;OPTION;0;君と雑談している暇はないんだ。すでにスケジュールが遅れていて、ここで誰かに手伝ってもらわないと夕食の時間までに帰れない。[n][n]小遣い稼ぎに興味はないかい？;npc_structure_missions.txt>15>どんな内容だ？;npc_structure_missions.txt>20>いや、結構だ。自分もかなり忙しいんでね。;;null;null;null;null;171.45;-116.66
 SCRIPT;15;job;OPTION;0;構造物を建設する予定のエリアから、鉱石をいくつか片づけるのを手伝うと友人に約束したんだ。取り除くべき岩はあと少しだけだ。岩を1つ片づけるのを手伝ってくれるなら、喜んで報酬を払おう。[n][n]やってくれないか？;npc_structure_missions.txt>30>いいだろう、やろう。;npc_structure_missions.txt>20>そうでもない。;;null;null;null;null;364.34;-115.48
-SCRIPT;20;なし;NPC_CHAT;0;いや、問題ない。理解した。;60;npc_structure_missions.txt>0>仕事の成功を祈るよ。;000;null;null;null;null;365.43;-195.17
-SCRIPT;30;mission;GET_MISSION;40;60;0;npc_structure_missions.txt;0;null;null;null;null;566.78;-114.29
+SCRIPT;20;none;NPC_CHAT;0;いや、問題ない。理解した。;60;npc_structure_missions.txt>0>仕事の成功を祈るよ。;000;null;null;null;null;365.43;-195.17
+SCRIPT;		30;		mission;		GET_MISSION;		40;		60;		0;		npc_structure_missions.txt;		0;		null;		null;		null;		null;		566.78;		-114.29
 SCRIPT;40;bye;NPC_CHAT;0;素晴らしい。ミッションの情報をすべてあなたの艦船に転送した。ミッション完了後に報酬が支払われる。手伝ってくれて改めて感謝する。;60;npc_structure_missions.txt>0>ありがとう、期待には応えるよ。;null;null;null;null;null;783.49;-113.10
 SCRIPT;110;START;OPTION;0;少し余分なクレジットを稼ぎたいなら、相棒、ここはぴったりの場所だ。手元にいくつか処理が必要なミッションの束があるんだ。[n][n]どうだ、受けてみるか？;npc_structure_missions.txt>115>どんな種類のミッションだ？;npc_structure_missions.txt>120>いや、結構だ。また今度にするよ。;;null;null;null;null;170.22;-361.17
 SCRIPT;115;job;OPTION;0;私は採掘ミッションを専門にしている。規模の大小はあるが、どれも報酬が出る。有能なパイロットたちにこれらの契約を届けることで、このセクターで地歩を築いてきた。[n][n]これらの契約を引き受ける興味があるなら、言ってくれ。;npc_structure_missions.txt>130>いいだろう、やろう。;npc_structure_missions.txt>120>少し怪しそうだな。;;null;null;null;null;361.88;-362.44
-SCRIPT;120;なし;NPC_CHAT;0;怠け者のパイロットはこの宇宙では遠くまで行けない。仕事をする気になったら戻ってきなさい。;60;npc_structure_missions.txt>0>わかった。;000;null;null;null;null;361.74;-460.56
-SCRIPT;130;mission;GET_MISSION;140;60;14;npc_structure_missions.txt;0;null;null;null;null;564.33;-358.79
+SCRIPT;120;none;NPC_CHAT;0;怠け者のパイロットはこの宇宙では遠くまで行けない。仕事をする気になったら戻ってきなさい。;60;npc_structure_missions.txt>0>わかった。;000;null;null;null;null;361.74;-460.56
+SCRIPT;		130;		mission;		GET_MISSION;		140;		60;		14;		npc_structure_missions.txt;		0;		null;		null;		null;		null;		564.33;		-358.79
 SCRIPT;140;bye;NPC_CHAT;0;素晴らしい。ミッションの情報をすべてあなたの艦船に転送した。ミッション完了後に報酬が支払われる。手伝ってくれて改めて感謝する。;60;npc_structure_missions.txt>0>ありがとう、期待には応えるよ。;null;null;null;null;null;781.03;-361.29
 SCRIPT;210;START;OPTION;0;リカバリーデスクへようこそ。クレジットを稼ぎたいなら、契約の束があるぞ。どうせ怪しいと思っているのだろうが、信じてくれ。漂流コンテナの回収は、思っているほど悪くはない。価値のある代物が見つかることもあるんだ。[n][n]興味がありそうだな、仕事に登録しないか。;npc_structure_missions.txt>215>何をすればいいんだ？;npc_structure_missions.txt>220>今はやめておく。;;null;null;null;null;176.37;-616.73
 SCRIPT;215;job;OPTION;0;本当に必要なのは中型コンテナを収容できるだけの貨物スペースだけだ。それ以外は非常にシンプルだよ。物品を回収したら、目標のステーションへ輸送して報酬を受け取るだけだ。[n][n]中型コンテナの回収をする準備はいいか？;npc_structure_missions.txt>230>やろう。;npc_structure_missions.txt>220>また別の機会にするよ。;;null;null;null;null;366.80;-618.01
-SCRIPT;220;なし;NPC_CHAT;0;そうか、気が変わったらこれらのサルベージ契約の束を持ってここで待っているよ。;60;npc_structure_missions.txt>0>ありがとう、そうするかもしれない。;000;null;null;null;null;369.11;-712.44
-SCRIPT;230;mission;GET_MISSION;240;85;15;npc_structure_missions.txt;0;null;null;null;null;566.78;-618.05
+SCRIPT;220;none;NPC_CHAT;0;そうか、気が変わったらこれらのサルベージ契約の束を持ってここで待っているよ。;60;npc_structure_missions.txt>0>ありがとう、そうするかもしれない。;000;null;null;null;null;369.11;-712.44
+SCRIPT;		230;		mission;		GET_MISSION;		240;		85;		15;		npc_structure_missions.txt;		0;		null;		null;		null;		null;		566.78;		-618.05
 SCRIPT;240;bye;NPC_CHAT;0;素晴らしい。ミッションの情報をすべてあなたの艦船に転送した。ミッション完了後に報酬が支払われる。手伝ってくれて改めて感謝する。;60;npc_structure_missions.txt>0>いい取引だ。;null;null;null;null;null;783.49;-621.77
 SCRIPT;310;START;OPTION;0;賞金首オフィスへようこそ。海賊の賞金首契約を探しているんだな？最近は状況が緊迫していて……ASPが対応しきれないほどの犯罪が起きているんだ。;npc_structure_missions.txt>315>どんなものがあるんだ？;npc_structure_missions.txt>320>いや、結構だ。様子を見に来ただけだから。;;null;null;null;null;1065.92;-120.35
 SCRIPT;315;job;OPTION;0;アクティブ賞金首オフィスには、海賊の賞金首ミッションのうち未請求の契約の大部分が保管されている。賞金首の海賊の脅威度や報奨金の支払いに関係なく、順番に処理されるのだ。[n][n]君にぴったりの海賊の賞金首契約がちょうどあるんだがね。書類手続きを始めようか？;npc_structure_missions.txt>317>どこに署名すればいい？;npc_structure_missions.txt>320>いや、休みが必要なんだ。;;null;null;null;null;1244.07;-117.94
-SCRIPT;320;なし;NPC_CHAT;0;戦いの栄光は誰もが手に入れられるものではない。本物の冒険の準備ができたら戻ってきな。;60;npc_structure_missions.txt>0>落ち着け。;000;null;null;null;null;1247.62;-368.40
-SCRIPT;330;mission;GET_MISSION;340;110;16;npc_structure_missions.txt;0;null;null;null;null;1553.40;-121.66
+SCRIPT;320;none;NPC_CHAT;0;戦いの栄光は誰もが手に入れられるものではない。本物の冒険の準備ができたら戻ってきな。;60;npc_structure_missions.txt>0>落ち着け。;000;null;null;null;null;1247.62;-368.40
+SCRIPT;		330;		mission;		GET_MISSION;		340;		110;		16;		npc_structure_missions.txt;		0;		null;		null;		null;		null;		1553.40;		-121.66
 SCRIPT;340;bye;NPC_CHAT;0;よし。気を引き締めていけよ。あのレイダーどもはすぐに手に負えなくなる。奴らは、勝てたと思った瞬間に結託して襲いかかってくるのが得意だからな。;60;npc_structure_missions.txt>0>幸運を祈っていてくれ。;null;null;null;null;null;1799.08;-232.05
 SCRIPT;317;choose;OPTION;0;素晴らしい！契約を結ぶ前に、あなたの艦船はどの難易度レベルに対応できますか？死地へ送り出すような真似はしたくありませんので。;npc_structure_missions.txt>330>簡単な賞金首。;npc_structure_missions.txt>331>中級の賞金首。;npc_structure_missions.txt>332>高難易度の賞金首。;null;null;null;null;1370.45;-208.12
-SCRIPT;331;mission;GET_MISSION;340;115;17;npc_structure_missions.txt;0;null;null;null;null;1553.51;-211.80
-SCRIPT;332;mission;GET_MISSION;340;119;17;npc_structure_missions.txt;0;null;null;null;null;1554.75;-299.04
+SCRIPT;		331;		mission;		GET_MISSION;		340;		115;		17;		npc_structure_missions.txt;		0;		null;		null;		null;		null;		1553.51;		-211.80
+SCRIPT;		332;		mission;		GET_MISSION;		340;		119;		17;		npc_structure_missions.txt;		0;		null;		null;		null;		null;		1554.75;		-299.04
+
 SCRIPT;410;START;OPTION;0;従業員の方、ようこそ。精製所の契約をお探しなら、すぐに始められるものがいくつかありますよ。;npc_structure_missions.txt>415>どんな案件がある？;npc_structure_missions.txt>420>結構だ、様子を見に来ただけだ。;;null;null;null;null;1040.04;-556.64
 SCRIPT;415;job;OPTION;0;これらのプラットフォームオフィスには、未受託の精製ミッションの契約が数多く眠っています。規模や報酬に関わらず、順番に処理されます。[n][n]ちょうどあなたにぴったりの精製所契約があります。書類手続きを始めましょうか？;npc_structure_missions.txt>417>どこに署名すればいい？;npc_structure_missions.txt>420>いや、休みが必要だ。;;null;null;null;null;1243.94;-552.80
-SCRIPT;420;なし;NPC_CHAT;0;精製所は誰にでも務まるわけではない。本物の仕事をする準備ができたら戻ってきな。;60;npc_structure_missions.txt>0>わかった。;000;null;null;null;null;1250.35;-697.41
+SCRIPT;420;none;NPC_CHAT;0;精製所は誰にでも務まるわけではない。本物の仕事をする準備ができたら戻ってきな。;60;npc_structure_missions.txt>0>わかった。;000;null;null;null;null;1250.35;-697.41
 SCRIPT;417;choose;OPTION;0;契約を結ぶ前に、現在の貨物容量で対応できると思う規模を選択してください。;npc_structure_missions.txt>430>小口の積荷。;npc_structure_missions.txt>431>中口の積荷。;npc_structure_missions.txt>432>大口の積荷。;null;null;null;null;1388.91;-620.10
-SCRIPT;430;mission;GET_MISSION;440;140;16;npc_structure_missions.txt;0;null;null;null;null;1553.40;-733.90
-SCRIPT;431;mission;GET_MISSION;440;145;17;npc_structure_missions.txt;0;null;null;null;null;1557.67;-543.67
-SCRIPT;432;mission;GET_MISSION;440;149;17;npc_structure_missions.txt;0;null;null;null;null;1554.62;-640.92
+SCRIPT;		430;		mission;	GET_MISSION;		440;		140;		16;		npc_structure_missions.txt;		0;		null;		null;		null;		null;		1553.40;		-733.90
+SCRIPT;		431;		mission;	GET_MISSION;		440;		145;		17;		npc_structure_missions.txt;		0;		null;		null;		null;		null;		1557.67;		-543.67
+SCRIPT;		432;		mission;	GET_MISSION;		440;		149;		17;		npc_structure_missions.txt;		0;		null;		null;		null;		null;		1554.62;		-640.92
 SCRIPT;440;bye;NPC_CHAT;0;よし。常に集中し、ミッションに専念しろ。時間や貨物を見失うなよ。;60;npc_structure_missions.txt>0>了解した。;null;null;null;null;null;1807.53;-545.31

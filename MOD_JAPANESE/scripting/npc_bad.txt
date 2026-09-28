@@ -1,7 +1,7 @@
 //; ASTROX IMPERIUM : SCRIPTING EDITOR : JACE MASULA 2019
 // SCRIPT;	ID;	LABEL;	COMMAND;	CHAIN;	VALUE 1;	VALUE 2;	VALUE 3;	VALUE 4;	VALUE 5;	VALUE 6;	VALUE 7;	VALUE 8	
 // -------------------------------------------------------------------------------------------------------------------------------------
-SCRIPT;100;なし;NPC_CHAT;0;お前も私と同じくらい自分の死を楽しめるといいがな。;300;npc_bad.txt>0>お前の言う通りに...;000;null;null;null;null;667.88;-141.58
+SCRIPT;100;none;NPC_CHAT;0;お前も私と同じくらい自分の死を楽しめるといいがな。;300;npc_bad.txt>0>お前の言う通りに...;000;null;null;null;null;667.88;-141.58
 SCRIPT;10;START;OPTION;0;ほう、これは誰かと思えば。本当に厄介なことに巻き込まれる前に、ステーションへ引き返したほうが身のためだぞ。;npc_bad.txt>100>ご忠告どうも。;npc_bad.txt>15>おや、気が早い子猫ちゃんにはお灸が必要だな！;;null;null;null;null;177.40;-142.86
 SCRIPT;15;95824;TEXT;0;何とも愚かなパイロットだ。艦船に焼き尽くされるまでのほんの一瞬しか後悔の念を味わえないとはな。エゴと傲慢さのために、せっかくの人生経験が台無しだ。;npc_bad.txt>100>その心理分析はよしてくれ。;null;null;null;null;null;null;432.21;-210.74
 SCRIPT;20;START;OPTION;0;なぜ私を撃とうとするんだ？;npc_bad.txt>25>お前が先に撃ってきたからだ。;npc_bad.txt>26>センサーに敵対反応を示しているからだ。;npc_bad.txt>27>あそこにいるパイロットにそう言われたからだ。;null;null;null;null;194.07;-335.78

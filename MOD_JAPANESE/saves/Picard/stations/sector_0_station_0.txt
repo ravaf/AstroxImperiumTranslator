@@ -467,4 +467,3 @@ OFFICE;(チュートリアルオフィス) ワームホールの基礎;Darius Gh
 </OFFICE>
 // STORAGE;item_id;Qty;0
 <STORAGE>
-

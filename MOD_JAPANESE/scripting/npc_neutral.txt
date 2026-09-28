@@ -16,22 +16,22 @@ SCRIPT;110;START;NPC_CHAT;0;私はそういうものを必要としているパ�
 SCRIPT;200;START;OPTION;0;通信装置を開いてくれるとありがたいんだが。少し手助けが必要でね。報酬はまずまずだし、仕事もそんなに時間はかからないはずだ。;npc_neutral.txt>220>詳しく聞かせてくれ。;npc_neutral.txt>210>いや、忙しいんだ。;;null;null;null;null;1210.96;-109.52
 SCRIPT;210;done;NPC_CHAT;0;いや、気にするな。聞いてみるだけならタダだからな。;600;npc_neutral.txt>0>気をつけて。;null;null;null;null;null;1300.26;-190.49
 SCRIPT;220;job;OPTION;0;帰る途中に同僚の荷物をいくつか運んであげるって約束したんだ。問題は、出発する前に積み込むのを忘れたことさ。貨物を取りにわざわざ引き返すのは本当に面倒でね。[n][n]代わりに配達を頼めないだろうか？もちろん報酬は払うよ。;npc_neutral.txt>230>良さそうだな。;npc_neutral.txt>210>遠慮しておこう。;;null;null;null;null;1380.04;-109.53
-SCRIPT;230;57966;GET_MISSION;240;250;0;npc_neutral.txt;0;null;null;null;null;1550.32;-111.91
+SCRIPT;		230;		57966;		GET_MISSION;		240;		250;		0;		npc_neutral.txt;		0;		null;		null;		null;		null;		1550.32;		-111.91
 SCRIPT;240;done;NPC_CHAT;0;ミッションコンピュータを更新しておいた。指示に従えば問題なくこなせるはずだ。手伝ってくれて改めて感謝する。このセクターに来たらまた立ち寄ってくれ。別の仕事があるかもしれない。;600;npc_neutral.txt>0>任せてくれ。;null;null;null;null;null;1477.69;-189.31
 SCRIPT;300;START;OPTION;0;今日はノルマの採掘を達成できそうにないな。最近息子が体調を崩していて、彼がいないとどうも追いつけないんだ。[n][n]鉱石の採掘を手伝う気はないか？君のその素晴らしい艦船ならすぐに終わるはずだ。;npc_neutral.txt>320>何をすればいいんだ？;npc_neutral.txt>310>また今度な。;;null;null;null;null;1207.39;-315.52
 SCRIPT;310;87071;NPC_CHAT;0;それは残念だ。;600;npc_neutral.txt>0>また会おう。;null;null;null;null;null;1299.08;-406.02
 SCRIPT;320;49966;OPTION;0;簡単さ。以前探査した鉱石の照準座標を送信する。そこへ向かって少し採掘してくれればいい。十分集まったら、私の請負業者に届けてくれ。この仕事に関する情報はすべてミッションコンピュータに送信される。[n][n]どうだ？楽なクレジット稼ぎに興味はないか？;npc_neutral.txt>330>ああ、いいだろう。;npc_neutral.txt>310>今回はパスさせてもらうよ。;;null;null;null;null;1389.57;-317.91
-SCRIPT;330;64227;GET_MISSION;340;251;0;npc_neutral.txt;0;null;null;null;null;1555.08;-317.90
+SCRIPT;		330;		64227;		GET_MISSION;		340;		251;		0;		npc_neutral.txt;		0;		null;		null;		null;		null;		1555.08;		-317.90
 SCRIPT;340;96885;NPC_CHAT;0;素晴らしい。必要なミッション情報はすべて送信した。鉱石を届けたら報酬を用意しておく。またこちらに立ち寄ってくれ、興味がありそうな別の仕事があるかもしれない。;600;npc_neutral.txt>0>任せてくれ。;null;null;null;null;null;1486.02;-397.68
 SCRIPT;400;START;OPTION;0;先週セールだったときに作業用ボットを買わなかったことを本当に後悔しているよ。輸送艦の1隻が故障してしまって、ここの片付けがどうしても間に合わないんだ。[n][n]君の艦船なら小さな輸送荷物も扱えそうだな。簡単な輸送の仕事をこなす気はないか？手間に見合うだけの報酬は払おう。;npc_neutral.txt>420>時間はかかるのか？;npc_neutral.txt>410>また今度な。;;null;null;null;null;1209.77;-520.33
 SCRIPT;410;47071;NPC_CHAT;0;そうだろうと思ったよ。まあいい、仕事に戻るとするか。;600;npc_neutral.txt>0>また会おう。;null;null;null;null;null;1302.65;-596.54
 SCRIPT;420;49966;OPTION;0;時間はほとんどかからないさ。集荷ステーションにドッキングして、ステーションのストレージから貨物を積み込むだけでいい。積み込みが終わったら、貨物を降ろし先ステーションまで輸送して報酬を受け取ってくれ。[n][n]やってくれるか？本当に人手不足で困っているんだ。;npc_neutral.txt>430>ああ、引き受けよう。;npc_neutral.txt>410>やらなければいけないことを思い出した。;;null;null;null;null;1382.43;-520.34
-SCRIPT;430;44227;GET_MISSION;440;252;0;npc_neutral.txt;0;null;null;null;null;1547.94;-522.71
+SCRIPT;		430;		44227;		GET_MISSION;		440;		252;		0;		npc_neutral.txt;		0;		null;		null;		null;		null;		1547.94;		-522.71
 SCRIPT;440;46885;NPC_CHAT;0;素晴らしい選択だ。お前のような若いパイロットなら追加のクレジットは役立つはずだ。すべてのミッション情報をコンピュータに転送した。改めて感謝する、気をつけてな。;600;npc_neutral.txt>0>問題ない。;null;null;null;null;null;1484.83;-602.49
 SCRIPT;500;START;OPTION;0;あっ！……クソっ。[n][n]そんな風に突然人の後ろから近づかないでくれ。あと2秒遅かったら宇宙の塵になるところだったぞ。;npc_neutral.txt>520>なぜそんなにビビっているんだ？;npc_neutral.txt>510>落ち着けよ。;;null;null;null;null;1207.38;-725.14
 SCRIPT;510;57071;NPC_CHAT;0;そんな気楽なことを言うな。シーカーに狙われているのは君じゃないんだからな。;600;npc_neutral.txt>0>突っ込まないでおこう。;null;null;null;null;null;1301.46;-810.87
 SCRIPT;520;59966;OPTION;0;あの野郎、私とクルーの首に懸賞金をかけたんだ。なぜか、地元の密輸業者からブリスの出荷分を私たちが強奪したと確信している。もちろん私には一切身に覚えがないが、あんなジャンキーどもと言い合っても無駄だ。話の分かる雇われ殺し屋が見つかるなら、金を払ってでもこの問題をきっちり解決したいぐらいだ。[n][n]引き受ける気はないか？本当に手助けが必要だし、報酬も弾むぞ。;npc_neutral.txt>530>殺し屋ならここにいるぞ。;npc_neutral.txt>510>戦うのは柄じゃないんだ。;;null;null;null;null;1383.62;-725.15
-SCRIPT;530;54227;GET_MISSION;540;253;0;npc_neutral.txt;0;null;null;null;null;1549.14;-726.33
+SCRIPT;		530;		54227;		GET_MISSION;		540;		253;		0;		npc_neutral.txt;		0;		null;		null;		null;		null;		1549.14;		-726.33
 SCRIPT;540;56885;NPC_CHAT;0;必要な情報はすべて送信した。忘れるなよ、これは討伐の契約だ、法執行機関には気をつけろ。奴らは地元のパトロールを買収していることで知られているから、現れても助けてくれるとは思わないことだ。;600;npc_neutral.txt>0>問題ない。;null;null;null;null;null;1487.21;-814.44
 SCRIPT;21;START;NPC_CHAT;0;私はチャンスを求めてここに来た。だがこれまでに得たのは宇宙の塵と不運だけだ。故郷にいた方がマシだったと本気で思い始めている。内側のセクターにはもっと良いものがあると家族が言い張ったものでね。単純な暮らしの方合っているのかもしれない。;300;npc_neutral.txt>0>それは理解できるよ。;null;null;null;null;null;429.84;-421.50
 SCRIPT;22;START;NPC_CHAT;0;自分の日誌のためにチュートリアル文書を集めているんだ。いくつか存在していて、素晴らしい参考資料になる。ここでは学ぶことがたくさんあるし、それらの説明文書があれば未知の部分を切り抜けることができるんだ。;300;npc_neutral.txt>0>興味深いな。耳寄りな情報をありがとう。;null;null;null;null;null;620.36;-759.67

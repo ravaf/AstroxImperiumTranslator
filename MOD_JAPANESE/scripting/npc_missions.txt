@@ -1,8 +1,8 @@
 //; ASTROX IMPERIUM : SCRIPTING EDITOR : JACE MASULA 2019
 // SCRIPT;	ID;	LABEL;	COMMAND;	CHAIN;	VALUE 1;	VALUE 2;	VALUE 3;	VALUE 4;	VALUE 5;	VALUE 6;	VALUE 7;	VALUE 8	
 // -------------------------------------------------------------------------------------------------------------------------------------
-SCRIPT;20;なし;NPC_CHAT;0;いや、問題ない。理解した。;300;npc_missions.txt>0>お仕事頑張ってくれ。;000;null;null;null;null;365.43;-195.17
+SCRIPT;20;none;NPC_CHAT;0;いや、問題ない。理解した。;300;npc_missions.txt>0>お仕事頑張ってくれ。;000;null;null;null;null;365.43;-195.17
 SCRIPT;10;START;OPTION;0;君と雑談している暇はないんだ。すでにスケジュールが遅れていて、ここで誰かに手伝ってもらわないと夕食の時間までに帰れない。[n][n]小遣い稼ぎに興味はないかい？;npc_missions.txt>15>どんな用件だ？;npc_missions.txt>20>結構だ、自分もかなり忙しい。;;null;null;null;null;171.45;-116.66
 SCRIPT;15;job;OPTION;0;構造物を建設する予定のエリアから、鉱石をいくつか片づけるのを手伝うと友人に約束したんだ。取り除くべき岩はあと少しだけだ。岩を1つ片づけるのを手伝ってくれるなら、喜んで報酬を払おう。[n][n]やってくれないか？;npc_missions.txt>30>ああ、やろう;npc_missions.txt>20>いや、遠慮しておく。;;null;null;null;null;364.34;-115.48
-SCRIPT;30;95472;GET_MISSION;40;60;0;npc_missions.txt;0;null;null;null;null;566.78;-114.29
+SCRIPT;		30;		95472;		GET_MISSION;		40;		60;		0;		npc_missions.txt;		0;		null;		null;		null;		null;		566.78;		-114.29
 SCRIPT;40;52509;NPC_CHAT;0;素晴らしい。ミッションの情報をすべてあなたの艦船に転送した。ミッション完了後に報酬が支払われる。手伝ってくれて改めて感謝する。;600;npc_missions.txt>0>ありがとう、期待に応えよう。;null;null;null;null;null;783.49;-113.10

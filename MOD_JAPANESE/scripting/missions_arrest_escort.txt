@@ -1,20 +1,20 @@
 //; ASTROX IMPERIUM : SCRIPTING EDITOR : JACE MASULA 2019
 // SCRIPT;	ID;	LABEL;	COMMAND;	CHAIN;	VALUE 1;	VALUE 2;	VALUE 3;	VALUE 4;	VALUE 5;	VALUE 6;	VALUE 7;	VALUE 8	
 // -------------------------------------------------------------------------------------------------------------------------------------
-SCRIPT;5;START;CHECK_VALUE;0;MISSION.arrest_escort;=;1;missions_arrest_escort.txt>300>IF TRUE;missions_arrest_escort.txt>1005>IF FALSE;null;null;null;1000.00;-87.00
+SCRIPT;		5;		START;		CHECK_VALUE;		0;		MISSION.arrest_escort;		=;		1;		missions_arrest_escort.txt>300>IF TRUE;		missions_arrest_escort.txt>1005>IF FALSE;		null;		null;		null;		1000.00;		-87.00
 SCRIPT;1010;passive;OPTION;0;やあ、相棒。ここの小惑星の採掘は順調かい？このところ、私はかなりの大漁続きでね。そっちはどうだい？;missions_arrest_escort.txt>1020>こっちも悪くないさ、ちょうどその話をしようと思っていたところだ……;missions_arrest_escort.txt>1030>あいにく、悪い知らせを持ってきただけさ。;missions_arrest_escort.txt>1040>時間を無駄にさせるな、お前の犯した罪のせいで来ているんだ！;null;null;null;null;355.00;-354.00
 SCRIPT;1100;neutral;OPTION;0;こんにちは。何か御用でしょうか？;missions_arrest_escort.txt>1105>令状を持参し、あなたを逮捕するために来ました。;missions_arrest_escort.txt>1110>当局への護送を命じられました。;missions_arrest_escort.txt>1115>指名手配されているぞ、迎えに来た。;null;null;null;null;999.00;-359.00
 SCRIPT;300;67182;TEXT;0;ここへ来た理由は分かっている。これ以上引き延ばしても意味はないだろう。全面的に協力するよ。;missions_arrest_escort.txt>305>ご理解いただき感謝する。;null;null;null;null;null;null;1405.00;-83.00
 SCRIPT;		310;		34366;		CHAT_MISSION_COMPLETE;		586;		null;		null;		null;		null;		null;		null;		null;		null;		1649.00;		-88.00
-SCRIPT;586;26310;EXIT;0;null;null;null;null;null;null;null;null;1868.00;-87.00
-SCRIPT;1005;28871;GOTO_RANDOM;0;Goto Random;missions_arrest_escort.txt>1010;missions_arrest_escort.txt>1100;missions_arrest_escort.txt>1200;null;null;null;null;1001.00;-222.00
+SCRIPT;		586;		26310;		EXIT;		0;		null;		null;		null;		null;		null;		null;		null;		null;		1868.00;		-87.00
+SCRIPT;		1005;		28871;		GOTO_RANDOM;		0;		Goto Random;		missions_arrest_escort.txt>1010;		missions_arrest_escort.txt>1100;		missions_arrest_escort.txt>1200;		null;		null;		null;		null;		1001.00;		-222.00
 SCRIPT;1200;aggresssive;OPTION;0;おい相棒、おしゃべりにつき合っている暇はないんだ。だから、さっさと離れて仕事に戻らせてくれ。;missions_arrest_escort.txt>1210>その態度では、トラブルを引き起こす運命だな。;missions_arrest_escort.txt>1250>スラスターを冷やせ、危害を加えるつもりはない。;missions_arrest_escort.txt>1255>落ち着けよ、また後で来る。;null;null;null;null;1651.00;-354.00
 SCRIPT;1020;90692;TEXT;0;セクターを離れる前に、荷物をまとめていくつか連絡を入れておく。;missions_arrest_escort.txt>1022>ありがとう、ついていくよ。;null;null;null;null;null;null;114.00;-475.00
 SCRIPT;1030;68210;TEXT;0;私を捕まえに来たんだろ。家族に連絡しようとしていたところだったんだ。今日に限って変な予感がしてね。すぐに連絡を済ませるから待ってくれ、数分で終わるから。;missions_arrest_escort.txt>1032>わかった、手早く頼むぞ。;null;null;null;null;null;null;355.00;-478.00
 SCRIPT;1040;35011;OPTION;0;ここでの生活が楽だと思っているのか？お前が思っているような人間じゃないと誓うよ。私はただ、何もないところから必死に生き延びようとしているだけだ。;missions_arrest_escort.txt>1048>すまない、もう一度やり直そう……;missions_arrest_escort.txt>1043>お前の感情を聞いている暇はない。行くぞ！;null;null;null;null;null;582.00;-496.00
-SCRIPT;		1022;		12283;		NPC_RETREAT;		1024;		;		;		null;		null;		null;		null;		null;		null;		114.00;		-591.00
+SCRIPT;1022;12283;NPC_RETREAT;1024;;;null;null;null;null;null;null;114.00;-591.00
 SCRIPT;1024;72389;NPC_CHAT;500;テキストメッセージ;20;null;null;null;null;null;null;113.00;-704.00
-SCRIPT;500;51346;SET_VALUE;510;MISSION.arrest_escort;1;null;null;null;null;null;null;364.59;-976.91
+SCRIPT;		500;		51346;		SET_VALUE;		510;		MISSION.arrest_escort;		1;		null;		null;		null;		null;		null;		null;		364.59;		-976.91
 SCRIPT;1032;51976;NPC_CHAT;500;テキストメッセージ;20;null;null;null;null;null;null;353.62;-610.28
 SCRIPT;1043;80750;NPC_ATTACK;0;さて、仲間を呼ぶ時間だな。私の仲間ももうすぐ到着するはずだからね。;真実;missions_arrest_escort.txt>1045>かかってこい。;null;null;null;null;null;777.00;-586.00
 SCRIPT;		1045;		11319;		SPAWN_RAIDERS;		1048;		npc_ship_data_(pirate_escort_1);		000#000#000;		3;		10;		null;		null;		null;		null;		776.00;		-706.00
@@ -28,7 +28,7 @@ SCRIPT;1170;84539;OPTION;0;おい、もう気づいているか分からない�
 SCRIPT;1210;96685;NPC_ATTACK;0;それなら、武器のエネルギーをチャージしておいたほうがいい。お前のような相手に付き合っている暇はないんでね。踊りでも踊ろうじゃないか。;真実;missions_arrest_escort.txt>1160>リードさせてもらうよ……;null;null;null;null;null;1513.00;-512.00
 SCRIPT;1250;77936;NPC_RETREAT;0;いや、今は話したくない……;missions_arrest_escort.txt>1255>おい、待て！;null;null;null;null;null;null;1650.00;-598.00
 SCRIPT;1255;48205;NPC_CHAT;1265;テキストメッセージ;15;null;null;null;null;null;null;1882.00;-600.00
-SCRIPT;510;35179;EXIT;0;null;null;null;null;null;null;null;null;580.18;-1114.43
-SCRIPT;1265;18533;EXIT;0;null;null;null;null;null;null;null;null;1881.00;-813.00
+SCRIPT;		510;		35179;		EXIT;		0;		null;		null;		null;		null;		null;		null;		null;		null;		580.18;		-1114.43
+SCRIPT;		1265;		18533;		EXIT;		0;		null;		null;		null;		null;		null;		null;		null;		null;		1881.00;		-813.00
 SCRIPT;1127;57524;TEXT;0;それなら、パーティーにもっと仲間を呼んだほうがよさそうだな。どう思う？;missions_arrest_escort.txt>1045>勝手にするがいい。;null;null;null;null;null;null;1060.00;-704.00
 SCRIPT;		305;		41901;		NPC_ESCORT;		310;		null;		null;		null;		null;		null;		null;		null;		null;		1547.52;		-190.01

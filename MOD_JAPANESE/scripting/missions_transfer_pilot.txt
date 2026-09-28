@@ -1,17 +1,17 @@
 //; ASTROX IMPERIUM : SCRIPTING EDITOR : JACE MASULA 2019
 // SCRIPT;	ID;	LABEL;	COMMAND;	CHAIN;	VALUE 1;	VALUE 2;	VALUE 3;	VALUE 4;	VALUE 5;	VALUE 6;	VALUE 7;	VALUE 8	
 // -------------------------------------------------------------------------------------------------------------------------------------
-SCRIPT;5;START;CHECK_VALUE;0;MISSION.transfer_pilot;=;1;missions_transfer_pilot.txt>10>IF TRUE;missions_transfer_pilot.txt>300>IF FALSE;null;null;null;416.00;-80.00
+SCRIPT;		5;		START;		CHECK_VALUE;		0;		MISSION.transfer_pilot;		=;		1;		missions_transfer_pilot.txt>10>IF TRUE;		missions_transfer_pilot.txt>300>IF FALSE;		null;		null;		null;		416.00;		-80.00
 SCRIPT;10;35427;TEXT;0;おや…もうお前か？;missions_transfer_pilot.txt>510>達者でな。;null;null;null;null;null;null;418.00;-630.00
 SCRIPT;300;67182;TEXT;0;何か用か？;missions_transfer_pilot.txt>1005>お前に届き物がある。;null;null;null;null;null;null;1000.71;-80.17
 SCRIPT;		310;		34366;		CHAT_MISSION_COMPLETE;		510;		null;		null;		null;		null;		null;		null;		null;		null;		1008.63;		-936.17
-SCRIPT;1005;28871;GOTO_RANDOM;0;Goto Random;missions_transfer_pilot.txt>1010;missions_transfer_pilot.txt>1100;missions_transfer_pilot.txt>1200;null;null;null;null;1001.00;-222.00
+SCRIPT;		1005;		28871;		GOTO_RANDOM;		0;		Goto Random;		missions_transfer_pilot.txt>1010;		missions_transfer_pilot.txt>1100;		missions_transfer_pilot.txt>1200;		null;		null;		null;		null;		1001.00;		-222.00
 SCRIPT;1010;68210;TEXT;0;よし、送ってくれ。ちょうど休憩中だ、少しは見る時間がある。;missions_transfer_pilot.txt>1032>ほらよ。;null;null;null;null;null;null;655.09;-374.49
-SCRIPT;500;51346;SET_VALUE;310;MISSION.transfer_pilot;1;null;null;null;null;null;null;1007.78;-791.72
+SCRIPT;		500;		51346;		SET_VALUE;		310;		MISSION.transfer_pilot;		1;		null;		null;		null;		null;		null;		null;		1007.78;		-791.72
 SCRIPT;1032;51976;NPC_CHAT;500;テキストメッセージ;20;null;null;null;null;null;null;653.30;-629.73
 SCRIPT;1117;64278;NPC_CHAT;500;テキストメッセージ;20;null;null;null;null;null;null;1005.20;-631.99
 SCRIPT;1100;27319;TEXT;0;また例の詐欺じゃないだろうな。何か変な真似をしたら、このブラスターでお前を撃ち抜いてやるからな。;missions_transfer_pilot.txt>1117>ゲームなんかじゃないさ、ほらよ。楽しんでくれ。;null;null;null;null;null;null;1006.27;-376.66
 SCRIPT;1210;96685;NPC_ATTACK;0;一日中何かを撃ちたくてうずうずしていたんだ。その艦船を宇宙の塵に変えられる前に、さっさと失せろ。;真実;missions_transfer_pilot.txt>1255>それじゃあ失礼するよ。;null;null;null;null;null;1373.98;-507.83
 SCRIPT;1255;48205;NPC_CHAT;500;テキストメッセージ;15;null;null;null;null;null;null;1375.86;-645.24
-SCRIPT;510;35179;EXIT;0;null;null;null;null;null;null;null;null;1011.34;-1084.75
+SCRIPT;		510;		35179;		EXIT;		0;		null;		null;		null;		null;		null;		null;		null;		null;		1011.34;		-1084.75
 SCRIPT;1200;42413;TEXT;0;お前らセールスマンにしつこくされるのももううんざりだ。またここにフラフラ戻ってきたらどうなるか、前回言ったはずだが。;missions_transfer_pilot.txt>1210>初対面のはずだがな、ほら荷物だ。;null;null;null;null;null;null;1370.29;-366.39

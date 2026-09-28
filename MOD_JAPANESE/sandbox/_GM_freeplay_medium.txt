@@ -1,6 +1,5 @@
  ------------- PRESETS --------------
-PRESET_desc;Basic open world freeplay with Medium difficulty settings.
-
+PRESET_desc;中程度の難易度設定による基本的なオープンワールドのフリープレイ。
  ------------- SANDBOX -------------- 
 SANDBOX_gamemode_lifesupport_mode;1
 SANDBOX_galaxy_number_of_sectors;50
@@ -103,7 +102,6 @@ SANDBOX_pilot_profession;0
 SANDBOX_pilot_gamemode;0
 SANDBOX_pilot_name;NewPilot
 SANDBOX_pilot_face_image_filename;male_1.png
-
 SANDBOX_pilot_startship_id;16
 SANDBOX_pilot_startship_name;ship_data_(excavation_escort_1_startship)
 SANDBOX_pilot_start_credits;10000

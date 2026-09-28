@@ -1,21 +1,21 @@
-scan_title;Ship Orbits
+scan_title;艦船の周回軌道
 scan_image;document_training.png
-scan_sector;Level: Intermediate
+scan_sector;レベル: 中級
 
-<size='25'><color=cyan>Ship Orbits Basics</color></size>
-It is possible to program your ship’s computer to use trajectory information to orbit any target you currently have scanned. Orbiting a target can have some benefits when it comes to combat and resource gathering. As the commander of your ship, you are given the ability to adjust a number of factors that will determine how the ship behaves when orbit parameters have been met.
+<size='25'><color=cyan>艦船の周回軌道の基本</color></size>
+艦船のコンピュータをプログラムし、軌道情報を利用してスキャン済みのターゲットを周回させることが可能です。ターゲットを周回することは、戦闘や資源収集においていくつかの利点をもたらします。艦長であるあなたは、軌道パラメータが満たされた際の艦船の挙動を決定する様々な要素を調整する権限を与えられています。
 
-<size='25'><color=cyan>The Orbit Controls</color></size>
-The orbit can be controlled by using a few options located on the AUTOPILOT panel. This panel will provide the 4 main areas that control the ship’s orbit. The Orbit Toggle button that will allow you to enable and disable the ship orbit at any time. This is followed by the target distance option and the direction and angle controls. The last indicator controls the speed of the orbit.
+<size='25'><color=cyan>軌道制御</color></size>
+軌道は、AUTOPILOTパネルにあるいくつかのオプションを使用して制御できます。このパネルには、艦船の軌道を制御する4つの主要な項目があります。軌道切り替えボタンを使用すると、いつでも艦船の周回軌道を有効または無効にできます。続いて、ターゲット距離オプション、方向および角度の制御があります。最後のインジケーターは軌道速度を制御します。
 
-<size='25'><color=cyan>Orbit Direction</color></size>
-The direction of the orbit can be controlled by setting the orbit angle to a positive value (clockwise orbit) or a negative value (counter clockwise). If you want the ship to continue to face the target you are orbiting, use a small value like (-10, or 10). If you prefer more of a broadside orbit, use a larger value like (80 or -80).
+<size='25'><color=cyan>軌道方向</color></size>
+軌道の方向は、軌道角度を正の値（時計回り）または負の値（反時計回り）に設定することで制御できます。艦船が周回中のターゲットを向き続けたい場合は、(-10や10)のような小さな値を使用してください。ブロードサイド（側面）での周回を好む場合は、(80や-80)のような大きな値を使用してください。
 
-<size='25'><color=cyan>Orbit Speed</color></size>
-The speed at which your ship will orbit the target may slightly change as the ship adjusts it’s turnspeed and lateral shift. This is done to maintain the target orbit distance you have set. Using a low speed orbit can be great for mining and salvaging operations. High speed orbits can prove beneficial during combat engagements.
+<size='25'><color=cyan>軌道速度</color></size>
+艦船がターゲットを周回する速度は、旋回速度や横方向のシフトを調整する際にわずかに変化することがあります。これは、設定したターゲット軌道距離を維持するために行われます。低速での周回は、採掘やサルベージ作業に最適です。高速での周回は、戦闘時に有利に働く可能性があります。
 
-<size='25'><color=cyan>Orbit Distance</color></size>
-The orbit distance will control how far away the ship should be from the center of the orbit. Setting the orbit distance to a low value will cause the ship to orbit closely to the target. This will cause the ship to move quickly around the object. Setting the target distance to a high value will cause the ship to take more time to cycle the object, even though the ship is traveling at the same speed. Setting the target distance can be helpful in combat when trying to keep your ship at range from the enemy raiders.
+<size='25'><color=cyan>軌道距離</color></size>
+軌道距離は、艦船が軌道の中心からどれだけ離れるかを制御します。軌道距離を低い値に設定すると、艦船はターゲットの近くを周回します。これにより、艦船はオブジェクトの周囲を素早く移動することになります。ターゲット距離を高い値に設定すると、同じ速度で移動していても、艦船がオブジェクトを一周するのにより多くの時間がかかるようになります。ターゲット距離の設定は、敵の襲撃者から距離を保とうとする戦闘時に役立ちます。
 
-<size='25'><color=cyan>Orbit during Combat</color></size>
-You can use the orbit abilities of your ship to gain a favorable position on your enemy during combat. The station garage will allow you  to adjust the rotation of each module so that while in orbit, your weapons will have enough mobility to point at the target. How much rotation, and which direction to rotate will depend on how you set the angle of orbit. It may take a bit of trial and error to find the best configuration for your ship, but the benefits can prove rewarding.
+<size='25'><color=cyan>戦闘中の周回軌道</color></size>
+艦船の周回能力を利用して、戦闘中に敵に対して有利な位置を確保することができます。ステーションのガレージでは、各モジュールの回転を調整できるため、周回中であっても武器がターゲットを狙うのに十分な可動域を確保できます。どれだけ回転させるか、どの方向に回転させるかは、軌道角度の設定によって異なります。艦船にとって最適な構成を見つけるには試行錯誤が必要かもしれませんが、その恩恵は非常に大きなものとなるでしょう。

@@ -1,19 +1,19 @@
 GAMEMODE;id;3
-GAMEMODE;title;Miner
+GAMEMODE;title;採掘者
 GAMEMODE;image;gm_3.png
 
-PRESET;0;_GM_miner.txt;Default
+PRESET;0;_GM_miner.txt;デフォルト
 
 <SUMMARY>
-<size='30'><color='cyan'>Mine them rocks.</color></size>
+<size='30'><color='cyan'>小惑星を採掘せよ。</color></size>
 
-This game mode will provide an abundance of resources, but they will not respawn once collected. Harvesting is boosted and raider spawns greatly are reduced.
+このゲームモードでは豊富な資源が提供されますが、一度採取すると再出現しません。採掘効率が向上し、襲撃者の出現頻度が大幅に低下します。
 
 <DESCRIPTION>
-<size='30'><color='cyan'>Rules</color></size>
-1) Freeplay rules apply.
-2) Raiders spawns reduced.
-3) Resources and collection rates increased.
+<size='30'><color='cyan'>ルール</color></size>
+1) フリープレイのルールが適用されます。
+2) 襲撃者の出現頻度が低下します。
+3) 資源量と採取効率が増加します。
 
-<size='30'><color='cyan'>Objective</color></size>
-There is no objective to the Miner game mode. You are not required to do anything special. The game does not end, and you are not directed to perform any tasks or objectives to progress.
+<size='30'><color='cyan'>目的</color></size>
+「採掘者」ゲームモードに特定の目的はありません。特別な行動をとる必要はなく、ゲームが終了することもありません。進行のために特定のタスクや目標を達成するよう指示されることもありません。

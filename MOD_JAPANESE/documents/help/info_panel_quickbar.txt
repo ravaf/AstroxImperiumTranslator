@@ -3,22 +3,22 @@
 <image src="images/hbar_1.png" align="stretch" width="500" height="10">
 
 <horizontal align="fixed">
-<button image="images/btn_small_1.png" width="140" height="40" align="left" label="<b>INDEX</b>" size="20" color="#00FFFF" onclick="btn_1">
-<button image="images/btn_small_1.png" width="200" height="40" align="left" label="<b>COMMUNITY</b>" size="20" color="#00FFFF" onclick="btn_1">
-<button image="images/btn_small_1.png" width="200" height="40" align="left" label="<b>ARCHIVE</b>" size="20" color="#00FFFF" onclick="btn_1">
+<button image="images/btn_small_1.png" width="140" height="40" align="left" label="<b>インデックス</b>" size="20" color="#00FFFF" onclick="btn_1">
+<button image="images/btn_small_1.png" width="200" height="40" align="left" label="<b>コミュニティ</b>" size="20" color="#00FFFF" onclick="btn_1">
+<button image="images/btn_small_1.png" width="200" height="40" align="left" label="<b>アーカイブ</b>" size="20" color="#00FFFF" onclick="btn_1">
 </horizontal>
 
 <image src="images/hbar_1.png" align="stretch" width="500" height="10">
 
 <text size="30" align="left" color="#FFFFFF" width="500" height="40">
-The Quickbar
+クイックバー
 </text>
 
 <horizontal align="stretch">
 <text size="20" align="left" color="#FFFFFF" width="500" height="260">
-The Quickbar provides you with the ability to open panels and toggle various functions of the game. When moving the mouse to the bottom of the screen, the Quickbar will slide up to reveal the options you have selected. By default, all of these options will be visible.
+クイックバーを使用すると、パネルを開いたり、ゲーム内の様々な機能を切り替えたりすることができます。マウスを画面下部に移動させるとクイックバーがスライドして表示され、選択したオプションにアクセスできます。デフォルトでは、すべてのオプションが表示される設定になっています。
 
-You also have the ability to modify what buttons are shown, as well as the order these buttons are displayed. You can use the Options button shown on the Quickbar to make changes to these buttons.
+また、表示するボタンやその並び順を変更することも可能です。クイックバーに表示されているオプションボタンから、これらの設定を変更できます。
 </text>
 </horizontal>
 
@@ -28,14 +28,14 @@ You also have the ability to modify what buttons are shown, as well as the order
 <image src="images/hbar_1.png" align="stretch" width="500" height="10">
 
 <text size="30" align="left" color="#FFFFFF" width="500" height="40">
-Quickbar Options
+クイックバーのオプション
 </text>
 
 <horizontal align="stretch">
 <text size="20" align="left" color="#FFFFFF" width="500" height="360">
-The Quickbar options panel will allow you to modify what buttons are displayed. You can toggle on or off the buttons from the list. As you add buttons onto the Quickbar, the order will be displayed in the order that they were clicked. To move a currently active button to the end of the list, you will need to toggle that button off, then back on.
+クイックバーのオプションパネルでは、表示するボタンをカスタマイズできます。リストからボタンのオン・オフを切り替えてください。ボタンを追加すると、クリックした順序でクイックバーに配置されます。現在アクティブなボタンをリストの最後尾に移動させたい場合は、一度そのボタンをオフにしてから再度オンにしてください。
 
-You can also add spacers in between the buttons you have added. As above, Just add in the spacers in the order you want as you click the buttons you want displayed. If you want all the buttons displayed, or removed, those options have also been provided.
+ボタンの間にスペーサーを追加することも可能です。上記と同様に、表示したいボタンをクリックする際、希望する順序でスペーサーを追加してください。すべてのボタンを一括で表示または非表示にするオプションも用意されています。
 </text>
 </horizontal>
 

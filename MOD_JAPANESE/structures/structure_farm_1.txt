@@ -1,10 +1,9 @@
 // STRUCTURE DATA (Astrox Imperium) 
 // STRUCTURE;variable;value
-
 STRUCTURE;id;0
 STRUCTURE;name;Community Farming Center
 STRUCTURE;type;Farm
-STRUCTURE;desc;Each farming center can produce enough food for an entire habitation module, and then some. For the population of a sector to thrive, it is important that they can grow enough food to sustain steady growth. Parking near a farm provides no effect.
+STRUCTURE;desc;各農業センターは居住モジュール全体、さらにはそれ以上の食料を生産できる。セクターの人口が繁栄するためには、安定した成長を維持できるだけの食料を栽培できることが重要である。農場の近くに駐車しても効果はない。
 STRUCTURE;class;Center
 STRUCTURE;owner;Telyoupea Akpi
 STRUCTURE;faction;Missionary
@@ -28,7 +27,6 @@ STRUCTURE;default_script_file;structure_farm.txt
 STRUCTURE;default_script_id;10
 STRUCTURE;sector_effect;farming#5
 STRUCTURE;sector_name;<SECTORNAME>
-
 STRUCTURE;gen_power;false
 STRUCTURE;gen_power_rate;0
 STRUCTURE;power_points;1000
@@ -38,15 +36,12 @@ STRUCTURE;is_raider;false
 STRUCTURE;is_law;false
 STRUCTURE;is_dockable;True
 STRUCTURE;btn_undock;true
-
 STRUCTURE;cargo_max;1100
 STRUCTURE;upgrade_timer;0
 STRUCTURE;upgrade_file;null
-
 INTERIOR;7;1,1;3;0,0,0,0
 INTERIOR;7;1,2;1;0,0,0,0
 INTERIOR;17;1,2;1;0,0,0,0;Hydroponic Farm;1;structure_farm_1.png;structure_farm_1.png;structure_farm.txt;10
-
 //; ----------------------------- STRUCTURE INTERIOR PARTS-------------------------------
 //; ----------------------- PART,prefab_id;name,xp,yp,zp,xr,yr,zr,a1,b2
 <PARTS>
@@ -137,16 +132,12 @@ PART;5;Clamp;26.00;0.00;18.25;0.00;270.00;0.00;null;null;null;null;null;null;nul
 PART;5;Clamp;18.00;0.00;10.00;0.00;180.00;0.00;null;null;null;null;null;null;null;null
 PART;159;Prop;4.00;-0.25;31.75;0.00;180.00;0.00;null;null;null;null;null;null;null;null
 </PARTS>
-
 //; ----------------------------- STRUCTURE MODULE SLOTS --------------------------------
 //; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr--------------------------------
 <MODSLOT>
-
 //; ----------------------------- STRUCTURE MODULES --------------------------------------
 //; ----- MODULE,slot,module_id
 <MODULE>
-
-
 //; ----------------------------- STRUCTURE CARGO -----------------------------------------
 //; ----- CARGO, qty, cargo_id
 <CARGO>

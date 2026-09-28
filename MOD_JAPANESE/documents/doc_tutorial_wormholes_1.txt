@@ -1,35 +1,35 @@
-scan_title;Wormholes
+scan_title;ワームホール
 scan_image;document_training.png
-scan_sector;Level: Basic
+scan_sector;レベル: 基本
 
-<size='25'><color=cyan>Wormhole Introduction</color></size>
-Wormholes are a rare anomaly in the Astrox Universe. They are natural warp gates to unseen sectors not shown on the map until explored. Wormholes use natural cosmic energy to warp a ship from one end of the wormhole to the other. The energy involved can take time to store up in the wormhole. When the wormhole is used, energy is used as well. This can cause the wormhole to become unstable and eventually collapse it entirely.
+<size='25'><color=cyan>ワームホール入門</color></size>
+ワームホールはAstroxユニバースにおいて非常に珍しい異常現象です。これらは、探索するまでマップに表示されない未知のセクターへと繋がる自然のワープゲートです。ワームホールは自然の宇宙エネルギーを利用して、艦船をワームホールの一端からもう一端へとワープさせます。このプロセスに必要なエネルギーがワームホール内に蓄積されるまでには時間がかかることがあります。ワームホールを使用するとエネルギーも消費されます。これによりワームホールが不安定になり、最終的には完全に崩壊してしまう可能性があります。
 
-It is currently unknown what causes wormholes to generate, but we do know it has something to do with concentrated energy. Wormholes have a small gravitational pull, and often collect trash and debris from the sector. In some cases, the items can be extremely valuable.
+ワームホールが発生する原因は現在不明ですが、エネルギーの集中と何らかの関係があることは分かっています。ワームホールにはわずかな重力があり、セクター内のゴミや破片を収集することがよくあります。場合によっては、それらのアイテムが非常に価値の高いものであることもあります。
 
-Wormholes can be some of the most dangerous places in the universe. Hostile environments and extremely low security can prove deadly for even the most seasoned pilots. Aside from the natural dangers, raiders like to remain hidden and thus use wormholes as a place to hide their criminal activities. Bliss production often takes place in these wormholes, and the raiders will defend their operations to the death.
+ワームホールは宇宙で最も危険な場所の一つとなり得ます。過酷な環境と極めて低いセキュリティは、熟練のパイロットにとっても致命的となる可能性があります。自然の危険に加え、レイダー（略奪者）たちは身を隠すためにワームホールを犯罪活動の隠れ家として利用することを好みます。ワームホール内では「ブリス」の製造が行われることが多く、レイダーたちは自分たちの拠点を死守しようとします。
 
-<size='25'><color=cyan>Finding a Wormhole</color></size>
-Finding wormholes can be tricky, since they do not spawn very often. When they do, it is hard to know where they are. You cannot see them very well with the naked eye, but using some specialized equipment will help you locate their position. The Active Scanner will report if a Sector has Wormhole energy nearby. This report will also provide the signal strength and allow you to calculate the relative distance from your ship. Using this method will allow you to hone in on the signal, and eventually reveal the wormhole once you get within 500 meters.
+<size='25'><color=cyan>ワームホールの発見</color></size>
+ワームホールは頻繁に出現するわけではないため、発見するのは困難です。出現したとしても、その場所を特定するのは容易ではありません。肉眼で確認するのは難しいですが、特殊な装備を使用することで位置を特定できます。アクティブスキャナーは、近くのセクターにワームホールのエネルギーがあるかどうかを報告します。この報告には信号強度も含まれるため、艦船からの相対距離を計算できます。この方法を使えば信号を絞り込み、500メートル以内に接近した際にワームホールを出現させることができます。
 
-<size='25'><color=cyan>The Wormhole Lifespan</color></size>
-The lifespan of a wormhole can vary, and it is not known what causes the wormholes to collect and store energy, but this energy is what transport the ship from one end to the other. With every use of the wormhole, it will degrade. Once the energy of the wormhole has been depleted, it will collapse, and you will not be able to use the wormhole until it recharges. It is not currently known what causes the wormholes to recharge naturally.
+<size='25'><color=cyan>ワームホールの寿命</color></size>
+ワームホールの寿命は一定ではなく、エネルギーが蓄積される原因も不明ですが、このエネルギーこそが艦船を移動させる動力源です。ワームホールを使用するたびに劣化が進みます。ワームホールのエネルギーが枯渇すると崩壊し、再充電されるまで使用できなくなります。ワームホールが自然に再充電される原因は現在分かっていません。
 
-<size='25'><color=cyan>The other side</color></size>
-The sector area that a wormhole will transport you to will remain accessible even if the wormhole itself has collapsed. Warp drive systems are still a viable way to travel to a wormhole sector, but they can be a nightmare if you find yourself without enough fuel to get back. This may require that you harvest a star for fuel, so it is highly recommended that you always carry a harvesting beam with you when warp driving to a wormhole. The wormhole sectors usually have  more jumps available at the exit gate, than the wormhole entrance.
+<size='25'><color=cyan>向こう側の世界</color></size>
+ワームホールが崩壊した後でも、ワームホールによって移動した先のセクターエリアにはアクセス可能です。ワープドライブシステムを使用してワームホールセクターへ移動することも可能ですが、帰還するための燃料が不足すると悪夢のような状況に陥ります。そのため、恒星から燃料を採取する必要があるかもしれません。ワームホールセクターへワープする際は、常にハーベスティングビームを装備しておくことを強く推奨します。ワームホールセクターは通常、入口よりも出口ゲートの方が多くのジャンプ先を持っています。
 
-<size='25'><color=cyan>Stabilizing the Wormhole</color></size>
-There are two different ways that you can keep a wormhole open and usable. The first way is to construct an energy generator near the wormhole gate. This will provide a source of energy to the wormhole and will constantly recharge the energy it uses to warp your ship. This will keep the wormhole open, however the number of consecutive uses is still limited. You will need to wait for the wormhole to recharge.
+<size='25'><color=cyan>ワームホールの安定化</color></size>
+ワームホールを開いたまま使用可能な状態に保つには、2つの方法があります。一つ目は、ワームホールゲートの近くにエネルギー発電機を建設することです。これによりワームホールにエネルギー源が供給され、艦船のワープに使用されるエネルギーが継続的に再充電されます。これによりワームホールは開いたままになりますが、連続使用回数には制限があります。ワームホールの再充電を待つ必要があります。
 
-The second way to stabilize a wormhole is to construct a warpgate on top of it. Once a warpgate harness has been assembled around an entrance or exit, with a Energy Generator in range, the wormhole will transform into a warpgate, and no longer require an energy recharge for usage. If the warpgate is destroyed, the wormhole will collapse and the gate will no longer exist.
+二つ目は、ワームホールの上にワープゲートを建設することです。入口または出口の周囲にワープゲートのハーネスを組み立て、範囲内にエネルギー発電機を設置すると、ワームホールはワープゲートへと変化し、使用に際してエネルギーの再充電が不要になります。ワープゲートが破壊されるとワームホールは崩壊し、ゲートも存在しなくなります。
 
-<size='25'><color=cyan>Wormhole Goodies</color></size>
-Some wormholes have a stronger gravitational pull than others. These tend to collect crates from nearby battles and these crates can often contain valuable items. The crates will be scattered amongst the other garbage collected by the wormhole, so it may take some looking to find them. Unlike normal crates, wormhole crates begin deteriorating even before they are unsealed for the first time. It is speculated that the warp process causes enough damage to break the seal in transit, as crates are not designed for traveling at worm speeds. Collect the crates before they expire, and their items are lost forever.
+<size='25'><color=cyan>ワームホールの戦利品</color></size>
+ワームホールの中には、他よりも強い重力を持つものがあります。これらは近くの戦闘で発生した木箱を収集する傾向があり、中には貴重なアイテムが含まれていることがよくあります。木箱はワームホールが収集した他のゴミの中に散らばっているため、見つけるには探索が必要です。通常の木箱とは異なり、ワームホールの木箱は開封される前から劣化が始まります。木箱はワーム速度での移動を想定して設計されていないため、ワープの過程でシールが破損するほどのダメージを受けるのではないかと推測されています。木箱が消滅して中身が永遠に失われる前に回収しましょう。
 
-<size='25'><color=cyan>Wormholes and Raiders</color></size>
-It is not uncommon for Raiders to use the wormhole sectors as safe havens for their criminal activities. In many cases, the Raiders will set traps for unsuspecting wormhole explorers looking for easy profits from the mineral rich asteroids. These raider groups will hide cloaked in the asteroid fields and wait until you are mining before ambushing their unsuspecting victims. Always be prepared for combat when exploring wormholes, or you may find yourself caught off guard.
+<size='25'><color=cyan>ワームホールとレイダー</color></size>
+レイダーがワームホールセクターを犯罪活動の隠れ家として利用することは珍しくありません。多くの場合、レイダーは鉱物が豊富な小惑星から手っ取り早く利益を得ようとする、油断したワームホール探検家のために罠を仕掛けます。これらのレイダーグループは小惑星帯に身を隠し、あなたが採掘を始めるのを待ってから奇襲を仕掛けます。ワームホールを探索する際は常に戦闘の準備をしておかないと、不意を突かれることになります。
 
-On rare occasions, Raiders will establish a hideout or headquarters inside a wormhole sector. If this is the case, you will know right away how dangerous the sector is. Raiders will be swarming around a centralized structure that usually houses the manufacturing of illegal Bliss. They will fight to the death to defend their operations, so tread lightly in these wormhole sectors.
+稀に、レイダーがワームホールセクター内に隠れ家や本部を設立することがあります。その場合、そのセクターがいかに危険であるかはすぐに分かるはずです。レイダーたちは、違法なブリスの製造拠点となっている中央構造物の周囲に群がっています。彼らは自分たちの活動を守るために死ぬまで戦うため、こうしたワームホールセクターでは慎重に行動してください。
 
-<size='25'><color=cyan>Wormhole Paradise</color></size>
-Although very rare, wormhole sectors can be quite pleasant from time to time. Moderate environments, resource rich, and not a single Raider in sight. These wormhole sectors make for  great mining operations, or even a full scale base with dozens of structures. 
+<size='25'><color=cyan>ワームホールの楽園</color></size>
+非常に稀ではありますが、ワームホールセクターが非常に快適な場所であることもあります。環境は穏やかで資源が豊富、そしてレイダーの姿は一つもありません。こうしたワームホールセクターは、大規模な採掘拠点や、数十の構造物を備えた本格的な基地を建設するのに最適です。

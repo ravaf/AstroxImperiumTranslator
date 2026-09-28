@@ -1,10 +1,9 @@
 // STRUCTURE DATA (Astrox Imperium) 
 // STRUCTURE;variable;value
-
 STRUCTURE;id;0
 STRUCTURE;name;Recon Center
 STRUCTURE;type;Recon
-STRUCTURE;desc;The Recon Center is used mainly to conduct space traffic, and to monitor the sector warp gates. By doing so, any conflicts can immediately be reported to the Astrox Security Patrol (ASP). This facility does not provide any active bonuses, but often contains valuable passkeys for sale.
+STRUCTURE;desc;偵察センターは主に宇宙交通の管理とセクターのワープゲートの監視に使用される。これにより、いかなる紛争もアストロックス警備パトロール（ASP）に直ちに報告できる。この施設はいかなるアクティブボーナスも提供しないが、販売用の貴重なパスキーを含んでいることが多い。
 STRUCTURE;class;Database
 STRUCTURE;owner;Alpharis
 STRUCTURE;faction;Alpha
@@ -28,7 +27,6 @@ STRUCTURE;default_script_file;none
 STRUCTURE;default_script_id;0
 STRUCTURE;sector_effect;environment#5,defense#5
 STRUCTURE;sector_name;<SECTORNAME>
-
 STRUCTURE;gen_power;false
 STRUCTURE;gen_power_rate;0
 STRUCTURE;power_points;1000
@@ -38,17 +36,14 @@ STRUCTURE;is_raider;false
 STRUCTURE;is_law;false
 STRUCTURE;is_dockable;true
 STRUCTURE;btn_undock;true
-
 STRUCTURE;cargo_max;900
 STRUCTURE;upgrade_timer;0
 STRUCTURE;upgrade_file;null
-
 INTERIOR;0;1,1;1;1,0,0,0
 INTERIOR;2;1,2;1;0,0,0,0
 INTERIOR;2;0,2;3;0,0,0,0
 INTERIOR;2;0,3;0;0,0,0,0
 INTERIOR;0;1,3;0;1,0,0,0
-
 //; ----------------------------- STRUCTURE INTERIOR PARTS-------------------------------
 //; ----------------------- PART,prefab_id;name,xp,yp,zp,xr,yr,zr,a1,b2
 <PARTS>
@@ -146,17 +141,12 @@ PART;20;Doors;20.00;-0.25;12.25;0.00;180.00;0.00;Locked;structure_recon_1;1;null
 PART;217;Actor;12.01;-0.17;15.68;0.00;175.80;0.00;NPC Name;blank.png,blank.png;structure_recon_1.txt, 100;1;Idle_Sit_1;null;null;null
 PART;1;Clamp;28.00;-0.25;20.00;0.00;270.00;0.00;START;null;null;null;null;null;null;null
 </PARTS>
-
 //; ----------------------------- STRUCTURE MODULE SLOTS --------------------------------
 //; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr--------------------------------
 <MODSLOT>
-
-
 //; ----------------------------- STRUCTURE MODULES --------------------------------------
 //; ----- MODULE,slot,module_id
 <MODULE>
-
-
 //; ----------------------------- STRUCTURE CARGO -----------------------------------------
 //; ----- CARGO, qty, cargo_id
 <CARGO>

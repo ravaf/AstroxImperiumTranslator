@@ -1,10 +1,9 @@
 // STRUCTURE DATA (Astrox Imperium) 
 // STRUCTURE;variable;value
-
 STRUCTURE;id;8
 STRUCTURE;name;Industrial Machine
 STRUCTURE;type;Machine
-STRUCTURE;desc;Machine
+STRUCTURE;desc;機械
 STRUCTURE;class;Mech
 STRUCTURE;owner;Gabri Mazu
 STRUCTURE;faction;Contractor
@@ -28,7 +27,6 @@ STRUCTURE;default_script_file;none
 STRUCTURE;default_script_id;0
 STRUCTURE;sector_effect;production#5
 STRUCTURE;sector_name;<SECTORNAME>
-
 STRUCTURE;gen_power;false
 STRUCTURE;gen_power_rate;0
 STRUCTURE;power_points;1000
@@ -38,11 +36,9 @@ STRUCTURE;is_raider;false
 STRUCTURE;is_law;false
 STRUCTURE;is_dockable;True
 STRUCTURE;btn_undock;true
-
 STRUCTURE;cargo_max;1300
 STRUCTURE;upgrade_timer;0
 STRUCTURE;upgrade_file;null
-
 INTERIOR;0;1,1;1;1,0,0,0
 INTERIOR;0;1,2;1;0,0,0,0
 INTERIOR;0;1,3;1;0,0,0,0
@@ -54,7 +50,6 @@ INTERIOR;7;0,5;0;0,0,0,0
 INTERIOR;7;2,5;2;0,0,0,0
 INTERIOR;1;1,6;1;0,0,0,0
 INTERIOR;3;1,7;0;1,0,0,0
-
 //; ----------------------------- STRUCTURE INTERIOR PARTS-------------------------------
 //; ----------------------- PART,prefab_id;name,xp,yp,zp,xr,yr,zr,a1,b2
 <PARTS>
@@ -225,17 +220,12 @@ PART;41;Grid;8.00;3.50;22.25;0.00;0.00;0.00;null;null;null;null;null;null;null;n
 PART;41;Grid;20.25;3.50;4.00;0.00;90.00;0.00;null;null;null;null;null;null;null;null
 PART;41;Grid;26.00;3.75;20.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
 </PARTS>
-
 //; ----------------------------- STRUCTURE MODULE SLOTS --------------------------------
 //; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr--------------------------------
 <MODSLOT>
-
-
 //; ----------------------------- STRUCTURE MODULES --------------------------------------
 //; ----- MODULE,slot,module_id
 <MODULE>
-
-
 //; ----------------------------- STRUCTURE CARGO -----------------------------------------
 //; ----- CARGO, qty, cargo_id
 <CARGO>

@@ -1,10 +1,9 @@
 // STRUCTURE DATA (Astrox Imperium) 
 // STRUCTURE;variable;value
-
 STRUCTURE;id;5
 STRUCTURE;name;Storage Facility
 STRUCTURE;type;Storage
-STRUCTURE;desc;Storage structures are required to store large numbers of resources for giant construction projects.
+STRUCTURE;desc;ストレージ構造物は、巨大な建設プロジェクトのために大量のリソースを保管するために必要である。
 STRUCTURE;class;None
 STRUCTURE;owner;Gemlet Salazari
 STRUCTURE;faction;Trade
@@ -28,7 +27,6 @@ STRUCTURE;default_script_file;none
 STRUCTURE;default_script_id;0
 STRUCTURE;sector_effect;economy#5,production#2
 STRUCTURE;sector_name;<SECTORNAME>
-
 STRUCTURE;gen_power;false
 STRUCTURE;gen_power_rate;0
 STRUCTURE;power_points;1000
@@ -38,11 +36,9 @@ STRUCTURE;is_raider;false
 STRUCTURE;is_law;false
 STRUCTURE;is_dockable;True
 STRUCTURE;btn_undock;true
-
 STRUCTURE;cargo_max;12000
 STRUCTURE;upgrade_timer;0
 STRUCTURE;upgrade_file;null
-
 INTERIOR;0;1,1;1;1,0,0,0
 INTERIOR;0;1,2;1;0,0,0,0
 INTERIOR;0;1,3;1;0,0,0,0
@@ -54,7 +50,6 @@ INTERIOR;7;0,5;0;0,0,0,0
 INTERIOR;7;2,5;2;0,0,0,0
 INTERIOR;1;1,6;1;0,0,0,0
 INTERIOR;3;1,7;0;1,0,0,0
-
 //; ----------------------------- STRUCTURE INTERIOR PARTS-------------------------------
 //; ----------------------- PART,prefab_id;name,xp,yp,zp,xr,yr,zr,a1,b2
 <PARTS>
@@ -138,17 +133,12 @@ PART;168;Prop;19.25;2.00;23.00;0.00;225.00;0.00;null;null;null;null;null;null;nu
 PART;182;Prop;11.50;-0.25;15.25;0.00;45.00;0.00;null;null;null;null;null;null;null;null
 PART;182;Prop;15.25;-0.25;11.75;0.00;45.00;0.00;null;null;null;null;null;null;null;null
 </PARTS>
-
 //; ----------------------------- STRUCTURE MODULE SLOTS --------------------------------
 //; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr--------------------------------
 <MODSLOT>
-
-
 //; ----------------------------- STRUCTURE MODULES --------------------------------------
 //; ----- MODULE,slot,module_id
 <MODULE>
-
-
 //; ----------------------------- STRUCTURE CARGO -----------------------------------------
 //; ----- CARGO, qty, cargo_id
 <CARGO>

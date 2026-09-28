@@ -5,8 +5,8 @@
 // 0		1		2					3									4 				5				6				7							8
 // MODE		ID		TYPE				IMAGE								% CHANCE		BONUS x			LUCK(0-9)		COLOR RBGA					DESC
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-SPECIAL;	0;		Default;			item_special_default.png;			100.0;			0.0;			0;				1.0,1.0,1.0,1.0;			This is just a default item, with no special attributes.;
-SPECIAL;	1;		Rare;				item_special_rare.png;				50.0;			0.10;			2;				1.0,1.0,1.0,1.0;			This Rare item will apply a small 10% bonus to 2 random attributes.;
-SPECIAL;	2;		Epic;				item_special_epic.png;				25.5;			0.25;			4;				1.0,1.0,1.0,1.0;			This Epic item will apply a 25% bonus on up to 4 random attributes.;
-SPECIAL;	3;		Artifact;			item_special_artifact.png;			12.0;			0.50;			6;				1.0,1.0,1.0,1.0;			This Artifact item will apply a 50% bonus on up to 6 random attributes.;
+SPECIAL;	0;		Default;			item_special_default.png;			100.0;			0.0;			0;				1.0,1.0,1.0,1.0;			これは特別な属性を持たない、ただのデフォルトアイテムです。;
+SPECIAL;	1;		Rare;				item_special_rare.png;				50.0;			0.10;			2;				1.0,1.0,1.0,1.0;			このレアアイテムは、ランダムに選ばれた最大2つの属性に10%の小ボーナスを付与します。;
+SPECIAL;	2;		Epic;				item_special_epic.png;				25.5;			0.25;			4;				1.0,1.0,1.0,1.0;			このエピックアイテムは、ランダムに選ばれた最大4つの属性に25%のボーナスを付与します。;
+SPECIAL;	3;		Artifact;			item_special_artifact.png;			12.0;			0.50;			6;				1.0,1.0,1.0,1.0;			このアーティファクトアイテムは、ランダムに選ばれた最大6つの属性に50%のボーナスを付与します。;
 

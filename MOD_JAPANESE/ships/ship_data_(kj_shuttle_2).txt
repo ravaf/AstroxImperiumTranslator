@@ -41,7 +41,7 @@ SHIP_material_texture_a;default_main.png
 SHIP_material_texture_b;default_detail.png
 SHIP_material_texture_c;default_glow.png
 SHIP_engine_color;1;1;1;1
-SHIP_description;Fabricator ships are some of the most unique spacecraft found in the Astrox  universe. These ships are geared to perform one task, as they are highly specialized.
+SHIP_description;製造艦は、Astroxユニバースで見つかる最もユニークな宇宙船の一部です。これらの艦船は高度に特化しており、1つのタスクを実行するように調整されています。
 SHIP_manufacturer;KJ Fabrications Corp
 SHIP_manufacturer_icon;kjfabricationscorp.png
 SHIP_shield;0

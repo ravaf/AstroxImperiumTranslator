@@ -32,7 +32,7 @@ SHIP_base_scan_pulserange;5000
 SHIP_base_scan_pulsespeed;10
 SHIP_type;Battle
 SHIP_base_price;812000
-SHIP_description;Battle ships are designed for head on combat. With augmented shields and reinforced armor plating, the battle ship can survive extreme damage.
+SHIP_description;戦艦は正面からの戦闘を想定して設計されています。強化されたシールドと装甲板により、戦艦は甚大なダメージに耐えることができます。
 SHIP_impact_resistance;0.15
 SHIP_energy_resistance;0.15
 SHIP_explosive_resistance;0.0

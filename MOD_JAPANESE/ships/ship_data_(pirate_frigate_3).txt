@@ -32,7 +32,7 @@ SHIP_base_scan_pulserange;5000
 SHIP_base_scan_pulsespeed;10
 SHIP_type;Assault
 SHIP_base_price;2654000
-SHIP_description;Assault ships are fast combat ships that are designed to deliver firepower, and escape without damage. Improved thrust and resistance. Weak shields and Life support.
+SHIP_description;強襲艦は、火力を発揮しダメージを受けずに脱出するように設計された高速戦闘艦です。推力と耐性が向上しています。シールドと生命維持装置は脆弱です。
 SHIP_impact_resistance;0.32
 SHIP_energy_resistance;0.15
 SHIP_explosive_resistance;0.21

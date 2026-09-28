@@ -1,54 +1,51 @@
-scan_title;Basic Merc / Fleet Tutorial
+scan_title;傭兵 / 艦隊の基本チュートリアル
 scan_image;document_training.png
-scan_sector;Level: Basic
+scan_sector;レベル: 基本
 
-<size='25'><color=cyan>Fleet Introduction</color></size>
-This document will cover all the basic information about creating, maintaining, and altering your mercenary fleet. Learning to use Fleet Mercenaries can be a bit confusing at first, but once you learn the basics of how they work, you will be able to grow and control your fleet with little effort. You can only control one fleet, and cannot have multiple fleets at once. Your mercenary fleet will always stick with you, and cannot be left behind in a remote sector when active. They will warp with you, and dock with you. 
+<size='25'><color=cyan>艦隊の紹介</color></size>
+このドキュメントでは、傭兵艦隊の作成、維持、変更に関するすべての基本情報を網羅します。艦隊の傭兵を使いこなすのは最初は少し複雑に感じるかもしれませんが、その仕組みの基本を学べば、ほとんど手間をかけずに艦隊を成長させ、制御できるようになります。制御できる艦隊は1つだけであり、複数の艦隊を同時に持つことはできません。あなたの傭兵艦隊は常にあなたと行動を共にし、アクティブな状態では遠方のセクターに置き去りにすることはできません。彼らはあなたと共にワープし、あなたと共にドッキングします。
 
-Fleet mercenaries can be found at almost any station that has a lounge. The lounge is where you will find most freelance pilots hanging out. Once you find a suitable candidate, you can then hire the mercenary to work for you. They will fly alongside your ship, and based on the gear assist you with mining and combat. Each merc has a specialty like mining, combat, transport, pirate and recon. Each specialty has a specific role that is used when the merc is ‘Auto-Tasking’ for you. 
+艦隊の傭兵は、ラウンジがあるほぼすべてのステーションで見つけることができます。ラウンジは、ほとんどのフリーランスのパイロットがたむろしている場所です。適切な候補者を見つけたら、その傭兵を雇って働かせることができます。彼らはあなたの艦船の横を飛行し、装備に応じて採掘や戦闘を支援してくれます。各傭兵には、採掘、戦闘、輸送、海賊、偵察といった専門分野があります。各専門分野には、傭兵が「自動タスク（Auto-Tasking）」を実行する際に使用される特定の役割があります。
 
-Before any Mercs can be added to your fleet, you will need to train the proper skills. The main and most important skill will be ‘Fleet Command’. This skill will provide you with the necessary training to operate the COMMAND interface. For each level of ‘Fleet Command’ trained, an additional Mercenary will be eligible to join you. The maximum number of mercenaries you can add to your fleet is 10. Once the ‘Fleet Command’ skill is trained to level 10, no further training will be provided as the max level has been reached.
+傭兵を艦隊に追加する前に、適切なスキルを訓練する必要があります。メインとなる最も重要なスキルは「艦隊指揮（Fleet Command）」です。このスキルは、COMMANDインターフェースを操作するために必要な訓練を提供します。「艦隊指揮」のレベルが上がるごとに、追加の傭兵があなたに加わることができるようになります。艦隊に追加できる傭兵の最大数は10人です。「艦隊指揮」スキルがレベル10まで訓練されると、最大レベルに達したため、それ以上の訓練は提供されません。
 
-Mercs can be Hired, Deactivated, and Fired whenever you see fit. There is no penalty for getting rid of an unwanted, or unhelpful mercenary. However, there is a penalty for a Merc dying while under your command. This is to be avoided at all costs. Once a mercenary has been hired, they can be deactivated at any station via the PILOT / FLEET panel. Once a merc has been deactivated, they will wait at the station, in a dormant state until you return to re-activate them back into the active fleet.
+傭兵は、必要に応じていつでも雇用、非アクティブ化、解雇が可能です。不要な、または役に立たない傭兵を排除することにペナルティはありません。ただし、あなたの指揮下にある傭兵が死亡した場合にはペナルティがあります。これは何としても避けなければなりません。傭兵を雇用した後は、PILOT / FLEETパネルからいつでもステーションで非アクティブ化できます。傭兵が非アクティブ化されると、あなたが戻ってアクティブな艦隊に再アクティブ化するまで、ステーションで休止状態で待機します。
 
-<size='25'><color='cyan'>Training the FLEET COMMAND skill</color></size>
-This part is easy. You will need to find a university that has the ‘FLEET COMMAND’ skill. In most games, you will find that the starting station has the most common skills. Once you find the ‘FLEET COMMAND’ skill, train it to level 1, and you will be able to hire a merc. Each additional level of the skill trained, will provide 1 additional slot for hiring a merc. Level 5 will allow you to control 5 mercs in your fleet. Level 10, the max, will allow you to control 10 mercs.
+<size='25'><color='cyan'>「艦隊指揮」スキルの訓練</color></size>
+この部分は簡単です。「艦隊指揮」スキルを持つ大学を見つける必要があります。ほとんどのゲームでは、開始ステーションに最も一般的なスキルが揃っています。「艦隊指揮」スキルを見つけたら、レベル1まで訓練すれば、傭兵を1人雇うことができます。スキルを1レベル上げるごとに、傭兵を雇うためのスロットが1つ追加されます。レベル5では艦隊で5人の傭兵を制御でき、最大レベルのレベル10では10人の傭兵を制御できます。
 
-<size='25'><color='cyan'>Hiring your first Merc</color></size>
-This part can be a bit tricky, until you understand a few of the basic game mechanics. Picking a merc that will help you profit depends on how you like to play. If you are into mining, make sure the Merc you hire is equipped with mining lasers and a decent cargo bay. Each Merc type will determine what variety of modules the ship they own will have. Mining Mercs will have more mining specific modules, whereas combat Mercs will come equipped with weapons and defensive modules. It is recommended that your first Merc be either a mining Merc, or a combat Merc. Once you become familiar with the Fleet Command system, try exploring other Merc types.
+<size='25'><color='cyan'>最初の傭兵を雇う</color></size>
+この部分は、いくつかの基本的なゲームメカニズムを理解するまで、少し難しいかもしれません。利益をもたらしてくれる傭兵を選ぶかどうかは、あなたのプレイスタイル次第です。採掘に興味があるなら、雇う傭兵が採掘レーザーと十分な貨物ベイを備えていることを確認してください。傭兵のタイプによって、彼らが所有する艦船のモジュールの種類が決まります。採掘傭兵は採掘専用のモジュールを多く備えていますが、戦闘傭兵は武器や防御モジュールを装備しています。最初の傭兵は、採掘傭兵か戦闘傭兵のどちらかにすることをお勧めします。艦隊指揮システムに慣れたら、他の傭兵タイプも試してみてください。
 
-<size='25'><color='cyan'>Fleet Formations</color></size>
-Once you have at least 1 Merc in your fleet, you have the option to set the formation of the fleet. The formation will arrange the Merc ships into a formation with your command ship. You will then have the ability cycle thru the various formations using the FORMATION button on the FLEET COMMAND panel. You can also adjust how tight the formation will be spaced apart. Clicking the FORMATION DISTANCE button on the FLEET COMMAND panel will cycle this distance. The FORMATION LOCK button will allow you to magnetically lock the ships into a formation that behaves as a single ship. This can be good in some combat situations, and in general while flying about the Astrox universe.
+<size='25'><color='cyan'>艦隊の陣形</color></size>
+艦隊に少なくとも1人の傭兵がいる場合、艦隊の陣形を設定するオプションがあります。陣形は、傭兵の艦船をあなたの指揮艦と共に配置します。FLEET COMMANDパネルのFORMATIONボタンを使用して、さまざまな陣形を切り替えることができます。また、陣形の間隔をどれくらい詰めるかも調整できます。FLEET COMMANDパネルのFORMATION DISTANCEボタンをクリックすると、この距離が切り替わります。FORMATION LOCKボタンを使用すると、艦船を磁気的にロックして、1隻の艦船のように振る舞う陣形にすることができます。これは一部の戦闘状況や、Astrox宇宙を飛行する際の一般的な移動に役立ちます。
 
-<size='25'><color='cyan'>Merc Cargo Management</color></size>
-Each Merc will have their own cargo bay to manage. Once their cargo bay is full, you will be responsible to remove some items to make room. You may need to restock any cargo items they are using, like ammunition. Some items in the Merc cargo bay may be inaccessible to you. This is due to poor loyalty. If they cannot trust you, they may choose to restrict access to their cargo bay altogether. You cannot access a Merc's cargo if their ship is too far away. You must wait until their ship is in range before you will be able to access their cargo bay.
+<size='25'><color='cyan'>傭兵の貨物管理</color></size>
+各傭兵は独自の貨物ベイを持っています。貨物ベイがいっぱいになると、スペースを空けるためにアイテムを取り出す責任が生じます。彼らが使用している弾薬などの貨物アイテムを補充する必要があるかもしれません。傭兵の貨物ベイ内の一部のアイテムには、アクセスできない場合があります。これは忠誠心が低いためです。彼らがあなたを信頼していなければ、貨物ベイへのアクセスを完全に制限することを選択するかもしれません。艦船が遠すぎると、傭兵の貨物にアクセスできません。貨物ベイにアクセスできるようになるまで、彼らの艦船が範囲内に入るのを待つ必要があります。
 
-<size='25'><color='cyan'>Selecting and Deselecting Mercs</color></size>
-By clicking on the name area of the Merc button from the list, the merc portrait background will turn green, indicating it has been added to the selected list. You can deselect a Merc the same way, by clicking the name on the Merc list button on the FLEET COMMAND panel. Clicking on the Merc in tactical view will select the Merc. You can also hold down the LEFT CTRL button, and LEFT CLICK DRAG a bandbox. This will allow you to easily select multiple Mercs for combat orders. The SELECT ALL Mercs button on the FLEET COMMAND panel will add all active Mercs to the selected list.
+<size='25'><color='cyan'>傭兵の選択と選択解除</color></size>
+リストの傭兵ボタンの名前領域をクリックすると、傭兵のポートレートの背景が緑色に変わり、選択リストに追加されたことを示します。FLEET COMMANDパネルの傭兵リストボタンの名前をクリックすることで、同じように傭兵の選択を解除できます。タクティカルビューで傭兵をクリックすると、その傭兵が選択されます。また、左CTRLボタンを押しながら、左クリックでドラッグして範囲選択ボックスを作成することもできます。これにより、戦闘命令のために複数の傭兵を簡単に選択できます。FLEET COMMANDパネルのSELECT ALL Mercsボタンを押すと、すべてのアクティブな傭兵が選択リストに追加されます。
 
-<size='25'><color='cyan'>Commanding your Mercs</color></size>
-By clicking the FACE of the Merc on the Merc list on the FLEET COMMAND panel, a small COMMAND panel will open and provide you with the individual Merc commands. These commands will only affect this Merc, and will have no effect on the other active Mercs in the fleet. This COMMAND panel can be opened and closed for each Merc in the list. You can also command Mercs as a group by using the ENGAGE TARGET button on the FLEET COMMAND panel. This button will send all selected Mercs to your ship's current target. This can be great for combat, and focused mining of rare resources.
+<size='25'><color='cyan'>傭兵への命令</color></size>
+FLEET COMMANDパネルの傭兵リストにある傭兵の顔をクリックすると、小さなCOMMANDパネルが開き、個別の傭兵コマンドが表示されます。これらのコマンドはその傭兵にのみ影響し、艦隊内の他のアクティブな傭兵には影響しません。このCOMMANDパネルは、リスト内の各傭兵に対して開閉できます。また、FLEET COMMANDパネルのENGAGE TARGETボタンを使用して、グループとして傭兵に命令することもできます。このボタンは、選択したすべての傭兵をあなたの艦船の現在のターゲットに送ります。これは戦闘や、希少資源の集中採掘に最適です。
 
-<size='25'><color='cyan'>Merc Autotask (Star Button)</color></size>
-The STAR button on the COMMAND panel can activate the Mercs ability to AutoTask. This is like an intelligent autopilot for the Merc. Mining mercs will automatically mine rocks. Combat Mercs will automatically patrol for pirates and hostiles. When activated, the STAR icon will turn blue, and the Merc will break formation to carry out their task. Certain structures may alter the Merc's AutoTask behavior to further automate their workload.
+<size='25'><color='cyan'>傭兵の自動タスク（星ボタン）</color></size>
+COMMANDパネルのSTARボタンは、傭兵の自動タスク（AutoTask）能力をアクティブにします。これは傭兵のためのインテリジェントな自動操縦のようなものです。採掘傭兵は自動的に岩石を採掘します。戦闘傭兵は自動的に海賊や敵対勢力をパトロールします。アクティブになると、STARアイコンが青色に変わり、傭兵は陣形を離れてタスクを実行します。特定の構造物によって、傭兵の自動タスクの動作が変更され、作業負荷がさらに自動化される場合があります。
 
-<size='25'><color='cyan'>Merc Morale and Loyalty</color></size>
-Each merc type will prefer a certain type of work over another. While one merc enjoys mining, another might prefer combat. Forcing a combat merc to mine ore will have a negative effect on their Morale, and in turn, their Loyalty to you. If you keep your Mercs happy, their Loyalty will increase over time, and eventually they may befriend you. This happens when their Loyalty reaches 100%. This will remove them from the Merc payroll, and they will continue to fly with you as a friend, free of charge. If their loyalty drops too low, the Merc may decide to quit your fleet, and go their separate way.
+<size='25'><color='cyan'>傭兵の士気と忠誠心</color></size>
+各傭兵タイプは、ある種の仕事を他の仕事よりも好みます。採掘を楽しむ傭兵もいれば、戦闘を好む傭兵もいます。戦闘傭兵に無理やり鉱石を採掘させると、士気に悪影響を及ぼし、ひいてはあなたへの忠誠心にも影響します。傭兵を幸せに保てば、忠誠心は時間とともに高まり、最終的にはあなたと親しくなるかもしれません。これは忠誠心が100%に達したときに起こります。これにより、彼らは傭兵の給与リストから外れ、無料で友人としてあなたと共に飛行し続けます。忠誠心が低くなりすぎると、傭兵はあなたの艦隊を辞めて、別の道を行くことを決めるかもしれません。
 
-<size='25'><color='cyan'>Merc Levels</color></size>
-Mercs do earn experience points for performing their actions alongside your ship. As their experience increases, so will their level. As they level up, they will spend their skill points upgrading their equipment and thus improving their stats.
+<size='25'><color='cyan'>傭兵のレベル</color></size>
+傭兵は、あなたの艦船と共にアクションを実行することで経験値を獲得します。経験値が増えるにつれて、レベルも上がります。レベルアップすると、スキルポイントを使って装備をアップグレードし、ステータスを向上させます。
 
-<size='25'><color='cyan'>Lounge Entertainment for your Mercs</color></size>
-Some stations will have a LOUNGE that provides entertainment to the members of your fleet. For a small fee, you can instantly boost the morale, and loyalty for each of the members that are currently active in your fleet. This can be a good way to boost the morale of those unhappy Mercs who need some rest and relaxation.
+<size='25'><color='cyan'>傭兵のためのラウンジでの娯楽</color></size>
+一部のステーションには、艦隊のメンバーに娯楽を提供するLOUNGEがあります。少額の料金で、現在艦隊でアクティブな各メンバーの士気と忠誠心を即座に高めることができます。これは、休息とリラクゼーションを必要としている不満を抱えた傭兵の士気を高める良い方法です。
 
-<size='25'><color='cyan'>Deactivate and Reactivate Mercs</color></size>
-When docked inside of any station, you can open the PILOT PANEL, and select the FLEET tab. This will provide you a list of all Mercs currently in your fleet. Active and Inactive Mercs will all be listed here. You can Deactivate a Merc from this panel, and any currently deactivated merc at this station can be Reactivated. You cannot Activate a Merc that is currently docked at another station. When a Merc is Deactivated, they will remain at the station and on the payroll until you come for them. This is a great way to prevent those weak mining Mercs from getting killed during combat missions.
+<size='25'><color='cyan'>傭兵の非アクティブ化と再アクティブ化</color></size>
+ステーション内にドッキングしているときは、PILOT PANELを開き、FLEETタブを選択できます。これにより、現在艦隊にいるすべての傭兵のリストが表示されます。アクティブな傭兵と非アクティブな傭兵がすべてここにリストされます。このパネルから傭兵を非アクティブ化でき、このステーションで現在非アクティブ化されている傭兵は再アクティブ化できます。別のステーションに現在ドッキングしている傭兵をアクティブ化することはできません。傭兵が非アクティブ化されると、あなたが迎えに来るまでステーションに留まり、給与リストに残ります。これは、戦闘任務中に弱い採掘傭兵が殺されるのを防ぐための素晴らしい方法です。
 
-<size='25'><color='cyan'>Retiring a Merc from the Fleet</color></size>
-When docked inside of any station, any Deactivated Merc at that station can be retired from the fleet. This will safely remove the Merc from the fleet without penalty to their faction rating. Once a Merc has been retired, the Merc slot will open up and you will be able to hire a new Merc as a replacement.
+<size='25'><color='cyan'>艦隊からの傭兵の引退</color></size>
+ステーション内にドッキングしているときは、そのステーションにいる非アクティブな傭兵を艦隊から引退させることができます。これにより、勢力評価にペナルティを与えることなく、安全に艦隊から傭兵を削除できます。傭兵が引退すると、傭兵スロットが空き、新しい傭兵を代わりとして雇うことができます。
 
-<size='25'><color='cyan'>A Merc’s life and death</color></size>
-It is your responsibility to keep your fleet members alive and equipped. They will require ammunition from time to time, along with frequent docking to automatically repair damaged ship systems. The DOCK SELECTED button will send all selected Mercs to the nearest station for repairs. If a Merc sustains too much damage, they will be destroyed, and lost forever. You are required to cover the cost of the funeral, and some minor workplace accident compensation. This will affect your pilots faction rating negatively.
-
-
-
+<size='25'><color='cyan'>傭兵の生と死</color></size>
+艦隊メンバーを生かし、装備を整えておくことはあなたの責任です。彼らは時折弾薬を必要とし、損傷した艦船システムを自動的に修理するために頻繁なドッキングが必要です。DOCK SELECTEDボタンは、選択したすべての傭兵を修理のために最寄りのステーションに送ります。傭兵が過度の損傷を受けると、彼らは破壊され、永遠に失われます。あなたは葬儀費用と、いくつかの軽微な労働災害補償を負担する必要があります。これは、パイロットの勢力評価に悪影響を及ぼします。

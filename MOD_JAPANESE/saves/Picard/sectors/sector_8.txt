@@ -1,0 +1,122 @@
+// SECTOR;Variable;Value
+SECTOR;id;8
+SECTOR;name;The Moon of Crystalis
+SECTOR;level;2.3
+SECTOR;faction;Labor
+SECTOR;filename;sector_8.txt
+SECTOR;is_explored;False
+SECTOR;energy;20
+SECTOR;population;20
+SECTOR;habitation;20
+SECTOR;farming;20
+SECTOR;economy;20
+SECTOR;production;20
+SECTOR;defense;20
+SECTOR;environment;20
+SECTOR;wormhole_type;
+SECTOR;event_type;null
+
+// SECTORXYZ;Variable;Value
+SECTORXYZ;location;-2145.845;-103.4468;-596.7878
+
+// FOG;Variable;Value
+FOG;foggy;True
+FOG;distance;0.003567121
+FOG;alpha;0.8947887
+FOG;color_1;0.93;0.68;0.42;0.83
+FOG;color_2;0.88;0.41;0.53;0.00
+
+// NEBULA;Variable;Cloud id;Red;Green;Blue;Alpha;Size;Rotation
+NEBULA;cloud_1;10;1.00;0.80;1.00;0.52;50000;4
+NEBULA;cloud_2;2;0.82;0.90;0.12;0.00;50000;3
+NEBULA;cloud_3;3;1.00;1.00;0.00;0.00;50000;2
+NEBULA;cloud_4;4;0.47;0.72;0.00;0.00;50000;5
+NEBULA;cloud_5;5;0.00;0.32;0.00;0.00;50000;5
+NEBULA;cloud_6;6;0.00;0.00;0.00;0.00;50000;5
+NEBULA;cloud_7;7;0.00;0.00;0.00;0.00;50000;5
+NEBULA;cloud_8;8;0.00;0.00;0.00;0.00;50000;0
+NEBULA;cloud_9;9;0.00;0.00;0.00;0.00;50000;4
+NEBULA;cloud_10;10;1.00;0.75;0.61;0.89;50000;2
+NEBULA;cloud_11;11;0.00;0.00;0.00;0.00;50000;3
+NEBULA;cloud_12;12;1.00;0.25;0.00;0.13;50000;5
+
+// LIGHT;Variable;Red;Green;Blue;Alpha
+LIGHT;light_t;0.52;0.49;0.41;0.09
+LIGHT;light_b;0.85;0.36;0.28;0.11
+LIGHT;light_s;0.88;0.58;0.58;0.37
+
+// STAR;Variable;Star id;X position;Y position;Z position;
+//STAR;object;1;2995.1;1139.8;4413.7;1.0;10000
+
+// LIFESUPPORT;type;value
+LIFESUPPORT;food;1.488528
+LIFESUPPORT;water;1.202164
+LIFESUPPORT;thermal;0.4312982
+LIFESUPPORT;waste;0.9773149
+
+// STARLIGHT;Variable;Red;Green;Blue;Alpha
+STARLIGHT;color_1;0.00;0.00;0.00;0.00
+STARLIGHT;color_2;0.00;0.00;0.00;0.00
+STARLIGHT;color_3;0.00;0.00;0.00;0.00
+STARLIGHT;color_4;0.00;0.00;0.00;0.00
+STARLIGHT;color_5;0.00;0.00;0.00;0.00
+
+// STATION;Sector filename;X poisition;Y position;Z position
+
+// STRUCTURE;STRUCTURE filename;X poisition;Y position;Z position
+STRUCTURE;structure_dock_1.txt;1697.5;1024.1;-2852.6
+STRUCTURE;structure_office_1.txt;-2359.5;-120.8;-3534.7
+STRUCTURE;structure_office_1.txt;-1988.7;120.0;-3899.8
+STRUCTURE;structure_office_1.txt;2076.8;1135.6;1706.6
+STRUCTURE;structure_energy_gen_1.txt;1688.8;1074.3;1162.2
+STRUCTURE;structure_energy_gen_1.txt;2207.3;1098.5;-2635.1
+STRUCTURE;structure_energy_gen_1.txt;-2363.3;-141.4;-3987.5
+STRUCTURE;structure_gun_platform_1.txt;2321.9;1103.1;1243.2
+
+// CLUSTER;res_id;qty;min;max;spread;x;y;z
+CLUSTER;4;10;300;600;10000;-1212;1000;1.9;-529.3
+CLUSTER;4;100;50;100;8000;1212;-1000;-529.3
+
+// RESOURCE;Resource id;X position;Y position;Z position;Max value;Current value
+RESOURCE;4;2798.2;-1506.8;717.0;200.0;200.0
+RESOURCE;4;2524.8;-1552.4;-1793.5;100.0;100.0
+RESOURCE;4;1921.8;-1744.4;558.5;1500.0;1500.0
+RESOURCE;4;1701.2;-1117.7;106.4;900.0;900.0
+RESOURCE;4;2506.5;-1792.8;-1482.2;120.0;120.0
+RESOURCE;4;2355.8;-344.5;-1881.5;100.0;100.0
+RESOURCE;4;2237.9;-1213.5;-454.1;220.0;220.0
+RESOURCE;4;2383.5;-152.7;-1097.0;40.0;40.0
+RESOURCE;4;2213.4;-1277.8;1263.0;600.0;600.0
+RESOURCE;4;1019.6;-723.3;-2714.8;800.0;800.0
+RESOURCE;4;-973.4;-2108.7;-2188.0;1000.0;1000.0
+RESOURCE;4;292.0;-494.3;-1508.8;1000.0;1000.0
+RESOURCE;4;1616.6;-2292.5;621.5;1000.0;1000.0
+RESOURCE;4;-3151.9;-1942.0;-26.7;1000.0;1000.0
+RESOURCE;4;1003.5;-2867.5;-3437.1;1000.0;1000.0
+RESOURCE;4;1493.3;3855.4;-920.2;1000.0;1000.0
+
+// WARPGATE;Warpgate id ;Sector filename ; Exit Warpgate id;X position ;Y position ;Z position;Toll ;Faction ;Level;
+WARPGATE;1;sector_4.txt;2;730.2;-894.7;2617.9;0;alpha;0.0
+
+// PROPS;Prefab Id;Xpos;Ypos;Zpos;Xrot;Yrot;Zrot;Value 1
+PROP;0;0;0;0;0;0;0;lightning 1
+//PROP;18;-90000;0;0;0;110;0;moon_1
+PROP;16;0;0;0;0;0;0;0.75,0.22,0.30,0.12;//fog
+PROP;22;0;0;0;0;0;0;rock
+PROP;22;-40000;0;0;180;0;0;rock
+PROP;22;20000;0;90;180;0;0;rock
+PROP;11;1000;2500;1000;-215;225;125;debris_1
+PROP;40;0;0;0;-23;-23;0;//rock cloud
+PROP;41;0;0;0;0;0;0;//rock cloud
+
+// NPC_SHIP;ship_filename;xpos;ypos;zpos;faction_id;level
+NPC_SHIP;npc_ship_data_(battle_carrier_1);-361.70;352.99;1307.67;9;4
+NPC_SHIP;npc_ship_data_(recon_escort_raider);141.90;156.91;1246.61;4;10
+NPC_SHIP;npc_ship_data_(transport_frigate_1);-29.07;-452.43;765.35;12;10
+NPC_SHIP;npc_ship_data_(recon_shuttle_1);1305.61;-343.89;-597.45;8;7
+NPC_SHIP;npc_ship_data_(battle_shuttle_1);-203.10;-903.80;-964.41;5;2
+NPC_SHIP;npc_ship_data_(excavation_utility_1);-114.33;-559.73;-14.35;15;5
+NPC_SHIP;npc_ship_data_(recon_cruiser_1);-1358.85;-60.30;-216.61;4;4
+NPC_SHIP;npc_ship_data_(excavation_frigate_1);609.89;-252.86;-704.92;17;7
+NPC_SHIP;npc_ship_data_(excavation_shuttle_1);486.54;-106.08;-836.57;4;10
+

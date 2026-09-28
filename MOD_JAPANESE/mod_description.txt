@@ -1,4 +1,7 @@
-Default Vanilla
+Default Vanilla(翻訳版)
 by: momoguru (Jace Masula) 2025
+日本語版: ravaf 2026
 
-This mod version is the basic MOD folder that comes pre-configured for the game. The contents of this MOD folder are updated with the game and serves as the developer's vision for how the game was meant to be enjoyed.
+このMODバージョンは、ゲーム用にあらかじめ設定されている基本のMODフォルダです。このMODフォルダの内容はゲームの更新に合わせてアップデートされ、開発者が意図したゲームの楽しみ方を体現しています。
+
+翻訳：Gemini

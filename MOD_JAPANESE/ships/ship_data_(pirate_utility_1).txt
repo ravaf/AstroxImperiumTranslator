@@ -32,7 +32,7 @@ SHIP_base_scan_pulserange;1000
 SHIP_base_scan_pulsespeed;10
 SHIP_type;Assault
 SHIP_base_price;1444000
-SHIP_description;The assault ship is designed to be a fast moving, combat strike craft. Improved thrust systems, and augmented resistance. Suffers from a heavy engine burn on the energy core.
+SHIP_description;強襲艦は、高速で移動する戦闘ストライククラフトとして設計されています。改良されたスラスターシステムと拡張された耐性を持っています。エネルギーコアへの重度なエンジン負担があります。
 SHIP_impact_resistance;0.1
 SHIP_energy_resistance;0.25
 SHIP_explosive_resistance;0.3

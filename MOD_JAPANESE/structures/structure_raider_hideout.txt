@@ -1,10 +1,9 @@
 // STRUCTURE DATA (Astrox Imperium) 
 // STRUCTURE;variable;value
-
 STRUCTURE;id;0
 STRUCTURE;name;Shlick Diamond's
 STRUCTURE;type;Raider Hideout
-STRUCTURE;desc;Raider hideouts are dangerous structures to hang around. Raiders don't like us civilians, and have no problem ganging up on you.
+STRUCTURE;desc;レイダーの隠れ家はうろつくのに危険な構造物である。レイダーは私たち民間人が嫌いであり、結託してあなたに襲いかかることに躊躇しない。
 STRUCTURE;class;None
 STRUCTURE;owner;Shlick Hetcha
 STRUCTURE;faction;Outlaw
@@ -28,7 +27,6 @@ STRUCTURE;default_script_file;none
 STRUCTURE;default_script_id;0
 STRUCTURE;sector_effect;defense#-20
 STRUCTURE;sector_name;<SECTORNAME>
-
 STRUCTURE;gen_power;false
 STRUCTURE;gen_power_rate;0
 STRUCTURE;power_points;1000
@@ -38,11 +36,9 @@ STRUCTURE;is_raider;true
 STRUCTURE;is_law;false
 STRUCTURE;is_dockable;true
 STRUCTURE;btn_undock;true
-
 STRUCTURE;cargo_max;100
 STRUCTURE;upgrade_timer;0
 STRUCTURE;upgrade_file;null
-
 //; ----------------------------- STRUCTURE INTERIOR PARTS-------------------------------
 //; ----------------------- PART,prefab_id;name,xp,yp,zp,xr,yr,zr,a1,b2
 <PARTS>
@@ -291,18 +287,12 @@ PART;151;Lockbox;18.25;0.50;3.00;0.00;225.00;0.00;id_1;10;10000;rnd;Unlocked;;;U
 PART;141;Lockbox;3.25;0.75;7.25;0.00;225.00;0.00;id_2;10;10000;rnd;Unlocked;;;Unknown
 PART;219;Actor;7.00;-0.25;17.25;0.00;112.50;0.00;Jon Hetcher;blank.png,blank.png;npc_structure_missions.txt, 10;1;Idle_1;1,1,1,1#1,1,1,1#1,0,0#1,1,1,1;null;null
 </PARTS>
-
-
 //; ----------------------------- STRUCTURE MODULE SLOTS --------------------------------
 //; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr--------------------------------
 <MODSLOT>
-
-
 //; ----------------------------- STRUCTURE MODULES --------------------------------------
 //; ----- MODULE,slot,module_id
 <MODULE>
-
-
 //; ----------------------------- STRUCTURE CARGO -----------------------------------------
 //; ----- CARGO, qty, cargo_id
 <CARGO>

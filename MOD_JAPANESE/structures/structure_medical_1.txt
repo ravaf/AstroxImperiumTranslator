@@ -1,10 +1,9 @@
 // STRUCTURE DATA (Astrox Imperium) 
 // STRUCTURE;variable;value
-
 STRUCTURE;id;7
 STRUCTURE;name;Medical Facility
 STRUCTURE;type;Medical
-STRUCTURE;desc;Medical structures not only provide the population of the sector with doctors and medicine, but also will slowly recharge the lifesupport systems of any ship at no cost. This facility will boost the population grow rate, happiness, and lifespan.
+STRUCTURE;desc;医療構造物はセクターの住民に医師と医薬品を提供するだけでなく、どの艦船の生命維持システムも無料でゆっくりと再充填する。この施設は人口増加率、幸福度、寿命を向上させる。
 STRUCTURE;class;Medical
 STRUCTURE;owner;Dr. Quine
 STRUCTURE;faction;Science
@@ -28,7 +27,6 @@ STRUCTURE;default_script_file;none
 STRUCTURE;default_script_id;0
 STRUCTURE;sector_effect;population#5
 STRUCTURE;sector_name;<SECTORNAME>
-
 STRUCTURE;gen_power;false
 STRUCTURE;gen_power_rate;0
 STRUCTURE;power_points;1000
@@ -38,11 +36,9 @@ STRUCTURE;is_raider;false
 STRUCTURE;is_law;false
 STRUCTURE;is_dockable;True
 STRUCTURE;btn_undock;true
-
 STRUCTURE;cargo_max;1200
 STRUCTURE;upgrade_timer;0
 STRUCTURE;upgrade_file;null
-
 INTERIOR;0;1,1;1;1,0,0,0
 INTERIOR;0;1,2;1;0,0,0,0
 INTERIOR;0;1,3;1;0,0,0,0
@@ -54,7 +50,6 @@ INTERIOR;7;0,5;0;0,0,0,0
 INTERIOR;7;2,5;2;0,0,0,0
 INTERIOR;1;1,6;1;0,0,0,0
 INTERIOR;3;1,7;0;1,0,0,0
-
 //; ----------------------------- STRUCTURE INTERIOR PARTS-------------------------------
 //; ----------------------- PART,prefab_id;name,xp,yp,zp,xr,yr,zr,a1,b2
 <PARTS>
@@ -147,17 +142,12 @@ PART;55;Ground;16.00;-0.25;16.00;0.00;0.00;0.00;null;null;null;null;null;null;nu
 PART;55;Ground;20.00;-0.25;16.00;0.00;0.00;0.00;null;null;null;null;null;null;null;null
 PART;55;Ground;20.00;-0.25;12.00;0.00;0.00;0.00;null;null;null;null;null;null;null;null
 </PARTS>
-
 //; ----------------------------- STRUCTURE MODULE SLOTS --------------------------------
 //; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr--------------------------------
 <MODSLOT>
-
-
 //; ----------------------------- STRUCTURE MODULES --------------------------------------
 //; ----- MODULE,slot,module_id
 <MODULE>
-
-
 //; ----------------------------- STRUCTURE CARGO -----------------------------------------
 //; ----- CARGO, qty, cargo_id
 <CARGO>

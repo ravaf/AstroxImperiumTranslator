@@ -1,10 +1,9 @@
 // STRUCTURE DATA (Astrox Imperium) 
 // STRUCTURE;variable;value
-
 STRUCTURE;id;14
 STRUCTURE;name;Warpgate Generator
 STRUCTURE;type;Warpgate
-STRUCTURE;desc;The small Warpgate Generator can be deployed in order to stabilise nearby wormhole energy. Once a gate is deployed within range of the wormhole, the warpgate will provide the required energy to stabalize the entrance to the wormhole.
+STRUCTURE;desc;小型ワープゲートジェネレーターは、近隣のワームホールのエネルギーを安定化させるために配備できる。ゲートがワームホールの範囲内に配備されると、ワープゲートはワームホールの入口を安定させるために必要なエネルギーを供給する。
 STRUCTURE;class;Machine
 STRUCTURE;owner;Jace Masula
 STRUCTURE;faction;Trade
@@ -28,7 +27,6 @@ STRUCTURE;default_script_file;none
 STRUCTURE;default_script_id;0
 STRUCTURE;sector_effect;energy#2,economy#15
 STRUCTURE;sector_name;<SECTORNAME>
-
 STRUCTURE;gen_power;true
 STRUCTURE;gen_power_rate;5
 STRUCTURE;power_points;1000
@@ -38,11 +36,9 @@ STRUCTURE;is_raider;false
 STRUCTURE;is_law;false
 STRUCTURE;is_dockable;true
 STRUCTURE;btn_undock;true
-
 STRUCTURE;cargo_max;1100
 STRUCTURE;upgrade_timer;0
 STRUCTURE;upgrade_file;null
-
 INTERIOR;0;1,1;1;1,0,0,0
 INTERIOR;0;1,2;1;0,0,0,0
 INTERIOR;0;1,3;1;0,0,0,0
@@ -54,7 +50,6 @@ INTERIOR;7;0,5;0;0,0,0,0
 INTERIOR;7;2,5;2;0,0,0,0
 INTERIOR;1;1,6;1;0,0,0,0
 INTERIOR;3;1,7;0;1,0,0,0
-
 //; ----------------------------- STRUCTURE INTERIOR PARTS-------------------------------
 //; ----------------------- PART,prefab_id;name,xp,yp,zp,xr,yr,zr,a1,b2
 <PARTS>
@@ -114,16 +109,12 @@ PART;205;Light;20.00;3.50;9.25;0.00;0.00;0.00;1.0, 1.0, 1.0;1.0;5;null;null;null
 PART;205;Light;25.50;5.00;14.00;0.00;0.00;270.00;1,0,0;1.0;5;3;1;3;2;null
 PART;205;Light;14.25;3.25;13.50;0.00;0.00;90.00;1,0.8,0;1.0;5;3;1;3;2;null
 </PARTS>
-
 //; ----------------------------- STRUCTURE MODULE SLOTS --------------------------------
 //; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr--------------------------------
 <MODSLOT>
-
-
 //; ----------------------------- STRUCTURE MODULES --------------------------------------
 //; ----- MODULE,slot,module_id
 <MODULE>
-
 //; ----------------------------- STRUCTURE CARGO -----------------------------------------
 //; ----- CARGO, qty, cargo_id
 <CARGO>

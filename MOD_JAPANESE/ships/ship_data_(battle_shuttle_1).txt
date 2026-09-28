@@ -41,7 +41,7 @@ SHIP_material_texture_a;gem_main.png
 SHIP_material_texture_b;gem_detail.png
 SHIP_material_texture_c;gem_glow.png
 SHIP_engine_color;1;1;1;1
-SHIP_description;Battle ships are designed for head on combat. With augmented shields and reinforced armor plating, the battle ship can survive extreme damage.
+SHIP_description;戦艦は正面からの戦闘を想定して設計されています。強化されたシールドと装甲板により、戦艦は甚大なダメージに耐えることができます。
 SHIP_manufacturer;G.E.M.
 SHIP_manufacturer_icon;icon_gem.png
 SHIP_shield;0

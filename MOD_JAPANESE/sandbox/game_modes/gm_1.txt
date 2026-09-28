@@ -2,19 +2,19 @@ GAMEMODE;id;1
 GAMEMODE;title;HSE
 GAMEMODE;image;gm_1.png
 
-PRESET;0;_GM_hse.txt;Default
+PRESET;0;_GM_hse.txt;デフォルト
 
 <SUMMARY>
 <size='30'><color='cyan'>Hostile Space Excavation</color></size>
 
-This game mode will emulate the original Astrox (Hostile Space Excavation) game play. Your progression will be limited, and the items, raiders, and dangers will scale as you work your way through the galaxy.
+このゲームモードは、オリジナルのAstrox (Hostile Space Excavation) のゲームプレイを再現します。進行状況は制限され、銀河を進むにつれてアイテム、レイダー、そして危険性が段階的に上昇します。
 
 <DESCRIPTION>
-<size='30'><color='cyan'>Rules</color></size>
-1) You must clear the current sector of the raider infestation until you are permitted to warp to the next sector. All of the warpgates will remain locked, until you clear the sector of all threats and dangers.
-2) Once all of the map raiders have been dispatched, an officer will appear with a few backup raiders. You will be required to destroy the officer and his escorts before the sector is considered CLEAR.
-3) When the sector has been cleared, raiders will no longer spawn on the map, and you will receive a bonus that scales with each sector.
-4) When all sectors have been cleared, a super boss will spawn. Defeat the boss to win the game.
+<size='30'><color='cyan'>ルール</color></size>
+1) 次のセクターへのワープが許可されるまで、現在のセクターからレイダーの侵入を一掃しなければなりません。すべてのワープゲートは、セクター内の脅威と危険がすべて排除されるまでロックされたままとなります。
+2) マップ上のすべてのレイダーを排除すると、少数の援護レイダーを伴ったオフィサーが出現します。セクターが「クリア」とみなされるには、そのオフィサーと護衛を撃破する必要があります。
+3) セクターがクリアされると、マップ上にレイダーは出現しなくなり、セクターごとに段階的に増加するボーナスを受け取ります。
+4) すべてのセクターをクリアすると、スーパーボスが出現します。ボスを倒せばゲームクリアです。
 
-<size='30'><color='cyan'>Objective</color></size>
-This game mode will require that you clear each and every sector on the map. Once you clear the final sector, a special boss will appear. Defeating this boss is final condition for game victory.
+<size='30'><color='cyan'>目的</color></size>
+このゲームモードでは、マップ上のすべてのセクターをクリアする必要があります。最後のセクターをクリアすると特別なボスが出現します。このボスを倒すことがゲーム勝利の最終条件となります。

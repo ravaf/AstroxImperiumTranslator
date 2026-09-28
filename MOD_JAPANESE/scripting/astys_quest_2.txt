@@ -1,8 +1,8 @@
 //; ASTROX IMPERIUM : SCRIPTING EDITOR : JACE MASULA 2019
 // SCRIPT;	ID;	LABEL;	COMMAND;	CHAIN;	VALUE 1;	VALUE 2;	VALUE 3;	VALUE 4;	VALUE 5;	VALUE 6;	VALUE 7;	VALUE 8	
 // -------------------------------------------------------------------------------------------------------------------------------------
-SCRIPT;		10;		START;		UI_CHANGEIMAGE;		20;		male_1.png;		accessory_1.png;		null;		null;		null;		null;		null;		null;		111.08;		-56.34
-SCRIPT;		20;		name;		UI_NAME;		30;		Asty;		null;		null;		null;		null;		null;		null;		null;		114.06;		-137.71
+SCRIPT;10;START;UI_CHANGEIMAGE;20;male_1.png;accessory_1.png;null;null;null;null;null;null;111.08;-56.34
+SCRIPT;20;name;UI_NAME;30;Asty;null;null;null;null;null;null;null;114.06;-137.71
 SCRIPT;		30;		set_faction;		UI_CHANGEFACTION_ID;		50;		4;		Trade;		null;		null;		null;		null;		null;		null;		112.20;		-217.53
-SCRIPT;		50;		34537;		TEXT;		0;		We are going to meet up with my partner Kilo. He has been mining out in a dangerous sector not far from here. He has been asking for my assistance and I just haven't had the time to get over his way. [n][n]The problem is he has a few raiders camped outside of his station. Kilo isn't much of a fighter, and prefers to remain indoors when raiders are around.[n][n]We will need to clear out the sector of any hostiles before Kilo can join us. It shouldn't be too difficult if we properly equip ourselves for the task.;		astys_quest_2.txt>60>Sounds about right.;		null;		null;		null;		null;		null;		null;		724.76;		-60.17
-SCRIPT;		60;		77895;		TEXT;		0;		To be continued in the next build.;		astys_quest_2.txt>0>well shit.;		null;		null;		null;		null;		null;		null;		725.62;		-163.45
+SCRIPT;50;34537;TEXT;0;私の相棒であるキロと合流する予定だ。彼はここからそう遠くない危険なセクターで採掘をしている。私に加勢してほしいと頼まれているのだが、なかなか彼のところに行く時間が取れなくてね。[n][n]問題は、彼のステーションの外に数隻のレイダーが陣取っていることだ。キロは戦いが得意ではなく、レイダーがいるときは室内にこもりがちなんだ。[n][n]キロが我々に合流する前に、セクター内の敵性存在を一掃する必要がある。任務に向けてしっかりと装備を整えておけば、それほど難しくはないはずだ。;astys_quest_2.txt>60>妥当だな。;null;null;null;null;null;null;724.76;-60.17
+SCRIPT;60;77895;TEXT;0;次回のビルドに続く。;astys_quest_2.txt>0>なんてこった。;null;null;null;null;null;null;725.62;-163.45

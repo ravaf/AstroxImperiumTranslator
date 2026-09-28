@@ -1,10 +1,9 @@
 // STRUCTURE DATA (Astrox Imperium) 
 // STRUCTURE;variable;value
-
 STRUCTURE;id;1
 STRUCTURE;name;Generic Construction Platform
 STRUCTURE;type;Platform
-STRUCTURE;desc;The construction platform is used as a base foundation for all structures in the Astrox universe. Once the Construction Platform has been assembled, materials can be delivered to the platform for upgrades and construction.
+STRUCTURE;desc;建設プラットフォームは、アストロックス世界のすべての構造物の基礎として使用されます。建設プラットフォームが組み立てられると、アップグレードや建設のために材料をプラットフォームに納入できるようになります。
 STRUCTURE;class;Generic
 STRUCTURE;owner;Player
 STRUCTURE;faction;Trade
@@ -28,7 +27,6 @@ STRUCTURE;default_script_file;none
 STRUCTURE;default_script_id;0
 STRUCTURE;sector_effect;production#1
 STRUCTURE;sector_name;<SECTORNAME>
-
 STRUCTURE;gen_power;false
 STRUCTURE;gen_power_rate;0
 STRUCTURE;power_points;1000
@@ -38,13 +36,10 @@ STRUCTURE;is_raider;false
 STRUCTURE;is_law;false
 STRUCTURE;is_dockable;true
 STRUCTURE;btn_undock;true
-
 STRUCTURE;cargo_max;1000
 STRUCTURE;upgrade_timer;0
 STRUCTURE;upgrade_file;null
-
 INTERIOR;12;1,1;0;1,1,1,1
-
 //; ----------------------------- STRUCTURE INTERIOR PARTS-------------------------------
 //; ----------------------- PART,prefab_id;name,xp,yp,zp,xr,yr,zr,a1,b2
 <PARTS>
@@ -122,16 +117,12 @@ PART;67;Pillar;23.00;-0.25;13.00;0.00;315.00;0.00;null;null;null;null;null;null;
 PART;67;Pillar;23.00;-0.25;23.00;0.00;315.00;0.00;null;null;null;null;null;null;null;null
 PART;67;Pillar;13.00;-0.25;23.00;0.00;315.00;0.00;null;null;null;null;null;null;null;null
 </PARTS>
-
 //; ----------------------------- STRUCTURE MODULE SLOTS --------------------------------
 //; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr--------------------------------
 <MODSLOT>
-
-
 //; ----------------------------- STRUCTURE MODULES --------------------------------------
 //; ----- MODULE,slot,module_id
 <MODULE>
-
 //; ----------------------------- STRUCTURE CARGO -----------------------------------------
 //; ----- CARGO, qty, cargo_id
 <CARGO>

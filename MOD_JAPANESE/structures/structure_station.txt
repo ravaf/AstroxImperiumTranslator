@@ -1,10 +1,9 @@
 // STRUCTURE DATA (Astrox Imperium) 
 // STRUCTURE;variable;value
-
 STRUCTURE;id;15
 STRUCTURE;name;Station Construction
 STRUCTURE;type;Station
-STRUCTURE;desc;The Station Construction Platform will transform the Energy Generator structure into a new station for the sector. Once a station has been constructed, it will no longer function as a structure, and can be used like a normal station with access to all the various station services available. The newly created station cannot be downgraded, and any existing power supply lines from the Energy Generator will be removed, and adjacent structure will no longer be powered when the station has been completed.
+STRUCTURE;desc;ステーション建設プラットフォームは、エネルギー発電機構造物をセクターの新しいステーションへと変形させる。ステーションが建設されると、それは構造物として機能しなくなり、利用可能なすべての様々なステーションサービスにアクセスできる通常のステーションのように使用できるようになる。新しく作成されたステーションのダウングレードはできず、エネルギー発電機からの既存の電力供給線はすべて削除され、ステーションが完成した際には隣接する構造物への電力供給は行われなくなる。
 STRUCTURE;class;Structure
 STRUCTURE;owner;Momoguru
 STRUCTURE;faction;Alpha
@@ -28,7 +27,6 @@ STRUCTURE;default_script_file;structure_power.txt
 STRUCTURE;default_script_id;10
 STRUCTURE;sector_effect;energy#5
 STRUCTURE;sector_name;<SECTORNAME>
-
 STRUCTURE;gen_power;true
 STRUCTURE;gen_power_rate;25
 STRUCTURE;power_points;1000
@@ -38,11 +36,9 @@ STRUCTURE;is_raider;false
 STRUCTURE;is_law;false
 STRUCTURE;is_dockable;true
 STRUCTURE;btn_undock;true
-
 STRUCTURE;cargo_max;1200
 STRUCTURE;upgrade_timer;0
 STRUCTURE;upgrade_file;
-
 INTERIOR;1;1,0;1;1,0,0,0
 INTERIOR;4;1,1;0;0,0,0,0
 INTERIOR;18;1,1;1;0,0,0,0;Public Energy Generator;1;structure_energy_gen_1.png;structure_energy_gen_1.png;structure_power.txt;10
@@ -52,22 +48,16 @@ INTERIOR;11;-1,1;0;0,0,0,0
 INTERIOR;16;-1,1;0;0,0,0,0
 INTERIOR;11;3,1;2;0,0,0,0
 INTERIOR;16;3,1;2;0,0,0,0
-
 //; ----------------------------- STRUCTURE INTERIOR PARTS-------------------------------
 //; ----------------------- PART,prefab_id;name,xp,yp,zp,xr,yr,zr,a1,b2
 <PARTS>
 </PARTS>
-
 //; ----------------------------- STRUCTURE MODULE SLOTS --------------------------------
 //; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr--------------------------------
 <MODSLOT>
-
-
 //; ----------------------------- STRUCTURE MODULES --------------------------------------
 //; ----- MODULE,slot,module_id
 <MODULE>
-
-
 //; ----------------------------- STRUCTURE CARGO -----------------------------------------
 //; ----- CARGO, qty, cargo_id
 <CARGO>

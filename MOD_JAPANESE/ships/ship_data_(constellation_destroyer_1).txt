@@ -35,7 +35,7 @@ SHIP_base_price;3366000
 SHIP_impact_resistance;0.25
 SHIP_energy_resistance;0.25
 SHIP_explosive_resistance;0.25
-SHIP_description;The destroyer class ships are slightly larger than their cousins, the carriers. The destroyer can carry additional  module slots, and come ready with advanced targeting and electronic systems.
+SHIP_description;駆逐艦クラスの艦船は、同胞である空母よりもわずかに大きいです。駆逐艦は追加のモジュールスロットを搭載でき、高度なターゲティングおよび電子システムを標準装備しています。
 SHIP_material_color_a;1;1;1;1
 SHIP_material_color_b;1;1;1;1
 SHIP_material_texture_a;default_main.png

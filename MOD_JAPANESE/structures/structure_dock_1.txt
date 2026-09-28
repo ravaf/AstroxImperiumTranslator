@@ -1,10 +1,9 @@
 // STRUCTURE DATA (Astrox Imperium) 
 // STRUCTURE;variable;value
-
 STRUCTURE;id;0
 STRUCTURE;name;Corporate Dock
 STRUCTURE;type;Dock
-STRUCTURE;desc;Commercial and corporate docks are used to store large quantities of goods and materials. These facilities provide the warehouse space required when manufacturing products for the Astrox universe.
+STRUCTURE;desc;商業および企業のドックは大量の商品や材料を保管するために使用される。これらの施設はアストロックス宇宙用の製品を製造する際に必要な倉庫スペースを提供する。
 STRUCTURE;class;Dock
 STRUCTURE;owner;mazua
 STRUCTURE;faction;Trade
@@ -28,7 +27,6 @@ STRUCTURE;default_script_file;structure_dock.txt
 STRUCTURE;default_script_id;10
 STRUCTURE;sector_effect;energy#2,economy#5
 STRUCTURE;sector_name;<SECTORNAME>
-
 STRUCTURE;gen_power;false
 STRUCTURE;gen_power_rate;0
 STRUCTURE;power_points;1000
@@ -38,14 +36,11 @@ STRUCTURE;is_raider;false
 STRUCTURE;is_law;false
 STRUCTURE;is_dockable;True
 STRUCTURE;btn_undock;true
-
 STRUCTURE;cargo_max;1100
 STRUCTURE;upgrade_timer;0
 STRUCTURE;upgrade_file;null
-
 STRUCTURE;interior_start_position;0.00;0.00;0.00
 STRUCTURE;interior_start_rotation;0.0;-80.0;0.0
-
 //; ----------------------------- STRUCTURE INTERIOR PARTS-------------------------------
 //; ----------------------- PART,prefab_id;name;xp;yp;zp;xr;yr;zr;var_a,var_b;var_c;var_d
 <PARTS>
@@ -155,17 +150,12 @@ PART;89;Wall;6.00;-0.25;4.00;0.00;90.00;0.00;null;null;null;null;null;null;null;
 PART;1;Clamp;24.00;-0.25;16.00;0.00;0.00;0.00;START;null;null;null;null;null;null;null
 PART;221;Actor;15.50;-0.25;15.25;0.00;127.80;0.00;Gabriel;blank.png,blank.png;structure_dock.txt,12;1;Idle_1;null;null;null
 </PARTS>
-
-
 //; ----------------------------- STRUCTURE MODULE SLOTS --------------------------------
 //; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr--------------------------------
 <MODSLOT>
-
-
 //; ----------------------------- STRUCTURE MODULES --------------------------------------
 //; ----- MODULE,slot,module_id
 <MODULE>
-
 //; ----------------------------- STRUCTURE CARGO -----------------------------------------
 //; ----- CARGO, qty, cargo_id
 <CARGO>

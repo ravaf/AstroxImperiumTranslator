@@ -32,7 +32,7 @@ SHIP_base_scan_pulserange;5000
 SHIP_base_scan_pulsespeed;10
 SHIP_type;Support
 SHIP_base_price;3705000
-SHIP_description;The support ship is used to provide assistance during mining and combat operations. Improved life support systems, a strong energy core,  and improved damage resistance.
+SHIP_description;支援艦は、採掘および戦闘作戦中に援助を提供する為に使用されます。改良された生命維持システム、強力なエネルギーコア、そして改良されたダメージ耐性を備えています。
 SHIP_impact_resistance;0.21
 SHIP_energy_resistance;0.18
 SHIP_explosive_resistance;0.22

@@ -1,10 +1,9 @@
 // STRUCTURE DATA (Astrox Imperium) 
 // STRUCTURE;variable;value
-
 STRUCTURE;id;0
 STRUCTURE;name;Defensive Gun Platform
 STRUCTURE;type;Gun Platform
-STRUCTURE;desc;The Gun platform is a defensive structure capable of holding up to 12 module slots. These structures are specifically designed to deliver automated defensive firepower to raiders and enemies of the faction that owns it.
+STRUCTURE;desc;ガンプラットフォームは、最大12個のモジュールスロットを保持できる防御構造物である。これらの構造物は、所有する勢力のレイダーや敵に対して自動防御火力を提供するように特別に設計されている。
 STRUCTURE;class;Defensive
 STRUCTURE;owner;Telyoupea Akpi
 STRUCTURE;faction;Enforcement
@@ -28,7 +27,6 @@ STRUCTURE;default_script_file;none
 STRUCTURE;default_script_id;0
 STRUCTURE;sector_effect;defense#5
 STRUCTURE;sector_name;<SECTORNAME>
-
 STRUCTURE;gen_power;false
 STRUCTURE;gen_power_rate;0
 STRUCTURE;power_points;1000
@@ -38,14 +36,11 @@ STRUCTURE;is_raider;false
 STRUCTURE;is_law;false
 STRUCTURE;is_dockable;True
 STRUCTURE;btn_undock;true
-
 STRUCTURE;cargo_max;1000
 STRUCTURE;upgrade_timer;0
 STRUCTURE;upgrade_file;null
-
 INTERIOR;0;1,1;1;1,0,0,0
 INTERIOR;12;1,2;1;0,0,0,0
-
 //; ----------------------------- STRUCTURE INTERIOR PARTS-------------------------------
 //; ----------------------- PART,prefab_id;name,xp,yp,zp,xr,yr,zr,a1,b2
 <PARTS>
@@ -206,7 +201,6 @@ PART;159;Prop;21.00;-0.25;13.50;0.00;270.00;0.00;null;null;null;null;null;null;n
 PART;160;Prop;16.00;-0.25;18.00;0.00;180.00;0.00;null;null;null;null;null;null;null;null
 PART;221;Actor;18.75;-0.25;15.50;0.00;220.50;0.00;Casi Marco;blank.png,blank.png;npc_structure_missions.txt,310;13;Idle_1;null;null;null
 </PARTS>
-
 //; ----------------------------- STRUCTURE MODULE SLOTS --------------------------------
 //; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr--------------------------------
 <MODSLOT>
@@ -214,8 +208,6 @@ MODSLOT;module_slot; 1 ; 99 ;-20;0;0;0;0;0
 MODSLOT;module_slot; 2 ; 99 ;20;0;0;0;180;0
 MODSLOT;module_slot; 3 ; 99 ;0;-20;0;0;-90;0
 MODSLOT;module_slot; 4 ; 99 ;0;20;0;0;90;0
-
-
 //; ----------------------------- STRUCTURE MODULES --------------------------------------
 //; ----- MODULE,slot,module_id
 <MODULE>
@@ -223,7 +215,6 @@ MODULE; 1 ; 1100
 MODULE; 2 ; 1100
 MODULE; 3 ; 1100
 MODULE; 4 ; 1050
-
 //; ----------------------------- STRUCTURE CARGO -----------------------------------------
 //; ----- CARGO, qty, cargo_id
 <CARGO>

@@ -1,15 +1,15 @@
-scan_title;What is Astrox Imperium
+scan_title;Astrox Imperiumとは
 scan_image;document_training.png
-scan_sector;Level: Basic
+scan_sector;レベル: 基本
 
-<size='25'><color=cyan>What is Astrox Imperium</color></size>
+<size='25'><color=cyan>Astrox Imperiumとは</color></size>
 
-Simply put, a game that I wanted to play, but could not find. Astrox is like many space games. It has all the basic stuff you would expect to find in a 3d space sim. The game doesn’t do anything radical or groundbreaking, quite the opposite actually. So what makes Astrox special?
+簡単に言えば、私がプレイしたかったけれど見つけられなかったゲームです。Astroxは多くの宇宙ゲームと似ています。3D宇宙シミュレーションに期待される基本的な要素はすべて揃っています。このゲームは過激なことや画期的なことをするわけではなく、むしろその逆です。では、何がAstroxを特別なものにしているのでしょうか？
 
-If you are reading this, you probably love space games as much as I do. The problem I found was that of all the space games out there, none of them offered the kind of gameplay I was looking for. I came to realize that it was quite possible that none of them ever would. I came onto an idea where you could play a space game, but you would control and set the parameters of how the game would play and feel.
+これを読んでいるあなたは、おそらく私と同じくらい宇宙ゲームを愛しているのでしょう。私が直面した問題は、世の中にあるすべての宇宙ゲームの中で、私が求めていたゲームプレイを提供してくれるものが一つもなかったことです。そして、今後もそのようなゲームは現れないかもしれないと気づきました。そこで、宇宙ゲームをプレイしながらも、ゲームのプレイ方法や感覚を自分でコントロールし、設定できるというアイデアを思いついたのです。
 
-Astrox has evolved to become a very versatile game, with many options and settings that allow you to create an experience closer to what you are looking for in a space sim. The sandbox will provide you the options to tailor the universe to your liking. The in game options will allow you to adjust how the game is played.
+Astroxは非常に汎用性の高いゲームへと進化しました。多くのオプションや設定により、あなたが宇宙シミュレーションに求める体験により近いものを作り出すことができます。サンドボックスモードでは、宇宙を自分好みにカスタマイズするための選択肢が提供されます。ゲーム内のオプションでは、ゲームのプレイ方法を調整することが可能です。
 
-You have the ability to turn on and off certain mechanics of the game. You can adjust how the game looks and responds to the commands you give. Because of this feature, it may take some time to figure out how it all works and what you prefer. If you discover that you want the game to do something that is currently not available, be sure to visit the steam forums and drop a suggestion. I am very receptive to player input, and credit many of the great parts about Astrox to you all, the players.
+ゲームの特定のメカニズムをオン・オフにする機能があります。ゲームの見た目や、あなたのコマンドに対する反応を調整することもできます。この機能があるため、すべてがどのように機能し、自分が何を好むのかを把握するまでには少し時間がかかるかもしれません。もし、現在利用できない機能が必要だと感じた場合は、Steamフォーラムにアクセスして提案を投稿してください。私はプレイヤーからの意見を非常に重視しており、Astroxの素晴らしい部分の多くは、プレイヤーである皆さんのおかげです。
 
-Anytime for any reason, need help, have suggestions or ideas. Email me at Jace@AstroxImperium.com
+いつでも、どんな理由であれ、助けが必要な場合や、提案やアイデアがある場合は、Jace@AstroxImperium.com までメールを送ってください。

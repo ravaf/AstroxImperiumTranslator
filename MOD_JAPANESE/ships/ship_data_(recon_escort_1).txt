@@ -32,7 +32,7 @@ SHIP_base_scan_pulserange;10000
 SHIP_base_scan_pulsespeed;10
 SHIP_type;Recon
 SHIP_base_price;448000
-SHIP_description;The recon ship is designed to gather information about the sector. Augmented onboard scanners,  advanced targeting computers, and an oversized lifesupport bay.
+SHIP_description;偵察艦は、セクターに関する情報を収集するように設計されています。拡張された艦載スキャナー、高度なターゲティングコンピュータ、そして特大の生命維持ベイを備えています。
 SHIP_impact_resistance;0.0
 SHIP_energy_resistance;0.3
 SHIP_explosive_resistance;0.0

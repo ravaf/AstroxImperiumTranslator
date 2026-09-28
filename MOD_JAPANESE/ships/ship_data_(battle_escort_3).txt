@@ -32,7 +32,7 @@ SHIP_base_scan_pulserange;5000
 SHIP_base_scan_pulsespeed;10
 SHIP_type;Battle
 SHIP_base_price;904000
-SHIP_description;A basic, low level utility ship. Great for beginner pilots interested in small mining sessions. Not great for combat but can defend against small attacks.
+SHIP_description;基本的な低レベルのユーティリティ艦。小規模な採掘セッションに興味のある初心者パイロットに最適です。戦闘には向いていませんが、小規模な攻撃に対しては防御できます。
 SHIP_impact_resistance;0.15
 SHIP_energy_resistance;0.15
 SHIP_explosive_resistance;0.0

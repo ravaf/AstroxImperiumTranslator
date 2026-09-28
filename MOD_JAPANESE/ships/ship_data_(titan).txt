@@ -41,7 +41,7 @@ SHIP_material_texture_a;gem_main.png
 SHIP_material_texture_b;gem_detail.png
 SHIP_material_texture_c;gem_glow.png
 SHIP_engine_color;1;1;1;1
-SHIP_description;One of the few dreadnaughts ever constructed in the Astrox universe. If you encounter this beast in combat, set thrusters to max and pray you survive.
+SHIP_description;Astroxユニバースでこれまでに建造された数少ない超弩級戦艦の1つです。戦闘でこの巨獣に遭遇した場合は、スラスターを最大にして生き残ることを祈ってください。
 SHIP_manufacturer;G.E.M.
 SHIP_manufacturer_icon;icon_gem.png
 SHIP_shield;0

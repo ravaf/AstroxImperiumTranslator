@@ -1,19 +1,19 @@
 GAMEMODE;id;2
-GAMEMODE;title;Peaceful Universe
+GAMEMODE;title;平和な宇宙
 GAMEMODE;image;gm_2.png
 
-PRESET;0;_GM_peaceful.txt;Default
+PRESET;0;_GM_peaceful.txt;デフォルト
 
 <SUMMARY>
-<size='30'><color='cyan'>Take it easy.</color></size>
+<size='30'><color='cyan'>のんびりと過ごそう。</color></size>
 
-This game mode will remove all raider spawns from the event generator. It will NOT affect mission spawns, and raider spawns from hideouts. This will allow you to explore and mine without the worry of raiders interrupting your grind.
+このゲームモードでは、イベントジェネレーターによる襲撃者の出現がすべて無効化されます。ただし、ミッションや隠れ家から出現する襲撃者には影響しません。これにより、襲撃者に邪魔されることなく、探索や採掘に集中することができます。
 
 <DESCRIPTION>
-<size='30'><color='cyan'>Rules</color></size>
-1) Raiders will NOT spawn automatically.
-2) Raiders WILL spawn for raider missions.
-3) Raiders WILL spawn when attacking a pirate hideout.
+<size='30'><color='cyan'>ルール</color></size>
+1) 襲撃者は自動的に出現しません。
+2) 襲撃者関連のミッションでは、襲撃者が出現します。
+3) 海賊の隠れ家を攻撃した際には、襲撃者が出現します。
 
-<size='30'><color='cyan'>Objective</color></size>
-There is no objective to the Peaceful Freeplay game mode. You are not required to do anything special. The game does not end, and you are not directed to perform any tasks or objectives to progress. The peaceful universe will provide you a playground without any major threats.
+<size='30'><color='cyan'>目的</color></size>
+「平和なフリープレイ」ゲームモードには特定の目的はありません。何か特別なことをする必要はなく、ゲームが終わることもありません。進行のために特定のタスクや目標を達成するよう指示されることもありません。この平和な宇宙は、大きな脅威にさらされることなく自由に遊べる遊び場となるでしょう。

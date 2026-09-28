@@ -1,10 +1,9 @@
 // STRUCTURE DATA (Astrox Imperium) 
 // STRUCTURE;variable;value
-
 STRUCTURE;id;13
 STRUCTURE;name;Public Energy Generator
 STRUCTURE;type;Generator
-STRUCTURE;desc;Energy structures are one of the most important structures available. It can produce a field of energy by converting the tiny particles of frozen water and carbon into electricity. This power is then transferred to all structures within a 1500 meter radius.
+STRUCTURE;desc;エネルギー構造物は利用可能な最も重要な構造物の1つである。凍結した水と炭素の微小粒子を電気に変換することでエネルギー場を生成できる。その後、この電力は半径1500メートル以内のすべての構造物に転送される。
 STRUCTURE;class;Structure
 STRUCTURE;owner;Telyoupea Akpi
 STRUCTURE;faction;Civil
@@ -28,7 +27,6 @@ STRUCTURE;default_script_file;structure_power.txt
 STRUCTURE;default_script_id;10
 STRUCTURE;sector_effect;energy#5
 STRUCTURE;sector_name;<SECTORNAME>
-
 STRUCTURE;gen_power;true
 STRUCTURE;gen_power_rate;25
 STRUCTURE;power_points;1000
@@ -38,11 +36,9 @@ STRUCTURE;is_raider;false
 STRUCTURE;is_law;false
 STRUCTURE;is_dockable;True
 STRUCTURE;btn_undock;true
-
 STRUCTURE;cargo_max;1200
 STRUCTURE;upgrade_timer;0
 STRUCTURE;upgrade_file;null
-
 INTERIOR;1;1,0;1;1,0,0,0
 INTERIOR;4;1,1;0;0,0,0,0
 INTERIOR;18;1,1;1;0,0,0,0;Public Energy Generator;1;structure_energy_gen_1.png;structure_energy_gen_1.png;structure_power.txt;10
@@ -52,7 +48,6 @@ INTERIOR;11;-1,1;0;0,0,0,0
 INTERIOR;16;-1,1;0;0,0,0,0
 INTERIOR;11;3,1;2;0,0,0,0
 INTERIOR;16;3,1;2;0,0,0,0
-
 //; ----------------------------- STRUCTURE INTERIOR PARTS-------------------------------
 //; ----------------------- PART,prefab_id;name,xp,yp,zp,xr,yr,zr,a1,b2
 <PARTS>
@@ -189,17 +184,12 @@ PART;190;Prop;18.07;4.50;13.88;0.00;90.00;0.00;null;null;null;null;null;null;nul
 PART;19;Doors;24.25;-0.25;14.00;0.00;0.00;0.00;Unlocked;null;null;null;null;null;null;null
 PART;224;Actor;19.00;-0.25;21.00;0.00;135.00;0.00;Power Gen Employee;blank.png,blank.png;structure_power.txt, 10;1;Idle_1;null;null;null
 </PARTS>
-
 //; ----------------------------- STRUCTURE MODULE SLOTS --------------------------------
 //; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr--------------------------------
 <MODSLOT>
-
-
 //; ----------------------------- STRUCTURE MODULES --------------------------------------
 //; ----- MODULE,slot,module_id
 <MODULE>
-
-
 //; ----------------------------- STRUCTURE CARGO -----------------------------------------
 //; ----- CARGO, qty, cargo_id
 <CARGO>

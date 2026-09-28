@@ -32,7 +32,7 @@ SHIP_base_scan_pulserange;1000
 SHIP_base_scan_pulsespeed;10
 SHIP_type;Excavation
 SHIP_base_price;575000
-SHIP_description;Excavation ships are designed to harvest raw ore and salvage. They have large energy cores to power the mining beams, and augmented cargo bays to store the resources they collect.
+SHIP_description;採掘艦は、未加工の鉱石やサルベージを回収するように設計されています。採掘ビームに電力を供給する大型のエネルギーコアと、収集したリソースを保管する拡張された貨物ベイを備えています。
 SHIP_impact_resistance;0.3
 SHIP_energy_resistance;0.0
 SHIP_explosive_resistance;0.0

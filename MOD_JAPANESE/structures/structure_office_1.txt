@@ -1,10 +1,9 @@
 // STRUCTURE DATA (Astrox Imperium) 
 // STRUCTURE;variable;value
-
 STRUCTURE;id;6
 STRUCTURE;name;Office Center
 STRUCTURE;type;Office
-STRUCTURE;desc;Office structures can provide a sector with an economic boost. They are places of management and organization, and usually revolve around profit. There is no area effect on this structure.
+STRUCTURE;desc;オフィス構造物はセクターに経済的ブーストを提供できる。これらは管理と組織化の場所であり、通常は利益を中心に回っている。この構造物にはエリア効果はない。
 STRUCTURE;class;Administration
 STRUCTURE;owner;Jonas Mazu
 STRUCTURE;faction;Commerce
@@ -28,7 +27,6 @@ STRUCTURE;default_script_file;none
 STRUCTURE;default_script_id;0
 STRUCTURE;sector_effect;economy#5
 STRUCTURE;sector_name;<SECTORNAME>
-
 STRUCTURE;gen_power;false
 STRUCTURE;gen_power_rate;0
 STRUCTURE;power_points;1000
@@ -38,17 +36,14 @@ STRUCTURE;is_raider;false
 STRUCTURE;is_law;false
 STRUCTURE;is_dockable;true
 STRUCTURE;btn_undock;true
-
 STRUCTURE;cargo_max;1100
 STRUCTURE;upgrade_timer;0
 STRUCTURE;upgrade_file;null
-
 INTERIOR;0;1,1;1;1,0,0,0
 INTERIOR;4;1,2;1;0,0,0,0
 INTERIOR;4;1,3;1;1,0,0,0
 INTERIOR;0;0,2;2;1,0,0,0
 INTERIOR;0;0,3;2;1,0,0,0
-
 //; ----------------------------- STRUCTURE INTERIOR PARTS-------------------------------
 //; ----------------------- PART,prefab_id;name,xp,yp,zp,xr,yr,zr,a1,b2
 <PARTS>
@@ -103,15 +98,12 @@ PART;207;Light;20.00;3.75;12.00;0.00;90.00;0.00;0.0,0.2,0.8;2.0;8.0;3.0;4.0;5.0;
 PART;207;Light;20.00;3.75;20.00;0.00;90.00;0.00;0.0,0.2,0.8;2.0;8.0;3.0;4.0;5.0;2.0;null
 PART;220;Actor;20.25;-0.25;12.23;0.00;288.00;0.00;Kiolo Troish;blank.png,blank.png;npc_structure_missions.txt, 310;16;Idle_1;null;null;null
 </PARTS>
-
 //; ----------------------------- STRUCTURE MODULE SLOTS --------------------------------
 //; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr--------------------------------
 <MODSLOT>
-
 //; ----------------------------- STRUCTURE MODULES --------------------------------------
 //; ----- MODULE,slot,module_id
 <MODULE>
-
 //; ----------------------------- STRUCTURE CARGO -----------------------------------------
 //; ----- CARGO, qty, cargo_id
 <CARGO>

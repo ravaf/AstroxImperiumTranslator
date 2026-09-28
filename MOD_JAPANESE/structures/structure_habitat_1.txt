@@ -1,10 +1,9 @@
 // STRUCTURE DATA (Astrox Imperium) 
 // STRUCTURE;variable;value
-
 STRUCTURE;id;9
 STRUCTURE;name;Labor United
 STRUCTURE;type;Habitat
-STRUCTURE;desc;Habatation structures are used solely as homes for the residents of Astrox. There is little to no commerce, or any other function of these structures other than providing a place to live and sleep, for the working population of this sector.
+STRUCTURE;desc;居住構造物はアストロックスの住民の家としてのみ使用される。このセクターの労働人口にとって、生活し眠る場所を提供する以外に、これらの構造物の商業やその他の機能はほとんどない。
 STRUCTURE;class;Complex
 STRUCTURE;owner;Telyoupea Akpi
 STRUCTURE;faction;Labor
@@ -28,7 +27,6 @@ STRUCTURE;default_script_file;none
 STRUCTURE;default_script_id;0
 STRUCTURE;sector_effect;habitation#10
 STRUCTURE;sector_name;<SECTORNAME>
-
 STRUCTURE;gen_power;false
 STRUCTURE;gen_power_rate;0
 STRUCTURE;power_points;1000
@@ -38,17 +36,14 @@ STRUCTURE;is_raider;false
 STRUCTURE;is_law;false
 STRUCTURE;is_dockable;True
 STRUCTURE;btn_undock;true
-
 STRUCTURE;cargo_max;3000
 STRUCTURE;upgrade_timer;0
 STRUCTURE;upgrade_file;null
-
 INTERIOR;1;1,0;1;1,0,0,0
 INTERIOR;3;1,1;0;0,0,0,0
 INTERIOR;3;2,1;1;0,0,0,0
 INTERIOR;7;2,0;3;0,0,0,0
 INTERIOR;18;2,0;3;0,0,0,0;Terminal;1;structure_habitat_1.png;structure_habitat_1.png;structure_dock.txt;10
-
 //; ----------------------------- STRUCTURE INTERIOR PARTS-------------------------------
 //; ----------------------- PART,prefab_id;name,xp,yp,zp,xr,yr,zr,a1,b2
 <PARTS>
@@ -143,16 +138,12 @@ PART;56;Ground;20.00;3.75;28.00;0.00;180.00;0.00;null;null;null;null;null;null;n
 PART;56;Ground;16.00;3.75;28.00;0.00;180.00;0.00;null;null;null;null;null;null;null;null
 PART;220;Actor;19.00;-0.25;21.25;0.00;226.35;0.00;Archi Pendledot;blank.png,blank.png;npc_structure_missions.txt, 210;16;Idle_1;null;null;null
 </PARTS>
-
 //; ----------------------------- STRUCTURE MODULE SLOTS --------------------------------
 //; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr--------------------------------
 <MODSLOT>
-
 //; ----------------------------- STRUCTURE MODULES --------------------------------------
 //; ----- MODULE,slot,module_id
 <MODULE>
-
-
 //; ----------------------------- STRUCTURE CARGO -----------------------------------------
 //; ----- CARGO, qty, cargo_id
 <CARGO>

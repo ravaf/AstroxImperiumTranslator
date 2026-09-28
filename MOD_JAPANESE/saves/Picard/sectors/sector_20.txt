@@ -1,0 +1,94 @@
+// SECTOR;Variable;Value
+SECTOR;id;20
+SECTOR;name;Cliffs of Drameria
+SECTOR;level;5.3
+SECTOR;faction;Alpha
+SECTOR;filename;sector_20.txt
+SECTOR;is_explored;False
+SECTOR;energy;20
+SECTOR;population;20
+SECTOR;habitation;30
+SECTOR;farming;20
+SECTOR;economy;20
+SECTOR;production;20
+SECTOR;defense;20
+SECTOR;environment;20
+SECTOR;wormhole_type;
+SECTOR;event_type;null
+
+// SECTORXYZ;Variable;x;y;z
+SECTORXYZ;location;1223;35;782
+
+// FOG;Variable;Value
+FOG;foggy;True
+FOG;distance;0
+FOG;alpha;0.27
+FOG;color_1;0.27;0.21;0.16;0.14
+FOG;color_2;0.17;0.17;0.10;0.06
+
+// NEBULA;Variable;Cloud id;Red;Green;Blue;Alpha;Size;Rotation
+NEBULA;cloud_1;1;0.77;0.71;0.43;0.24;50000;5
+NEBULA;cloud_2;18;0.00;0.60;0.50;1.00;50000;1
+NEBULA;cloud_3;17;0.08;1.00;0.57;0.40;50000;4
+NEBULA;cloud_4;4;0.32;1.00;0.27;0.00;50000;5
+NEBULA;cloud_5;5;0.62;0.34;0.67;0.14;50000;5
+NEBULA;cloud_6;6;0.00;0.00;0.00;0.00;50000;5
+NEBULA;cloud_7;7;0.00;0.21;0.18;0.00;50000;5
+NEBULA;cloud_8;8;0.43;0.69;0.91;0.00;50000;0
+NEBULA;cloud_9;9;0.36;0.55;0.30;0.00;50000;4
+NEBULA;cloud_10;10;1.00;0.86;0.41;1.00;50000;2
+NEBULA;cloud_11;11;0.58;0.32;0.76;0.23;50000;3
+NEBULA;cloud_12;12;1.00;1.00;0.98;0.03;50000;5
+
+// LIGHT;Variable;Red;Green;Blue;Alpha
+LIGHT;light_t;0.42;0.68;0.76;0.06
+LIGHT;light_b;0.49;0.66;0.48;0.29
+LIGHT;light_s;0.71;0.49;0.26;0.55
+
+// STAR;Variable;Star id;X position;Y position;Z position;Scale;LightRange
+STAR;object;0;-5982;0;81292;1;10000
+
+// LIFESUPPORT;type;value
+LIFESUPPORT;food;0.15
+LIFESUPPORT;water;0.25
+LIFESUPPORT;thermal;2.25
+LIFESUPPORT;waste;0.25
+
+// STARLIGHT;Variable;Red;Green;Blue;Alpha
+STARLIGHT;color_1;0.76;0.50;0.22;1.00
+STARLIGHT;color_2;0.68;0.37;0.22;0.39
+STARLIGHT;color_3;0.43;0.22;0.22;1.00
+STARLIGHT;color_4;0.20;0.48;0.00;0.50
+STARLIGHT;color_5;0.00;0.48;0.00;1.00
+
+// STATION;Sector filename;X position;Y position;Z position
+STATION;sector_20_station_0.txt;-174;-370;-330
+
+// STRUCTURE;Sector filename;X poisition;Y position;Z position
+STRUCTURE;structure_habitat_1.txt;637.00;99.00;-3583.00
+
+// CLUSTER;Resource ID ;Num Resources ;Min Size ;Max Size ;Spread Distance ;Center X;Center Y;Center z
+CLUSTER;1;30;10;300;2500;-5379;2;-657
+CLUSTER;3;20;10;300;2500;4725;2;-2272
+
+// RESOURCE;Resource id;X position;Y position;Z position;Max value;Current value
+RESOURCE;1;3230.0;-166.0;-440.0;200;200
+
+// WARPGATE;Warpgate id ;Sector filename ; Exit Warpgate id;X position ;Y position ;Z position;Toll ;Faction ;Rotation
+WARPGATE;1;sector_16.txt;3;-4340;106;-3696;0;Alpha;-4340.161
+
+// PROPS;Prefab Id;Xpos;Ypos;Zpos;Xrot;Yrot;Zrot;param 8;param 9;param 10;param 11;param 12
+PROP;16;-6528;0;-562;0;0;0;0.25,0.22,0.20,0.20;0.25;//fog;;
+PROP;16;4795;0;-2607;0;0;0;0.25,0.22,0.20,0.20;0.25;//fog;;
+PROP;20;0;0;0;286;0;0;rock_prop_1;;;;
+PROP;20;-1254;0;0;350;278;270;rock_prop_1;;;;
+PROP;40;0;0;0;303;57;180;//rock cloud;1;;;
+PLANET;2,4,4,4,4,0,0;50000,0,50000,335,0,0,50000,0,50000,335,0,0,50000,0,50000,335,0,0,50000,0,50000,335,0,0,50000,0,50000,335,0,0,50000,0,50000,-25,0,0;2#0#0.97,0.58,0.31,0.63#0.19,0.71,0.80,0.79#0.53,0.57,0.99,0.88#0.82,0.83,0.85,0.60#0.88,0.84,0.88,0.85#0.47,0.74,0.67,0.99#0.56,0.43,0.71,0.61;0.92,1.32,0.01,0.40,0.31,0.01;0.009,0.57,6.08,0.50,7.63;
+
+// NPC_SHIP;ship_filename;xpos;ypos;zpos;faction_id;level
+NPC_SHIP;npc_ship_data_(support_utility_1);-66;-3088;-99;15;1
+NPC_SHIP;npc_ship_data_(battle_utility_1);160;1302;3062;10;1
+NPC_SHIP;npc_ship_data_(recon_cruiser_1);-283;-1180;1355;7;1
+NPC_SHIP;npc_ship_data_(pirate_escort_1);1632;2296;2108;14;1
+
+// CRATE ; name ; owner ; class ; capacity ; lifetime ; maxlifetime; credits ; xpos ; ypos ; zpos ; opened ; script_file ; script_id ; mission_key ; id#qty,id#qty

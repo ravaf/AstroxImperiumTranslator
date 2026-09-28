@@ -32,7 +32,7 @@ SHIP_base_scan_pulserange;5000
 SHIP_base_scan_pulsespeed;10
 SHIP_type;Transport
 SHIP_base_price;1605000
-SHIP_description;Transport ships are used mainly to move goods around the Astrox universe. The cargo bay has been augmented to allow for additional cargo to be carried without the need for external modules.
+SHIP_description;輸送艦は主におもにAstroxユニバース内で物資を移動させるために使用されます。貨物ベイが拡張されており、外部モジュールを必要とせずに余分な貨物を積載できるようになっています。
 SHIP_impact_resistance;0.0
 SHIP_energy_resistance;0.15
 SHIP_explosive_resistance;0.15
@@ -54,7 +54,6 @@ SHIP_ls_waste;0
 SHIP_ls_points;0
 SHIP_base_drones;4
 SHIP_specials_raw;Cargo#0.25,Afterburner#0.20,Drone Strength#0.35
-
 // merc
 SHIP_owner;none
 SHIP_xp;0

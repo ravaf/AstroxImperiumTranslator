@@ -1,0 +1,93 @@
+// SECTOR;Variable;Value
+SECTOR;id;68
+SECTOR;name;Kriox
+SECTOR;level;5.1
+SECTOR;faction;Trade
+SECTOR;filename;sector_68.txt
+SECTOR;is_explored;False
+SECTOR;energy;20
+SECTOR;population;20
+SECTOR;habitation;40
+SECTOR;farming;20
+SECTOR;economy;20
+SECTOR;production;20
+SECTOR;defense;20
+SECTOR;environment;20
+SECTOR;wormhole_type;
+SECTOR;event_type;null
+
+// SECTORXYZ;Variable;x;y;z
+SECTORXYZ;location;1668;0;907
+
+// FOG;Variable;Value
+FOG;foggy;True
+FOG;distance;0
+FOG;alpha;0.27
+FOG;color_1;1.00;1.00;0.99;1.00
+FOG;color_2;0.00;0.00;0.00;1.00
+
+// NEBULA;Variable;Cloud id;Red;Green;Blue;Alpha;Size;Rotation
+NEBULA;cloud_1;1;1.00;0.69;0.67;0.33;50000;0
+NEBULA;cloud_2;2;0.00;0.00;0.00;0.00;50000;0
+NEBULA;cloud_3;3;0.00;0.00;0.00;0.00;50000;0
+NEBULA;cloud_4;4;0.00;0.00;0.00;0.00;50000;0
+NEBULA;cloud_5;5;0.00;0.27;0.00;1.00;50000;5
+NEBULA;cloud_6;6;0.69;0.34;0.48;0.56;50000;3
+NEBULA;cloud_7;7;0.00;0.21;0.18;0.00;50000;5
+NEBULA;cloud_8;8;0.43;0.69;0.91;0.00;50000;0
+NEBULA;cloud_9;9;0.00;0.00;0.00;0.00;50000;0
+NEBULA;cloud_10;10;1.00;0.98;0.74;0.89;50000;2
+NEBULA;cloud_11;11;0.13;0.43;0.76;0.00;50000;3
+NEBULA;cloud_12;12;0.46;1.00;0.70;0.15;50000;3
+
+// LIGHT;Variable;Red;Green;Blue;Alpha
+LIGHT;light_t;1.00;1.00;1.00;0.65
+LIGHT;light_b;1.00;0.46;0.27;0.00
+LIGHT;light_s;0.44;0.76;0.69;0.53
+
+// STAR;Variable;Star id;X position;Y position;Z position;Scale;LightRange
+STAR;object;0;10000;0;50000;1;50000
+
+// LIFESUPPORT;type;value
+LIFESUPPORT;food;1.65
+LIFESUPPORT;water;1.55
+LIFESUPPORT;thermal;1.775524
+LIFESUPPORT;waste;1.21
+
+// STARLIGHT;Variable;Red;Green;Blue;Alpha
+STARLIGHT;color_1;0.35;0.41;0.22;1.00
+STARLIGHT;color_2;0.71;0.29;1.00;0.84
+STARLIGHT;color_3;0.00;0.49;0.22;1.00
+STARLIGHT;color_4;0.20;0.48;0.00;0.50
+STARLIGHT;color_5;0.00;0.48;0.00;1.00
+
+// STATION;Sector filename;X position;Y position;Z position
+
+// STRUCTURE;Structure filename;X position;Y position;Z position
+STRUCTURE;structure_habitat_1.txt;637;99;3936
+
+// CLUSTER;Resource ID ;Num Resources ;Min Size ;Max Size ;Spread Distance ;Center X;Center Y;Center z
+CLUSTER;5;50;100;750;3000;3615;0;5215
+
+// RESOURCE;Resource id;X position;Y position;Z position;Max value;Current value
+
+// WARPGATE;Warpgate id ;Sector filename ; Exit Warpgate id;X position ;Y position ;Z position;Toll ;Faction ;Rotation
+WARPGATE;1;sector_62.txt;2;-4590;753;-3342;0;Trade;0.9
+WARPGATE;2;sector_69.txt;1;5425;-89;-3643;0;Trade;-0.4
+
+// PROPS;Prefab Id;Xpos;Ypos;Zpos;Xrot;Yrot;Zrot;param 8;param 9;param 10;param 11;param 12
+PROP;24;0;0;0;0;0;90;prop_rocks;;;;
+PROP;24;0;0;0;85;190;270;prop_rocks;;;;
+PROP;24;0;0;0;0;200;270;prop_rocks;;;;
+PROP;16;4046;0;5490;0;0;0;0.5,0.8,0.3,0.1;0.5;fog_cloud;;
+PROP;41;0;0;0;303;57;180;//rock cloud;1;;;
+PLANET;3,3,1,1,3,3,3;-150000,-30000,45,45,0,0,-150000,-30000,45,45,0,0,-150000,-30000,45,45,0,0,-150000,-30000,45,45,0,0,-150000,-30000,45,45,0,0,-150000,-30000,45,45,0,0,40000,-10000,0,0,0,0,40000,-10000,0,0,0,0,40000,-10000,0,0,0,0,40000,-10000,0,0,0,0,40000,-10000,0,0,0,0,40000,-10000,0,0,0,0,40000,-10000,0,0,0,0,40000,-10000,0,0,0,0,40000,-10000,0,0,0,0,40000,-10000,0,0,0,0,100000,-50000,0,0,0,0,100000,-50000,0,0,0,0,80000,100,200,-75,25,25;0#0#0.63,0.47,0.25,0.58#0.12,0.36,0.25,0.61#0.61,0.47,0.38,0.26#0.57,0.33,0.41,0.94#0.54,0.30,0.28,0.18#0.55,0.28,0.56,0.93#0.65,0.22,0.27,0.90;0.68,0.64,0.50,0.19,0.36,0.70;0.013,1.13,9.83,1.85,4.00;
+
+// NPC_SHIP;ship_filename;xpos;ypos;zpos;faction_id;level
+NPC_SHIP;npc_ship_data_(pirate_escort_1);81;-374;-1848;5;1
+NPC_SHIP;npc_ship_data_(pirate_carrier_1);567;827;606;12;1
+NPC_SHIP;npc_ship_data_(recon_shuttle_1);-1860;258;-537;17;1
+NPC_SHIP;npc_ship_data_(excavation_frigate_1);1295;-818;625;9;1
+NPC_SHIP;npc_ship_data_(battle_escort_1);-1344;1431;299;4;1
+
+// CRATE ; name ; owner ; class ; capacity ; lifetime ; maxlifetime; credits ; xpos ; ypos ; zpos ; opened ; script_file ; script_id ; mission_key ; id#qty,id#qty

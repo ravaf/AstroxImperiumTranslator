@@ -1,10 +1,9 @@
 // STRUCTURE DATA (Astrox Imperium) 
 // STRUCTURE;variable;value
-
 STRUCTURE;id;10
 STRUCTURE;name;Small Laser Platform
 STRUCTURE;type;Defensive Platform
-STRUCTURE;desc;The Small Laser Platform is a defensive structure capable of holding 2 laser modules. These structures are specifically designed to deliver automated defensive firepower to raiders and enemies of the operator that owns it.
+STRUCTURE;desc;小型レーザープラットフォームは、2つのレーザーモジュールを搭載できる防御構造物である。これらの構造物は、所有するオペレーターのレイダーや敵に対して自動防御火力を提供するように特別に設計されている。
 STRUCTURE;class;Combat
 STRUCTURE;owner;Telyoupea Akpi
 STRUCTURE;faction;Enforcement
@@ -28,7 +27,6 @@ STRUCTURE;default_script_file;none
 STRUCTURE;default_script_id;0
 STRUCTURE;sector_effect;defense#10
 STRUCTURE;sector_name;<SECTORNAME>
-
 STRUCTURE;gen_power;false
 STRUCTURE;gen_power_rate;0
 STRUCTURE;power_points;1000
@@ -38,14 +36,11 @@ STRUCTURE;is_raider;false
 STRUCTURE;is_law;false
 STRUCTURE;is_dockable;True
 STRUCTURE;btn_undock;true
-
 STRUCTURE;cargo_max;1000
 STRUCTURE;upgrade_timer;0
 STRUCTURE;upgrade_file;null
-
 INTERIOR;0;1,1;1;1,0,0,0
 INTERIOR;12;1,2;1;0,0,0,0
-
 //; ----------------------------- STRUCTURE INTERIOR PARTS-------------------------------
 //; ----------------------- PART,prefab_id;name,xp,yp,zp,xr,yr,zr,a1,b2
 <PARTS>
@@ -190,19 +185,16 @@ PART;206;Light;12.00;5.50;18.00;0.00;0.00;0.00;1.0, 1.0, 1.0;1.0;10.0;4.0;4.0;5.
 PART;206;Light;24.00;5.50;18.00;0.00;0.00;0.00;1.0, 1.0, 1.0;1.0;10.0;4.0;4.0;5.0;1.0;null
 PART;206;Light;18.00;5.50;18.00;0.00;0.00;0.00;1.0, 1.0, 1.0;1.0;10.0;4.0;4.0;5.0;1.0;null
 </PARTS>
-
 //; ----------------------------- STRUCTURE MODULE SLOTS --------------------------------
 //; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr--------------------------------
 <MODSLOT>
 MODSLOT;module_slot; 1 ; 99 ;73.3;9.2;-1.1;0;90;0
 MODSLOT;module_slot; 2 ; 99 ;-68.1;9;-10.1;0;-90;0
-
 //; ----------------------------- STRUCTURE MODULES --------------------------------------
 //; ----- MODULE,slot,module_id
 <MODULE>
 MODULE; 1 ; 1104
 MODULE; 2 ; 1104
-
 //; ----------------------------- STRUCTURE CARGO -----------------------------------------
 //; ----- CARGO, qty, cargo_id
 <CARGO>

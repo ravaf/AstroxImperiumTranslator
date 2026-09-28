@@ -26,11 +26,10 @@ SERVICES;storage;True
 SERVICES;fabricator;True
 SERVICES;contracts;True
 SERVICES;admin;True
-
 // ENTERTAINMENT;title;bonus morale, bonus loyalty;price;type;image;description
-ENTERTAINMENT;Bottle of Whiskey;0.025,0.0;850;Whiskey;entertain_bar.png;Purchase a bottle of whiskey for each of your fleet members. 2.5% Morale bonus.
-ENTERTAINMENT;StarLuck Casino;0.05,0.05;24000;Gambling;entertain_casino.png;A weekend package to the local casino for your entire crew, complete with pocket money. 5% Morale Boost, 5% Loyalty Boost
-ENTERTAINMENT;Evening of Drinks;0.05,0.0;1500;Alcholic Drinks;entertain_bar.png;Pick up the tab for an evening of drinks for your crew, they earned it. 5% Morale Boost.
+ENTERTAINMENT;Bottle of Whiskey;0.025,0.0;850;Whiskey;entertain_bar.png;艦隊のメンバー全員にウイスキーのボトルを買い与える。士気ボーナス2.5%。
+ENTERTAINMENT;StarLuck Casino;0.05,0.05;24000;Gambling;entertain_casino.png;クルー全員に、小遣い付きの地元のカジノへの週末パッケージを提供する。士気ブースト5%、忠誠心ブースト5%
+ENTERTAINMENT;Evening of Drinks;0.05,0.0;1500;Alcholic Drinks;entertain_bar.png;クルーの夕方の飲み代を奢る、彼らはそれに値する。士気ブースト5%。
 // MERC;level;Price_modifier;Ship_filename
 <MERC>
 MERC;1;1.63;npc_ship_data_(recon_shuttle_1).txt
@@ -436,14 +435,14 @@ SHIP;4;1.0;ship_data_(recon_frigate_1).txt
 </HANGAR>
 // OFFICES;office_name;npc_name;faction_id;faction_req;level;img;scripting_file;scripting_id;
 <OFFICE>
-OFFICE;(Tutorial Office) Camera Basics;Ratamaq Guru;1;0.0;26;station.png;male_2.png;accessory_18.png;tutorial_camera_basics.txt;2
-OFFICE;(Tutorial Office) Navigation Basics;Arji Darn;1;0.0;26;station.png;male_3.png;accessory_18.png;tutorial_navigation_basics.txt;2
-OFFICE;(Tutorial Office) Life Support Basics;Carter Burke;1;0.0;26;station.png;male_4.png;accessory_19.png;tutorial_life_support.txt;2
-OFFICE;(Tutorial Office) Introduction;Jessa Din;1;0.0;26;station.png;female_2.png;accessory_22.png;tutorial_intro.txt;2
-OFFICE;(Tutorial Office) Basic Combat;Fredric Din;1;0.0;43;station.png;male_1.png;accessory_18.png;tutorial_combat_basics.txt;10
-OFFICE;(Tutorial Office) Basic Drones;Daniel Traek;1;0.0;43;station.png;male_4.png;accessory_17.png;tutorial_drones.txt;2
-OFFICE;(Tutorial Office) Basic Fleet Command;Jacob Salis;1;0.0;43;station.png;male_5.png;accessory_16.png;tutorial_mercs.txt;2
-OFFICE;(Tutorial Office) Wormhole Basics;Darius Ghent;1;0.0;43;station.png;male_6.png;accessory_12.png;tutorial_wormholes.txt;2
+OFFICE;(チュートリアルオフィス) カメラの基礎;Ratamaq Guru;1;0.0;26;station.png;male_2.png;accessory_18.png;tutorial_camera_basics.txt;2
+OFFICE;(チュートリアルオフィス) ナビゲーションの基礎;Arji Darn;1;0.0;26;station.png;male_3.png;accessory_18.png;tutorial_navigation_basics.txt;2
+OFFICE;(チュートリアルオフィス) 生命維持の基礎;Carter Burke;1;0.0;26;station.png;male_4.png;accessory_19.png;tutorial_life_support.txt;2
+OFFICE;(チュートリアルオフィス) はじめに;Jessa Din;1;0.0;26;station.png;female_2.png;accessory_22.png;tutorial_intro.txt;2
+OFFICE;(チュートリアルオフィス) 基本的な戦闘;Fredric Din;1;0.0;43;station.png;male_1.png;accessory_18.png;tutorial_combat_basics.txt;10
+OFFICE;(チュートリアルオフィス) 基本的なドローン;Daniel Traek;1;0.0;43;station.png;male_4.png;accessory_17.png;tutorial_drones.txt;2
+OFFICE;(チュートリアルオフィス) 基本的な艦隊指揮;Jacob Salis;1;0.0;43;station.png;male_5.png;accessory_16.png;tutorial_mercs.txt;2
+OFFICE;(チュートリアルオフィス) ワームホールの基礎;Darius Ghent;1;0.0;43;station.png;male_6.png;accessory_12.png;tutorial_wormholes.txt;2
 </OFFICE>
 // STORAGE;item_id;Qty;0
 <STORAGE>

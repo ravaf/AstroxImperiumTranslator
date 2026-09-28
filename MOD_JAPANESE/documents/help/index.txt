@@ -4,14 +4,14 @@
 	<image src="images/help_image_1.png" align="center" width="155" height="155">
 	
 	<text size="20" align="left" color="#FFFFFF">
-		This Help panel will serve as an evergrowing database of information about Astrox Imperium. Information is separated into a number of categories to allow for quick navigation. It will take some time to build out all of the info pages that we need for this help panel. If you would like to contribute. contact me on discord.
+		このヘルプパネルは、Astrox Imperiumに関する情報が蓄積されていくデータベースとして機能します。情報は素早くナビゲートできるよう、いくつかのカテゴリーに分類されています。このヘルプパネルに必要なすべての情報ページを作成するには時間がかかります。もし貢献したい場合は、Discordで私に連絡してください。
 	</text>
 
 	
 </horizontal>
 
 <text size="20" align="left" color="#FFFFFF">
-	Below will explain the basics of how the help files are parsed, and what <tags> can be used to style the information displayed. The format is much like HTML and very basic. This makes it easy to understand and quick to use.
+	以下では、ヘルプファイルがどのように解析されるか、そして表示される情報をスタイルするためにどのような <tags> が使用できるかを説明します。形式はHTMLに非常に近く、非常に基本的です。これにより、理解しやすく、素早く使用できるようになっています。
 </text>
 
 <image src="images/hbar_1.png" align="stretch" width="500" height="10">
@@ -19,28 +19,28 @@
 // TEXT BLOCK-----------------------
 <horizontal align="fixed">
 	<text size="20" align="left" color="#FFFFFF" width="400" height="300">
-		<b>TEXT</b>
-		To display some simple text, you can use this command. If the text is inside a horizontal row, the horizontal tag will control if the text stretches with the window, or is fixed.
-		Size: How big the text is.
-		Align: left, center or right.
-		Color: The hex color for the text displayed.
-		*Width: Will control the width of the text box if not inside a horizontal tag.
-		*Height: Will control the height of the text box if not inside a horizontal tag.
+		<b>テキスト</b>
+		シンプルなテキストを表示するには、このコマンドを使用できます。テキストが水平行（horizontal）の中にある場合、horizontalタグによって、テキストがウィンドウに合わせて引き伸ばされるか、固定されるかが制御されます。
+		Size: テキストの大きさ。
+		Align: 左（left）、中央（center）、右（right）揃え。
+		Color: 表示されるテキストの16進数カラーコード。
+		*Width: horizontalタグ内にない場合、テキストボックスの幅を制御します。
+		*Height: horizontalタグ内にない場合、テキストボックスの高さを制御します。
 	</text>
 	
 	<text size="20" align="left" color="#FFFFFF" width="250" height="300">
-		**<text size="20" align="left" color="#FFFFFF">To display some simple text, you can use this command.
+		**<text size="20" align="left" color="#FFFFFF">シンプルなテキストを表示するには、このコマンドを使用できます。
 	</text>
 </horizontal>
 
 // IMAGE BLOCK --------------------
 <horizontal align="fixed">
 	<text size="20" align="left" color="#FFFFFF" width="400" height="140">
-		<b>IMAGE</b>
-		To display an image.
-		Align: left, center, right or stretch.
-		Width: Will control the width of the image.
-		Height: Will control the height of the image.
+		<b>画像</b>
+		画像を表示します。
+		Align: 左（left）、中央（center）、右（right）、または引き伸ばし（stretch）。
+		Width: 画像の幅を制御します。
+		Height: 画像の高さを制御します。
 	</text>
 	
 	<text size="20" align="left" color="#FFFFFF" width="250" height="140">
@@ -51,15 +51,15 @@
 // BUTTON BLOCK --------------------
 <horizontal align="fixed">
 	<text size="20" align="left" color="#FFFFFF" width="400" height="200">
-		<b>BUTTON</b>
-		To display an button with a link.
-		Align: left, center, right.
-		Width: Will control the width of the image.
-		Height: Will control the height of the image.
-		Label: The text on the button.
-		Size: size of the text on the button.
-		Color: The hex color for the text displayed.
-		Onclick: What to do when clicking a button.
+		<b>ボタン</b>
+		リンク付きのボタンを表示します。
+		Align: 左（left）、中央（center）、右（right）。
+		Width: 画像の幅を制御します。
+		Height: 画像の高さを制御します。
+		Label: ボタン上のテキスト。
+		Size: ボタン上のテキストのサイズ。
+		Color: 表示されるテキストの16進数カラーコード。
+		Onclick: ボタンをクリックした時の動作。
 	</text>
 	
 	<text size="20" align="left" color="#FFFFFF" width="250" height="200">
@@ -70,18 +70,18 @@
 // HORIZONTAL BLOCK--------------------
 <horizontal align="fixed">
 	<text size="20" align="left" color="#FFFFFF" width="400" height="200">
-		<b>HORIZONTAL ROW</b>
-		make a horizontal row. This row can be fixed or stretched. When fixed, the row will not shift when the window is resized. When stretch is applied, the row will shift the text contents based on the window size.
-		Align: left, center, right.
+		<b>水平行（HORIZONTAL ROW）</b>
+		水平行を作成します。この行は固定（fixed）または引き伸ばし（stretch）が可能です。固定の場合、ウィンドウのサイズを変更しても行は移動しません。引き伸ばしが適用されると、ウィンドウサイズに基づいてテキストコンテンツが移動します。
+		Align: 左（left）、中央（center）、右（right）。
 	</text>
 	
 	<text size="20" align="left" color="#FFFFFF" width="250" height="200">
 		**<horizontal align="fixed">
-		**    ..this stuff will stay in a fixed position regardless of window size..
+		**    ..この内容はウィンドウサイズに関係なく固定位置に留まります..
 		**</horizontal>
 		
 		**<horizontal align="stretch">
-		**    ..this stuff will strech with window size..
+		**    ..この内容はウィンドウサイズに合わせて引き伸ばされます..
 		**</horizontal>
 	</text>
 </horizontal>
@@ -89,27 +89,27 @@
 // COMMENT BLOCK--------------------
 <horizontal align="fixed">
 	<text size="20" align="left" color="#FFFFFF" width="400" height="200">
-		<b>COMMENTS</b>
-		You can use comments using double slash. Anything after the double slash will be ignored.
+		<b>コメント</b>
+		ダブルスラッシュを使用してコメントを作成できます。ダブルスラッシュ以降のすべては無視されます。
 	</text>
 	
 	<text size="20" align="left" color="#FFFFFF" width="250" height="200">
-		** // this is a comment
+		** // これはコメントです
 	</text>
 </horizontal>
 
 
 <horizontal align="stretch">
 	<text size="20" align="left" color="#FFFFFF" width="500" height="100">
-		You can store the images created for the help pages inside the <b><i>/MOD/documents/help/images/</i></b> directory. This will make it easy to share these files as they are created.
+		ヘルプページ用に作成した画像は、<b><i>/MOD/documents/help/images/</i></b> ディレクトリ内に保存できます。これにより、作成したファイルを簡単に共有できるようになります。
 	</text>
 	<image src="images/help_image_2.png" align="center" width="155" height="155">
 </horizontal>
 
 <horizontal align="stretch">
 	<text size="20" align="left" color="#FFFFFF" width="500" height="200">
-		You can grab images from the items folder, or any astrox folder to use inside a help page.
-		just use a relative path like this.
+		アイテムフォルダーやその他のAstroxフォルダーから画像を取得して、ヘルプページ内で使用できます。
+		以下のように相対パスを使用してください。
 		**<image src="../../items/assault_x8_launcher_doc.png" align="center" width="256" height="256">
 	</text>
 	<image src="../../items/assault_x8_launcher_doc.png" align="center" width="155" height="155">
@@ -117,8 +117,8 @@
 
 <image src="images/hbar_1.png" align="stretch" width="500" height="10">
 <text size="20" align="left" color="#FFFFFF" width="500" height="150">
-	<b>BUTTON EXAMPLES</b>
-	Below are a few examples of how buttons can be displayed. Keep in mind you can change the images of each button, or have them use the same background image. Buttons can also have blank text if you choose to place and icon and or text on the image itself.
+	<b>ボタンの例</b>
+	以下は、ボタンを表示する方法のいくつかの例です。各ボタンの画像を変更したり、同じ背景画像を使用したりできることに留意してください。ボタン上の画像にアイコンやテキストを配置することを選択した場合、ボタンのテキストを空にすることも可能です。
 </text>
 
 <image src="images/hbar_1.png" align="stretch" width="500" height="10">

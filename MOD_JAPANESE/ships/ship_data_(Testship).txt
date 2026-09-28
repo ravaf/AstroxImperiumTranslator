@@ -41,7 +41,7 @@ SHIP_material_texture_a;default_main.png
 SHIP_material_texture_b;default_detail.png
 SHIP_material_texture_c;default_glow.png
 SHIP_engine_color;1;1;1;1
-SHIP_description;Transport ships are used mainly to move goods around the Astrox universe. The cargo bay has been augmented to allow for additional cargo to be carried without the need for external modules.
+SHIP_description;輸送艦は主におもにAstroxユニバース内で物資を移動させるために使用されます。貨物ベイが拡張されており、外部モジュールを必要とせずに余分な貨物を積載できるようになっています。
 SHIP_manufacturer;G.E.M.
 SHIP_manufacturer_icon;icon_gem.png
 SHIP_shield;0

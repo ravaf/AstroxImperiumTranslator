@@ -1,10 +1,9 @@
 // STRUCTURE DATA (Astrox Imperium) 
 // STRUCTURE;variable;value
-
 STRUCTURE;id;11
 STRUCTURE;name;Small Missile Platform
 STRUCTURE;type;Defensive Platform
-STRUCTURE;desc;The Small Missile Platform is a defensive structure capable of holding 2 missile launcher modules. These structures are specifically designed to deliver automated defensive firepower to raiders and enemies of the operator that owns it. Must be stocked with missiles to operate.
+STRUCTURE;desc;小型ミサイルプラットフォームは、2つのミサイルランチャーモジュールを搭載できる防御構造物である。これらの構造物は、所有するオペレーターのレイダーや敵に対して自動防御火力を提供するように特別に設計されている。作動させるにはミサイルを補充する必要がある。
 STRUCTURE;class;Combat
 STRUCTURE;owner;Telyoupea Akpi
 STRUCTURE;faction;Enforcement
@@ -27,7 +26,6 @@ STRUCTURE;usefee;0.0
 STRUCTURE;default_script_file;none
 STRUCTURE;default_script_id;0
 STRUCTURE;sector_effect;defense#10
-
 STRUCTURE;gen_power;false
 STRUCTURE;gen_power_rate;0
 STRUCTURE;power_points;1000
@@ -37,14 +35,11 @@ STRUCTURE;is_raider;false
 STRUCTURE;is_law;false
 STRUCTURE;is_dockable;true
 STRUCTURE;btn_undock;true
-
 STRUCTURE;cargo_max;1200
 STRUCTURE;upgrade_timer;0
 STRUCTURE;upgrade_file;null
-
 INTERIOR;0;1,1;1;1,0,0,0
 INTERIOR;12;1,2;1;0,0,0,0
-
 //; ----------------------------- STRUCTURE INTERIOR PARTS-------------------------------
 //; ----------------------- PART,prefab_id;name,xp,yp,zp,xr,yr,zr,a1,b2
 <PARTS>
@@ -208,7 +203,6 @@ PART;67;Pillar;4.00;4.75;18.00;90.00;270.00;0.00;null;null;null;null;null;null;n
 PART;67;Pillar;18.00;4.75;36.00;90.00;180.00;0.00;null;null;null;null;null;null;null;null
 PART;67;Pillar;18.00;4.75;4.00;90.00;180.00;0.00;null;null;null;null;null;null;null;null
 PART;74;Pillar;19.00;4.75;3.00;90.00;0.00;0.00;null;null;null;null;null;null;null;null
-
 PART;74;Pillar;17.00;4.75;3.00;90.00;0.00;0.00;null;null;null;null;null;null;null;null
 PART;74;Pillar;19.00;4.75;3.00;89.98;180.00;0.00;null;null;null;null;null;null;null;null
 PART;74;Pillar;17.00;4.75;3.00;89.98;180.00;0.00;null;null;null;null;null;null;null;null
@@ -299,7 +293,6 @@ PART;132;Prop;21.00;-0.25;-2.00;0.00;180.00;0.00;null;null;null;null;null;null;n
 PART;132;Prop;21.00;-0.25;6.00;0.00;180.00;0.00;null;null;null;null;null;null;null;null
 PART;132;Prop;15.00;-0.25;6.00;0.00;180.00;0.00;null;null;null;null;null;null;null;null
 PART;132;Prop;9.00;-0.25;16.00;0.00;180.00;0.00;null;null;null;null;null;null;null;null
-
 PART;132;Prop;9.00;-0.25;16.00;0.00;180.00;0.00;null;null;null;null;null;null;null;null
 PART;132;Prop;7.00;-0.25;16.00;0.00;180.00;0.00;null;null;null;null;null;null;null;null
 PART;132;Prop;9.00;-0.25;20.00;0.00;180.00;0.00;null;null;null;null;null;null;null;null
@@ -476,19 +469,16 @@ PART;200;Prop;15.00;11.75;21.00;0.00;270.00;0.00;null;null;null;null;null;null;n
 PART;200;Prop;21.00;11.75;15.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
 PART;200;Prop;21.00;11.75;21.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
 </PARTS>
-
 //; ----------------------------- STRUCTURE MODULE SLOTS --------------------------------
 //; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr--------------------------------
 <MODSLOT>
 MODSLOT;module_slot; 1 ; 99 ;73.3;9.2;-1.1;0;90;0
 MODSLOT;module_slot; 2 ; 99 ;-68.1;9;-10.1;0;-90;0
-
 //; ----------------------------- STRUCTURE MODULES --------------------------------------
 //; ----- MODULE,slot,module_id
 <MODULE>
 MODULE; 1 ; 1052
 MODULE; 2 ; 1052
-
 //; ----------------------------- STRUCTURE CARGO -----------------------------------------
 //; ----- CARGO, qty, cargo_id
 <CARGO>

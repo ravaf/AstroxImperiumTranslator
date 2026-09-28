@@ -3,16 +3,16 @@
 <image src="images/hbar_1.png" align="stretch" width="500" height="10">
 
 <horizontal align="fixed">
-<button image="images/btn_small_1.png" width="140" height="40" align="left" label="<b>INDEX</b>" size="20" color="#00FFFF" onclick="btn_1">
-<button image="images/btn_small_1.png" width="200" height="40" align="left" label="<b>COMMUNITY</b>" size="20" color="#00FFFF" onclick="btn_1">
-<button image="images/btn_small_1.png" width="200" height="40" align="left" label="<b>ARCHIVE</b>" size="20" color="#00FFFF" onclick="btn_1">
+<button image="images/btn_small_1.png" width="140" height="40" align="left" label="<b>インデックス</b>" size="20" color="#00FFFF" onclick="btn_1">
+<button image="images/btn_small_1.png" width="200" height="40" align="left" label="<b>コミュニティ</b>" size="20" color="#00FFFF" onclick="btn_1">
+<button image="images/btn_small_1.png" width="200" height="40" align="left" label="<b>アーカイブ</b>" size="20" color="#00FFFF" onclick="btn_1">
 </horizontal>
 
 <horizontal align="stretch">
 
 <text size="20" align="left" color="#FFFFFF" width="500" height="256">
-This Help panel will serve as an evergrowing database of information about Astrox Imperium. Information is separated into a number of categories to allow for quick navigation.
-It will take some time to build out all of the info pages that we need for this help panel. .
+このヘルプパネルは、Astrox Imperiumに関する情報が蓄積されていくデータベースです。情報はカテゴリー別に分類されており、素早く目的の情報にアクセスできます。
+このヘルプパネルに必要なすべての情報ページを構築するには、まだ時間がかかります。
 </text>
 <image src="images/astrox_logo_1.png" align="center" width="200" height="200">
 
@@ -22,7 +22,7 @@ It will take some time to build out all of the info pages that we need for this 
 
 <image src="images/astrox_logo_1.png" align="center" width="100" height="100">
 <text size="20" align="left" color="#FFFFFF" width="500" height="256">
-If you would like to help construct a help page or two, I could really use the assistance. The formatting for these pages are very simple, and look like basic html. <br>Click here to learn more.
+もしヘルプページの作成にご協力いただけるのであれば、ぜひ力を貸してください。ページのフォーマットは非常にシンプルで、基本的なHTMLのような形式です。<br>詳細はこちらをクリックしてください。
 </text>
 <image src="images/astrox_logo_1.png" align="center" width="100" height="256">
 

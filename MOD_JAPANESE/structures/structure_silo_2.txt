@@ -1,10 +1,9 @@
 // STRUCTURE DATA (Astrox Imperium) 
 // STRUCTURE;variable;value
-
 STRUCTURE;id;3
 STRUCTURE;name;Expanded Mining Silo
 STRUCTURE;type;Silo
-STRUCTURE;desc;The silo is used as an in between point for miners and transports alike. The storage provided by the silo will allow mercs to deposit the ore they mine automatically. The expanded silo has additional cargo bay space. 
+STRUCTURE;desc;サイロは採掘者と輸送船の中間地点として使用される。サイロが提供する保管庫により、傭兵は採掘した鉱石を自動的に預けることができる。拡張されたサイロには追加の貨物ベイのスペースがある。
 STRUCTURE;class;Storage
 STRUCTURE;owner;Jace Masula
 STRUCTURE;faction;Trade
@@ -28,7 +27,6 @@ STRUCTURE;default_script_file;none
 STRUCTURE;default_script_id;0
 STRUCTURE;sector_effect;energy#1,economy#1
 STRUCTURE;sector_name;<SECTORNAME>
-
 STRUCTURE;gen_power;false
 STRUCTURE;gen_power_rate;0
 STRUCTURE;power_points;1200
@@ -38,27 +36,20 @@ STRUCTURE;is_raider;false
 STRUCTURE;is_law;false
 STRUCTURE;is_dockable;true
 STRUCTURE;btn_undock;true
-
 STRUCTURE;cargo_max;5000
 STRUCTURE;upgrade_timer;0
 STRUCTURE;upgrade_file;null
-
 INTERIOR;12;1,1;0;1,1,1,1
-
 //; ----------------------------- STRUCTURE INTERIOR PARTS-------------------------------
 //; ----------------------- PART,prefab_id;name,xp,yp,zp,xr,yr,zr,a1,b2
 <PARTS>
 </PARTS>
-
 //; ----------------------------- STRUCTURE MODULE SLOTS --------------------------------
 //; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr--------------------------------
 <MODSLOT>
-
-
 //; ----------------------------- STRUCTURE MODULES --------------------------------------
 //; ----- MODULE,slot,module_id
 <MODULE>
-
 //; ----------------------------- STRUCTURE CARGO -----------------------------------------
 //; ----- CARGO, qty, cargo_id
 <CARGO>

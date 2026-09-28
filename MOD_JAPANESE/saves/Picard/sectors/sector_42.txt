@@ -1,0 +1,107 @@
+// SECTOR;Variable;Value
+SECTOR;id;42
+SECTOR;name;Ellisar
+SECTOR;level;2.9
+SECTOR;faction;Law
+SECTOR;filename;sector_42.txt
+SECTOR;is_explored;False
+SECTOR;energy;20
+SECTOR;population;20
+SECTOR;habitation;20
+SECTOR;farming;20
+SECTOR;economy;20
+SECTOR;production;20
+SECTOR;defense;20
+SECTOR;environment;20
+SECTOR;event_type;null
+
+// SECTORXYZ;Variable;Value
+SECTORXYZ;location;-1259.731;183.5822;631.5853
+
+// FOG;Variable;Value
+FOG;foggy;True
+FOG;distance;0.00239845
+FOG;alpha;0.3960085
+FOG;color_1;0.26;0.19;0.46;0.38
+FOG;color_2;0.00;0.00;0.00;0.00
+
+// NEBULA;Variable;Cloud id;Red;Green;Blue;Alpha;Size;Rotation
+NEBULA;cloud_1;1;0.77;0.25;0.43;0.39;50000;3
+NEBULA;cloud_2;1;0.00;0.36;0.00;0.68;50000;0
+NEBULA;cloud_3;3;0.13;0.37;1.00;0.00;50000;2
+NEBULA;cloud_4;4;0.32;1.00;0.27;0.00;50000;5
+NEBULA;cloud_5;5;0.62;1.00;0.67;1.00;50000;5
+NEBULA;cloud_6;5;0.63;0.00;0.00;0.72;50000;3
+NEBULA;cloud_7;7;0.00;0.21;0.18;0.00;50000;5
+NEBULA;cloud_8;8;0.43;0.69;0.91;0.00;50000;0
+NEBULA;cloud_9;9;0.94;0.55;0.30;0.00;50000;4
+NEBULA;cloud_10;10;1.00;0.86;1.00;0.00;50000;2
+NEBULA;cloud_11;11;0.13;0.43;0.76;0.00;50000;3
+NEBULA;cloud_12;12;1.00;1.00;0.98;0.00;50000;5
+
+// LIGHT;Variable;Red;Green;Blue;Alpha
+LIGHT;light_t;0.79;0.53;0.42;0.19
+LIGHT;light_b;0.57;0.46;0.27;0.40
+LIGHT;light_s;0.25;0.49;0.60;0.68
+
+// STAR;Variable;Star id;X position;Y position;Z position;
+STAR;object;1;0;0;10000;1.0;10000
+
+// LIFESUPPORT;type;value
+LIFESUPPORT;food;1.25
+LIFESUPPORT;water;1.454423
+LIFESUPPORT;thermal;1.45
+LIFESUPPORT;waste;1.55
+
+// STARLIGHT;Variable;Red;Green;Blue;Alpha
+STARLIGHT;color_1;0.00;0.43;0.76;1.00
+STARLIGHT;color_2;0.71;0.48;0.22;0.50
+STARLIGHT;color_3;0.50;0.40;0.22;1.00
+STARLIGHT;color_4;0.20;0.48;0.96;1.00
+STARLIGHT;color_5;0.31;0.20;0.00;0.44
+
+// STATION;Sector filename;X poisition;Y position;Z position
+STATION;sector_42_station_0.txt;186.2222;905.457;-732.3652
+
+// STRUCTURE;Sector filename;X poisition;Y position;Z position
+STRUCTURE;structure_energy_gen_1.txt;98.00;-27.38;-49.57
+STRUCTURE;structure_habitat_1.txt;-716.48;50.99;-624.00
+STRUCTURE;structure_energy_gen_1.txt;-355.09;-10.59;-927.66
+STRUCTURE;structure_recon_1.txt;-759.20;133.00;-1103.60
+STRUCTURE;structure_medical_1.txt;905.60;112.00;24.10
+STRUCTURE;structure_gun_platform_1.txt;1776.40;310.40;667.30
+STRUCTURE;structure_energy_gen_1.txt;1360.70;456.50;726.60
+STRUCTURE;structure_office_1.txt;1606.20;229.00;160.40
+STRUCTURE;structure_storage_1.txt;1578.10;48.50;495.00
+STRUCTURE;structure_farm_1.txt;-646.00;135.80;400.60
+STRUCTURE;structure_recon_1.txt;1271.40;272.00;770.60
+STRUCTURE;structure_medical_1.txt;1098.60;244.70;1176.80
+
+// CLUSTER;Resource ID ;Num Resources ;Min Size ;Max Size ;Spread Distance ;Center X;Center Y;Center z
+CLUSTER;5;50;50;200;3000;0;0;0;
+
+// RESOURCE;Resource id;X position;Y position;Z position;Max value;Current value
+RESOURCE;5;819.0;-2089.8;-149.2;2000;2000
+RESOURCE;5;-593.9;3069.1;-1059.5;2000;2000
+RESOURCE;5;828.6;2393.1;-778.5;2000;2000
+RESOURCE;5;1004.5;-2313.6;-1550.9;2000;2000
+RESOURCE;5;-365.7;-2347.4;-37.0;2000;2000
+
+// WARPGATE;Warpgate id ;Sector filename ; Exit Warpgate id;X position ;Y position ;Z position;Toll ;Faction ;Rotation;
+WARPGATE;1;sector_37.txt;1;-2244.4;202.5;2665.8;0;law;0.0
+WARPGATE;2;sector_45.txt;1;2165.4;-544.2;819.9;-1;law;0.0;warpgate_42_2.txt;10
+WARPGATE;3;sector_40.txt;3;1979.8;-83.9;-3026.9;0;law;0.0
+
+// PROPS;Prefab Id;Xpos;Ypos;Zpos;Xrot;Yrot;Zrot;Value 1
+//PROP;0;0;0;0;0;0;0;lightning 1
+
+// NPC_SHIP;ship_filename;xpos;ypos;zpos;faction_id;level
+NPC_SHIP;npc_ship_data_(transport_cruiser_1);1165.69;281.41;676.12;10;8
+NPC_SHIP;npc_ship_data_(battle_cruiser_1);209.73;382.21;1110.89;14;10
+NPC_SHIP;npc_ship_data_(support_carrier_1);-432.12;-1111.56;430.58;16;8
+NPC_SHIP;npc_ship_data_(pirate_cruiser_1);190.86;-1022.85;-629.82;8;2
+NPC_SHIP;npc_ship_data_(pirate_frigate_1);89.30;159.80;-288.41;8;10
+
+
+
+// CRATE ; name ; owner ; class ; capacity ; lifetime ; maxlifetime; credits ; xpos ; ypos ; zpos ; opened ; script_file ; script_id ; mission_key ; id#qty,id#qty

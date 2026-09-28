@@ -1,26 +1,26 @@
-scan_title;Advanced Options
+scan_title;詳細設定
 scan_image;document_training.png
-scan_sector;Level: Basic
+scan_sector;レベル: 基本
 
-<size='25'><color=cyan>Advanced Options</color></size>
-The ideology behind the development of Astrox Imperium is to allow you, the player, to play the game the way that you want to play it. You can adjust many things about how the game plays, from camera controls, to the timers that affect various aspects of the game. When it comes to a game like this, it can be difficult to include or exclude the right things to suit each player’s preferences. To solve this problem, a vast number of the game’s code has been exposed, allowing you to adjust the game to fit your style of play.
+<size='25'><color=cyan>詳細設定</color></size>
+Astrox Imperiumの開発理念は、プレイヤーであるあなたが望む方法でゲームをプレイできるようにすることです。カメラ操作からゲームの様々な側面に影響を与えるタイマーまで、ゲームプレイに関する多くの要素を調整できます。このようなゲームにおいて、すべてのプレイヤーの好みに合わせて適切な要素を取捨選択することは困難です。この問題を解決するため、ゲームコードの大部分を公開しており、自分のプレイスタイルに合わせてゲームを調整できるようになっています。
 
-<size='25'><color=cyan>Mouse and Keyboard Controls</color></size>
-The in-game Options provide a number of options that will allow you to control the games interface. You can invert the Mouse orientation, as well as adjust the sensitivity of the mouse speed. You can also adjust a number of the default camera controls when zooming in and out of the galaxy map.
+<size='25'><color=cyan>マウスとキーボードの操作</color></size>
+ゲーム内のオプションには、インターフェースを制御するための設定が多数用意されています。マウスの方向を反転させたり、マウス感度を調整したりすることが可能です。また、ギャラクシーマップのズームイン・ズームアウト時のデフォルトのカメラ操作も調整できます。
 
-<size='25'><color=cyan>Hotkeys</color></size>
-In the game options, you are able to map the hotkeys for quick access to panels and actions. These hotkeys are stored in the pilot’s option file, and will only affect the save game you currently have loaded. This will allow for multiple hotkey configurations when a single computer is shared between multiple players.
+<size='25'><color=cyan>ホットキー</color></size>
+ゲームオプションでは、パネルやアクションに素早くアクセスするためのホットキーを割り当てることができます。これらのホットキーはパイロットのオプションファイルに保存され、現在ロードしているセーブデータのみに影響します。これにより、1台のコンピュータを複数のプレイヤーで共有する場合でも、個別にホットキー設定を行うことができます。
 
-<size='25'><color=cyan>Advanced Camera Controls</color></size>
-You can control how the camera behaves to user input by adjusting the (Camera Drag Speed) option in the Graphics panel. You can also toggle whether or not the camera will snap behind the ship when you manually control the ship using the keyboard. This option can be found in the Extras panel. When the camera is idle, it will begin to slowly rotate around the ship. The timer for this feature can also be adjusted on the Extras panel.
+<size='25'><color=cyan>高度なカメラ操作</color></size>
+グラフィックパネルの（Camera Drag Speed）オプションを調整することで、ユーザー入力に対するカメラの挙動を制御できます。また、キーボードで艦船を直接操作する際に、カメラを艦船の後方に固定するかどうかも切り替え可能です。このオプションは「Extras」パネルにあります。カメラがアイドル状態のときは、艦船の周囲をゆっくりと回転し始めます。この機能のタイマーも「Extras」パネルで調整できます。
 
-There are a number of special camera modes that can be selected using the numeric keypad. A main one of importance is the CTRL - 8. This will lock the camera behind the ship. Forcing a first person view of the game by removing access to the third person camera. This option can really change the exploration immersion of the game by limiting your view of the sector to only the view of the pilot from the front of the ship.
+テンキーを使用して選択できる特殊なカメラモードがいくつかあります。特に重要なのは CTRL - 8 です。これにより、カメラが艦船の後方に固定されます。サードパーソンカメラへのアクセスを無効にすることで、強制的に一人称視点になります。このオプションは、セクターの視界を艦船前方のパイロット視点のみに制限することで、ゲームの探索への没入感を大きく変えることができます。
 
-<size='25'><color=cyan>Instant Skill Training</color></size>
-If you don’t feel like having to wait for skills to train, there is an option under Extras that you can toggle to remove this feature. It can be toggled on or off at anytime during gameplay. You are not locked into one or the other.
+<size='25'><color=cyan>スキル即時習得</color></size>
+スキルの習得時間を待ちたくない場合は、「Extras」にあるオプションを切り替えることで、この機能を無効にできます。ゲームプレイ中いつでもオン・オフを切り替えることができ、どちらか一方に固定されることはありません。
 
-<size='25'><color=cyan>Adjusting the Life Support drain rate.</color></size>
-The life support systems in Astrox Imperium can be hit or miss for many players. For many, the life support mechanic of the game is an enjoyable feature. For others, not so much. If you are just getting into Astrox Imperium, you may find the life support mechanic too much to contend with while learning the ropes. Because of this, you have the ability to adjust the base modifier of the rate at which your life support will drain (based on various sector environments). You can completely disable the life support systems of the game by dropping the drain modifier to 0.
+<size='25'><color=cyan>生命維持装置の消費率の調整</color></size>
+Astrox Imperiumの生命維持システムは、プレイヤーによって好みが分かれる要素です。多くのプレイヤーにとって、このメカニズムは楽しい機能ですが、そうでないプレイヤーもいます。Astrox Imperiumを始めたばかりのプレイヤーにとっては、操作を覚える間に生命維持のメカニズムに対処するのが大変だと感じるかもしれません。そのため、生命維持装置が消費される基本レート（各セクターの環境に基づく）の倍率を調整できるようにしました。消費倍率を0にすることで、ゲーム内の生命維持システムを完全に無効化することも可能です。
 
-<size='25'><color=cyan>Single Click Autopilot</color></size>
-By default, the game will pilot your ship to any object if you click on an item that has been targeted.This will redirect your ship’s autopilot systems (if active) causing you to alter your previous course. Some players may prefer to NOT have this happen. There is an option to prevent unwanted autopiloting while targeting items by enabling the (Double Click Autopilot Select) option on the Extras panel. When enabled, you will not reprogram your autopilot with a single click. You will need to double click the item to select it, thus changing course.
+<size='25'><color=cyan>シングルクリック・オートパイロット</color></size>
+デフォルトでは、ターゲットしたアイテムをクリックすると、艦船はそのオブジェクトへ向かって自動操縦を開始します。これにより、艦船のオートパイロットシステム（有効な場合）が再設定され、以前の航路が変更されます。これを望まないプレイヤーもいるでしょう。「Extras」パネルで（Double Click Autopilot Select）オプションを有効にすると、アイテムをターゲットした際の意図しないオートパイロットを防止できます。これを有効にすると、シングルクリックではオートパイロットが再プログラムされません。アイテムをダブルクリックして選択することで、初めて航路が変更されるようになります。

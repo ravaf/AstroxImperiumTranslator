@@ -1,10 +1,9 @@
 // STRUCTURE DATA (Astrox Imperium) 
 // STRUCTURE;variable;value
-
 STRUCTURE;id;0
 STRUCTURE;name;Welcome Center
 STRUCTURE;type;Dock
-STRUCTURE;desc;Commercial and corporate docks are used to store large quantities of goods and materials. These facilities provide the warehouse space required when manufacturing products for the Astrox universe.
+STRUCTURE;desc;商業および企業のドックは大量の商品や材料を保管するために使用される。これらの施設はアストロックス宇宙用の製品を製造する際に必要な倉庫スペースを提供する。
 STRUCTURE;class;Dock
 STRUCTURE;owner;Jeli Fozzle
 STRUCTURE;faction;Alpha
@@ -28,7 +27,6 @@ STRUCTURE;default_script_file;none
 STRUCTURE;default_script_id;0
 STRUCTURE;sector_effect;population#5,defense#5
 STRUCTURE;sector_name;<SECTORNAME>
-
 STRUCTURE;gen_power;false
 STRUCTURE;gen_power_rate;0
 STRUCTURE;power_points;1000
@@ -38,14 +36,11 @@ STRUCTURE;is_raider;false
 STRUCTURE;is_law;false
 STRUCTURE;is_dockable;true
 STRUCTURE;btn_undock;false
-
 STRUCTURE;cargo_max;1100
 STRUCTURE;upgrade_timer;0
 STRUCTURE;upgrade_file;null
-
 STRUCTURE;interior_start_position;0.0;0.0;0.0
 STRUCTURE;interior_start_rotation;0.0;0.0;0.0
-
 //; ----------------------------- STRUCTURE INTERIOR PARTS-------------------------------
 //; ----------------------- PART,prefab_id;name,xp,yp,zp,xr,yr,zr,a1,b2
 <PARTS>
@@ -268,16 +263,12 @@ PART;88;Wall;2.00;3.75;20.00;0.00;270.00;0.00;null;null;null;null;null;null;null
 PART;88;Wall;2.00;3.75;16.00;0.00;270.00;0.00;null;null;null;null;null;null;null;null
 PART;206;Light;8.00;9.50;18.00;0.00;0.00;0.00;0.2, 0.7, 0.5;2;25;4.0;10;9;8;null
 </PARTS>
-
 //; ----------------------------- STRUCTURE MODULE SLOTS --------------------------------
 //; ----------------------- SLOT,slotID,xp,yp,zp,xr,yr,zr--------------------------------
 <MODSLOT>
-
-
 //; ----------------------------- STRUCTURE MODULES --------------------------------------
 //; ----- MODULE,slot,module_id
 <MODULE>
-
 //; ----------------------------- STRUCTURE CARGO -----------------------------------------
 //; ----- CARGO, qty, cargo_id
 <CARGO>

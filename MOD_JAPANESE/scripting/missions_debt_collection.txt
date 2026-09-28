@@ -1,34 +1,34 @@
 //; ASTROX IMPERIUM : SCRIPTING EDITOR : JACE MASULA 2019
 // SCRIPT;	ID;	LABEL;	COMMAND;	CHAIN;	VALUE 1;	VALUE 2;	VALUE 3;	VALUE 4;	VALUE 5;	VALUE 6;	VALUE 7;	VALUE 8	
 // -------------------------------------------------------------------------------------------------------------------------------------
-SCRIPT;		5;		START;		CHECK_VALUE;		0;		MISSION.debt_wait;		=;		1;		missions_debt_collection.txt>300>IF TRUE;		missions_debt_collection.txt>1005>IF FALSE;		null;		null;		null;		1000.00;		-87.00
-SCRIPT;		1010;		passive;		OPTION;		0;		Hey there bud. You having any luck with the rocks out here? I've been having a great haul over the past few cycles. This next haul should put me back in black.;		missions_debt_collection.txt>1020>Not too bad myself, funny you should mention...;		missions_debt_collection.txt>1030>Just making my rounds, collecting debts.;		missions_debt_collection.txt>1040>Don't waste my time, I'm here for the Credits you owe!;		null;		null;		null;		null;		355.00;		-354.00
-SCRIPT;		1100;		neutral;		OPTION;		0;		How can I help you?;		missions_debt_collection.txt>1105>I am here to collect a debt you owe.;		missions_debt_collection.txt>1110>I have been sent to remind you about a late payment.;		missions_debt_collection.txt>1115>You owe a debt, It's time to pay up!;		null;		null;		null;		null;		999.00;		-359.00
-SCRIPT;		300;		67182;		TEXT;		0;		I know why you are here. I guess there is no sense in me dragging this out any longer. Take your payment and be gone already.;		missions_debt_collection.txt>310>Thank you for your cooperation.;		null;		null;		null;		null;		null;		null;		1405.00;		-83.00
+SCRIPT;5;START;CHECK_VALUE;0;MISSION.debt_wait;=;1;missions_debt_collection.txt>300>IF TRUE;missions_debt_collection.txt>1005>IF FALSE;null;null;null;1000.00;-87.00
+SCRIPT;1010;passive;OPTION;0;やあ、相棒。ここの小惑星の採掘は順調かい？このところ、私はかなりの大漁続きでね。次の採掘で黒字に戻るはずさ。;missions_debt_collection.txt>1020>こっちも悪くないさ、ちょうどその話をしようと思っていたところだ……;missions_debt_collection.txt>1030>見回りのついでさ、借金の取り立てをしている。;missions_debt_collection.txt>1040>時間を無駄にさせるな、お前が借りているクレジットを取りに来たんだ！;null;null;null;null;355.00;-354.00
+SCRIPT;1100;neutral;OPTION;0;何かご用でしょうか？;missions_debt_collection.txt>1105>お前が借りている借金の取り立てに来た。;missions_debt_collection.txt>1110>支払いが遅れている件でお知らせにきた。;missions_debt_collection.txt>1115>借金があるはずだ、支払いの時間だぞ！;null;null;null;null;999.00;-359.00
+SCRIPT;300;67182;TEXT;0;ここへ来た理由は分かっている。これ以上引き延ばしても意味はないだろう。支払いを渡すから、さっさと消えてくれ。;missions_debt_collection.txt>310>ご協力に感謝する。;null;null;null;null;null;null;1405.00;-83.00
 SCRIPT;		310;		34366;		CHAT_MISSION_COMPLETE;		586;		null;		null;		null;		null;		null;		null;		null;		null;		1649.00;		-88.00
-SCRIPT;		586;		26310;		EXIT;		0;		null;		null;		null;		null;		null;		null;		null;		null;		1868.00;		-87.00
-SCRIPT;		1005;		28871;		GOTO_RANDOM;		0;		Goto Random;		missions_debt_collection.txt>1010;		missions_debt_collection.txt>1100;		missions_debt_collection.txt>1200;		null;		null;		null;		null;		1001.00;		-222.00
-SCRIPT;		1200;		aggresssive;		OPTION;		0;		Look buddy, I don't have time to stop for a chat. So how about you take off and let me get back to my business.;		missions_debt_collection.txt>1210>With that kind of attitude, you are destined for trouble.;		missions_debt_collection.txt>1250>Cool your thrusters, I mean no harm.;		missions_debt_collection.txt>1255>Easy man, I'll come back later.;		null;		null;		null;		null;		1651.00;		-354.00
-SCRIPT;		1020;		90692;		TEXT;		0;		I thought you might be a debt collector. Lucky for both of us, this last haul here should put me over the top. Let me drop this ore off at the station and I will be right back with your payment.;		missions_debt_collection.txt>1022>Thank you, I will follow you there.;		null;		null;		null;		null;		null;		null;		114.00;		-475.00
-SCRIPT;		1030;		68210;		TEXT;		0;		I thought you might be here for me. I don't have the full amount just yet. I will dock at the station in a few moments and sell some of this ore at the market. Stick around for a few minutes and I should have enough to make a payment.;		missions_debt_collection.txt>1032>Alright, just make it quick.;		null;		null;		null;		null;		null;		null;		355.00;		-478.00
-SCRIPT;		1040;		35011;		OPTION;		0;		Alright buddy, no need to be a jerk about it. I am out here all the time busting my hump trying to make enough scratch to make a payment. The last thing I need is you giving me an attitude while I work.;		missions_debt_collection.txt>1042>I'm sorry, Let's try this again...;		missions_debt_collection.txt>1043>I don't need to hear about your feelings. Pay or else!;		null;		null;		null;		null;		null;		591.00;		-478.00
+SCRIPT;586;26310;EXIT;0;null;null;null;null;null;null;null;null;1868.00;-87.00
+SCRIPT;1005;28871;GOTO_RANDOM;0;Goto Random;missions_debt_collection.txt>1010;missions_debt_collection.txt>1100;missions_debt_collection.txt>1200;null;null;null;null;1001.00;-222.00
+SCRIPT;1200;aggresssive;OPTION;0;おい相棒、おしゃべりにつき合っている暇はないんだ。だから、さっさと離れて仕事に戻らせてくれ。;missions_debt_collection.txt>1210>その態度では、トラブルを引き起こす運命だな。;missions_debt_collection.txt>1250>スラスターを冷やせ、危害を加えるつもりはない。;missions_debt_collection.txt>1255>落ち着けよ、また後で来る。;null;null;null;null;1651.00;-354.00
+SCRIPT;1020;90692;TEXT;0;君が取り立て屋だとは思っていなかったよ。お互いにとって幸いなことに、今回の採掘で目標を達成できるはずだ。この鉱石をステーションに降ろしたら、すぐに支払いを持ち帰るよ。;missions_debt_collection.txt>1022>ありがとう、そこまでついていこう。;null;null;null;null;null;null;114.00;-475.00
+SCRIPT;1030;68210;TEXT;0;私を追ってきたのかと思ったよ。まだ全額は揃っていないんだ。もうすぐステーションにドッキングして、この鉱石の一部を市場で売るつもりだ。数分待ってくれれば、支払いを済ませるだけの額が集まるはずだ。;missions_debt_collection.txt>1032>わかった、手短に頼む。;null;null;null;null;null;null;355.00;-478.00
+SCRIPT;1040;35011;OPTION;0;おいおい、そんなに威張るなよ。こっちは支払いのために毎日必死で働いてるんだ。作業中にそんな態度を取られる筋合いはないね。;missions_debt_collection.txt>1042>すまない、もう一度やり直そう...;missions_debt_collection.txt>1043>言い訳を聞きに来たんじゃない。払うんだな、さもなければ！;null;null;null;null;null;591.00;-478.00
 SCRIPT;		1022;		12283;		NPC_RETREAT;		1024;		;		;		null;		null;		null;		null;		null;		null;		114.00;		-591.00
-SCRIPT;		1024;		72389;		NPC_CHAT;		500;		Text message;		20;		null;		null;		null;		null;		null;		null;		113.00;		-704.00
-SCRIPT;		500;		51346;		SET_VALUE;		510;		MISSION.debt_wait;		1;		null;		null;		null;		null;		null;		null;		366.00;		-1049.00
-SCRIPT;		1032;		51976;		NPC_CHAT;		500;		Text message;		20;		null;		null;		null;		null;		null;		null;		353.62;		-610.28
-SCRIPT;		1042;		66145;		ADJ_FACTION;		0;		Well then... That was mighty big of you. Most pilots can't admit when they have made a mistake. Anyway, give me a few minutes and I should be able to scrape together enough Credits to make a payment, and send you on your way. How does that sound?;		1;		0.02;		missions_debt_collection.txt>1048>That sounds great. I'll be right here.;		null;		null;		null;		null;		591.00;		-590.00
-SCRIPT;		1043;		80750;		NPC_ATTACK;		0;		I don't suppose you happen to have any friends with you, because I just happen to know a few unsavory locals who love to cause problems for contract punks like yourself. Maybe this will teach you a lesson.;		True;		missions_debt_collection.txt>1045>So it's like that.;		null;		null;		null;		null;		null;		777.00;		-586.00
+SCRIPT;1024;72389;NPC_CHAT;500;テキストメッセージ;20;null;null;null;null;null;null;113.00;-704.00
+SCRIPT;500;51346;SET_VALUE;510;MISSION.debt_wait;1;null;null;null;null;null;null;366.00;-1049.00
+SCRIPT;1032;51976;NPC_CHAT;500;テキストメッセージ;20;null;null;null;null;null;null;353.62;-610.28
+SCRIPT;1042;66145;ADJ_FACTION;0;そうか…太っ腹だな。自分の間違いを素直に認められるパイロットなんてめったにいない。まあいい、数分くれれば支払いに十分なクレジットをかき集めて、すぐに解放してやるよ。どうだ？;1;0.02;missions_debt_collection.txt>1048>それはいい。ここで待っていよう。;null;null;null;null;591.00;-590.00
+SCRIPT;1043;80750;NPC_ATTACK;0;お前、仲間を連れてきたりはしていないだろうな。あいにく、お前のような契約で動くペテン師どもに問題を起こすのが大好きなロクデナシの連中を知っていてね。いい教訓を教えてやるよ。;真実;missions_debt_collection.txt>1045>そういうことか。;null;null;null;null;null;777.00;-586.00
 SCRIPT;		1045;		11319;		SPAWN_RAIDERS;		1048;		npc_ship_data_(pirate_escort_1);		000#000#000;		3;		10;		null;		null;		null;		null;		776.00;		-706.00
-SCRIPT;		1048;		58393;		NPC_CHAT;		500;		Text message;		20;		null;		null;		null;		null;		null;		null;		588.00;		-718.00
-SCRIPT;		1115;		86882;		TEXT;		0;		Maybe I do... Maybe I don't... and since I have no clue who you are, I'm guessing I don't.;		missions_debt_collection.txt>1040>Listen, I have been sent here to collect a payment.;		null;		null;		null;		null;		null;		null;		786.00;		-414.00
-SCRIPT;		1110;		76997;		TEXT;		0;		Ha!, I have been working all week to earn enough profits to make a payment. Believe me when I tell you, the last thing I need is a reminder. I just about have everything I need. I should be able to pay in about an hour or so.;		missions_debt_collection.txt>1117>Well that is good to hear.;		null;		null;		null;		null;		null;		null;		939.00;		-514.00
-SCRIPT;		1117;		64278;		NPC_CHAT;		500;		Text message;		40;		null;		null;		null;		null;		null;		null;		943.00;		-820.00
-SCRIPT;		1105;		27319;		TEXT;		0;		Yeah sure man, Just a sec... let me finish what I am doing here and I should be all set.;		missions_debt_collection.txt>1160>Alright, the sooner the better.;		null;		null;		null;		null;		null;		null;		1207.00;		-412.00
+SCRIPT;1048;58393;NPC_CHAT;500;テキストメッセージ;20;null;null;null;null;null;null;588.00;-718.00
+SCRIPT;1115;86882;TEXT;0;どうかな……違うかもしれないし……お前が誰なのかさっぱり分からないから、おそらく知らないだろうな。;missions_debt_collection.txt>1040>聞いてくれ、私は支払いを回収するために遣わされたんだ。;null;null;null;null;null;null;786.00;-414.00
+SCRIPT;1110;76997;TEXT;0;ハッ、こっちは支払いのために丸一週間稼ぎ続けてきたんだぞ。言っておくが、お前の催促なんて一番必要ないものだ。必要なものはほぼ揃っている。あと一時間ほどで支払えるはずだ。;missions_debt_collection.txt>1117>それは聞いて安心したよ。;null;null;null;null;null;null;939.00;-514.00
+SCRIPT;1117;64278;NPC_CHAT;500;テキストメッセージ;40;null;null;null;null;null;null;943.00;-820.00
+SCRIPT;1105;27319;TEXT;0;ああ、わかったよ、ちょっと待て…ここでやっていることを終わらせれば準備完了だ。;missions_debt_collection.txt>1160>わかった、早いほうがいい。;null;null;null;null;null;null;1207.00;-412.00
 SCRIPT;		1160;		23225;		SPAWN_RAIDERS;		1170;		npc_ship_data_(pirate_frigate_1);		000#000#000;		2;		10;		null;		null;		null;		null;		1213.00;		-515.00
-SCRIPT;		1170;		84539;		OPTION;		0;		Um, don't know if you noticed just yet, but it looks as though we have a few visitors. Maybe we can continue this after those raiders are taken care of. ;		missions_debt_collection.txt>1117>I guess, don't go anywhere.;		missions_debt_collection.txt>1127>That's okay, I think I'll focus on you.;		null;		null;		null;		null;		null;		1213.00;		-821.00
-SCRIPT;		1210;		96685;		NPC_ATTACK;		0;		Well, I suggest you charge up those weapons. I am in no mood to fool around with the likes of you. Let's have ourselves a dance.;		True;		missions_debt_collection.txt>1160>I'll lead...;		null;		null;		null;		null;		null;		1513.00;		-512.00
-SCRIPT;		1250;		77936;		NPC_RETREAT;		0;		Yeah, I don't want to talk right now...;		missions_debt_collection.txt>1255>Hey wait!;		null;		null;		null;		null;		null;		null;		1650.00;		-598.00
-SCRIPT;		1255;		48205;		NPC_CHAT;		1265;		Text message;		20;		null;		null;		null;		null;		null;		null;		1882.00;		-600.00
-SCRIPT;		510;		35179;		EXIT;		0;		null;		null;		null;		null;		null;		null;		null;		null;		365.00;		-1157.00
-SCRIPT;		1265;		18533;		EXIT;		0;		null;		null;		null;		null;		null;		null;		null;		null;		1881.00;		-813.00
-SCRIPT;		1127;		57524;		TEXT;		0;		In that case, I should probably call a few more friends to the party. What do you think?;		missions_debt_collection.txt>1045>Whatever you say.;		null;		null;		null;		null;		null;		null;		1060.00;		-704.00
+SCRIPT;1170;84539;OPTION;0;おい、もう気づいているか分からないが、どうやら来客があるようだ。レイダーどもを片付けてから話を続けようか。;missions_debt_collection.txt>1117>そうだな、どこにも行くなよ。;missions_debt_collection.txt>1127>構わない、お前に集中させてもらう。;null;null;null;null;null;1213.00;-821.00
+SCRIPT;1210;96685;NPC_ATTACK;0;それなら、武器のエネルギーをチャージしておいたほうがいい。お前のような相手に付き合っている暇はないんでね。踊りでも踊ろうじゃないか。;真実;missions_debt_collection.txt>1160>案内しよう...;null;null;null;null;null;1513.00;-512.00
+SCRIPT;1250;77936;NPC_RETREAT;0;いや、今は話したくない……;missions_debt_collection.txt>1255>おい、待て！;null;null;null;null;null;null;1650.00;-598.00
+SCRIPT;1255;48205;NPC_CHAT;1265;テキストメッセージ;20;null;null;null;null;null;null;1882.00;-600.00
+SCRIPT;510;35179;EXIT;0;null;null;null;null;null;null;null;null;365.00;-1157.00
+SCRIPT;1265;18533;EXIT;0;null;null;null;null;null;null;null;null;1881.00;-813.00
+SCRIPT;1127;57524;TEXT;0;それなら、パーティーにもっと仲間を呼んだほうがよさそうだな。どう思う？;missions_debt_collection.txt>1045>勝手にするがいい。;null;null;null;null;null;null;1060.00;-704.00

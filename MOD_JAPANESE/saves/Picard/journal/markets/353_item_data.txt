@@ -1,0 +1,1 @@
+NPC;-LOCAL;20;0;60.8255;Biomate University;Void Starcross;0h 3m 1s ;181.3362

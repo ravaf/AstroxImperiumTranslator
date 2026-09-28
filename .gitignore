@@ -82,7 +82,7 @@ MSBuild_Logs/
 .env
 #progress.json
 #dictionary.json
-#text_list.json
+text_list.json
 /MOD_JAPANESE/**/*.png
 /MOD_JAPANESE/**/*.jpg
 /MOD_JAPANESE/**/*.rtf

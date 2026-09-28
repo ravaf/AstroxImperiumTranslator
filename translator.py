@@ -199,9 +199,88 @@ class Translator:
         logging.info(f"Translation completed for {file_path}")
         return translated_content
 
+    def _script_texts(self, file_path: str) -> List[str]:
+        """SCRIPT形式から翻訳対象の文章だけを抽出する。"""
+        allowed_commands = {
+            "TEXT", "OPTION", "NPC_CHAT", "NPC_ATTACK",
+            "ADJ_CREDITS", "GET_DOCUMENT", "BUY_ITEM",
+            "NPC_RETREAT", "MENU", "ADJ_FACTION",
+        }
+        texts = []
+
+        with open(file_path, "r", encoding="utf-8", newline="") as fp:
+            for row in csv.reader(fp, delimiter=";"):
+                cells = [cell.strip() for cell in row]
+                if len(cells) < 13 or cells[0] != "SCRIPT":
+                    continue
+                if cells[3] not in allowed_commands:
+                    continue
+
+                # インデックス5～12がVALUE 1～VALUE 8
+                for cell in cells[5:13]:
+                    if not cell or cell.lower() == "null":
+                        continue
+
+                    # 選択肢リンク: filename>id>表示文言
+                    if ">" in cell:
+                        label = cell.rsplit(">", 1)[-1].strip()
+                        if label:
+                            texts.append(label)
+                    else:
+                        texts.append(cell)
+
+        return texts
+
+    def _replace_script_texts(self, file_path: str, dictionary: Dict[str, str]) -> None:
+        """翻訳辞書を使い、SCRIPT行のVALUE欄だけを書き換える。"""
+        allowed_commands = {
+            "TEXT", "OPTION", "NPC_CHAT", "NPC_ATTACK",
+            "ADJ_CREDITS", "GET_DOCUMENT", "BUY_ITEM",
+            "NPC_RETREAT", "MENU", "ADJ_FACTION",
+        }
+        output = []
+
+        with open(file_path, "r", encoding="utf-8", newline="") as fp:
+            for row in csv.reader(fp, delimiter=";"):
+                if len(row) < 13 or row[0].strip() != "SCRIPT":
+                    output.append(row)
+                    continue
+
+                cells = [cell.strip() for cell in row]
+                if cells[3] not in allowed_commands:
+                    output.append(row)
+                    continue
+
+                for i in range(5, 13):
+                    cell = cells[i]
+                    if not cell or cell.lower() == "null":
+                        continue
+
+                    if ">" in cell:
+                        prefix, label = cell.rsplit(">", 1)
+                        translated = dictionary.get(label.strip())
+                        if isinstance(translated, str):
+                            cells[i] = f"{prefix}>{translated}"
+                    else:
+                        translated = dictionary.get(cell)
+                        if isinstance(translated, str):
+                            cells[i] = translated
+
+                output.append(cells)
+
+        with open(file_path, "w", encoding="utf-8", newline="") as fp:
+            writer = csv.writer(fp, delimiter=";", lineterminator="\n")
+            writer.writerows(output)
+
     def csv_translation(self, file_path: str) -> Optional[str]:
         """Extracts texts from CSV files for translation."""
         relative_path = os.path.relpath(file_path, MOD_PATH).replace(os.path.sep, '/')
+
+        # SCRIPTファイルは専用処理で抽出
+        if relative_path.startswith("scripting/") and not relative_path.startswith("scripting/npcs"):
+            self.all_text_list.extend(self._script_texts(file_path))
+            return None
+
         rules = next((CSV_RULES[csvrule] for csvrule in CSV_RULES if csvrule in relative_path), None)
         if not rules:
             logging.info(f"No rule for {relative_path}")
@@ -358,7 +437,10 @@ class Translator:
             with open(json_cache_path, "r", encoding="utf-8") as f:
                 translation_data_cache: Dict[str, str] = json.load(f)
                 translation_data.update(translation_data_cache)
-        untranslated_keys: List[str] = [key for key, value in translation_data.items() if value is None]
+        untranslated_keys = [
+			key for key, value in translation_data.items()
+			if value is None or value == key
+		]
         if not untranslated_keys:
             logging.info("All strings already translated in cache.")
             return translation_data
@@ -381,6 +463,7 @@ class Translator:
         progress_data = self.progress_manager.load()
         for text_file in files:
             relative_path = os.path.relpath(text_file, MOD_PATH).replace(os.path.sep, '/')
+
             if progress_data.get(text_file) is not None:
                 logging.info(f"Skipping already processed file: {relative_path}")
                 continue
@@ -549,6 +632,11 @@ def replace_text():
 
         relative_path = os.path.relpath(file_path, os.path.abspath(MOD_PATH))
         relative_path = relative_path.replace(os.path.sep, "/")
+
+        if relative_path.startswith("scripting/") and not relative_path.startswith("scripting/npcs"):
+            translator = Translator.__new__(Translator)
+            translator._replace_script_texts(file_path, dictionary)
+            continue
 
         rules = None
         for csvrule in CSV_RULES.keys():

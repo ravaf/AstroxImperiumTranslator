@@ -80,13 +80,12 @@ MSBuild_Logs/
 
 # プロジェクト実行時ファイル
 .env
-#progress.json
-#dictionary.json
-text_list.json
+#/progress.json
+#/dictionary.json
+/text_list.json
 /MOD_JAPANESE/**/*.png
 /MOD_JAPANESE/**/*.jpg
 /MOD_JAPANESE/**/*.rtf
 /MOD_JAPANESE/**/*.mp4
 /MOD_JAPANESE/**/*.avi
 /MOD_JAPANESE/**/*.ship
-/text_list.json

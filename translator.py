@@ -438,9 +438,9 @@ class Translator:
                 translation_data_cache: Dict[str, str] = json.load(f)
                 translation_data.update(translation_data_cache)
         untranslated_keys = [
-			key for key, value in translation_data.items()
-			if value is None or value == key
-		]
+            key for key, value in translation_data.items()
+            if value is None or value == key
+        ]
         if not untranslated_keys:
             logging.info("All strings already translated in cache.")
             return translation_data
@@ -451,9 +451,22 @@ class Translator:
         tasks = [self._translate_chunk(chunk) for chunk in chunks]
         for future in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc="Translation progress"):
             chunk_response = await future
-            translation_data.update(chunk_response)
+
+            # 翻訳に失敗した項目や原文のままの項目は、キャッシュに登録しない
+            for source, translated in chunk_response.items():
+                if translated and translated.strip() != source.strip():
+                    translation_data[source] = translated
+                else:
+                    translation_data[source] = None
+
+            # Noneの項目を除外して保存
+            cache_to_save = {
+                key: value
+                for key, value in translation_data.items()
+                if isinstance(value, str) and value.strip() and value.strip() != key.strip()
+            }
             with open(json_cache_path, "w", encoding="utf-8") as fp:
-                json.dump(translation_data, fp, ensure_ascii=False, indent=2)
+                json.dump(cache_to_save, fp, ensure_ascii=False, indent=2)
 
         return translation_data
 

@@ -1,7 +1,7 @@
 //; ASTROX IMPERIUM : SCRIPTING EDITOR : JACE MASULA 2019
 // SCRIPT;	ID;	LABEL;	COMMAND;	CHAIN;	VALUE 1;	VALUE 2;	VALUE 3;	VALUE 4;	VALUE 5;	VALUE 6;	VALUE 7;	VALUE 8	
 // -------------------------------------------------------------------------------------------------------------------------------------
-SCRIPT;1;START;TEXT;0;私のチャンネルの動画をご覧いただきありがとうございます。;test_scripting.txt>2>Werd;null;null;null;null;null;null;122.00;-116.00
+SCRIPT;1;START;TEXT;0;私のチャンネルの動画をご覧いただきありがとうございます。;test_scripting.txt>2>了解;null;null;null;null;null;null;122.00;-116.00
 SCRIPT;		2;		testing image;		UI_SHOWIMAGE;		0;		[yellow][s3]Every ship[/s][/][n] comes equiped with a camera drone. This camera follows your ship at all times, and give the pilot a 3d [n][n][n][s3]view of their[/s] surroundings. Hold down the RIGHT CLICK button on your mouse , while moving it around.[n][n][yellow]Welcome[/] to the newest format preview fromt het scripting edit.[n][n]Hopefully this all works well.;		test_scripting.txt>3>Werd;		200#200#0;		256#256;		station.png;		null;		null;		null;		285.00;		-120.00
 SCRIPT;		3;		testing image;		UI_HIDEIMAGE;		4;		null;		null;		null;		null;		null;		null;		null;		null;		390.00;		-60.00
 SCRIPT;10;START;TEXT;0;タイマーの確認を行います。準備はいいですか？;test_scripting.txt>200>OKボタンのテキスト;null;null;null;null;null;null;120.08;-235.00

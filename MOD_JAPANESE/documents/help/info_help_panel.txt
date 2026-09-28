@@ -3,7 +3,7 @@
 <image src="images/hbar_1.png" align="stretch" width="500" height="10">
 
 <horizontal align="fixed">
-<button image="images/btn_small_1.png" width="140" height="40" align="left" label="<b>インデックス</b>" size="20" color="#00FFFF" onclick="btn_1">
+<button image="images/btn_small_1.png" width="140" height="40" align="left" label="<b>目次</b>" size="20" color="#00FFFF" onclick="btn_1">
 <button image="images/btn_small_1.png" width="200" height="40" align="left" label="<b>コミュニティ</b>" size="20" color="#00FFFF" onclick="btn_1">
 <button image="images/btn_small_1.png" width="200" height="40" align="left" label="<b>アーカイブ</b>" size="20" color="#00FFFF" onclick="btn_1">
 </horizontal>
@@ -11,8 +11,8 @@
 <horizontal align="stretch">
 
 <text size="20" align="left" color="#FFFFFF" width="500" height="256">
-このヘルプパネルは、Astrox Imperiumに関する情報が蓄積されていくデータベースです。情報はカテゴリー別に分類されており、素早く目的の情報にアクセスできます。
-このヘルプパネルに必要なすべての情報ページを構築するには、まだ時間がかかります。
+このヘルプパネルは、Astrox Imperiumに関する情報が蓄積されていくデータベースです。情報はカテゴリー別に分類されており、素早くナビゲートできるようになっています。
+このヘルプパネルに必要なすべての情報ページを構築するには、しばらく時間がかかります。
 </text>
 <image src="images/astrox_logo_1.png" align="center" width="200" height="200">
 
@@ -22,7 +22,7 @@
 
 <image src="images/astrox_logo_1.png" align="center" width="100" height="100">
 <text size="20" align="left" color="#FFFFFF" width="500" height="256">
-もしヘルプページの作成にご協力いただけるのであれば、ぜひ力を貸してください。ページのフォーマットは非常にシンプルで、基本的なHTMLのような形式です。<br>詳細はこちらをクリックしてください。
+もしヘルプページの作成にご協力いただけるのであれば、ぜひお願いしたいと考えています。これらのページのフォーマットは非常にシンプルで、基本的なHTMLのような形式です。<br>詳細はこちらをクリックしてください。
 </text>
 <image src="images/astrox_logo_1.png" align="center" width="100" height="256">
 

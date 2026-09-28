@@ -1,3 +1,0 @@
-//;LOG DATA FILE (Astrox Imperium)
-new_sector.png;New Sector has been Explored;A new sector has been explored. You can now access this sector from your galaxy map.
-//; LOG DATA (Astrox Imperium) 

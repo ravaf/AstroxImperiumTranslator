@@ -1,67 +1,66 @@
 // SPECIAL SHIP BONUSES (Astrox Imperium) 2020 for SHIPS
 // keys are sequencial, must be ordered without gaps.
-
-SPECIAL;		1;		Thrust;					Modify Max Thrust of the ship.
-SPECIAL;		2;		Afterburner;			Modify the Max Afterburner speed of the ship.
-SPECIAL;		3;		Shield;					Modify the Max Shield of the ship.
-SPECIAL;		4;		Shield Recharge;		Modify the Shield Recharge rate of the ship.
-SPECIAL;		5;		Energy;					Modify the Max Energy of the ship.
-SPECIAL;		6;		Energy Recharge;		Modify the Energy Recharge rate of the ship.
-SPECIAL;		7;		Cargo;					Modify the Max Cargo capacity of the ship.
-SPECIAL;		8;		Mass;					Modify the Ship's Mass.
-SPECIAL;		9;		Turn Speed;				Modify the Ship's Turn speed.
-SPECIAL;		10;		Scan Speed;				Modify the Ship's Target Scan Speed.
-SPECIAL;		11;		Pulse Speed;			Modify the Ship's Passive Scan Speed.
-SPECIAL;		12;		Scan Range;				Modify the Ship's Passive Scan Range.
-SPECIAL;		13;		Max Targets;			Modify the Max number of ship Targets.
-SPECIAL;		14;		Armor;					Modify the Max Armor of the ship.
-SPECIAL;		15;		Impact Resistance;		Modify the Impact Resistance of the ship.
-SPECIAL;		16;		Energy Resistance;		Modify the Energy Resistance of the ship.
-SPECIAL;		17;		Explosive Resistance;	Modify the Explosive Resistance of the ship.
-SPECIAL;		18;		ECM Resistance;			Modify the ECM Resistance of the ship.
-SPECIAL;		19;		ECM Strength;			Modify the ECM Strength of the ship.
-SPECIAL;		20;		ECM Energy;				Modify the ECM Energy of the ship.
-SPECIAL;		21;		ECM Range;				Modify the ECM Range of the ship.
-SPECIAL;		22;		Drone;					Modify the Max Drone capacity of the ship.
-SPECIAL;		23;		Drone Strength;			Modify the Drone Strength of the ship.
-SPECIAL;		24;		Drone Energy;			Modify the Drone Energy of the ship.
-SPECIAL;		25;		Drone Range;			Modify the Drone Range of the ship.
-SPECIAL;		26;		Drone Armor;			Modify the Drone Armor of the ship.
-SPECIAL;		27;		Drone Speed;			Modify the Drone Speed of the ship.
-SPECIAL;		28;		Drone Cargo;			Modify the Drone Cargo of the ship.
-SPECIAL;		29;		Cloak Resistance;		Modify the Cloak Resistance of the ship.
-SPECIAL;		30;		Cloak Strength;			Modify the Cloak Strength of the ship.
-SPECIAL;		31;		Cloak Energy;			Modify the Cloak Energy of the ship.
-SPECIAL;		32;		Cloak Range;			Modify the Cloak Range of the ship.
-SPECIAL;		33;		Gun Strength;			Modify the Gun Strength of all Gun modules of the ship.
-SPECIAL;		34;		Laser Strength;			Modify the Laser Strength of all Laser modules of the ship.
-SPECIAL;		35;		Beam Strength;			Modify the Beam Strength of all Beam modules of the ship.
-SPECIAL;		36;		Missile Strength;		Modify the Missile Strength of all Missile modules of the ship.
-SPECIAL;		37;		Torpedo Strength;		Modify the Torpedo Strength of all Torpedo modules of the ship.
-SPECIAL;		38;		Miner Strength;			Modify the Miner Strength of all Miner modules of the ship.
-SPECIAL;		39;		Salvager Strength;		Modify the Salvager Strength of all Salvager modules of the ship.
-SPECIAL;		40;		Tractor Strength;		Modify the Tractor Strength of all Tractor modules of the ship.
-SPECIAL;		41;		Gun Speed;				Modify the Gun Speed of all Gun modules of the ship.
-SPECIAL;		42;		Laser Speed;			Modify the Laser Speed of all Laser modules of the ship.
-SPECIAL;		43;		Beam Speed;				Modify the Beam Speed of all Beam modules of the ship.
-SPECIAL;		44;		Missile Speed;			Modify the Missile Speed of all Missile modules of the ship.
-SPECIAL;		45;		Torpedo Speed;			Modify the Torpedo Speed of all Torpedo modules of the ship.
-SPECIAL;		46;		Miner Speed;			Modify the Miner Speed of all Miner modules of the ship.
-SPECIAL;		47;		Salvager Speed;			Modify the Salvager Speed of all Salvager modules of the ship.
-SPECIAL;		48;		Tractor Speed;			Modify the Tractor Speed of all Tractor modules of the ship.
-SPECIAL;		49;		Gun Energy;				Modify the Gun Energy of all Gun modules of the ship.
-SPECIAL;		50;		Laser Energy;			Modify the Laser Energy of all Laser modules of the ship.
-SPECIAL;		51;		Beam Energy;			Modify the Beam Energy of all Beam modules of the ship.
-SPECIAL;		52;		Missile Energy;			Modify the Missile Energy of all Missile modules of the ship.
-SPECIAL;		53;		Torpedo Energy;			Modify the Torpedo Energy of all Torpedo modules of the ship.
-SPECIAL;		54;		Miner Energy;			Modify the Miner Energy of all Miner modules of the ship.
-SPECIAL;		55;		Salvager Energy;		Modify the Salvager Energy of all Salvager modules of the ship.
-SPECIAL;		56;		Tractor Energy;			Modify the Tractor Energy of all Tractor modules of the ship.
-SPECIAL;		57;		Gun Range;				Modify the Gun Range of all Gun modules of the ship.
-SPECIAL;		58;		Laser Range;			Modify the Laser Range of all Laser modules of the ship.
-SPECIAL;		59;		Beam Range;				Modify the Beam Range of all Beam modules of the ship.
-SPECIAL;		60;		Missile Range;			Modify the Missile Range of all Missile modules of the ship.
-SPECIAL;		61;		Torpedo Range;			Modify the Torpedo Range of all Torpedo modules of the ship.
-SPECIAL;		62;		Miner Range;			Modify the Miner Range of all Miner modules of the ship.
-SPECIAL;		63;		Salvager Range;			Modify the Salvager Range of all Salvager modules of the ship.
-SPECIAL;		64;		Tractor Range;			Modify the Tractor Range of all Tractor modules of the ship.
+SPECIAL;1;推力;艦船の最大推力を修正します。
+SPECIAL;2;アフターバーナー;艦船の最大アフターバーナー速度を修正します。
+SPECIAL;3;シールド;艦船の最大シールドを修正します。
+SPECIAL;4;シールドリチャージ;艦船のシールドリチャージ速度を修正します。
+SPECIAL;5;エネルギー;艦船の最大エネルギーを修正します。
+SPECIAL;6;エネルギーリチャージ;艦船のエネルギーリチャージ速度を修正します。
+SPECIAL;7;貨物;艦船の最大貨物容量を修正します。
+SPECIAL;8;質量;艦船の質量を修正します。
+SPECIAL;9;旋回速度;艦船の旋回速度を修正します。
+SPECIAL;10;スキャン速度;艦船のターゲットスキャン速度を修正します。
+SPECIAL;11;パルス速度;艦船のパッシブスキャン速度を修正します。
+SPECIAL;12;スキャン範囲;艦船のパッシブスキャン範囲を修正します。
+SPECIAL;13;最大ターゲット数;艦船のターゲットの最大数を修正します。
+SPECIAL;14;装甲;艦船の最大装甲を修正します。
+SPECIAL;15;衝撃耐性;艦船の衝撃耐性を修正します。
+SPECIAL;16;エネルギー耐性;艦船のエネルギー耐性を修正します。
+SPECIAL;17;爆発耐性;艦船の爆発耐性を修正します。
+SPECIAL;18;ECM耐性;艦船のECM耐性を修正します。
+SPECIAL;19;ECM強度;艦船のECM強度を修正します。
+SPECIAL;20;ECMエネルギー;艦船のECMエネルギーを修正します。
+SPECIAL;21;ECM範囲;艦船のECM範囲を修正します。
+SPECIAL;22;ドローン;艦船の最大ドローン容量を修正します。
+SPECIAL;23;ドローン強度;艦船のドローン強度を修正します。
+SPECIAL;24;ドローンエネルギー;艦船のドローンエネルギーを修正します。
+SPECIAL;25;ドローン範囲;艦船のドローン範囲を修正します。
+SPECIAL;26;ドローン装甲;艦船のドローン装甲を修正します。
+SPECIAL;27;ドローン速度;艦船のドローン速度を修正します。
+SPECIAL;28;ドローン貨物;艦船のドローン貨物を修正します。
+SPECIAL;29;クローク耐性;艦船のクローク耐性を修正します。
+SPECIAL;30;クローク強度;艦船のクローク強度を修正します。
+SPECIAL;31;クロークエネルギー;艦船のクロークエネルギーを修正します。
+SPECIAL;32;クローク範囲;艦船のクローク範囲を修正します。
+SPECIAL;33;ガン強度;艦船のすべてのガンモジュールのガン強度を修正します。
+SPECIAL;34;レーザー強度;艦船のすべてのレーザーモジュールのレーザー強度を修正します。
+SPECIAL;35;ビーム強度;艦船のすべてのビームモジュールのビーム強度を修正します。
+SPECIAL;36;ミサイル強度;艦船のすべてのミサイルモジュールのミサイル強度を修正します。
+SPECIAL;37;魚雷強度;艦船のすべての魚雷モジュールの魚雷強度を修正します。
+SPECIAL;38;採掘強度;艦船のすべての採掘モジュールの採掘強度を修正します。
+SPECIAL;39;サルベージ強度;艦船のすべてのサルベージモジュールのサルベージ強度を修正します。
+SPECIAL;40;トラクター強度;艦船のすべてのトラクターモジュールのトラクター強度を修正します。
+SPECIAL;41;ガン速度;艦船のすべてのガンモジュールのガン速度を修正します。
+SPECIAL;42;レーザー速度;艦船のすべてのレーザーモジュールのレーザー速度を修正します。
+SPECIAL;43;ビーム速度;艦船のすべてのビームモジュールのビーム速度を修正します。
+SPECIAL;44;ミサイル速度;艦船のすべてのミサイルモジュールのミサイル速度を修正します。
+SPECIAL;45;魚雷速度;艦船のすべての魚雷モジュールの魚雷速度を修正します。
+SPECIAL;46;採掘速度;艦船のすべての採掘モジュールの採掘速度を修正します。
+SPECIAL;47;サルベージ速度;艦船のすべてのサルベージモジュールのサルベージ速度を修正します。
+SPECIAL;48;トラクター速度;艦船のすべてのトラクターモジュールのトラクター速度を修正します。
+SPECIAL;49;ガンエネルギー;艦船のすべてのガンモジュールのガンエネルギーを修正します。
+SPECIAL;50;レーザーエネルギー;艦船のすべてのレーザーモジュールのレーザーエネルギーを修正します。
+SPECIAL;51;ビームエネルギー;艦船のすべてのビームモジュールのビームエネルギーを修正します。
+SPECIAL;52;ミサイルエネルギー;艦船のすべてのミサイルモジュールのミサイルエネルギーを修正します。
+SPECIAL;53;魚雷エネルギー;艦船のすべての魚雷モジュールの魚雷エネルギーを修正します。
+SPECIAL;54;採掘エネルギー;艦船のすべての採掘モジュールの採掘エネルギーを修正します。
+SPECIAL;55;サルベージエネルギー;艦船のすべてのサルベージモジュールのサルベージエネルギーを修正します。
+SPECIAL;56;トラクターエネルギー;艦船のすべてのトラクターモジュールのトラクターエネルギーを修正します。
+SPECIAL;57;ガン範囲;艦船のすべてのガンモジュールのガン範囲を修正します。
+SPECIAL;58;レーザー範囲;艦船のすべてのレーザーモジュールのレーザー範囲を修正します。
+SPECIAL;59;ビーム範囲;艦船のすべてのビームモジュールのビーム範囲を修正します。
+SPECIAL;60;ミサイル範囲;艦船のすべてのミサイルモジュールのミサイル範囲を修正します。
+SPECIAL;61;魚雷範囲;艦船のすべての魚雷モジュールの魚雷範囲を修正します。
+SPECIAL;62;採掘範囲;艦船のすべての採掘モジュールの採掘範囲を修正します。
+SPECIAL;63;サルベージ範囲;艦船のすべてのサルベージモジュールのサルベージ範囲を修正します。
+SPECIAL;64;トラクター範囲;艦船のすべてのトラクターモジュールのトラクター範囲を修正します。

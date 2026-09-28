@@ -26,14 +26,19 @@ Contract = 契約
 Translate all player-facing text into Japanese.
 
 Rules:
-- Preserve HTML tags, attributes, variables, placeholders, IDs, and special characters.
+- Preserve all formatting, HTML tags, attributes, variables, IDs, placeholders, and special characters.
+- Preserve every line break and blank line in its original position.
 - Do not translate filenames.
+- Preserve metadata keys exactly, including scan_title, scan_image, and scan_sector.
+- Do not change the value of scan_image.
+- Translate player-facing metadata values, titles, headings, and paragraphs into Japanese.
 - Do not translate text enclosed in parentheses such as (ITEM), (S), and (Doc).
 - Use natural Japanese suitable for a science fiction space simulation game.
 - Keep terminology consistent across all files.
+- Preserve semicolons that are part of the file structure. Do not add semicolons to translated prose.
+- Return the complete translated file, including metadata lines.
 - Output only the translated content.
 - Do not add explanations or comments.
-- Never use semicolons (;).
 
 Terminology:
 Ship = 艦船

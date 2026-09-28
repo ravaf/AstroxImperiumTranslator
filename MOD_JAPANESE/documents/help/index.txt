@@ -4,14 +4,14 @@
 	<image src="images/help_image_1.png" align="center" width="155" height="155">
 	
 	<text size="20" align="left" color="#FFFFFF">
-		このヘルプパネルは、Astrox Imperiumに関する情報が蓄積されていくデータベースとして機能します。情報は素早くナビゲートできるよう、いくつかのカテゴリーに分類されています。このヘルプパネルに必要なすべての情報ページを作成するには時間がかかります。もし貢献したい場合は、Discordで私に連絡してください。
+		このヘルプパネルは、Astrox Imperiumに関する情報が蓄積されていくデータベースとして機能します。情報は素早くナビゲートできるよう、いくつかのカテゴリに分類されています。このヘルプパネルに必要なすべての情報ページを作成するには時間がかかります。もし貢献したい場合は、Discordで私に連絡してください。
 	</text>
 
 	
 </horizontal>
 
 <text size="20" align="left" color="#FFFFFF">
-	以下では、ヘルプファイルがどのように解析されるか、そして表示される情報をスタイルするためにどのような <tags> が使用できるかを説明します。形式はHTMLに非常に近く、非常に基本的です。これにより、理解しやすく、素早く使用できるようになっています。
+	以下では、ヘルプファイルがどのように解析されるか、そして表示される情報をスタイル設定するためにどのような<tags>が使用できるかを説明します。形式はHTMLに非常に近く、非常に基本的です。そのため、理解しやすく、すぐに使い始めることができます。
 </text>
 
 <image src="images/hbar_1.png" align="stretch" width="500" height="10">
@@ -20,16 +20,16 @@
 <horizontal align="fixed">
 	<text size="20" align="left" color="#FFFFFF" width="400" height="300">
 		<b>テキスト</b>
-		シンプルなテキストを表示するには、このコマンドを使用できます。テキストが水平行（horizontal）の中にある場合、horizontalタグによって、テキストがウィンドウに合わせて引き伸ばされるか、固定されるかが制御されます。
+		シンプルなテキストを表示するには、このコマンドを使用します。テキストが水平行（horizontal row）の中にある場合、horizontalタグによって、テキストをウィンドウに合わせて引き伸ばすか、固定するかが制御されます。
 		Size: テキストの大きさ。
-		Align: 左（left）、中央（center）、右（right）揃え。
+		Align: left（左）、center（中央）、right（右）。
 		Color: 表示されるテキストの16進数カラーコード。
 		*Width: horizontalタグ内にない場合、テキストボックスの幅を制御します。
 		*Height: horizontalタグ内にない場合、テキストボックスの高さを制御します。
 	</text>
 	
 	<text size="20" align="left" color="#FFFFFF" width="250" height="300">
-		**<text size="20" align="left" color="#FFFFFF">シンプルなテキストを表示するには、このコマンドを使用できます。
+		**<text size="20" align="left" color="#FFFFFF">シンプルなテキストを表示するには、このコマンドを使用します。
 	</text>
 </horizontal>
 
@@ -38,7 +38,7 @@
 	<text size="20" align="left" color="#FFFFFF" width="400" height="140">
 		<b>画像</b>
 		画像を表示します。
-		Align: 左（left）、中央（center）、右（right）、または引き伸ばし（stretch）。
+		Align: left、center、right、またはstretch（引き伸ばし）。
 		Width: 画像の幅を制御します。
 		Height: 画像の高さを制御します。
 	</text>
@@ -53,7 +53,7 @@
 	<text size="20" align="left" color="#FFFFFF" width="400" height="200">
 		<b>ボタン</b>
 		リンク付きのボタンを表示します。
-		Align: 左（left）、中央（center）、右（right）。
+		Align: left、center、right。
 		Width: 画像の幅を制御します。
 		Height: 画像の高さを制御します。
 		Label: ボタン上のテキスト。
@@ -70,18 +70,18 @@
 // HORIZONTAL BLOCK--------------------
 <horizontal align="fixed">
 	<text size="20" align="left" color="#FFFFFF" width="400" height="200">
-		<b>水平行（HORIZONTAL ROW）</b>
+		<b>水平行</b>
 		水平行を作成します。この行は固定（fixed）または引き伸ばし（stretch）が可能です。固定の場合、ウィンドウのサイズを変更しても行は移動しません。引き伸ばしが適用されると、ウィンドウサイズに基づいてテキストコンテンツが移動します。
-		Align: 左（left）、中央（center）、右（right）。
+		Align: left、center、right。
 	</text>
 	
 	<text size="20" align="left" color="#FFFFFF" width="250" height="200">
 		**<horizontal align="fixed">
-		**    ..この内容はウィンドウサイズに関係なく固定位置に留まります..
+		**    ..この要素はウィンドウサイズに関係なく固定位置に留まります..
 		**</horizontal>
 		
 		**<horizontal align="stretch">
-		**    ..この内容はウィンドウサイズに合わせて引き伸ばされます..
+		**    ..この要素はウィンドウサイズに合わせて引き伸ばされます..
 		**</horizontal>
 	</text>
 </horizontal>
@@ -90,7 +90,7 @@
 <horizontal align="fixed">
 	<text size="20" align="left" color="#FFFFFF" width="400" height="200">
 		<b>コメント</b>
-		ダブルスラッシュを使用してコメントを作成できます。ダブルスラッシュ以降のすべては無視されます。
+		ダブルスラッシュを使用してコメントを作成できます。ダブルスラッシュ以降の記述はすべて無視されます。
 	</text>
 	
 	<text size="20" align="left" color="#FFFFFF" width="250" height="200">
@@ -101,14 +101,14 @@
 
 <horizontal align="stretch">
 	<text size="20" align="left" color="#FFFFFF" width="500" height="100">
-		ヘルプページ用に作成した画像は、<b><i>/MOD/documents/help/images/</i></b> ディレクトリ内に保存できます。これにより、作成したファイルを簡単に共有できるようになります。
+		ヘルプページ用に作成した画像は、<b><i>/MOD/documents/help/images/</i></b>ディレクトリ内に保存できます。これにより、作成したファイルを簡単に共有できるようになります。
 	</text>
 	<image src="images/help_image_2.png" align="center" width="155" height="155">
 </horizontal>
 
 <horizontal align="stretch">
 	<text size="20" align="left" color="#FFFFFF" width="500" height="200">
-		アイテムフォルダーやその他のAstroxフォルダーから画像を取得して、ヘルプページ内で使用できます。
+		アイテムフォルダやその他のAstroxフォルダから画像を取得して、ヘルプページ内で使用することもできます。
 		以下のように相対パスを使用してください。
 		**<image src="../../items/assault_x8_launcher_doc.png" align="center" width="256" height="256">
 	</text>
@@ -118,7 +118,7 @@
 <image src="images/hbar_1.png" align="stretch" width="500" height="10">
 <text size="20" align="left" color="#FFFFFF" width="500" height="150">
 	<b>ボタンの例</b>
-	以下は、ボタンを表示する方法のいくつかの例です。各ボタンの画像を変更したり、同じ背景画像を使用したりできることに留意してください。ボタン上の画像にアイコンやテキストを配置することを選択した場合、ボタンのテキストを空にすることも可能です。
+	以下は、ボタンを表示する方法のいくつかの例です。各ボタンの画像を変更したり、同じ背景画像を使用したりできることに留意してください。画像自体にアイコンやテキストを配置することを選択した場合、ボタンのテキストを空にすることも可能です。
 </text>
 
 <image src="images/hbar_1.png" align="stretch" width="500" height="10">

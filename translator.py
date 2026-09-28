@@ -58,16 +58,32 @@ class ApiClient:
                 gen_config.response_mime_type = "application/json"
                 gen_config.response_schema = TranslationResponse
 
-            try:
-                response = await self.client.aio.models.generate_content(
-                    model=model_config["name"],
-                    contents=text,
-                    config=gen_config
-                )
-                return response.text
-            except Exception as e:
-                logging.error(f"API呼び出し中に例外が発生しました: {e}")
-                return None
+            for attempt in range(4):
+                try:
+                    response = await self.client.aio.models.generate_content(
+                        model=model_config["name"],
+                        contents=text,
+                        config=gen_config
+                    )
+                    return response.text
+                except Exception as e:
+                    error_text = str(e)
+                    retryable = any(
+                        marker in error_text
+                        for marker in ("503", "UNAVAILABLE", "429", "RESOURCE_EXHAUSTED")
+                    )
+
+                    if retryable and attempt < 3:
+                        wait_seconds = 5 * (2 ** attempt)
+                        logging.warning(
+                            "一時的なAPIエラーです。%s秒後に再試行します（%s/4）: %s",
+                            wait_seconds, attempt + 1, error_text
+                        )
+                        await asyncio.sleep(wait_seconds)
+                        continue
+
+                    logging.error(f"API呼び出し中に例外が発生しました: {e}")
+                    return None
 
 class ConfigLoader:
     """Loads configuration from environment variables and files."""
@@ -245,14 +261,24 @@ class Translator:
                     output.append(row)
                     continue
 
-                for i in range(5, 13):
+                for i in range(5, min(13, len(cells))):
                     cell = cells[i]
                     if not cell or cell.lower() == "null":
                         continue
 
+                    # 新形式: "ファイル名>ID>原文" 全体をキーとして検索
                     translated = dictionary.get(cell)
-                    if isinstance(translated, str):
+                    if isinstance(translated, str) and translated.strip():
                         cells[i] = translated
+                        continue
+
+                    # 旧形式: リンク末尾の表示文言だけをキーとして検索
+                    if ">" in cell:
+                        prefix, label = cell.rsplit(">", 1)
+                        translated_label = dictionary.get(label.strip())
+
+                        if isinstance(translated_label, str) and translated_label.strip():
+                            cells[i] = f"{prefix}>{translated_label}"
 
                 output.append(cells)
 
@@ -318,7 +344,9 @@ class Translator:
             if row_values[0] == row_target:
                 for r in rule[1]:
                     if r < len(row_values):
-                        text_list.append(str(row_values[r]))
+                        value = str(row_values[r]).strip()
+                        if value and value.lower() != "nan":
+                            text_list.append(value)
         return text_list
 
     def _multi_row_rule(self, df: pd.DataFrame, rule: List) -> List[str]:
@@ -506,8 +534,8 @@ CSV_RULES = {
     "missions_database": [["ROW:MISSION", [2, 13, 14]]],
     "service_manager_database": [["ROW:MANAGER", [3, 10]]],
     "special_items": [["ROW:SPECIAL", [8]]],
-    "special_ship_bunuses": [["ROW:SPECIAL", [3]]],
-    "station_entertainment": [["ROW:ENTERTAINMENT", [7]]],
+    "special_ship_bonuses": [["ROW:SPECIAL", [2, 3]]],
+    "station_entertainment": [["ROW:ENTERTAINMENT", [2, 7]]],
     "professions_database": [["ROW:PROFESSION", [11]]],
     "sandbox/_GM_": [["ROW:PRESET_desc", [1]]],
     "scripting/npcs": None,
@@ -534,8 +562,8 @@ TRANSLATION_INSTRUCTIONS = {
     "items/": "csv",
     "medals/": "csv",
     "missions/": "csv",
-    "objets/intro_story": "html",
-    "objets/": "csv",
+    "objects/intro_story": "html",
+    "objects/": "csv",
     "professions/": "csv",
     "sandbox/game_modes/": "html",
     "sandbox/": "csv",

@@ -89,3 +89,5 @@ MSBuild_Logs/
 /MOD_JAPANESE/**/*.mp4
 /MOD_JAPANESE/**/*.avi
 /MOD_JAPANESE/**/*.ship
+/MOD_JAPANESE/**/*.vdf
+/MOD_JAPANESE/saves/

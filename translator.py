@@ -221,13 +221,7 @@ class Translator:
                     if not cell or cell.lower() == "null":
                         continue
 
-                    # 選択肢リンク: filename>id>表示文言
-                    if ">" in cell:
-                        label = cell.rsplit(">", 1)[-1].strip()
-                        if label:
-                            texts.append(label)
-                    else:
-                        texts.append(cell)
+                    texts.append(cell)
 
         return texts
 
@@ -256,15 +250,9 @@ class Translator:
                     if not cell or cell.lower() == "null":
                         continue
 
-                    if ">" in cell:
-                        prefix, label = cell.rsplit(">", 1)
-                        translated = dictionary.get(label.strip())
-                        if isinstance(translated, str):
-                            cells[i] = f"{prefix}>{translated}"
-                    else:
-                        translated = dictionary.get(cell)
-                        if isinstance(translated, str):
-                            cells[i] = translated
+                    translated = dictionary.get(cell)
+                    if isinstance(translated, str):
+                        cells[i] = translated
 
                 output.append(cells)
 

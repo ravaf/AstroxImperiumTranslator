@@ -113,3 +113,4 @@ These rules allow the script to precisely target only the text that needs transl
 	- 翻訳結果のみを利用した場合は、MODフォルダをコピーして、`MOD_JAPANESE` をコピーしたMODフォルダに上書きしてください。
 	- 個人利用を目的として作成したものであるため、何かしらの不都合があった場合は公開停止する場合があります。ご了承ください。
 -   Build 0.0158 日本語化の実行結果として、`dictionary.json`,`progress.json`,`text_list.json`が生成されています。再度翻訳を行う際には、これらのファイルを削除してから実行してください。
+-   ゲームでのMOD適用は、`MOD TOOLS` -> `MOD MANAGER` -> AVAILABLE MODSから `MOD_JAPANESE` を選択して、CONFIRM CHANGEを押すことで適用されます。
